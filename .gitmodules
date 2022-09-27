@@ -1,0 +1,7 @@
+[submodule "clustering/active-semi-supervised-clustering"]
+	path = clustering/active-semi-supervised-clustering
+	url = https://github.com/viswavi/active-semi-supervised-clustering.git
+
+[submodule "datasets/scidocs"]
+        path = datasets/scidocs
+        url = https://github.com/allenai/scidocs.git
