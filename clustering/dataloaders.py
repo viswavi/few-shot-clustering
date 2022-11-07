@@ -22,12 +22,14 @@ def reorder_labels(label_array):
     return [label_to_new_label_mapping[l] for l in label_array]
 
 def load_dataset(dataset_name, data_path):
-    assert dataset_name in ["iris", "20_newsgroups_all", "20_newsgroups_sim3"]
+    assert dataset_name in ["iris", "20_newsgroups_all", "20_newsgroups_sim3", "OPIEC59k"]
     if dataset_name == "iris":
         samples, gold_cluster_ids = datasets.load_iris(return_X_y=True)
     elif dataset_name == "20_newsgroups_all":
         samples, gold_cluster_ids = preprocess_20_newsgroups()
-    elif dataset_name == "20_newsgroups_sim3":
+    if dataset_name == "20_newsgroups_sim3":
         samples, gold_cluster_ids = preprocess_20_newsgroups(topics=["comp.graphics", "comp.os.ms-windows.misc", "comp.windows.x"])
         gold_cluster_ids = reorder_labels(gold_cluster_ids)
+    elif dataset_name == "OPIEC59k":
+        samples, gold_cluster_ids = [], []
     return samples, gold_cluster_ids
