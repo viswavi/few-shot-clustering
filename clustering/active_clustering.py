@@ -1,9 +1,16 @@
 # python active_clustering.py --dataset iris --num_clusters 3 --num_seeds 10
-# python active_clustering.py --dataset 20_newsgroups_all --feature_extractor TFIDF --max-feedback-given 500 --verbose
-# python active_clustering.py --dataset 20_newsgroups_sim3 --feature_extractor TFIDF --max-feedback-given 500 --verbose
+# python active_clustering.py --dataset 20_newsgroups_all --feature_extractor TFIDF --max-feedback-given 500 --num_clusters 20 --verbose
+# python active_clustering.py --dataset 20_newsgroups_sim3 --feature_extractor TFIDF --max-feedback-given 500 --num_clusters 3 --verbose
+'''
+python active_clustering.py --dataset OPIEC59k --data-path \
+    /projects/ogma1/vijayv/okb-canonicalization/clustering/data \
+    --dataset-split test \
+    --num_clusters 490
+'''
 
-from sklearn import datasets, metrics
+from sklearn import metrics
 from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.preprocessing import normalize
 
 import argparse
 from collections import defaultdict
@@ -12,9 +19,10 @@ import numpy as np
 import os
 import random
 import sys
+import time
 
-from datasets import load_dataset
-from utils import set_seed, summarize_results
+from dataloaders import load_dataset
+from experiment_utils import set_seed, summarize_results
 
 sys.path.extend(["..", "."])
 
@@ -28,10 +36,14 @@ from active_semi_clustering.semi_supervised.labeled_data.seededkmeans import See
 from active_semi_clustering.semi_supervised.labeled_data.constrainedkmeans import ConstrainedKMeans
 from active_semi_clustering.active.pairwise_constraints import ExampleOracle, ExploreConsolidate, MinMax
 
+sys.path.append("cmvc")
+from CMVC_main_opiec import CMVC_Main
+from test_performance import cluster_test
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--dataset', type=str, choices=["iris", "20_newsgroups_all", "20_newsgroups_sim3"], default="iris", help="Clustering dataset to experiment with")
+parser.add_argument('--dataset', type=str, choices=["iris", "20_newsgroups_all", "20_newsgroups_sim3", "OPIEC59k"], default="iris", help="Clustering dataset to experiment with")
 parser.add_argument('--data-path', type=str, default=None, help="Path to clustering data, if necessary")
+parser.add_argument('--dataset-split', type=str, default=None, help="Dataset split to use, if applicable")
 parser.add_argument('--num_clusters', type=int, default=3)
 parser.add_argument('--max-feedback-given', type=int, default=10, help="Number of instances of user feedback (e.g. oracle queries) allowed")
 parser.add_argument('--num_seeds', type=int, default=10)
@@ -83,8 +95,13 @@ def cluster(semisupervised_algo, features, labels, num_clusters, max_feedback_gi
         raise ValueError(f"Algorithm {semisupervised_algo} not supported.")
     return clusterer
 
-def compare_algorithms(features, labels, num_clusters, max_feedback_given=None, algorithms=["KMeans", "PCKMeans", "ConstrainedKMeans", "SeededKMeans"], num_seeds=3, verbose=True):
+def compare_algorithms(features, labels, side_information, num_clusters, dataset_name, max_feedback_given=None, algorithms=["KMeans", "PCKMeans", "ConstrainedKMeans", "SeededKMeans"], num_seeds=3, verbose=True, normalize_vectors=False):
     algo_results = defaultdict(list)
+    timer = time.perf_counter()
+
+    if normalize_vectors:
+        features = normalize(features, axis=1, norm="l2")
+
     for i, seed in enumerate(range(num_seeds)):
         if verbose:
             print(f"Starting experiments for {i}th seed")
@@ -92,10 +109,36 @@ def compare_algorithms(features, labels, num_clusters, max_feedback_given=None, 
         for semisupervised_algo in algorithms:
             if verbose:
                 print(f"Running {semisupervised_algo} for seed {seed}")
+            start_time = time.perf_counter()
             clusterer = cluster(semisupervised_algo, features, labels, num_clusters, max_feedback_given=max_feedback_given)
-            rand_score = metrics.adjusted_rand_score(labels, clusterer.labels_)
-            nmi = metrics.normalized_mutual_info_score(labels, clusterer.labels_)
-            algo_results[semisupervised_algo].append({"rand": rand_score, "nmi": nmi})
+            elapsed_time = time.perf_counter() - start_time
+            if verbose:
+                print(f"Took {round(elapsed_time, 3)} seconds to cluster points.")
+            metric_dict = {}
+            algo_results[semisupervised_algo].append(metric_dict)
+            if dataset_name == "OPIEC59k":
+                side_information.p.use_assume = True
+                ave_prec, ave_recall, ave_f1, macro_prec, micro_prec, pair_prec, macro_recall, micro_recall, \
+                pair_recall, macro_f1, micro_f1, pair_f1, model_clusters, model_Singletons, gold_clusters, gold_Singletons \
+                    = cluster_test(side_information.p, side_information.side_info, clusterer.labels_, side_information.true_ent2clust, side_information.true_clust2ent)
+
+                # Compute Macro/Macro/Pairwise F1 on OPIEC59k
+                macro_f1 = np.nan
+                micro_f1 = np.nan
+                pairwise_f1 = np.nan
+                metric_dict["macro_f1"] = macro_f1
+                metric_dict["micro_f1"] = micro_f1
+                metric_dict["pairwise_f1"] = pairwise_f1
+                rand_score = metrics.adjusted_rand_score(labels, clusterer.labels_)
+                metric_dict["rand"] = rand_score
+                nmi = metrics.normalized_mutual_info_score(labels, clusterer.labels_)
+                metric_dict["nmi"] = nmi
+            else:
+                rand_score = metrics.adjusted_rand_score(labels, clusterer.labels_)
+                metric_dict["rand"] = rand_score
+                nmi = metrics.normalized_mutual_info_score(labels, clusterer.labels_)
+                metric_dict["nmi"] = nmi
+
         if verbose:
             print("\n")
     return algo_results
@@ -116,12 +159,10 @@ def extract_features(dataset, feature_extractor, verbose=False):
 
 if __name__ == "__main__":
     args = parser.parse_args()
-
-    X, y = load_dataset(args.dataset, args.data_path)
+    X, y, side_information = load_dataset(args.dataset, args.data_path, args.dataset_split)
     assert set(y) == set(range(len(set(y))))
-
     features = extract_features(X, args.feature_extractor, args.verbose)
     algorithms=["KMeans", "PCKMeans", "ConstrainedKMeans", "SeededKMeans"]
-    results = compare_algorithms(features, y, args.num_clusters, max_feedback_given=args.max_feedback_given, num_seeds=args.num_seeds, verbose=args.verbose)
+    results = compare_algorithms(features, y, side_information, args.num_clusters, args.dataset, max_feedback_given=args.max_feedback_given, num_seeds=args.num_seeds, verbose=args.verbose, normalize_vectors=args.normalize_vectors)
     summarized_results = summarize_results(results)
     print(json.dumps(summarized_results, indent=2))
