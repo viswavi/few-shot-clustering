@@ -16,7 +16,7 @@ python active_clustering.py --dataset OPIEC59k \
     --num_seeds 1 \
     --normalize-vectors \
     --split-normalization \
-    --init kmeans++ \
+    --init k-means++ \
     --verbose |& tee ~/logs/canon/opiec_clustering_simplified_kmeanspp.log
 '''
 
@@ -63,7 +63,7 @@ parser.add_argument('--num_seeds', type=int, default=10)
 parser.add_argument('--feature_extractor', type=str, choices=["identity", "BERT", "TFIDF"], default="identity")
 parser.add_argument('--normalize-vectors', action="store_true", help="Normalize vectors")
 parser.add_argument('--split-normalization', action="store_true", help="Normalize per-view components separately (for multi-view clustering)")
-parser.add_argument('--init', type=str, choices=["random", "kmeans++"], default="random", help="Initialization algorithm to use for k-means.")
+parser.add_argument('--init', type=str, choices=["random", "k-means++"], default="random", help="Initialization algorithm to use for k-means.")
 parser.add_argument('--verbose', action="store_true")
 
 
