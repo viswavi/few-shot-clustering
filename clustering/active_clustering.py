@@ -1,6 +1,7 @@
 # python active_clustering.py --dataset iris --num_clusters 3 --num_seeds 10
 # python active_clustering.py --dataset 20_newsgroups_all --feature_extractor TFIDF --max-feedback-given 500 --num_clusters 20 --verbose
 # python active_clustering.py --dataset 20_newsgroups_sim3 --feature_extractor TFIDF --max-feedback-given 500 --num_clusters 3 --verbose
+# python active_clustering.py --dataset 20_newsgroups_diff3 --feature_extractor TFIDF --max-feedback-given 500 --num_clusters 3 --verbose
 '''
 python active_clustering.py --dataset OPIEC59k --data-path \
     /projects/ogma1/vijayv/okb-canonicalization/clustering/data \
@@ -47,12 +48,13 @@ from active_semi_clustering.semi_supervised.labeled_data.seededkmeans import See
 from active_semi_clustering.semi_supervised.labeled_data.constrainedkmeans import ConstrainedKMeans
 from active_semi_clustering.active.pairwise_constraints import ExampleOracle, ExploreConsolidate, MinMax
 
-sys.path.append("cmvc")
-from CMVC_main_opiec import CMVC_Main
-from test_performance import cluster_test
+from cmvc.CMVC_main_opiec import CMVC_Main
+from cmvc.helper import invertDic
+from cmvc.metrics import pairwiseMetric, calcF1
+from cmvc.test_performance import cluster_test
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--dataset', type=str, choices=["iris", "20_newsgroups_all", "20_newsgroups_sim3", "OPIEC59k"], default="iris", help="Clustering dataset to experiment with")
+parser.add_argument('--dataset', type=str, choices=["iris", "20_newsgroups_all", "20_newsgroups_full", "20_newsgroups_sim3", "20_newsgroups_diff3", "OPIEC59k"], default="iris", help="Clustering dataset to experiment with")
 parser.add_argument('--data-path', type=str, default=None, help="Path to clustering data, if necessary")
 parser.add_argument('--dataset-split', type=str, default=None, help="Dataset split to use, if applicable")
 parser.add_argument('--num_clusters', type=int, default=3)
@@ -108,6 +110,16 @@ def cluster(semisupervised_algo, features, labels, num_clusters, init="random", 
         raise ValueError(f"Algorithm {semisupervised_algo} not supported.")
     return clusterer
 
+def generate_cluster_dicts(cluster_label_list):
+    clust2ele = {}
+    for i, cluster_label in enumerate(cluster_label_list):
+        if cluster_label not in clust2ele:
+            clust2ele[cluster_label] = set()
+        clust2ele[cluster_label].add(i)
+
+    ele2clust = invertDic(clust2ele, 'm2os')
+    return ele2clust, clust2ele
+
 def compare_algorithms(features, labels, side_information, num_clusters, dataset_name, max_feedback_given=None, algorithms=["KMeans", "PCKMeans", "ConstrainedKMeans", "SeededKMeans"], num_seeds=3, verbose=True, normalize_vectors=False, split_normalization=False, init="random"):
     algo_results = defaultdict(list)
     timer = time.perf_counter()
@@ -150,15 +162,16 @@ def compare_algorithms(features, labels, side_information, num_clusters, dataset
                 metric_dict["macro_f1"] = macro_f1
                 metric_dict["micro_f1"] = micro_f1
                 metric_dict["pairwise_f1"] = pairwise_f1
-                rand_score = metrics.adjusted_rand_score(labels, clusterer.labels_)
-                metric_dict["rand"] = rand_score
-                nmi = metrics.normalized_mutual_info_score(labels, clusterer.labels_)
-                metric_dict["nmi"] = nmi
-            else:
-                rand_score = metrics.adjusted_rand_score(labels, clusterer.labels_)
-                metric_dict["rand"] = rand_score
-                nmi = metrics.normalized_mutual_info_score(labels, clusterer.labels_)
-                metric_dict["nmi"] = nmi
+
+            rand_score = metrics.adjusted_rand_score(labels, clusterer.labels_)
+            metric_dict["rand"] = rand_score
+            nmi = metrics.normalized_mutual_info_score(labels, clusterer.labels_)
+            metric_dict["nmi"] = nmi
+
+            _, pred_clust2ele = generate_cluster_dicts(clusterer.labels_)
+            gt_ele2clust, gt_clust2ent = generate_cluster_dicts(labels)
+            pair_prec, pair_recall = pairwiseMetric(pred_clust2ele, gt_ele2clust, gt_clust2ent)
+            metric_dict["pairwise_f1"] = calcF1(pair_prec, pair_recall)
 
         if verbose:
             print("\n")
