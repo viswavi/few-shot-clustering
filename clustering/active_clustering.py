@@ -15,7 +15,6 @@ python active_clustering.py --dataset OPIEC59k \
     --num_clusters 490 \
     --num_seeds 1 \
     --normalize-vectors \
-    --split-normalization \
     --init k-means++ \
     --verbose |& tee ~/logs/canon/opiec_clustering_simplified_kmeanspp.log
 '''
@@ -44,6 +43,7 @@ else:
     sys.path.append("active-semi-supervised-clustering")
 from active_semi_clustering.semi_supervised.pairwise_constraints import PCKMeans
 from active_semi_clustering.semi_supervised.labeled_data.kmeans import KMeans
+# from sklearn.cluster import KMeans
 from active_semi_clustering.semi_supervised.labeled_data.seededkmeans import SeededKMeans
 from active_semi_clustering.semi_supervised.labeled_data.constrainedkmeans import ConstrainedKMeans
 from active_semi_clustering.active.pairwise_constraints import ExampleOracle, ExploreConsolidate, MinMax
@@ -60,6 +60,7 @@ parser.add_argument('--dataset-split', type=str, default=None, help="Dataset spl
 parser.add_argument('--num_clusters', type=int, default=3)
 parser.add_argument('--max-feedback-given', type=int, default=10, help="Number of instances of user feedback (e.g. oracle queries) allowed")
 parser.add_argument('--num_seeds', type=int, default=10)
+parser.add_argument('--num-reinit', type=int, default=1)
 parser.add_argument('--feature_extractor', type=str, choices=["identity", "BERT", "TFIDF"], default="identity")
 parser.add_argument('--normalize-vectors', action="store_true", help="Normalize vectors")
 parser.add_argument('--split-normalization', action="store_true", help="Normalize per-view components separately (for multi-view clustering)")
@@ -84,10 +85,10 @@ def sample_cluster_seeds(features, labels, num_seed_points_per_label = 1, aggreg
             labels.append(y_value)
     return np.array(labels)
 
-def cluster(semisupervised_algo, features, labels, num_clusters, init="random", max_feedback_given=None, normalize_vectors=False, split_normalization=False, verbose=False):
+def cluster(semisupervised_algo, features, labels, num_clusters, init="random", max_feedback_given=None, normalize_vectors=False, split_normalization=False, num_reinit=1, verbose=False):
     assert semisupervised_algo in ["KMeans", "PCKMeans", "ConstrainedKMeans", "SeededKMeans"]
     if semisupervised_algo == "KMeans":
-        clusterer = KMeans(n_clusters=num_clusters, normalize_vectors=normalize_vectors, split_normalization=split_normalization, init=init, verbose=verbose)
+        clusterer = KMeans(n_clusters=num_clusters, normalize_vectors=False, split_normalization=False, init=init, num_reinit=num_reinit, verbose=verbose)
         clusterer.fit(features)
     elif semisupervised_algo == "PCKMeans":
         oracle = ExampleOracle(labels, max_queries_cnt=max_feedback_given)
@@ -120,7 +121,7 @@ def generate_cluster_dicts(cluster_label_list):
     ele2clust = invertDic(clust2ele, 'm2os')
     return ele2clust, clust2ele
 
-def compare_algorithms(features, labels, side_information, num_clusters, dataset_name, max_feedback_given=None, algorithms=["KMeans", "PCKMeans", "ConstrainedKMeans", "SeededKMeans"], num_seeds=3, verbose=True, normalize_vectors=False, split_normalization=False, init="random"):
+def compare_algorithms(features, labels, side_information, num_clusters, dataset_name, max_feedback_given=None, num_reinit=1, algorithms=["KMeans", "PCKMeans", "ConstrainedKMeans", "SeededKMeans"], num_seeds=3, verbose=True, normalize_vectors=False, split_normalization=False, init="random"):
     algo_results = defaultdict(list)
     timer = time.perf_counter()
 
@@ -147,7 +148,7 @@ def compare_algorithms(features, labels, side_information, num_clusters, dataset
             if verbose:
                 print(f"Running {semisupervised_algo} for seed {seed}")
             start_time = time.perf_counter()
-            clusterer = cluster(semisupervised_algo, features, labels, num_clusters, max_feedback_given=max_feedback_given, normalize_vectors=normalize_vectors, split_normalization=split_normalization, init=init, verbose=verbose)
+            clusterer = cluster(semisupervised_algo, features, labels, num_clusters, max_feedback_given=max_feedback_given, normalize_vectors=normalize_vectors, split_normalization=split_normalization, init=init, num_reinit=num_reinit, verbose=verbose)
             elapsed_time = time.perf_counter() - start_time
             if verbose:
                 print(f"Took {round(elapsed_time, 3)} seconds to cluster points.")
@@ -171,7 +172,7 @@ def compare_algorithms(features, labels, side_information, num_clusters, dataset
             _, pred_clust2ele = generate_cluster_dicts(clusterer.labels_)
             gt_ele2clust, gt_clust2ent = generate_cluster_dicts(labels)
             pair_prec, pair_recall = pairwiseMetric(pred_clust2ele, gt_ele2clust, gt_clust2ent)
-            metric_dict["pairwise_f1"] = calcF1(pair_prec, pair_recall)
+            metric_dict["general_pairwise_f1"] = calcF1(pair_prec, pair_recall)
 
         if verbose:
             print("\n")
@@ -209,6 +210,7 @@ if __name__ == "__main__":
                                  normalize_vectors=args.normalize_vectors,
                                  split_normalization = args.split_normalization,
                                  algorithms=algorithms,
-                                 init=args.init)
+                                 init=args.init,
+                                 num_reinit=args.num_reinit)
     summarized_results = summarize_results(results)
     print(json.dumps(summarized_results, indent=2))
