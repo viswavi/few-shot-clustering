@@ -32,7 +32,7 @@ def reorder_labels(label_array):
     return [label_to_new_label_mapping[l] for l in label_array]
 
 def load_dataset(dataset_name, data_path, dataset_split=None):
-    assert dataset_name in ["iris", "20_newsgroups_all", "20_newsgroups_full", "20_newsgroups_sim3", "20_newsgroups_diff3", "OPIEC59k"]
+    assert dataset_name in ["iris", "20_newsgroups_all", "20_newsgroups_full", "20_newsgroups_sim3", "20_newsgroups_diff3", "OPIEC59k", "OPIEC59k-kg", "OPIEC59k-text"]
     if dataset_name == "iris":
         samples, gold_cluster_ids = datasets.load_iris(return_X_y=True)
         side_information = None
@@ -50,7 +50,13 @@ def load_dataset(dataset_name, data_path, dataset_split=None):
         samples, gold_cluster_ids = preprocess_20_newsgroups(topics=["alt.atheism", "rec.sport.baseball", "sci.space"])
         gold_cluster_ids = reorder_labels(gold_cluster_ids)
         side_information = None
-    elif dataset_name == "OPIEC59k":
+    elif dataset_name.split('-')[0] == "OPIEC59k":
+        name_constituents = dataset_name.split("-")
+        if len(name_constituents) == 1:
+            modality_type = "all"
+        else:
+            dataset_name = name_constituents[0]
+            modality_type = name_constituents[1]
         # set up OPIEC59k evaluation set
         MockArgs = namedtuple("MockArgs", ["dataset", "file_triples", "file_entEmbed", "file_relEmbed", "file_entClust", "file_relClust", "file_sideinfo", "file_sideinfo_pkl", "file_results", "out_path", "data_path", "use_assume"])
         file_triples = '/triples.txt'  # Location for caching triples
@@ -76,7 +82,14 @@ def load_dataset(dataset_name, data_path, dataset_split=None):
         bert_features = np.load(open(os.path.join(data_path, dataset_name, "context_view_embed.npz"), 'rb'))
         cmvc.kg_dimension = kg_features.shape[1]
         cmvc.bert_dimension = bert_features.shape[1]
-        samples = np.hstack([kg_features, bert_features])
+        if modality_type == "kg":
+            samples = kg_features
+        elif modality_type == "text":
+            samples = bert_features
+        elif modality_type == "all":
+            samples = np.hstack([kg_features, bert_features])
+        else:
+            raise NotImplementedError
 
         ent_ids = [cmvc.side_info.ent2id[trp['triple'][0]] for trp in cmvc.side_info.triples]
         cluster_names = [list(cmvc.true_ent2clust[trp['triple_unique'][0]])[0] for trp in cmvc.side_info.triples]
@@ -90,6 +103,15 @@ def load_dataset(dataset_name, data_path, dataset_split=None):
         for i, ent_id in enumerate(ent_ids):
             cluster_name = cluster_names[i]
             gold_cluster_ids[ent_id] = cluster_name_to_id[cluster_name]
+
+
+        '''
+        entity_to_cluster_name = {}
+        for i, trp in enumerate(cmvc.side_info.triples):
+            ent_name = trp['triple'][0]
+            cluster_name = cluster_names[i]
+            entity_to_cluster_name[ent_name] = cluster_name
+        '''
 
         cluster_id_to_name = invertDic(cluster_name_to_id, 'o2o')
         cmvc.cluster_id_to_name = cluster_id_to_name

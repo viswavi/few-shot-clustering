@@ -1,5 +1,5 @@
 # python active_clustering.py --dataset iris --num_clusters 3 --num_seeds 10
-# python active_clustering.py --dataset 20_newsgroups_all --feature_extractor TFIDF --max-feedback-given 500 --num_clusters 20 --verbose
+# python active_clustering.py --dataset 20_newsgroups_all --feature_extractor TFIDF --max-feedback-given 100 --num_clusters 20 --verbose
 # python active_clustering.py --dataset 20_newsgroups_sim3 --feature_extractor TFIDF --max-feedback-given 500 --num_clusters 3 --verbose
 # python active_clustering.py --dataset 20_newsgroups_diff3 --feature_extractor TFIDF --max-feedback-given 500 --num_clusters 3 --verbose
 '''
@@ -47,6 +47,7 @@ from active_semi_clustering.semi_supervised.labeled_data.kmeans import KMeans
 from active_semi_clustering.semi_supervised.labeled_data.seededkmeans import SeededKMeans
 from active_semi_clustering.semi_supervised.labeled_data.constrainedkmeans import ConstrainedKMeans
 from active_semi_clustering.active.pairwise_constraints import ExampleOracle, ExploreConsolidate, MinMax
+from active_semi_clustering.active.pairwise_constraints.random import Random
 
 from cmvc.CMVC_main_opiec import CMVC_Main
 from cmvc.helper import invertDic
@@ -54,11 +55,11 @@ from cmvc.metrics import pairwiseMetric, calcF1
 from cmvc.test_performance import cluster_test
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--dataset', type=str, choices=["iris", "20_newsgroups_all", "20_newsgroups_full", "20_newsgroups_sim3", "20_newsgroups_diff3", "OPIEC59k"], default="iris", help="Clustering dataset to experiment with")
+parser.add_argument('--dataset', type=str, choices=["iris", "20_newsgroups_all", "20_newsgroups_full", "20_newsgroups_sim3", "20_newsgroups_diff3", "OPIEC59k", "OPIEC59k-kg", "OPIEC59k-text"], default="iris", help="Clustering dataset to experiment with")
 parser.add_argument('--data-path', type=str, default=None, help="Path to clustering data, if necessary")
 parser.add_argument('--dataset-split', type=str, default=None, help="Dataset split to use, if applicable")
 parser.add_argument('--num_clusters', type=int, default=3)
-parser.add_argument('--max-feedback-given', type=int, default=10, help="Number of instances of user feedback (e.g. oracle queries) allowed")
+parser.add_argument('--max-feedback-given', type=int, default=100, help="Number of instances of user feedback (e.g. oracle queries) allowed")
 parser.add_argument('--num_seeds', type=int, default=10)
 parser.add_argument('--num-reinit', type=int, default=1)
 parser.add_argument('--feature_extractor', type=str, choices=["identity", "BERT", "TFIDF"], default="identity")
@@ -68,32 +69,54 @@ parser.add_argument('--init', type=str, choices=["random", "k-means++"], default
 parser.add_argument('--verbose', action="store_true")
 
 
-def sample_cluster_seeds(features, labels, num_seed_points_per_label = 1, aggregate="mean"):
-    points_by_cluster = defaultdict(list)
+
+def sample_cluster_seeds(features, labels, max_feedback_given = 0, aggregate="mean"):
+    assert len(features) == len(labels)
+    labels_list = [-1 for _ in range(len(features))]
+
     original_index_by_cluster = defaultdict(list)
     for i, (f, l) in enumerate(zip(features, labels)):
-        points_by_cluster[l].append(f)
         original_index_by_cluster[l].append(i)
-    labels = []
-    for label, points in points_by_cluster.items():
-        sample = set(random.sample(range(len(points)), k=num_seed_points_per_label))
-        for i, point in enumerate(points):
-            if i in sample:
-                y_value = label
-            else:
-                y_value = -1
-            labels.append(y_value)
-    return np.array(labels)
+
+    label_values = list(original_index_by_cluster.keys())
+    random.shuffle(label_values)
+
+    min_feedback_per_label = max_feedback_given // len(label_values)
+    num_labels_with_extra_point = max_feedback_given % len(label_values)
+    feedback_per_label = [min_feedback_per_label + int(i < num_labels_with_extra_point) for i in range(len(label_values))]
+
+
+    feedback_counter = 0
+    for i, label in enumerate(label_values):
+        num_feedback_for_label = min(len(original_index_by_cluster[label]), feedback_per_label[i])
+        labeled_point_indices = random.sample(original_index_by_cluster[label], num_feedback_for_label)
+        for point_index in original_index_by_cluster[label]:
+            if point_index in labeled_point_indices:
+                labels_list[point_index] = label
+                feedback_counter += 1
+
+    assert feedback_counter <= max_feedback_given
+
+    return np.array(labels_list)
 
 def cluster(semisupervised_algo, features, labels, num_clusters, init="random", max_feedback_given=None, normalize_vectors=False, split_normalization=False, num_reinit=1, verbose=False):
-    assert semisupervised_algo in ["KMeans", "PCKMeans", "ConstrainedKMeans", "SeededKMeans"]
+    assert semisupervised_algo in ["KMeans", "Active PCKMeans", "ConstrainedKMeans", "SeededKMeans"]
     if semisupervised_algo == "KMeans":
         clusterer = KMeans(n_clusters=num_clusters, normalize_vectors=False, split_normalization=False, init=init, num_reinit=num_reinit, verbose=verbose)
         clusterer.fit(features)
-    elif semisupervised_algo == "PCKMeans":
+    elif semisupervised_algo == "Active PCKMeans":
         oracle = ExampleOracle(labels, max_queries_cnt=max_feedback_given)
 
         active_learner = MinMax(n_clusters=num_clusters)
+        active_learner.fit(features, oracle=oracle)
+        pairwise_constraints = active_learner.pairwise_constraints_
+
+        clusterer = PCKMeans(n_clusters=num_clusters, init=init)
+        clusterer.fit(features, ml=pairwise_constraints[0], cl=pairwise_constraints[1])
+    elif semisupervised_algo == "PCKMeans":
+        oracle = ExampleOracle(labels, max_queries_cnt=max_feedback_given)
+
+        active_learner = Random(n_clusters=num_clusters)
         active_learner.fit(features, oracle=oracle)
         pairwise_constraints = active_learner.pairwise_constraints_
 
@@ -101,17 +124,16 @@ def cluster(semisupervised_algo, features, labels, num_clusters, init="random", 
         clusterer.fit(features, ml=pairwise_constraints[0], cl=pairwise_constraints[1])
     elif semisupervised_algo == "ConstrainedKMeans":
         clusterer = ConstrainedKMeans(n_clusters=num_clusters, init=init)
-        cluster_seeds = sample_cluster_seeds(features, labels)
+        cluster_seeds = sample_cluster_seeds(features, labels, max_feedback_given)
         clusterer.fit(features, y=cluster_seeds)
     elif semisupervised_algo == "SeededKMeans":
         clusterer = SeededKMeans(n_clusters=num_clusters, init=init)
-        cluster_seeds = sample_cluster_seeds(features, labels)
+        cluster_seeds = sample_cluster_seeds(features, labels, max_feedback_given)
         clusterer.fit(features, y=cluster_seeds) 
     else:
         raise ValueError(f"Algorithm {semisupervised_algo} not supported.")
     return clusterer
 
-    
 
 def generate_cluster_dicts(cluster_label_list):
     clust2ele = {}
@@ -156,10 +178,18 @@ def compare_algorithms(features, labels, side_information, num_clusters, dataset
                 print(f"Took {round(elapsed_time, 3)} seconds to cluster points.")
             metric_dict = {}
             algo_results[semisupervised_algo].append(metric_dict)
-            if dataset_name == "OPIEC59k":
+            if dataset_name.split('-')[0] == "OPIEC59k":
+                optimal_results = cluster_test(side_information.p, side_information.side_info, labels, side_information.true_ent2clust, side_information.true_clust2ent)
+                _, _, _, _, _, _, _, _, _, optimal_macro_f1, optimal_micro_f1, optimal_pairwise_f1, _, _, _, _ \
+                    = optimal_results
                 ave_prec, ave_recall, ave_f1, macro_prec, micro_prec, pair_prec, macro_recall, micro_recall, \
                 pair_recall, macro_f1, micro_f1, pairwise_f1, model_clusters, model_Singletons, gold_clusters, gold_Singletons \
                     = cluster_test(side_information.p, side_information.side_info, clusterer.labels_, side_information.true_ent2clust, side_information.true_clust2ent)
+
+                # Compute Macro/Macro/Pairwise F1 on OPIEC59k
+                metric_dict["macro_f1"] = macro_f1
+                metric_dict["micro_f1"] = micro_f1
+                metric_dict["pairwise_f1"] = pairwise_f1
 
                 # Compute Macro/Macro/Pairwise F1 on OPIEC59k
                 metric_dict["macro_f1"] = macro_f1
@@ -199,8 +229,8 @@ if __name__ == "__main__":
     X, y, side_information = load_dataset(args.dataset, args.data_path, args.dataset_split)
     assert set(y) == set(range(len(set(y))))
     features = extract_features(X, args.feature_extractor, args.verbose)
-    #algorithms=["KMeans", "PCKMeans", "ConstrainedKMeans", "SeededKMeans"]
-    algorithms=["KMeans"]
+    #algorithms=["KMeans", "Active PCKMeans", "PCKMeans", "ConstrainedKMeans", "SeededKMeans"]
+    algorithms=["Active PCKMeans"]
     results = compare_algorithms(features,
                                  y,
                                  side_information,
