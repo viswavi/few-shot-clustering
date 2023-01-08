@@ -28,6 +28,7 @@ from collections import defaultdict
 import json
 import numpy as np
 import os
+import pickle
 import random
 import sys
 import time
@@ -46,8 +47,8 @@ from active_semi_clustering.semi_supervised.labeled_data.kmeans import KMeans
 # from sklearn.cluster import KMeans
 from active_semi_clustering.semi_supervised.labeled_data.seededkmeans import SeededKMeans
 from active_semi_clustering.semi_supervised.labeled_data.constrainedkmeans import ConstrainedKMeans
-from active_semi_clustering.active.pairwise_constraints import ExampleOracle, ExploreConsolidate, MinMax
-from active_semi_clustering.active.pairwise_constraints.random import Random
+from active_semi_clustering.active.pairwise_constraints import ExampleOracle, ExploreConsolidate, MinMax, MinMaxFinetune
+from active_semi_clustering.active.pairwise_constraints import Random
 
 from cmvc.CMVC_main_opiec import CMVC_Main
 from cmvc.helper import invertDic
@@ -100,9 +101,9 @@ def sample_cluster_seeds(features, labels, max_feedback_given = 0, aggregate="me
     return np.array(labels_list)
 
 def cluster(semisupervised_algo, features, labels, num_clusters, init="random", max_feedback_given=None, normalize_vectors=False, split_normalization=False, num_reinit=1, verbose=False):
-    assert semisupervised_algo in ["KMeans", "Active PCKMeans", "ConstrainedKMeans", "SeededKMeans"]
+    assert semisupervised_algo in ["KMeans", "Active PCKMeans", "Active Finetuned PCKMeans", "ConstrainedKMeans", "SeededKMeans"]
     if semisupervised_algo == "KMeans":
-        clusterer = KMeans(n_clusters=num_clusters, normalize_vectors=False, split_normalization=False, init=init, num_reinit=num_reinit, verbose=verbose)
+        clusterer = KMeans(n_clusters=num_clusters, normalize_vectors=normalize_vectors, split_normalization=split_normalization, init=init, num_reinit=num_reinit, verbose=verbose)
         clusterer.fit(features)
     elif semisupervised_algo == "Active PCKMeans":
         oracle = ExampleOracle(labels, max_queries_cnt=max_feedback_given)
@@ -110,6 +111,21 @@ def cluster(semisupervised_algo, features, labels, num_clusters, init="random", 
         active_learner = MinMax(n_clusters=num_clusters)
         active_learner.fit(features, oracle=oracle)
         pairwise_constraints = active_learner.pairwise_constraints_
+
+        clusterer = PCKMeans(n_clusters=num_clusters, init=init)
+        clusterer.fit(features, ml=pairwise_constraints[0], cl=pairwise_constraints[1])
+    elif semisupervised_algo == "Active Finetuned PCKMeans":
+        oracle = ExampleOracle(labels, max_queries_cnt=max_feedback_given)
+
+        initial_clusterer = KMeans(n_clusters=num_clusters, normalize_vectors=normalize_vectors, split_normalization=split_normalization, init=init, num_reinit=num_reinit, max_iter=10, verbose=verbose)
+        initial_clusterer.fit(features)
+
+        active_learner = MinMaxFinetune(n_clusters=num_clusters)
+        active_learner.set_initial_clusterer(initial_clusterer)
+        active_learner.fit(features, oracle=oracle)
+        pairwise_constraints = active_learner.pairwise_constraints_
+
+        pickle.dump(pairwise_constraints, open("pairwise_constraints_10k.pkl", 'wb'))
 
         clusterer = PCKMeans(n_clusters=num_clusters, init=init)
         clusterer.fit(features, ml=pairwise_constraints[0], cl=pairwise_constraints[1])
@@ -230,7 +246,7 @@ if __name__ == "__main__":
     assert set(y) == set(range(len(set(y))))
     features = extract_features(X, args.feature_extractor, args.verbose)
     #algorithms=["KMeans", "Active PCKMeans", "PCKMeans", "ConstrainedKMeans", "SeededKMeans"]
-    algorithms=["Active PCKMeans"]
+    algorithms=["Active Finetuned PCKMeans"]
     results = compare_algorithms(features,
                                  y,
                                  side_information,
