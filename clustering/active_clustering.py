@@ -57,6 +57,7 @@ from cmvc.test_performance import cluster_test
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--dataset', type=str, choices=["iris", "20_newsgroups_all", "20_newsgroups_full", "20_newsgroups_sim3", "20_newsgroups_diff3", "OPIEC59k", "OPIEC59k-kg", "OPIEC59k-text"], default="iris", help="Clustering dataset to experiment with")
+parser.add_argument("--algorithms", action="extend", nargs="+", type=str)
 parser.add_argument('--data-path', type=str, default=None, help="Path to clustering data, if necessary")
 parser.add_argument('--dataset-split', type=str, default=None, help="Dataset split to use, if applicable")
 parser.add_argument('--num_clusters', type=int, default=3)
@@ -101,11 +102,11 @@ def sample_cluster_seeds(features, labels, max_feedback_given = 0, aggregate="me
     return np.array(labels_list)
 
 def cluster(semisupervised_algo, features, labels, num_clusters, init="random", max_feedback_given=None, normalize_vectors=False, split_normalization=False, num_reinit=1, verbose=False):
-    assert semisupervised_algo in ["KMeans", "Active PCKMeans", "Active Finetuned PCKMeans", "ConstrainedKMeans", "SeededKMeans"]
+    assert semisupervised_algo in ["KMeans", "PCKMeans", "ActivePCKMeans", "ActiveFinetunedPCKMeans", "ConstrainedKMeans", "SeededKMeans"]
     if semisupervised_algo == "KMeans":
         clusterer = KMeans(n_clusters=num_clusters, normalize_vectors=normalize_vectors, split_normalization=split_normalization, init=init, num_reinit=num_reinit, verbose=verbose)
         clusterer.fit(features)
-    elif semisupervised_algo == "Active PCKMeans":
+    elif semisupervised_algo == "ActivePCKMeans":
         oracle = ExampleOracle(labels, max_queries_cnt=max_feedback_given)
 
         active_learner = MinMax(n_clusters=num_clusters)
@@ -114,7 +115,7 @@ def cluster(semisupervised_algo, features, labels, num_clusters, init="random", 
 
         clusterer = PCKMeans(n_clusters=num_clusters, init=init)
         clusterer.fit(features, ml=pairwise_constraints[0], cl=pairwise_constraints[1])
-    elif semisupervised_algo == "Active Finetuned PCKMeans":
+    elif semisupervised_algo == "ActiveFinetunedPCKMeans":
         oracle = ExampleOracle(labels, max_queries_cnt=max_feedback_given)
 
         initial_clusterer = KMeans(n_clusters=num_clusters, normalize_vectors=normalize_vectors, split_normalization=split_normalization, init=init, num_reinit=num_reinit, max_iter=10, verbose=verbose)
@@ -242,11 +243,11 @@ def extract_features(dataset, feature_extractor, verbose=False):
 
 if __name__ == "__main__":
     args = parser.parse_args()
+    algorithms=args.algorithms
     X, y, side_information = load_dataset(args.dataset, args.data_path, args.dataset_split)
     assert set(y) == set(range(len(set(y))))
     features = extract_features(X, args.feature_extractor, args.verbose)
-    #algorithms=["KMeans", "Active PCKMeans", "PCKMeans", "ConstrainedKMeans", "SeededKMeans"]
-    algorithms=["Active Finetuned PCKMeans"]
+    #algorithms=["KMeans", "ActivePCKMeans", "PCKMeans", "ConstrainedKMeans", "SeededKMeans"]
     results = compare_algorithms(features,
                                  y,
                                  side_information,
