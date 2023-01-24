@@ -143,10 +143,6 @@ def cluster(semisupervised_algo, features, labels, num_clusters, init="random", 
         active_learner = LabelBasedSelector(n_clusters=num_clusters)
         active_learner.fit(features, oracle=oracle)
         pairwise_constraints = active_learner.pairwise_constraints_
-
-        pickle.dump(pairwise_constraints, open("oracle_pairwise_constraints_50.pkl", 'wb'))
-
-
         clusterer = PCKMeans(n_clusters=num_clusters)
         clusterer.fit(features, ml=pairwise_constraints[0], cl=pairwise_constraints[1])
     elif semisupervised_algo == "ConstrainedKMeans":
