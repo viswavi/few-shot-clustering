@@ -1,4 +1,5 @@
 from collections import defaultdict, namedtuple
+
 import os
 import numpy as np
 import random
@@ -31,8 +32,57 @@ def reorder_labels(label_array):
         label_to_new_label_mapping[old_label] = i
     return [label_to_new_label_mapping[l] for l in label_array]
 
+def sample_square_points(lower_left_corner, upper_right_corner, n_points=10, corner_offset=1.0, seed=0):
+    x_boundaries = (lower_left_corner[0], upper_right_corner[0])
+    y_boundaries = (lower_left_corner[1], upper_right_corner[1])
+    
+    corner_points = [(lower_left_corner[0] + corner_offset, lower_left_corner[1] + corner_offset),
+                     (lower_left_corner[0] + corner_offset, upper_right_corner[1] - corner_offset),
+                     (upper_right_corner[0] - corner_offset, upper_right_corner[1] - corner_offset),
+                     (upper_right_corner[0] - corner_offset, lower_left_corner[1] + corner_offset),]
+    '''
+
+    corner_points = []
+    '''
+
+    np.random.seed(seed)
+    x_samples = np.random.uniform(x_boundaries[0] + 0.00001, x_boundaries[1], size=n_points - 2)
+    y_samples = np.random.uniform(y_boundaries[0] + 0.00001, y_boundaries[1], size=n_points - 2)
+
+    sampled_points = corner_points + list(zip(x_samples, y_samples))
+    sampled_points = [list(p) for p in sampled_points]
+    return sampled_points
+
+                
+
+def generate_synthetic_data(n_samples_per_cluster, global_seed=2022):
+    # 5 squares
+    points = []
+    labels = []
+    square_1 = sample_square_points((0, 0), (5, 5), n_points=n_samples_per_cluster, seed=0)
+    points.extend(square_1)
+    labels.extend([0 for _ in square_1])
+    square_2 = sample_square_points((4, 4), (8, 8), n_points=n_samples_per_cluster, seed=1)
+    points.extend(square_2)
+    labels.extend([1 for _ in square_2])
+    square_3 = sample_square_points((7, 7), (10, 10), n_points=n_samples_per_cluster, seed=2)
+    points.extend(square_3)
+    labels.extend([2 for _ in square_3])
+    square_4 = sample_square_points((7, 1), (11, 5), n_points=n_samples_per_cluster, seed=3)
+    points.extend(square_4)
+    labels.extend([3 for _ in square_4])
+    square_5 = sample_square_points((2, 7), (5, 10), n_points=n_samples_per_cluster, seed=4)
+    points.extend(square_5)
+    labels.extend([4 for _ in square_5])
+    combined_data = list(zip(points, labels))
+
+    np.random.seed(global_seed)
+    np.random.shuffle(combined_data)  
+    points, labels = zip(*combined_data)
+    return np.array(points), labels
+
 def load_dataset(dataset_name, data_path, dataset_split=None):
-    assert dataset_name in ["iris", "20_newsgroups_all", "20_newsgroups_full", "20_newsgroups_sim3", "20_newsgroups_diff3", "OPIEC59k", "OPIEC59k-kg", "OPIEC59k-text"]
+    assert dataset_name in ["iris", "20_newsgroups_all", "20_newsgroups_full", "20_newsgroups_sim3", "20_newsgroups_diff3", "OPIEC59k", "OPIEC59k-kg", "OPIEC59k-text", "synthetic_data"]
     if dataset_name == "iris":
         samples, gold_cluster_ids = datasets.load_iris(return_X_y=True)
         side_information = None
@@ -42,13 +92,16 @@ def load_dataset(dataset_name, data_path, dataset_split=None):
     elif dataset_name == "20_newsgroups_full":
         samples, gold_cluster_ids = preprocess_20_newsgroups(per_topic_samples=None)
         side_information = None
-    if dataset_name == "20_newsgroups_sim3":
+    elif dataset_name == "20_newsgroups_sim3":
         samples, gold_cluster_ids = preprocess_20_newsgroups(topics=["comp.graphics", "comp.os.ms-windows.misc", "comp.windows.x"])
         gold_cluster_ids = reorder_labels(gold_cluster_ids)
         side_information = None
-    if dataset_name == "20_newsgroups_diff3":
+    elif dataset_name == "20_newsgroups_diff3":
         samples, gold_cluster_ids = preprocess_20_newsgroups(topics=["alt.atheism", "rec.sport.baseball", "sci.space"])
         gold_cluster_ids = reorder_labels(gold_cluster_ids)
+        side_information = None
+    elif dataset_name == "synthetic_data":
+        samples, gold_cluster_ids = generate_synthetic_data(n_samples_per_cluster=20)
         side_information = None
     elif dataset_name.split('-')[0] == "OPIEC59k":
         name_constituents = dataset_name.split("-")
