@@ -80,6 +80,7 @@ parser.add_argument('--plot-clusters', action="store_true", help="Whether to plo
 parser.add_argument('--plot-dir', type=str, default=None, help="Directory to store cluster plots")
 parser.add_argument('--include-linear-transformation', action="store_true", help="Whether to learn a linear transformation (for the DEC model)")
 parser.add_argument('--include-contrastive-loss', action="store_true", help="Whether to include a contrastive loss (for the DEC model)")
+parser.add_argument('--tensorboard-dir', type=str, default="tmp", help="Directory name to use for tensorboard")
 parser.add_argument('--verbose', action="store_true")
 
 
@@ -113,10 +114,10 @@ def sample_cluster_seeds(features, labels, max_feedback_given = 0, aggregate="me
 
     return np.array(labels_list)
 
-def cluster(semisupervised_algo, features, labels, num_clusters, init="random", max_feedback_given=None, normalize_vectors=False, split_normalization=False, num_reinit=1, include_linear_transformation=False, include_contrastive_loss=False, verbose=False, side_information=None):
+def cluster(semisupervised_algo, features, labels, num_clusters, init="random", max_feedback_given=None, normalize_vectors=False, split_normalization=False, num_reinit=1, include_linear_transformation=False, include_contrastive_loss=False, verbose=False, side_information=None, tensorboard_parent_dir="/projects/ogma1/vijayv/okb-canonicalization/clustering/sccl/", tensorboard_dir="tmp"):
     assert semisupervised_algo in ["KMeans", "DEC", "PCKMeans", "OraclePCKMeans", "ActivePCKMeans", "ActiveFinetunedPCKMeans", "ConstrainedKMeans", "SeededKMeans"]
     if semisupervised_algo == "DEC":
-        clusterer = DEC(n_clusters=num_clusters, normalize_vectors=normalize_vectors, split_normalization=split_normalization, verbose=verbose, cluster_init=init, labels=labels, canonicalization_side_information=side_information, include_contrastive_loss=include_contrastive_loss, linear_transformation=include_linear_transformation)
+        clusterer = DEC(n_clusters=num_clusters, normalize_vectors=normalize_vectors, split_normalization=split_normalization, verbose=verbose, cluster_init=init, labels=labels, canonicalization_side_information=side_information, include_contrastive_loss=include_contrastive_loss, linear_transformation=include_linear_transformation, tensorboard_parent_dir=tensorboard_parent_dir, tensorboard_dir=tensorboard_dir)
         clusterer.fit(features)
     elif semisupervised_algo == "KMeans":
         clusterer = KMeans(n_clusters=num_clusters, normalize_vectors=normalize_vectors, split_normalization=split_normalization, init=init, num_reinit=num_reinit, verbose=verbose)
@@ -245,7 +246,8 @@ def compare_algorithms(features,
                        cluster_plot_dir_prefix=None,
                        dataset=None,
                        include_linear_transformation=False,
-                       include_contrastive_loss=False):
+                       include_contrastive_loss=False,
+                       tensorboard_dir="tmp"):
     algo_results = defaultdict(list)
     timer = time.perf_counter()
 
@@ -281,7 +283,7 @@ def compare_algorithms(features,
             if verbose:
                 print(f"Running {semisupervised_algo} for seed {seed}")
             start_time = time.perf_counter()
-            clusterer = cluster(semisupervised_algo, features, labels, num_clusters, max_feedback_given=max_feedback_given, normalize_vectors=normalize_vectors, split_normalization=split_normalization, init=init, num_reinit=num_reinit, verbose=verbose, side_information=side_information, include_linear_transformation=include_linear_transformation, include_contrastive_loss=include_contrastive_loss)
+            clusterer = cluster(semisupervised_algo, features, labels, num_clusters, max_feedback_given=max_feedback_given, normalize_vectors=normalize_vectors, split_normalization=split_normalization, init=init, num_reinit=num_reinit, verbose=verbose, side_information=side_information, include_linear_transformation=include_linear_transformation, include_contrastive_loss=include_contrastive_loss, tensorboard_dir=tensorboard_dir)
             elapsed_time = time.perf_counter() - start_time
             if verbose:
                 print(f"Took {round(elapsed_time, 3)} seconds to cluster points.")
@@ -360,6 +362,7 @@ if __name__ == "__main__":
                                  cluster_plot_dir_prefix=args.plot_dir,
                                  dataset = args.dataset,
                                  include_contrastive_loss=args.include_contrastive_loss,
-                                 include_linear_transformation=args.include_linear_transformation)
+                                 include_linear_transformation=args.include_linear_transformation,
+                                 tensorboard_dir=args.tensorboard_dir)
     summarized_results = summarize_results(results)
     print(json.dumps(summarized_results, indent=2))
