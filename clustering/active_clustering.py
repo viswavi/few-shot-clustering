@@ -49,7 +49,7 @@ if os.getenv("REPO_DIR") is not None:
     sys.path.append(os.path.join(os.getenv("REPO_DIR"), "clustering", "active-semi-supervised-clustering"))
 else:
     sys.path.append("active-semi-supervised-clustering")
-from active_semi_clustering.semi_supervised.pairwise_constraints import PCKMeans
+from active_semi_clustering.semi_supervised.pairwise_constraints import PCKMeans, GPTExpansionClustering
 from active_semi_clustering.semi_supervised.labeled_data.kmeans import KMeans
 from active_semi_clustering.semi_supervised.labeled_data.dec import DEC
 # from sklearn.cluster import KMeans
@@ -115,13 +115,16 @@ def sample_cluster_seeds(features, labels, max_feedback_given = 0, aggregate="me
     return np.array(labels_list)
 
 def cluster(semisupervised_algo, features, labels, num_clusters, init="random", max_feedback_given=None, normalize_vectors=False, split_normalization=False, num_reinit=1, include_linear_transformation=False, include_contrastive_loss=False, verbose=False, side_information=None, tensorboard_parent_dir="/projects/ogma1/vijayv/okb-canonicalization/clustering/sccl/", tensorboard_dir="tmp"):
-    assert semisupervised_algo in ["KMeans", "DEC", "PCKMeans", "OraclePCKMeans", "ActivePCKMeans", "ActiveFinetunedPCKMeans", "ConstrainedKMeans", "SeededKMeans"]
+    assert semisupervised_algo in ["GPTExpansionClustering", "KMeans", "DEC", "PCKMeans", "OraclePCKMeans", "ActivePCKMeans", "ActiveFinetunedPCKMeans", "ConstrainedKMeans", "SeededKMeans"]
     if semisupervised_algo == "DEC":
         clusterer = DEC(n_clusters=num_clusters, normalize_vectors=normalize_vectors, split_normalization=split_normalization, verbose=verbose, cluster_init=init, labels=labels, canonicalization_side_information=side_information, include_contrastive_loss=include_contrastive_loss, linear_transformation=include_linear_transformation, tensorboard_parent_dir=tensorboard_parent_dir, tensorboard_dir=tensorboard_dir)
         clusterer.fit(features)
     elif semisupervised_algo == "KMeans":
         clusterer = KMeans(n_clusters=num_clusters, normalize_vectors=normalize_vectors, split_normalization=split_normalization, init=init, num_reinit=num_reinit, verbose=verbose)
         clusterer.fit(features)
+    elif semisupervised_algo == "GPTExpansionClustering":
+        clusterer = GPTExpansionClustering(n_clusters=num_clusters, side_information=side_information)
+        clusterer.fit(features, labels)
     elif semisupervised_algo == "ActivePCKMeans":
         oracle = ExampleOracle(labels, max_queries_cnt=max_feedback_given)
 
