@@ -49,13 +49,13 @@ if os.getenv("REPO_DIR") is not None:
     sys.path.append(os.path.join(os.getenv("REPO_DIR"), "clustering", "active-semi-supervised-clustering"))
 else:
     sys.path.append("active-semi-supervised-clustering")
-from active_semi_clustering.semi_supervised.pairwise_constraints import PCKMeans, GPTExpansionClustering
+from active_semi_clustering.semi_supervised.pairwise_constraints import PCKMeans, GPTExpansionClustering, GPTPairwiseClustering
 from active_semi_clustering.semi_supervised.labeled_data.kmeans import KMeans
 from active_semi_clustering.semi_supervised.labeled_data.dec import DEC
 # from sklearn.cluster import KMeans
 from active_semi_clustering.semi_supervised.labeled_data.seededkmeans import SeededKMeans
 from active_semi_clustering.semi_supervised.labeled_data.constrainedkmeans import ConstrainedKMeans
-from active_semi_clustering.active.pairwise_constraints import ExampleOracle, LabelBasedSelector, ExploreConsolidate, MinMax, MinMaxFinetune
+from active_semi_clustering.active.pairwise_constraints import ExampleOracle, GPT3Oracle, LabelBasedSelector, ExploreConsolidate, MinMax, MinMaxFinetune
 from active_semi_clustering.active.pairwise_constraints import Random
 
 from cmvc.CMVC_main_opiec import CMVC_Main
@@ -125,6 +125,16 @@ def cluster(semisupervised_algo, features, labels, num_clusters, init="random", 
     elif semisupervised_algo == "GPTExpansionClustering":
         clusterer = GPTExpansionClustering(n_clusters=num_clusters, side_information=side_information)
         clusterer.fit(features, labels)
+
+    elif semisupervised_algo == "GPTPairwiseClustering":
+        oracle = GPT3Oracle(features, labels, max_queries_cnt=max_feedback_given, side_information=side_information)
+        active_learner = LabelBasedSelector(n_clusters=num_clusters)
+        active_learner.fit(features, oracle=oracle)
+        pairwise_constraints = active_learner.pairwise_constraints_
+        clusterer = PCKMeans(n_clusters=num_clusters)
+        clusterer.fit(features, ml=pairwise_constraints[0], cl=pairwise_constraints[1])
+        clusterer.constraints_ = pairwise_constraints
+
     elif semisupervised_algo == "ActivePCKMeans":
         oracle = ExampleOracle(labels, max_queries_cnt=max_feedback_given)
 
