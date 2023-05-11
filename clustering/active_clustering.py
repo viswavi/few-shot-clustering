@@ -131,9 +131,10 @@ def cluster(semisupervised_algo, features, labels, num_clusters, init="random", 
         active_learner = LabelBasedSelector(n_clusters=num_clusters)
         active_learner.fit(features, oracle=oracle)
         pairwise_constraints = active_learner.pairwise_constraints_
-        clusterer = PCKMeans(n_clusters=num_clusters)
+        clusterer = PCKMeans(n_clusters=num_clusters, init=init)
         clusterer.fit(features, ml=pairwise_constraints[0], cl=pairwise_constraints[1])
         clusterer.constraints_ = pairwise_constraints
+        oracle.cache_writer.close()
 
     elif semisupervised_algo == "ActivePCKMeans":
         oracle = ExampleOracle(labels, max_queries_cnt=max_feedback_given)
