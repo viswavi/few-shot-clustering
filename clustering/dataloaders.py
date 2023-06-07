@@ -7,7 +7,8 @@ from sklearn import datasets, metrics
 
 import sys
 sys.path.append("cmvc")
-from CMVC_main_opiec import CMVC_Main
+from CMVC_main_opiec import CMVC_Main as CMVC_Main_opiec
+from CMVC_main_reverb45k import CMVC_Main as CMVC_Main_reverb
 from helper import invertDic
 
 def preprocess_20_newsgroups(per_topic_samples = 100, shuffle=True, topics=None):
@@ -82,7 +83,7 @@ def generate_synthetic_data(n_samples_per_cluster, global_seed=2022):
     return np.array(points), labels
 
 def load_dataset(dataset_name, data_path, dataset_split=None):
-    assert dataset_name in ["iris", "20_newsgroups_all", "20_newsgroups_full", "20_newsgroups_sim3", "20_newsgroups_diff3", "OPIEC59k", "OPIEC59k-kg", "OPIEC59k-text", "synthetic_data"]
+    assert dataset_name in ["iris", "20_newsgroups_all", "20_newsgroups_full", "20_newsgroups_sim3", "20_newsgroups_diff3", "reverb45k", "OPIEC59k", "OPIEC59k-kg", "OPIEC59k-text", "synthetic_data"]
     if dataset_name == "iris":
         samples, gold_cluster_ids = datasets.load_iris(return_X_y=True)
         side_information = None
@@ -103,7 +104,7 @@ def load_dataset(dataset_name, data_path, dataset_split=None):
     elif dataset_name == "synthetic_data":
         samples, gold_cluster_ids = generate_synthetic_data(n_samples_per_cluster=20)
         side_information = None
-    elif dataset_name.split('-')[0] == "OPIEC59k":
+    elif dataset_name.split('-')[0] == "OPIEC59k" or dataset_name.split('-')[0] == "reverb45k":
         name_constituents = dataset_name.split("-")
         if len(name_constituents) == 1:
             modality_type = "all"
@@ -124,11 +125,15 @@ def load_dataset(dataset_name, data_path, dataset_split=None):
         dataset_processed_version_name = dataset_name + '_' + dataset_split + '_' + '1'
         # This convoluted path operation goes from the path to the dataset's data directory to the path of the output files derived from data
         out_dir = os.path.join(os.path.abspath(os.path.join(data_path, os.pardir)), "output")
-        out_path = os.path.join(out_dir, dataset_processed_version_name)
+        out_path = os.path.join("/projects/ogma2/users/vijayv/extra_storage", dataset_processed_version_name)
         dataset_file = os.path.join(data_path, dataset_name, dataset_name + '_' + dataset_split)
         use_assume = True
         mock_args = MockArgs(dataset_name, file_triples, file_entEmbed, file_relEmbed, file_entClust, file_relClust, file_sideinfo, file_sideinfo_pkl, file_results, out_path, dataset_file, use_assume)
-        cmvc = CMVC_Main(mock_args)
+        if dataset_name.split('-')[0] == "OPIEC59k":
+            cmvc = CMVC_Main_opiec(mock_args)
+        elif dataset_name.split('-')[0] == "reverb45k":
+            cmvc = CMVC_Main_reverb(mock_args)
+
         cmvc.get_sideInfo()
 
         kg_features = np.load(open(os.path.join(data_path, dataset_name, "relation_view_embed.npz"), 'rb'))

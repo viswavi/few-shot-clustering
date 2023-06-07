@@ -58,13 +58,13 @@ from active_semi_clustering.semi_supervised.labeled_data.constrainedkmeans impor
 from active_semi_clustering.active.pairwise_constraints import ExampleOracle, GPT3Oracle, DistanceBasedSelector, LabelBasedSelector, ExploreConsolidate, MinMax, MinMaxFinetune
 from active_semi_clustering.active.pairwise_constraints import Random
 
-from cmvc.CMVC_main_opiec import CMVC_Main
+sys.path.append("cmvc")
 from cmvc.helper import invertDic
 from cmvc.metrics import pairwiseMetric, calcF1
 from cmvc.test_performance import cluster_test
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--dataset', type=str, choices=["iris", "20_newsgroups_all", "20_newsgroups_full", "20_newsgroups_sim3", "20_newsgroups_diff3", "OPIEC59k", "OPIEC59k-kg", "OPIEC59k-text", "synthetic_data"], default="iris", help="Clustering dataset to experiment with")
+parser.add_argument('--dataset', type=str, choices=["iris", "20_newsgroups_all", "20_newsgroups_full", "20_newsgroups_sim3", "20_newsgroups_diff3", "reverb45k", "OPIEC59k", "OPIEC59k-kg", "OPIEC59k-text", "synthetic_data"], default="iris", help="Clustering dataset to experiment with")
 parser.add_argument("--algorithms", action="append")
 parser.add_argument('--data-path', type=str, default=None, help="Path to clustering data, if necessary")
 parser.add_argument('--dataset-split', type=str, default=None, help="Dataset split to use, if applicable")
@@ -114,8 +114,8 @@ def sample_cluster_seeds(features, labels, max_feedback_given = 0, aggregate="me
 
     return np.array(labels_list)
 
-def cluster(semisupervised_algo, features, labels, num_clusters, init="random", max_feedback_given=None, normalize_vectors=False, split_normalization=False, num_reinit=1, include_linear_transformation=False, include_contrastive_loss=False, verbose=False, side_information=None, tensorboard_parent_dir="/home/vijayv/okb-canonicalization/clustering/sccl/", tensorboard_dir="tmp"):
-    assert semisupervised_algo in ["GPTExpansionClustering", "GPTPairwiseClustering", "GPTPairwiseClusteringOracleFree", "GPT_SCCL_OracleFree", "DEC", "PCKMeans", "OraclePCKMeans", "ActivePCKMeans", "ActiveFinetunedPCKMeans", "ConstrainedKMeans", "SeededKMeans"]
+def cluster(semisupervised_algo, features, labels, num_clusters, init="random", max_feedback_given=None, normalize_vectors=False, split_normalization=False, num_reinit=1, include_linear_transformation=False, include_contrastive_loss=False, verbose=False, side_information=None, tensorboard_parent_dir="/projects/ogma1/vijayv/okb-canonicalization/clustering/sccl/", tensorboard_dir="tmp"):
+    assert semisupervised_algo in ["KMeans", "GPTExpansionClustering", "GPTPairwiseClustering", "GPTPairwiseClusteringOracleFree", "GPT_SCCL_OracleFree", "DEC", "PCKMeans", "OraclePCKMeans", "ActivePCKMeans", "ActiveFinetunedPCKMeans", "ConstrainedKMeans", "SeededKMeans"]
     if semisupervised_algo == "DEC":
         clusterer = DEC(n_clusters=num_clusters, normalize_vectors=normalize_vectors, split_normalization=split_normalization, verbose=verbose, cluster_init=init, labels=labels, canonicalization_side_information=side_information, include_contrastive_loss=include_contrastive_loss, linear_transformation=include_linear_transformation, tensorboard_parent_dir=tensorboard_parent_dir, tensorboard_dir=tensorboard_dir)
         clusterer.fit(features)
@@ -192,8 +192,10 @@ def cluster(semisupervised_algo, features, labels, num_clusters, init="random", 
         clusterer.fit(features, ml=pairwise_constraints[0], cl=pairwise_constraints[1])
     elif semisupervised_algo == "PCKMeans":
         oracle = ExampleOracle(labels, max_queries_cnt=max_feedback_given)
+        gpt3_oracle = GPT3Oracle(features, labels, max_queries_cnt=max_feedback_given, side_information=side_information, read_only=True)
+        oracle.selected_sentences = gpt3_oracle.selected_sentences
 
-        active_learner = Random(n_clusters=num_clusters)
+        active_learner = DistanceBasedSelector(n_clusters=num_clusters)
         active_learner.fit(features, oracle=oracle)
         pairwise_constraints = active_learner.pairwise_constraints_
 
@@ -336,10 +338,10 @@ def compare_algorithms(features,
             
             # np.save(open("/projects/ogma1/vijayv/okb-canonicalization/clustering/output/OPIEC59k_test_1/OPIEC59k_clusters/kmeans/cluster_centers.npy", 'wb'), clusterer.cluster_centers_)
             # 
-            breakpoint()
+            # breakpoint()
             metric_dict = {}
             algo_results[semisupervised_algo].append(metric_dict)
-            if dataset_name.split('-')[0] == "OPIEC59k":
+            if dataset_name.split('-')[0] == "OPIEC59k" or dataset_name.split('-')[0] == "reverb45k":
                 optimal_results = cluster_test(side_information.p, side_information.side_info, labels, side_information.true_ent2clust, side_information.true_clust2ent)
                 _, _, _, _, _, _, _, _, _, optimal_macro_f1, optimal_micro_f1, optimal_pairwise_f1, _, _, _, _ \
                     = optimal_results
@@ -391,7 +393,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     algorithms=args.algorithms
     X, y, side_information = load_dataset(args.dataset, args.data_path, args.dataset_split)
-    assert set(y) == set(range(len(set(y))))
+    # assert set(y) == set(range(len(set(y)))), breakpoint()
     features = extract_features(X, args.feature_extractor, args.verbose)
     #algorithms=["KMeans", "ActivePCKMeans", "PCKMeans", "ConstrainedKMeans", "SeededKMeans"]
     results = compare_algorithms(features,
