@@ -49,7 +49,7 @@ if os.getenv("REPO_DIR") is not None:
     sys.path.append(os.path.join(os.getenv("REPO_DIR"), "clustering", "active-semi-supervised-clustering"))
 else:
     sys.path.append("active-semi-supervised-clustering")
-from active_semi_clustering.semi_supervised.pairwise_constraints import PCKMeans, GPTExpansionClustering, GPTPairwiseClustering, SCCL
+from active_semi_clustering.semi_supervised.pairwise_constraints import PCKMeans, GPTExpansionClustering, GPTPairwiseClustering, SCCL, DeepSCCL
 from active_semi_clustering.semi_supervised.labeled_data.kmeans import KMeans
 from active_semi_clustering.semi_supervised.labeled_data.dec import DEC
 # from sklearn.cluster import KMeans
@@ -62,9 +62,11 @@ sys.path.append("cmvc")
 from cmvc.helper import invertDic
 from cmvc.metrics import pairwiseMetric, calcF1
 from cmvc.test_performance import cluster_test
+from cmvc.model_max_margin import KGEModel
+from cmvc.Context_view import BertClassificationModel
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--dataset', type=str, choices=["iris", "20_newsgroups_all", "20_newsgroups_full", "20_newsgroups_sim3", "20_newsgroups_diff3", "reverb45k", "OPIEC59k", "OPIEC59k-kg", "OPIEC59k-text", "synthetic_data"], default="iris", help="Clustering dataset to experiment with")
+parser.add_argument('--dataset', type=str, choices=["iris", "20_newsgroups_all", "20_newsgroups_full", "20_newsgroups_sim3", "20_newsgroups_diff3", "reverb45k", "OPIEC59k", "reverb45k-raw", "OPIEC59k-raw", "OPIEC59k-kg", "OPIEC59k-text", "synthetic_data"], default="iris", help="Clustering dataset to experiment with")
 parser.add_argument("--algorithms", action="append")
 parser.add_argument('--data-path', type=str, default=None, help="Path to clustering data, if necessary")
 parser.add_argument('--dataset-split', type=str, default=None, help="Dataset split to use, if applicable")
@@ -114,7 +116,7 @@ def sample_cluster_seeds(features, labels, max_feedback_given = 0, aggregate="me
 
     return np.array(labels_list)
 
-def cluster(semisupervised_algo, features, labels, num_clusters, init="random", max_feedback_given=None, normalize_vectors=False, split_normalization=False, num_reinit=1, include_linear_transformation=False, include_contrastive_loss=False, verbose=False, side_information=None, tensorboard_parent_dir="/projects/ogma1/vijayv/okb-canonicalization/clustering/sccl/", tensorboard_dir="tmp"):
+def cluster(semisupervised_algo, features, labels, num_clusters, init="random", max_feedback_given=None, normalize_vectors=False, split_normalization=False, num_reinit=1, include_linear_transformation=False, include_contrastive_loss=False, verbose=False, side_information=None, tensorboard_parent_dir="/projects/ogma1/vijayv/okb-canonicalization/clustering/sccl/", tensorboard_dir="tmp", process_raw_data=False):
     assert semisupervised_algo in ["KMeans", "GPTExpansionClustering", "GPTPairwiseClustering", "GPTPairwiseClusteringOracleFree", "GPT_SCCL_OracleFree", "DEC", "PCKMeans", "OraclePCKMeans", "ActivePCKMeans", "ActiveFinetunedPCKMeans", "ConstrainedKMeans", "SeededKMeans"]
     if semisupervised_algo == "DEC":
         clusterer = DEC(n_clusters=num_clusters, normalize_vectors=normalize_vectors, split_normalization=split_normalization, verbose=verbose, cluster_init=init, labels=labels, canonicalization_side_information=side_information, include_contrastive_loss=include_contrastive_loss, linear_transformation=include_linear_transformation, tensorboard_parent_dir=tensorboard_parent_dir, tensorboard_dir=tensorboard_dir)
@@ -131,7 +133,7 @@ def cluster(semisupervised_algo, features, labels, num_clusters, init="random", 
         active_learner = LabelBasedSelector(n_clusters=num_clusters)
         active_learner.fit(features, oracle=oracle)
         pairwise_constraints = active_learner.pairwise_constraints_
-        clusterer = PCKMeans(n_clusters=num_clusters, init=init)
+        clusterer = PCKMeans(n_clusters=num_clusters, init=init, normalize_vectors=normalize_vectors, split_normalization=split_normalization)
         clusterer.fit(features, ml=pairwise_constraints[0], cl=pairwise_constraints[1])
         clusterer.constraints_ = pairwise_constraints
         oracle.cache_writer.close()
@@ -146,13 +148,35 @@ def cluster(semisupervised_algo, features, labels, num_clusters, init="random", 
         active_learner.fit(features, oracle=oracle)
         pairwise_constraints = active_learner.pairwise_constraints_
 
+        breakpoint()
+
         clusterer = PCKMeans(n_clusters=num_clusters, init=init)
         clusterer.fit(features, ml=pairwise_constraints[0], cl=pairwise_constraints[1])
         clusterer.constraints_ = pairwise_constraints
         if isinstance(oracle, GPT3Oracle) and os.path.exists(oracle.cache_file):
             oracle.cache_writer.close()
 
-    elif semisupervised_algo == "GPT_SCCL_OracleFree":
+
+    elif process_raw_data and semisupervised_algo == "GPT_SCCL_OracleFree":
+        oracle = GPT3Oracle(features, labels, max_queries_cnt=max_feedback_given, side_information=side_information)
+        # gpt3_oracle = GPT3Oracle(features, labels, max_queries_cnt=max_feedback_given, side_information=side_information, read_only=True)
+        # oracle = ExampleOracle(labels, max_queries_cnt=max_feedback_given)
+        # oracle.selected_sentences = gpt3_oracle.selected_sentences
+
+        active_learner = DistanceBasedSelector(n_clusters=num_clusters)
+        active_learner.fit(features, oracle=oracle)
+        pairwise_constraints = active_learner.pairwise_constraints_
+
+        bert_model = pickle.load(open("/projects/ogma2/users/vijayv/extra_storage/CMVC_models/bert_classifier_model.pkl", 'rb'))
+        kge_model = pickle.load(open("/projects/ogma2/users/vijayv/extra_storage/CMVC_models/kge_model.pkl", 'rb'))
+
+        clusterer = DeepSCCL(bert_model, kge_model, n_clusters=num_clusters, normalize_vectors=normalize_vectors, split_normalization=split_normalization, verbose=verbose, cluster_init=init, labels=labels, canonicalization_side_information=side_information, include_contrastive_loss=include_contrastive_loss, linear_transformation=include_linear_transformation, tensorboard_parent_dir=tensorboard_parent_dir, tensorboard_dir=tensorboard_dir)
+        clusterer.fit(features, pairwise_constraints)
+        clusterer.constraints_ = pairwise_constraints
+        if isinstance(oracle, GPT3Oracle) and os.path.exists(oracle.cache_file):
+            oracle.cache_writer.close()
+
+    elif not process_raw_data and semisupervised_algo == "GPT_SCCL_OracleFree":
         oracle = GPT3Oracle(features, labels, max_queries_cnt=max_feedback_given, side_information=side_information)
         # gpt3_oracle = GPT3Oracle(features, labels, max_queries_cnt=max_feedback_given, side_information=side_information, read_only=True)
         # oracle = ExampleOracle(labels, max_queries_cnt=max_feedback_given)
@@ -199,9 +223,12 @@ def cluster(semisupervised_algo, features, labels, num_clusters, init="random", 
         active_learner.fit(features, oracle=oracle)
         pairwise_constraints = active_learner.pairwise_constraints_
 
+
         clusterer = PCKMeans(n_clusters=num_clusters)
         clusterer.fit(features, ml=pairwise_constraints[0], cl=pairwise_constraints[1])
         clusterer.constraints_ = pairwise_constraints
+
+
     elif semisupervised_algo == "OraclePCKMeans":
         oracle = ExampleOracle(labels, max_queries_cnt=max_feedback_given)
 
@@ -295,7 +322,8 @@ def compare_algorithms(features,
                        dataset=None,
                        include_linear_transformation=False,
                        include_contrastive_loss=False,
-                       tensorboard_dir="tmp"):
+                       tensorboard_dir="tmp",
+                       process_raw_data=False):
     algo_results = defaultdict(list)
     timer = time.perf_counter()
 
@@ -331,7 +359,7 @@ def compare_algorithms(features,
             if verbose:
                 print(f"Running {semisupervised_algo} for seed {seed}")
             start_time = time.perf_counter()
-            clusterer = cluster(semisupervised_algo, features, labels, num_clusters, max_feedback_given=max_feedback_given, normalize_vectors=normalize_vectors, split_normalization=split_normalization, init=init, num_reinit=num_reinit, verbose=verbose, side_information=side_information, include_linear_transformation=include_linear_transformation, include_contrastive_loss=include_contrastive_loss, tensorboard_dir=tensorboard_dir)
+            clusterer = cluster(semisupervised_algo, features, labels, num_clusters, max_feedback_given=max_feedback_given, normalize_vectors=normalize_vectors, split_normalization=split_normalization, init=init, num_reinit=num_reinit, verbose=verbose, side_information=side_information, include_linear_transformation=include_linear_transformation, include_contrastive_loss=include_contrastive_loss, tensorboard_dir=tensorboard_dir, process_raw_data=process_raw_data)
             elapsed_time = time.perf_counter() - start_time
             if verbose:
                 print(f"Took {round(elapsed_time, 3)} seconds to cluster points.")
@@ -362,6 +390,8 @@ def compare_algorithms(features,
             gt_ele2clust, gt_clust2ent = generate_cluster_dicts(labels)
             pair_prec, pair_recall = pairwiseMetric(pred_clust2ele, gt_ele2clust, gt_clust2ent)
             metric_dict["general_pairwise_f1"] = calcF1(pair_prec, pair_recall)
+
+            json.dump([int(l) for l in clusterer.labels_], open(f"/projects/ogma1/vijayv/okb-canonicalization/clustering/output/uniform_pckmeans/{max_feedback_given}.json", 'w'))
 
             if plot_clusters:
                 cluster_plot_dir = cluster_plot_dir_prefix + "_".join(semisupervised_algo.split())
@@ -396,6 +426,7 @@ if __name__ == "__main__":
     # assert set(y) == set(range(len(set(y)))), breakpoint()
     features = extract_features(X, args.feature_extractor, args.verbose)
     #algorithms=["KMeans", "ActivePCKMeans", "PCKMeans", "ConstrainedKMeans", "SeededKMeans"]
+    process_raw_data = args.dataset.endswith("-raw")
     results = compare_algorithms(features,
                                  y,
                                  side_information,
@@ -414,6 +445,7 @@ if __name__ == "__main__":
                                  dataset = args.dataset,
                                  include_contrastive_loss=args.include_contrastive_loss,
                                  include_linear_transformation=args.include_linear_transformation,
-                                 tensorboard_dir=args.tensorboard_dir)
+                                 tensorboard_dir=args.tensorboard_dir,
+                                 process_raw_data=process_raw_data)
     summarized_results = summarize_results(results)
     print(json.dumps(summarized_results, indent=2))

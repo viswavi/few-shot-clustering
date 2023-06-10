@@ -83,7 +83,7 @@ def generate_synthetic_data(n_samples_per_cluster, global_seed=2022):
     return np.array(points), labels
 
 def load_dataset(dataset_name, data_path, dataset_split=None):
-    assert dataset_name in ["iris", "20_newsgroups_all", "20_newsgroups_full", "20_newsgroups_sim3", "20_newsgroups_diff3", "reverb45k", "OPIEC59k", "OPIEC59k-kg", "OPIEC59k-text", "synthetic_data"]
+    assert dataset_name in ["iris", "20_newsgroups_all", "20_newsgroups_full", "20_newsgroups_sim3", "20_newsgroups_diff3", "reverb45k", "OPIEC59k", "reverb45k-raw", "OPIEC59k-raw", "OPIEC59k-kg", "OPIEC59k-text", "synthetic_data"]
     if dataset_name == "iris":
         samples, gold_cluster_ids = datasets.load_iris(return_X_y=True)
         side_information = None
@@ -106,11 +106,14 @@ def load_dataset(dataset_name, data_path, dataset_split=None):
         side_information = None
     elif dataset_name.split('-')[0] == "OPIEC59k" or dataset_name.split('-')[0] == "reverb45k":
         name_constituents = dataset_name.split("-")
-        if len(name_constituents) == 1:
-            modality_type = "all"
-        else:
+        if len(name_constituents) == 2 and name_constituents[1] in ["kg", "text"]:
             dataset_name = name_constituents[0]
             modality_type = name_constituents[1]
+        elif len(name_constituents) == 2 and name_constituents[1] == "raw":
+            dataset_name = name_constituents[0]
+            modality_type = "all"
+        else:
+            modality_type = "all"
         # set up OPIEC59k evaluation set
         MockArgs = namedtuple("MockArgs", ["dataset", "file_triples", "file_entEmbed", "file_relEmbed", "file_entClust", "file_relClust", "file_sideinfo", "file_sideinfo_pkl", "file_results", "out_path", "data_path", "use_assume"])
         file_triples = '/triples.txt'  # Location for caching triples
@@ -134,7 +137,7 @@ def load_dataset(dataset_name, data_path, dataset_split=None):
         elif dataset_name.split('-')[0] == "reverb45k":
             cmvc = CMVC_Main_reverb(mock_args)
 
-        cmvc.get_sideInfo()
+        cmvc.get_sideInfo() 
 
         kg_features = np.load(open(os.path.join(data_path, dataset_name, "relation_view_embed.npz"), 'rb'))
         bert_features = np.load(open(os.path.join(data_path, dataset_name, "context_view_embed.npz"), 'rb'))
