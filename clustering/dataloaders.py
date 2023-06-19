@@ -137,10 +137,14 @@ def load_dataset(dataset_name, data_path, dataset_split=None):
         elif dataset_name.split('-')[0] == "reverb45k":
             cmvc = CMVC_Main_reverb(mock_args)
 
+        print(f"Loaded triples")
+
         cmvc.get_sideInfo() 
 
-        kg_features = np.load(open(os.path.join(data_path, dataset_name, "relation_view_embed.npz"), 'rb'))
-        bert_features = np.load(open(os.path.join(data_path, dataset_name, "context_view_embed.npz"), 'rb'))
+        print(f"Loading sideInfo from CMVC")
+
+        kg_features = np.load(open(os.path.join(data_path, dataset_name, f"{dataset_split}_relation_view_embed.npz"), 'rb'))
+        bert_features = np.load(open(os.path.join(data_path, dataset_name, f"{dataset_split}_context_view_embed.npz"), 'rb'))
         cmvc.kg_dimension = kg_features.shape[1]
         cmvc.bert_dimension = bert_features.shape[1]
         if modality_type == "kg":
