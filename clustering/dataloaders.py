@@ -82,10 +82,28 @@ def generate_synthetic_data(n_samples_per_cluster, global_seed=2022):
     points, labels = zip(*combined_data)
     return np.array(points), labels
 
+def load_tweet(data_path):
+    breakpoint()
+
+def load_clinc(data_path):
+    breakpoint()
+
+def load_bank77(data_path):
+    breakpoint()
+
 def load_dataset(dataset_name, data_path, dataset_split=None):
-    assert dataset_name in ["iris", "20_newsgroups_all", "20_newsgroups_full", "20_newsgroups_sim3", "20_newsgroups_diff3", "reverb45k", "OPIEC59k", "reverb45k-raw", "OPIEC59k-raw", "OPIEC59k-kg", "OPIEC59k-text", "synthetic_data"]
+    assert dataset_name in ["iris", "tweet", "clinc", "bank77", "20_newsgroups_all", "20_newsgroups_full", "20_newsgroups_sim3", "20_newsgroups_diff3", "reverb45k", "OPIEC59k", "reverb45k-raw", "OPIEC59k-raw", "OPIEC59k-kg", "OPIEC59k-text", "synthetic_data"]
     if dataset_name == "iris":
         samples, gold_cluster_ids = datasets.load_iris(return_X_y=True)
+        side_information = None
+    if dataset_name == "tweet":
+        samples, gold_cluster_ids = load_tweet(data_path)
+        side_information = None
+    if dataset_name == "clinc":
+        samples, gold_cluster_ids = load_clinc(data_path)
+        side_information = None
+    if dataset_name == "bank77":
+        samples, gold_cluster_ids = load_bank77(data_path)
         side_information = None
     elif dataset_name == "20_newsgroups_all":
         samples, gold_cluster_ids = preprocess_20_newsgroups(per_topic_samples=100)

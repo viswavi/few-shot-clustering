@@ -66,13 +66,14 @@ from cmvc.model_max_margin import KGEModel
 from cmvc.Context_view import BertClassificationModel
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--dataset', type=str, choices=["iris", "20_newsgroups_all", "20_newsgroups_full", "20_newsgroups_sim3", "20_newsgroups_diff3", "reverb45k", "OPIEC59k", "reverb45k-raw", "OPIEC59k-raw", "OPIEC59k-kg", "OPIEC59k-text", "synthetic_data"], default="iris", help="Clustering dataset to experiment with")
+parser.add_argument('--dataset', type=str, choices=["iris", "tweet", "clinc", "bank77", "20_newsgroups_all", "20_newsgroups_full", "20_newsgroups_sim3", "20_newsgroups_diff3", "reverb45k", "OPIEC59k", "reverb45k-raw", "OPIEC59k-raw", "OPIEC59k-kg", "OPIEC59k-text", "synthetic_data"], default="iris", help="Clustering dataset to experiment with")
 parser.add_argument("--algorithms", action="append")
 parser.add_argument('--data-path', type=str, default=None, help="Path to clustering data, if necessary")
 parser.add_argument('--dataset-split', type=str, default=None, help="Dataset split to use, if applicable")
 parser.add_argument('--num_clusters', type=int, default=3)
 parser.add_argument('--pckmeans-w', type=float, default=0.25, help="The 'w' parameter for pairwise constraint k-means")
 parser.add_argument('--max-feedback-given', type=int, default=100, help="Number of instances of user feedback (e.g. oracle queries) allowed")
+parser.add_argument('--num-corrections', type=int, default=None)
 parser.add_argument('--num_seeds', type=int, default=10)
 parser.add_argument('--num-reinit', type=int, default=1)
 parser.add_argument('--feature_extractor', type=str, choices=["identity", "BERT", "TFIDF"], default="identity")
@@ -117,7 +118,7 @@ def sample_cluster_seeds(features, labels, max_feedback_given = 0, aggregate="me
 
     return np.array(labels_list)
 
-def cluster(semisupervised_algo, features, labels, num_clusters, dataset_name, split=None, init="random", max_feedback_given=None, normalize_vectors=False, split_normalization=False, num_reinit=1, include_linear_transformation=False, include_contrastive_loss=False, verbose=False, side_information=None, tensorboard_parent_dir="/projects/ogma1/vijayv/okb-canonicalization/clustering/sccl/", tensorboard_dir="tmp", process_raw_data=False, pckmeans_w=None):
+def cluster(semisupervised_algo, features, labels, num_clusters, dataset_name, num_corrections=None, split=None, init="random", max_feedback_given=None, normalize_vectors=False, split_normalization=False, num_reinit=1, include_linear_transformation=False, include_contrastive_loss=False, verbose=False, side_information=None, tensorboard_parent_dir="/projects/ogma1/vijayv/okb-canonicalization/clustering/sccl/", tensorboard_dir="tmp", process_raw_data=False, pckmeans_w=None):
     assert semisupervised_algo in ["KMeans", "KMeansCorrection", "GPTExpansionClustering", "GPTPairwiseClustering", "GPTPairwiseClusteringOracleFree", "GPT_SCCL_OracleFree", "DEC", "GPT_CC_PCKMeans", "CardinalityConstrainedPCKMeans", "PCKMeans", "OraclePCKMeans", "ActivePCKMeans", "ActiveFinetunedPCKMeans", "ConstrainedKMeans", "SeededKMeans"]
     if semisupervised_algo == "DEC":
         clusterer = DEC(n_clusters=num_clusters, normalize_vectors=normalize_vectors, split_normalization=split_normalization, verbose=verbose, cluster_init=init, labels=labels, canonicalization_side_information=side_information, include_contrastive_loss=include_contrastive_loss, linear_transformation=include_linear_transformation, tensorboard_parent_dir=tensorboard_parent_dir, tensorboard_dir=tensorboard_dir)
@@ -127,6 +128,9 @@ def cluster(semisupervised_algo, features, labels, num_clusters, dataset_name, s
         clusterer.fit(features)
     elif semisupervised_algo == "KMeansCorrection":
         _ = '''
+        cluster_predictions = json.load(open("/projects/ogma1/vijayv/okb-canonicalization/clustering/output/opiec_kmeans_labels.json"))
+        cluster_centers = np.load("/projects/ogma1/vijayv/okb-canonicalization/clustering/output/opiec_kmeans_cluster_centers.npy")
+
         cluster_predictions = json.load(open("/projects/ogma1/vijayv/okb-canonicalization/clustering/output/reverb_kmeans_labels.json"))
         cluster_centers = np.load("/projects/ogma1/vijayv/okb-canonicalization/clustering/output/reverb_kmeans_cluster_centers.npy")
         '''
@@ -136,13 +140,21 @@ def cluster(semisupervised_algo, features, labels, num_clusters, dataset_name, s
         cluster_predictions = kmeans_clusterer.labels_
         cluster_centers = kmeans_clusterer.cluster_centers_
         '''
-        cluster_predictions = json.load(open("/projects/ogma1/vijayv/okb-canonicalization/clustering/output/opiec_kmeans_labels.json"))
-        cluster_centers = np.load("/projects/ogma1/vijayv/okb-canonicalization/clustering/output/opiec_kmeans_cluster_centers.npy")
+        cluster_predictions = json.load(open("/projects/ogma1/vijayv/okb-canonicalization/clustering/output/reverb_kmeans_labels.json"))
+        cluster_centers = np.load("/projects/ogma1/vijayv/okb-canonicalization/clustering/output/reverb_kmeans_cluster_centers.npy")
+
 
         # oracle = ExampleOracle(labels, max_queries_cnt=max_feedback_given)
-        oracle = GPT3ComparativeOracle(features, labels, dataset_name, split=split, max_queries_cnt=max_feedback_given, side_information=side_information)
+        # oracle = GPT3ComparativeOracle(features, labels, dataset_name, split=split, max_queries_cnt=max_feedback_given, side_information=side_information)
+        # clusterer = KMeansCorrection(oracle, cluster_predictions, cluster_centers)
+        # clusterer.fit(features, num_corrections = 300)
+
+        oracle = GPT3Oracle(features, labels, dataset_name, split=split, max_queries_cnt=max_feedback_given, side_information=side_information)
         clusterer = KMeansCorrection(oracle, cluster_predictions, cluster_centers)
-        clusterer.fit(features, num_corrections = 750)
+        clusterer.fit(features, num_corrections = num_corrections)
+
+
+
     elif semisupervised_algo == "GPTExpansionClustering":
         cache_file_name = f"{dataset_name}_gpt_paraphrase_no_instructions_cache.jsonl"
         clusterer = GPTExpansionClustering(dataset_name, labels, split=split, n_clusters=num_clusters, side_information=side_information, cache_file_name=cache_file_name)
@@ -353,6 +365,7 @@ def compare_algorithms(features,
                        side_information,
                        num_clusters,
                        dataset_name,
+                       num_corrections=None,
                        split=None,
                        max_feedback_given=None,
                        num_reinit=1,
@@ -405,7 +418,7 @@ def compare_algorithms(features,
             if verbose:
                 print(f"Running {semisupervised_algo} for seed {seed}")
             start_time = time.perf_counter()
-            clusterer = cluster(semisupervised_algo, features, labels, num_clusters, dataset_name, split=split, max_feedback_given=max_feedback_given, normalize_vectors=normalize_vectors, split_normalization=split_normalization, init=init, num_reinit=num_reinit, verbose=verbose, side_information=side_information, include_linear_transformation=include_linear_transformation, include_contrastive_loss=include_contrastive_loss, tensorboard_dir=tensorboard_dir, process_raw_data=process_raw_data, pckmeans_w=pckmeans_w)
+            clusterer = cluster(semisupervised_algo, features, labels, num_clusters, dataset_name, num_corrections=num_corrections, split=split, max_feedback_given=max_feedback_given, normalize_vectors=normalize_vectors, split_normalization=split_normalization, init=init, num_reinit=num_reinit, verbose=verbose, side_information=side_information, include_linear_transformation=include_linear_transformation, include_contrastive_loss=include_contrastive_loss, tensorboard_dir=tensorboard_dir, process_raw_data=process_raw_data, pckmeans_w=pckmeans_w)
             elapsed_time = time.perf_counter() - start_time
             if verbose:
                 print(f"Took {round(elapsed_time, 3)} seconds to cluster points.")
@@ -476,6 +489,7 @@ if __name__ == "__main__":
                                  side_information,
                                  args.num_clusters,
                                  args.dataset,
+                                 num_corrections=args.num_corrections,
                                  split=args.dataset_split,
                                  max_feedback_given=args.max_feedback_given,
                                  num_seeds=args.num_seeds,
