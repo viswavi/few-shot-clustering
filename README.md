@@ -1,4 +1,4 @@
-# okb-canonicalization
+# Few Shot Clustering
 
 ## Setup
 ### Pull submodules
