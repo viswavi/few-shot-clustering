@@ -39,6 +39,7 @@ import pickle
 import random
 import sys
 import time
+import torch
 
 from dataloaders import load_dataset, generate_synthetic_data
 from experiment_utils import set_seed, summarize_results
@@ -55,7 +56,7 @@ from active_semi_clustering.semi_supervised.labeled_data.dec import DEC
 # from sklearn.cluster import KMeans
 from active_semi_clustering.semi_supervised.labeled_data.seededkmeans import SeededKMeans
 from active_semi_clustering.semi_supervised.labeled_data.constrainedkmeans import ConstrainedKMeans
-from active_semi_clustering.active.pairwise_constraints import ExampleOracle, GPT3Oracle, GPT3ComparativeOracle, DistanceBasedSelector, LabelBasedSelector, ExploreConsolidate, MinMax, MinMaxFinetune
+from active_semi_clustering.active.pairwise_constraints import ExampleOracle, GPT3Oracle, GPT3ComparativeOracle, DistanceBasedSelector, LabelBasedSelector, ExploreConsolidate, MinMax, SimilarityFinder, MinMaxFinetune
 from active_semi_clustering.active.pairwise_constraints import Random
 
 sys.path.append("cmvc")
@@ -64,6 +65,9 @@ from cmvc.metrics import pairwiseMetric, calcF1
 from cmvc.test_performance import cluster_test
 from cmvc.model_max_margin import KGEModel
 from cmvc.Context_view import BertClassificationModel
+
+sys.path.append("sccl")
+from utils.metric import cluster_acc
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--dataset', type=str, choices=["iris", "tweet", "clinc", "bank77", "20_newsgroups_all", "20_newsgroups_full", "20_newsgroups_sim3", "20_newsgroups_diff3", "reverb45k", "OPIEC59k", "reverb45k-raw", "OPIEC59k-raw", "OPIEC59k-kg", "OPIEC59k-text", "synthetic_data"], default="iris", help="Clustering dataset to experiment with")
@@ -118,8 +122,8 @@ def sample_cluster_seeds(features, labels, max_feedback_given = 0, aggregate="me
 
     return np.array(labels_list)
 
-def cluster(semisupervised_algo, features, labels, num_clusters, dataset_name, num_corrections=None, split=None, init="random", max_feedback_given=None, normalize_vectors=False, split_normalization=False, num_reinit=1, include_linear_transformation=False, include_contrastive_loss=False, verbose=False, side_information=None, tensorboard_parent_dir="/projects/ogma1/vijayv/okb-canonicalization/clustering/sccl/", tensorboard_dir="tmp", process_raw_data=False, pckmeans_w=None):
-    assert semisupervised_algo in ["KMeans", "KMeansCorrection", "GPTExpansionClustering", "GPTPairwiseClustering", "GPTPairwiseClusteringOracleFree", "GPT_SCCL_OracleFree", "DEC", "GPT_CC_PCKMeans", "CardinalityConstrainedPCKMeans", "PCKMeans", "OraclePCKMeans", "ActivePCKMeans", "ActiveFinetunedPCKMeans", "ConstrainedKMeans", "SeededKMeans"]
+def cluster(semisupervised_algo, features, labels, num_clusters, dataset_name, num_corrections=None, split=None, init="random", max_feedback_given=None, normalize_vectors=False, split_normalization=False, num_reinit=1, include_linear_transformation=False, include_contrastive_loss=False, verbose=False, side_information=None, tensorboard_parent_dir="/projects/ogma1/vijayv/okb-canonicalization/clustering/sccl/", tensorboard_dir="tmp", process_raw_data=False, pckmeans_w=None, seed=None):
+    assert semisupervised_algo in ["KMeans", "KMeansCorrection", "GPTExpansionClustering", "GPTPairwiseClustering", "GPTPairwiseClusteringMinMax", "GPTPairwiseClusteringExploreSimilar", "GPTPairwiseClusteringOracleFree", "GPT_SCCL_OracleFree", "DEC", "GPT_CC_PCKMeans", "CardinalityConstrainedPCKMeans", "PCKMeans", "OraclePCKMeans", "ActivePCKMeans", "ActiveFinetunedPCKMeans", "ConstrainedKMeans", "SeededKMeans"]
     if semisupervised_algo == "DEC":
         clusterer = DEC(n_clusters=num_clusters, normalize_vectors=normalize_vectors, split_normalization=split_normalization, verbose=verbose, cluster_init=init, labels=labels, canonicalization_side_information=side_information, include_contrastive_loss=include_contrastive_loss, linear_transformation=include_linear_transformation, tensorboard_parent_dir=tensorboard_parent_dir, tensorboard_dir=tensorboard_dir)
         clusterer.fit(features)
@@ -127,37 +131,26 @@ def cluster(semisupervised_algo, features, labels, num_clusters, dataset_name, n
         clusterer = KMeans(n_clusters=num_clusters, normalize_vectors=normalize_vectors, split_normalization=split_normalization, init=init, num_reinit=num_reinit, verbose=verbose)
         clusterer.fit(features)
     elif semisupervised_algo == "KMeansCorrection":
-        _ = '''
-        cluster_predictions = json.load(open("/projects/ogma1/vijayv/okb-canonicalization/clustering/output/opiec_kmeans_labels.json"))
-        cluster_centers = np.load("/projects/ogma1/vijayv/okb-canonicalization/clustering/output/opiec_kmeans_cluster_centers.npy")
-
-        cluster_predictions = json.load(open("/projects/ogma1/vijayv/okb-canonicalization/clustering/output/reverb_kmeans_labels.json"))
-        cluster_centers = np.load("/projects/ogma1/vijayv/okb-canonicalization/clustering/output/reverb_kmeans_cluster_centers.npy")
-        '''
-        _ = '''
-        kmeans_clusterer = KMeans(n_clusters=num_clusters, normalize_vectors=normalize_vectors, split_normalization=split_normalization, init=init, num_reinit=num_reinit, verbose=verbose)
-        kmeans_clusterer.fit(features)
-        cluster_predictions = kmeans_clusterer.labels_
-        cluster_centers = kmeans_clusterer.cluster_centers_
-        '''
-        cluster_predictions = json.load(open("/projects/ogma1/vijayv/okb-canonicalization/clustering/output/reverb_kmeans_labels.json"))
-        cluster_centers = np.load("/projects/ogma1/vijayv/okb-canonicalization/clustering/output/reverb_kmeans_cluster_centers.npy")
-
-
-        # oracle = ExampleOracle(labels, max_queries_cnt=max_feedback_given)
-        # oracle = GPT3ComparativeOracle(features, labels, dataset_name, split=split, max_queries_cnt=max_feedback_given, side_information=side_information)
-        # clusterer = KMeansCorrection(oracle, cluster_predictions, cluster_centers)
-        # clusterer.fit(features, num_corrections = 300)
+        labels_cache_file = f"/projects/ogma1/vijayv/okb-canonicalization/clustering/output/{dataset_name}_kmeans_labels.json"
+        cluster_centers_cache_file = f"/projects/ogma1/vijayv/okb-canonicalization/clustering/output/{dataset_name}_kmeans_cluster_centers.npy"
+        if os.path.exists(labels_cache_file):
+            cluster_predictions = json.load(open(labels_cache_file))
+            cluster_centers = np.load(cluster_centers_cache_file)
+        else:
+            kmeans_clusterer = KMeans(n_clusters=num_clusters, normalize_vectors=normalize_vectors, split_normalization=split_normalization, init=init, num_reinit=num_reinit, verbose=verbose)
+            kmeans_clusterer.fit(features)
+            cluster_predictions = kmeans_clusterer.labels_
+            cluster_centers = kmeans_clusterer.cluster_centers_
+            json.dump([int(l) for l in cluster_predictions], open(labels_cache_file, 'w'))
+            np.save(cluster_centers_cache_file, cluster_centers)
 
         oracle = GPT3Oracle(features, labels, dataset_name, split=split, max_queries_cnt=max_feedback_given, side_information=side_information)
-        clusterer = KMeansCorrection(oracle, cluster_predictions, cluster_centers)
+        clusterer = KMeansCorrection(oracle, cluster_predictions, cluster_centers, labels)
         clusterer.fit(features, num_corrections = num_corrections)
 
-
-
     elif semisupervised_algo == "GPTExpansionClustering":
-        cache_file_name = f"{dataset_name}_gpt_paraphrase_no_instructions_cache.jsonl"
-        clusterer = GPTExpansionClustering(dataset_name, labels, split=split, n_clusters=num_clusters, side_information=side_information, cache_file_name=cache_file_name)
+        cache_file_name = f"{dataset_name}_gpt_paraphrase_cache.jsonl"
+        clusterer = GPTExpansionClustering(features, dataset_name, labels, split=split, n_clusters=num_clusters, side_information=side_information, cache_file_name=cache_file_name)
         clusterer.fit(features, labels)
 
     elif semisupervised_algo == "GPTPairwiseClustering":
@@ -171,10 +164,10 @@ def cluster(semisupervised_algo, features, labels, num_clusters, dataset_name, n
         oracle.cache_writer.close()
 
     elif semisupervised_algo == "GPTPairwiseClusteringOracleFree":
-        oracle = GPT3Oracle(features, labels, dataset_name, split=split, max_queries_cnt=max_feedback_given, side_information=side_information)
-        # gpt3_oracle = GPT3Oracle(features, labels, max_queries_cnt=max_feedback_given, side_information=side_information, read_only=True)
-        # oracle = ExampleOracle(labels, max_queries_cnt=max_feedback_given)
-        # oracle.selected_sentences = gpt3_oracle.selected_sentences
+        # oracle = GPT3Oracle(features, labels, dataset_name, split=split, max_queries_cnt=max_feedback_given, side_information=side_information)
+        gpt3_oracle = GPT3Oracle(features, labels, dataset_name, split=split, max_queries_cnt=max_feedback_given, side_information=side_information, read_only=True)
+        oracle = ExampleOracle(labels, max_queries_cnt=max_feedback_given)
+        oracle.selected_sentences = gpt3_oracle.selected_sentences
 
         print("Collecting Constraints")
         active_learner = DistanceBasedSelector(n_clusters=num_clusters)
@@ -182,6 +175,54 @@ def cluster(semisupervised_algo, features, labels, num_clusters, dataset_name, n
         pairwise_constraints = active_learner.pairwise_constraints_
 
         print("Training PCKMeans")
+        clusterer = PCKMeans(n_clusters=num_clusters, init=init, normalize_vectors=True, split_normalization=True, side_information=side_information, w=pckmeans_w)
+        clusterer.fit(features, ml=pairwise_constraints[0], cl=pairwise_constraints[1])
+        clusterer.constraints_ = pairwise_constraints
+        if isinstance(oracle, GPT3Oracle) and os.path.exists(oracle.cache_file):
+            oracle.cache_writer.close()
+
+    elif semisupervised_algo == "GPTPairwiseClusteringMinMax":
+        oracle = GPT3Oracle(features, labels, dataset_name, split=split, max_queries_cnt=max_feedback_given, side_information=side_information)
+        # gpt3_oracle = GPT3Oracle(features, labels, dataset_name, split=split, max_queries_cnt=max_feedback_given, side_information=side_information, read_only=True)
+        # oracle = ExampleOracle(labels, max_queries_cnt=max_feedback_given)
+        # oracle.selected_sentences = gpt3_oracle.selected_sentences
+
+        print("Collecting Constraints")
+        set_seed(0)
+        active_learner = MinMax(n_clusters=num_clusters)
+        example_oracle = ExampleOracle(labels, max_queries_cnt=max_feedback_given)
+        active_learner.fit(features, oracle=oracle)
+        pairwise_constraints = active_learner.pairwise_constraints_
+
+        print("Training PCKMeans")
+        set_seed(seed)
+        clusterer = PCKMeans(n_clusters=num_clusters, init=init, normalize_vectors=True, split_normalization=True, side_information=side_information, w=pckmeans_w)
+        clusterer.fit(features, ml=pairwise_constraints[0], cl=pairwise_constraints[1])
+        clusterer.constraints_ = pairwise_constraints
+        if isinstance(oracle, GPT3Oracle) and os.path.exists(oracle.cache_file):
+            oracle.cache_writer.close()
+
+
+    elif semisupervised_algo == "GPTPairwiseClusteringExploreSimilar":
+        oracle = GPT3Oracle(features, labels, dataset_name, split=split, max_queries_cnt=max_feedback_given, side_information=side_information)
+        # gpt3_oracle = GPT3Oracle(features, labels, dataset_name, split=split, max_queries_cnt=max_feedback_given, side_information=side_information, read_only=True)
+        # oracle = ExampleOracle(labels, max_queries_cnt=max_feedback_given)
+        # oracle.selected_sentences = gpt3_oracle.selected_sentences
+
+        print("Collecting Constraints")
+        set_seed(0)
+        active_learner = SimilarityFinder(n_clusters=num_clusters)
+        #example_oracle = ExampleOracle(labels, max_queries_cnt=1000000)
+        active_learner.fit(features, oracle=oracle)
+        pairwise_constraints = active_learner.pairwise_constraints_
+        _ = '''
+        example_oracle = ExampleOracle(labels, max_queries_cnt=1000000)
+        ml_oracle = [example_oracle.query(i, j) for i, j in pairwise_constraints[0]]
+        cl_oracle = [example_oracle.query(i, j) for i, j in pairwise_constraints[1]]
+        '''
+
+        print("Training PCKMeans")
+        set_seed(seed)
         clusterer = PCKMeans(n_clusters=num_clusters, init=init, normalize_vectors=True, split_normalization=True, side_information=side_information, w=pckmeans_w)
         clusterer.fit(features, ml=pairwise_constraints[0], cl=pairwise_constraints[1])
         clusterer.constraints_ = pairwise_constraints
@@ -418,7 +459,7 @@ def compare_algorithms(features,
             if verbose:
                 print(f"Running {semisupervised_algo} for seed {seed}")
             start_time = time.perf_counter()
-            clusterer = cluster(semisupervised_algo, features, labels, num_clusters, dataset_name, num_corrections=num_corrections, split=split, max_feedback_given=max_feedback_given, normalize_vectors=normalize_vectors, split_normalization=split_normalization, init=init, num_reinit=num_reinit, verbose=verbose, side_information=side_information, include_linear_transformation=include_linear_transformation, include_contrastive_loss=include_contrastive_loss, tensorboard_dir=tensorboard_dir, process_raw_data=process_raw_data, pckmeans_w=pckmeans_w)
+            clusterer = cluster(semisupervised_algo, features, labels, num_clusters, dataset_name, num_corrections=num_corrections, split=split, max_feedback_given=max_feedback_given, normalize_vectors=normalize_vectors, split_normalization=split_normalization, init=init, num_reinit=num_reinit, verbose=verbose, side_information=side_information, include_linear_transformation=include_linear_transformation, include_contrastive_loss=include_contrastive_loss, tensorboard_dir=tensorboard_dir, process_raw_data=process_raw_data, pckmeans_w=pckmeans_w, seed=seed)
             elapsed_time = time.perf_counter() - start_time
             if verbose:
                 print(f"Took {round(elapsed_time, 3)} seconds to cluster points.")
@@ -444,6 +485,9 @@ def compare_algorithms(features,
             metric_dict["rand"] = rand_score
             nmi = metrics.normalized_mutual_info_score(labels, clusterer.labels_)
             metric_dict["nmi"] = nmi
+
+            acc = cluster_acc(np.array(clusterer.labels_), np.array(labels))
+            metric_dict["acc"] = acc
 
             _, pred_clust2ele = generate_cluster_dicts(clusterer.labels_)
             gt_ele2clust, gt_clust2ent = generate_cluster_dicts(labels)

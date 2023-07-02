@@ -11,3 +11,6 @@
 [submodule "clustering/sccl"]
 	path = clustering/sccl
 	url = https://github.com/viswavi/sccl
+[submodule "clustering/short-text-clustering-enhancement"]
+	path = clustering/short-text-clustering-enhancement
+	url = https://github.com/rashadulrakib/short-text-clustering-enhancement.git
