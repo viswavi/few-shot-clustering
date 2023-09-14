@@ -2,6 +2,7 @@ from collections import defaultdict, namedtuple
 
 from datasets import load_dataset as load_dataset_hf
 import os
+import json
 import numpy as np
 import pandas as pd
 import pickle
@@ -88,7 +89,7 @@ def generate_synthetic_data(n_samples_per_cluster, global_seed=2022):
     points, labels = zip(*combined_data)
     return np.array(points), labels
 
-def load_tweet(data_path, cache_path = "/projects/ogma1/vijayv/okb-canonicalization/clustering/file/tweet_dataset_cache.pkl"):
+def load_tweet(data_path, cache_path = "/projects/ogma1/vijayv/few-shot-clustering/clustering/file/tweet_dataset_cache.pkl"):
     data = pd.read_csv(data_path, sep="\t")
     if os.path.exists(cache_path):
         embeddings = pickle.load(open(cache_path, 'rb'))
@@ -111,7 +112,7 @@ def load_tweet(data_path, cache_path = "/projects/ogma1/vijayv/okb-canonicalizat
     return embeddings, list(data['label']), list(data['text'])
 '''
 
-def load_clinc(cache_path = "/projects/ogma1/vijayv/okb-canonicalization/clustering/file/clinc_dataset_cache.pkl"):
+def load_clinc(cache_path = "/projects/ogma1/vijayv/few-shot-clustering/clustering/file/clinc_dataset_cache.pkl"):
     dataset = load_dataset_hf("clinc_oos", "small")
     test_split = dataset["test"]
     texts = test_split["text"]
@@ -135,7 +136,7 @@ def load_clinc(cache_path = "/projects/ogma1/vijayv/okb-canonicalization/cluster
     return embeddings, remapped_intents, list(filtered_texts)
 
 
-def load_bank77(cache_path = "/projects/ogma1/vijayv/okb-canonicalization/clustering/file/bank77_dataset_cache.pkl"):
+def load_bank77(cache_path = "/projects/ogma1/vijayv/few-shot-clustering/clustering/file/bank77_dataset_cache.pkl"):
     dataset = load_dataset_hf("banking77")
     test_split = dataset["test"]
     texts = test_split["text"]
@@ -151,34 +152,48 @@ def load_bank77(cache_path = "/projects/ogma1/vijayv/okb-canonicalization/cluste
 
     return embeddings, labels, texts
 
+def process_sentence_punctuation(sentences):
+    processed_sentence_set = []
+    for s in sentences:
+        processed_sentence_set.append(s.replace("-LRB-", "(").replace("-RRB-", ")"))
+    return processed_sentence_set
 
 def load_dataset(dataset_name, data_path, dataset_split=None):
     assert dataset_name in ["iris", "tweet", "clinc", "bank77", "20_newsgroups_all", "20_newsgroups_full", "20_newsgroups_sim3", "20_newsgroups_diff3", "reverb45k", "OPIEC59k", "reverb45k-raw", "OPIEC59k-raw", "OPIEC59k-kg", "OPIEC59k-text", "synthetic_data"]
     if dataset_name == "iris":
         samples, gold_cluster_ids = datasets.load_iris(return_X_y=True)
+        documents = ["" for _ in samples]
         side_information = None
     if dataset_name == "tweet":
         samples, gold_cluster_ids, side_information = load_tweet(data_path)
+        documents = side_information
     if dataset_name == "clinc":
         samples, gold_cluster_ids, side_information = load_clinc()
+        documents = side_information
     if dataset_name == "bank77":
         samples, gold_cluster_ids, side_information = load_bank77()
+        documents = side_information
     elif dataset_name == "20_newsgroups_all":
         samples, gold_cluster_ids = preprocess_20_newsgroups(per_topic_samples=100)
+        documents = samples
         side_information = None
     elif dataset_name == "20_newsgroups_full":
         samples, gold_cluster_ids = preprocess_20_newsgroups(per_topic_samples=None)
+        documents = samples
         side_information = None
     elif dataset_name == "20_newsgroups_sim3":
         samples, gold_cluster_ids = preprocess_20_newsgroups(topics=["comp.graphics", "comp.os.ms-windows.misc", "comp.windows.x"])
         gold_cluster_ids = reorder_labels(gold_cluster_ids)
+        documents = samples
         side_information = None
     elif dataset_name == "20_newsgroups_diff3":
         samples, gold_cluster_ids = preprocess_20_newsgroups(topics=["alt.atheism", "rec.sport.baseball", "sci.space"])
         gold_cluster_ids = reorder_labels(gold_cluster_ids)
+        documents = samples
         side_information = None
     elif dataset_name == "synthetic_data":
         samples, gold_cluster_ids = generate_synthetic_data(n_samples_per_cluster=20)
+        documents = ["" for _ in samples]
         side_information = None
     elif dataset_name.split('-')[0] == "OPIEC59k" or dataset_name.split('-')[0] == "reverb45k":
         name_constituents = dataset_name.split("-")
@@ -190,6 +205,7 @@ def load_dataset(dataset_name, data_path, dataset_split=None):
             modality_type = "all"
         else:
             modality_type = "all"
+
         # set up OPIEC59k evaluation set
         MockArgs = namedtuple("MockArgs", ["dataset", "file_triples", "file_entEmbed", "file_relEmbed", "file_entClust", "file_relClust", "file_sideinfo", "file_sideinfo_pkl", "file_results", "out_path", "data_path", "use_assume"])
         file_triples = '/triples.txt'  # Location for caching triples
@@ -258,4 +274,35 @@ def load_dataset(dataset_name, data_path, dataset_split=None):
         cmvc.cluster_id_to_name = cluster_id_to_name
         side_information = cmvc
 
-    return samples, gold_cluster_ids, side_information
+        side_info = side_information.side_info
+        cache_dir = "/projects/ogma1/vijayv/okb-canonicalization/clustering/file/gpt3_cache"
+        sentence_unprocessing_mapping_file = os.path.join(cache_dir, f"{dataset_name}_test_sentence_unprocessing_map.json")
+        sentence_unprocessing_mapping = json.load(open(sentence_unprocessing_mapping_file))
+        selected_sentences = []
+        ents = []
+
+        ents.append(side_info.id2ent[i])
+        entity_sentence_idxs = side_info.ent_id2sentence_list[i]
+        unprocessed_sentences = [sentence_unprocessing_mapping[side_info.sentence_List[j]] for j in entity_sentence_idxs]
+        entity_sentences = process_sentence_punctuation(unprocessed_sentences)
+        entity_sentences_dedup = list(set(entity_sentences))
+
+        '''
+        Choose longest sentence under 306 characers, as in
+        https://github.com/Yang233666/cmvc/blob/6e752b1aa5db7ff99eb2fa73476e392a00b0b89a/Context_view.py#L98
+        '''
+        longest_sentences = sorted([s for s in entity_sentences_dedup if len(s) < 599], key=len)
+        selected_sentences.append(list(set(longest_sentences[:3])))
+
+        documents = []
+        context_labels = ["a", "b", "c", "d"]
+        for ent, sentences in zip(ents, selected_sentences):
+            combined_sentences = "\n".join([context_labels[ind] + ") " + '"' + sent + '"' for ind, sent in enumerate(sentences)])
+            context_text = f"""{ent}
+
+Context Sentences:\n{combined_sentences}
+"""
+            documents.append(context_text)
+
+
+    return samples, gold_cluster_ids, documents, side_information

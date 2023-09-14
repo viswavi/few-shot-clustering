@@ -56,7 +56,7 @@ from active_semi_clustering.semi_supervised.labeled_data.dec import DEC
 # from sklearn.cluster import KMeans
 from active_semi_clustering.semi_supervised.labeled_data.seededkmeans import SeededKMeans
 from active_semi_clustering.semi_supervised.labeled_data.constrainedkmeans import ConstrainedKMeans
-from active_semi_clustering.active.pairwise_constraints import ExampleOracle, GPT3Oracle, GPT3ComparativeOracle, DistanceBasedSelector, LabelBasedSelector, ExploreConsolidate, MinMax, SimilarityFinder, MinMaxFinetune
+from active_semi_clustering.active.pairwise_constraints import ExampleOracle, GPT3Oracle, construct_pairwise_oracle_single_example, GPT3ComparativeOracle, DistanceBasedSelector, LabelBasedSelector, ExploreConsolidate, MinMax, SimilarityFinder, MinMaxFinetune
 from active_semi_clustering.active.pairwise_constraints import Random
 
 sys.path.append("cmvc")
@@ -122,7 +122,76 @@ def sample_cluster_seeds(features, labels, max_feedback_given = 0, aggregate="me
 
     return np.array(labels_list)
 
-def cluster(semisupervised_algo, features, labels, num_clusters, dataset_name, num_corrections=None, split=None, init="random", max_feedback_given=None, normalize_vectors=False, split_normalization=False, num_reinit=1, include_linear_transformation=False, include_contrastive_loss=False, verbose=False, side_information=None, tensorboard_parent_dir="/projects/ogma1/vijayv/okb-canonicalization/clustering/sccl/", tensorboard_dir="tmp", process_raw_data=False, pckmeans_w=None, seed=None):
+def construct_pairwise_oracle_prompt(dataset_name, documents, side_information):
+    if isinstance(side_information, list):
+        side_info = None
+    else:
+        side_info = side_information.side_info
+    if dataset_name == "OPIEC59k":
+        instruction = """You are tasked with clustering entity strings based on whether they refer to the same Wikipedia article. To do this, you will be given pairs of entity names and asked if their anchor text, if used separately to link to a Wikipedia article, is likely referring to the same article. Entity names may be truncated, abbreviated, or ambiguous.
+
+To help you make this determination, you will be given up to three context sentences from Wikipedia where the entity is used as anchor text for a hyperlink. Amongst each set of examples for a given entity, the entity for all three sentences is a link to the same article on Wikipedia. Based on these examples, you will decide whether the first entity and the second entity listed would likely link to the same Wikipedia article if used as separate anchor text.
+
+Please note that the context sentences may not be representative of the entity's typical usage, but should aid in resolving the ambiguity of entities that have similar or overlapping meanings.
+
+To avoid subjective decisions, the decision should be based on a strict set of criteria, such as whether the entities will generally be used in the same contexts, whether the context sentences mention the same topic, and whether the entities have the same domain and scope of meaning.
+
+Your task will be considered successful if the entities are clustered into groups that consistently refer to the same Wikipedia articles."""
+        example_1 = construct_single_example(documents[side_info.ent2id["B.A"]], documents[side_info.ent2id["M.D."]], "No", dataset_name, documents)
+        example_2 = construct_single_example(documents[side_info.ent2id["B.A"]], documents[side_info.ent2id["bachelor"]], "Yes", dataset_name, documents)
+        example_3 = construct_single_example(documents[side_info.ent2id["Duke of York"]], documents[side_info.ent2id["Frederick"]], "Yes", dataset_name, documents)
+        example_4 = construct_single_example(documents[side_info.ent2id["Academy Award"]], documents[side_info.ent2id["Best Actor in Supporting Role"]], "No", dataset_name, documents)
+        prefix = "\n\n".join([example_1, example_2, example_3, example_4])
+    elif dataset_name == "reverb45k":
+        instruction = """You are tasked with clustering entity strings based on whether they link to the same entity on the Freebase knowledge graph. To do this, you will be given pairs of entity names and asked if these strings, if linked to a knowledge graph, are likely referring to the same entity (e.g. a concept, person, or organization). Entity names may be truncated, abbreviated, or ambiguous.
+
+To help you make this determination, you will be given up to three context sentences from the internet that mention an entity. Amongst each set of examples for a given entity, assume that the entity mentioned in all three context sentences links refers to the same object. Based on these examples, you will decide whether the first entity and the second entity listed are likely to link to the *same* knowledge graph entity.
+
+Please note that the context sentences may not be representative of the entity's typical usage, but should aid in resolving the ambiguity of entities that have similar or overlapping meanings.
+
+To avoid subjective decisions, the decision should be based on a strict set of criteria, such as whether the entities will generally be used in the same contexts, whether the entities likely refer to the same person or organization, whether the context sentences mention the same topic, and whether the entities have the same domain and scope of meaning.
+
+Your task will be considered successful if the entities are clustered into groups that consistently link to the same knowledge graph node."""
+        example_1 = construct_single_example(documents[side_info.ent2id["Hannibal"]], documents[side_info.ent2id["Hannibal Barca"]], "Yes", dataset_name, documents)
+        example_2 = construct_single_example(documents[side_info.ent2id["Lutheran Church"]], documents[side_info.ent2id["Church"]], "No", dataset_name, documents)
+        example_3 = construct_single_example(documents[side_info.ent2id["Grove Art Online"]], documents[side_info.ent2id["Oxford Art Online"]], "Yes", dataset_name, documents)
+        example_4 = construct_single_example(documents[side_info.ent2id["Charlie Williams"]], documents[side_info.ent2id["Williams"]], "No", dataset_name, documents)
+        prefix = "\n\n".join([example_1, example_2, example_3, example_4])
+    elif dataset_name == "tweet":
+        instruction = """You are tasked with clustering tweets based on whether they discuss the same topic. To do this, you will be given pairs of (stopword-removed) tweets and asked if they discuss the same topic. To avoid subjective decisions, the decision should be based on a strict set of criteria, such as whether the tweets explicitly mention the same topic or whether they reflect the same contexts.
+
+Your task will be considered successful if the tweets are clustered into groups that consistently discuss the same topic."""
+        example_1 = construct_single_example(documents[0], documents[563], "Yes", dataset_name, documents)
+        example_2 = construct_single_example(documents[4], documents[187], "No", dataset_name, documents)
+        example_3 = construct_single_example(documents[2135], documents[1218], "Yes", dataset_name, documents)
+        example_4 = construct_single_example(documents[2471], documents[1218], "No", dataset_name, documents)
+        prefix = "\n\n".join([example_1, example_2, example_3, example_4])
+    elif dataset_name == "clinc":
+        instruction = """You are tasked with clustering queries for a task-oriented dialog system based on whether they express the same general user intent. To do this, you will be given pairs of user queries and asked if they express the same general user need or intent.
+
+Your task will be considered successful if the queries are clustered into groups that consistently express the same general intent."""
+        example_1 = construct_single_example(documents[1], documents[2], "Yes", dataset_name, documents)
+        example_2 = construct_single_example(documents[70], documents[700], "No", dataset_name, documents)
+        example_3 = construct_single_example(documents[1525], documents[1527], "Yes", dataset_name, documents)
+        example_4 = construct_single_example(documents[1500], documents[1000], "No", dataset_name, documents)
+        prefix = "\n\n".join([example_1, example_2, example_3, example_4])
+    elif dataset_name == "bank77":
+        instruction = """You are tasked with clustering queries for a online banking system based on whether they express the same general user intent. To do this, you will be given pairs of user queries and asked if they express the same general user need or intent.
+
+Your task will be considered successful if the queries are clustered into groups that consistently express the same general intent."""
+        example_1 = construct_single_example(documents[0], documents[1], "Yes", dataset_name, documents)
+        example_2 = construct_single_example(documents[1990], documents[2001], "No", dataset_name, documents)
+        example_3 = construct_single_example(documents[2010], documents[2001], "Yes", dataset_name, documents)
+        example_4 = construct_single_example(documents[2900], documents[3000], "No", dataset_name, documents)
+        prefix = "\n\n".join([example_1, example_2, example_3, example_4])
+    else:
+        raise NotImplementedError
+    return "\n\n".join([instruction, prefix])
+
+
+def cluster(semisupervised_algo, features, documents, labels, num_clusters, dataset_name, num_corrections=None, split=None, init="random", max_feedback_given=None, normalize_vectors=False, split_normalization=False, num_reinit=1, include_linear_transformation=False, include_contrastive_loss=False, verbose=False, side_information=None, tensorboard_parent_dir="/projects/ogma1/vijayv/okb-canonicalization/clustering/sccl/", tensorboard_dir="tmp", process_raw_data=False, pckmeans_w=None, seed=None):
+    pairwise_constraint_cache_name = f"/projects/ogma1/vijayv/okb-canonicalization/clustering/file/gpt3_cache/{dataset_name}_pairwise_constraint_cache.jsonl"
+    sentence_unprocessing_mapping_file = f"/projects/ogma1/vijayv/okb-canonicalization/clustering/file/gpt3_cache/{dataset_name}_{split}_sentence_unprocessing_map.json"
     assert semisupervised_algo in ["KMeans", "KMeansCorrection", "GPTExpansionClustering", "GPTPairwiseClustering", "GPTPairwiseClusteringMinMax", "GPTPairwiseClusteringExploreSimilar", "GPTPairwiseClusteringOracleFree", "GPT_SCCL_OracleFree", "DEC", "GPT_CC_PCKMeans", "CardinalityConstrainedPCKMeans", "PCKMeans", "OraclePCKMeans", "ActivePCKMeans", "ActiveFinetunedPCKMeans", "ConstrainedKMeans", "SeededKMeans"]
     if semisupervised_algo == "DEC":
         clusterer = DEC(n_clusters=num_clusters, normalize_vectors=normalize_vectors, split_normalization=split_normalization, verbose=verbose, cluster_init=init, labels=labels, canonicalization_side_information=side_information, include_contrastive_loss=include_contrastive_loss, linear_transformation=include_linear_transformation, tensorboard_parent_dir=tensorboard_parent_dir, tensorboard_dir=tensorboard_dir)
@@ -144,7 +213,8 @@ def cluster(semisupervised_algo, features, labels, num_clusters, dataset_name, n
             json.dump([int(l) for l in cluster_predictions], open(labels_cache_file, 'w'))
             np.save(cluster_centers_cache_file, cluster_centers)
 
-        oracle = GPT3Oracle(features, labels, dataset_name, split=split, max_queries_cnt=max_feedback_given, side_information=side_information)
+        prompt = construct_pairwise_oracle_prompt(dataset_name, documents, side_information)
+        oracle = GPT3Oracle(features, prompt, max_queries_cnt=max_feedback_given, cache_file = f"/projects/ogma2/users/vijayv/extra_storage/okb-canonicalization/clustering/file/gpt3_cache/{dataset_name}_pairwise_constraint_cache.jsonl")
         clusterer = KMeansCorrection(oracle, cluster_predictions, cluster_centers, labels)
         clusterer.fit(features, num_corrections = num_corrections)
 
@@ -154,7 +224,8 @@ def cluster(semisupervised_algo, features, labels, num_clusters, dataset_name, n
         clusterer.fit(features, labels)
 
     elif semisupervised_algo == "GPTPairwiseClustering":
-        oracle = GPT3Oracle(features, labels, dataset_name, split=split, max_queries_cnt=max_feedback_given, side_information=side_information)
+        prompt = construct_pairwise_oracle_prompt(dataset_name, documents, side_information)
+        oracle = GPT3Oracle(features, prompt, max_queries_cnt=max_feedback_given, cache_file = f"/projects/ogma2/users/vijayv/extra_storage/okb-canonicalization/clustering/file/gpt3_cache/{dataset_name}_pairwise_constraint_cache.jsonl")
         active_learner = LabelBasedSelector(n_clusters=num_clusters)
         active_learner.fit(features, oracle=oracle)
         pairwise_constraints = active_learner.pairwise_constraints_
@@ -165,9 +236,8 @@ def cluster(semisupervised_algo, features, labels, num_clusters, dataset_name, n
 
     elif semisupervised_algo == "GPTPairwiseClusteringOracleFree":
         # oracle = GPT3Oracle(features, labels, dataset_name, split=split, max_queries_cnt=max_feedback_given, side_information=side_information)
-        gpt3_oracle = GPT3Oracle(features, labels, dataset_name, split=split, max_queries_cnt=max_feedback_given, side_information=side_information, read_only=True)
-        oracle = ExampleOracle(labels, max_queries_cnt=max_feedback_given)
-        oracle.selected_sentences = gpt3_oracle.selected_sentences
+        prompt = construct_pairwise_oracle_prompt(dataset_name, documents, side_information)
+        oracle = GPT3Oracle(features, prompt, max_queries_cnt=max_feedback_given, cache_file = f"/projects/ogma2/users/vijayv/extra_storage/okb-canonicalization/clustering/file/gpt3_cache/{dataset_name}_pairwise_constraint_cache.jsonl")
 
         print("Collecting Constraints")
         active_learner = DistanceBasedSelector(n_clusters=num_clusters)
@@ -182,7 +252,8 @@ def cluster(semisupervised_algo, features, labels, num_clusters, dataset_name, n
             oracle.cache_writer.close()
 
     elif semisupervised_algo == "GPTPairwiseClusteringMinMax":
-        oracle = GPT3Oracle(features, labels, dataset_name, split=split, max_queries_cnt=max_feedback_given, side_information=side_information)
+        prompt = construct_pairwise_oracle_prompt(dataset_name, documents, side_information)
+        oracle = GPT3Oracle(features, prompt, max_queries_cnt=max_feedback_given, cache_file = f"/projects/ogma2/users/vijayv/extra_storage/okb-canonicalization/clustering/file/gpt3_cache/{dataset_name}_pairwise_constraint_cache.jsonl")
         # gpt3_oracle = GPT3Oracle(features, labels, dataset_name, split=split, max_queries_cnt=max_feedback_given, side_information=side_information, read_only=True)
         # oracle = ExampleOracle(labels, max_queries_cnt=max_feedback_given)
         # oracle.selected_sentences = gpt3_oracle.selected_sentences
@@ -204,7 +275,8 @@ def cluster(semisupervised_algo, features, labels, num_clusters, dataset_name, n
 
 
     elif semisupervised_algo == "GPTPairwiseClusteringExploreSimilar":
-        oracle = GPT3Oracle(features, labels, dataset_name, split=split, max_queries_cnt=max_feedback_given, side_information=side_information)
+        prompt = construct_pairwise_oracle_prompt(dataset_name, documents, side_information)
+        oracle = GPT3Oracle(features, prompt, max_queries_cnt=max_feedback_given, cache_file = f"/projects/ogma2/users/vijayv/extra_storage/okb-canonicalization/clustering/file/gpt3_cache/{dataset_name}_pairwise_constraint_cache.jsonl")
         # gpt3_oracle = GPT3Oracle(features, labels, dataset_name, split=split, max_queries_cnt=max_feedback_given, side_information=side_information, read_only=True)
         # oracle = ExampleOracle(labels, max_queries_cnt=max_feedback_given)
         # oracle.selected_sentences = gpt3_oracle.selected_sentences
@@ -230,7 +302,8 @@ def cluster(semisupervised_algo, features, labels, num_clusters, dataset_name, n
             oracle.cache_writer.close()
 
     elif semisupervised_algo == "GPT_CC_PCKMeans":
-        oracle = GPT3Oracle(features, labels, dataset_name, split=split, max_queries_cnt=max_feedback_given, side_information=side_information)
+        prompt = construct_pairwise_oracle_prompt(dataset_name, documents, side_information)
+        oracle = GPT3Oracle(features, prompt, max_queries_cnt=max_feedback_given, cache_file = f"/projects/ogma2/users/vijayv/extra_storage/okb-canonicalization/clustering/file/gpt3_cache/{dataset_name}_pairwise_constraint_cache.jsonl")
 
         active_learner = DistanceBasedSelector(n_clusters=num_clusters)
         active_learner.fit(features, oracle=oracle)
@@ -241,9 +314,8 @@ def cluster(semisupervised_algo, features, labels, num_clusters, dataset_name, n
         clusterer.constraints_ = pairwise_constraints
 
     elif semisupervised_algo == "CardinalityConstrainedPCKMeans":
-        oracle = ExampleOracle(labels, max_queries_cnt=max_feedback_given)
-        gpt3_oracle = GPT3Oracle(features, labels, dataset_name, split=split, max_queries_cnt=max_feedback_given, side_information=side_information, read_only=True)
-        oracle.selected_sentences = gpt3_oracle.selected_sentences
+        prompt = construct_pairwise_oracle_prompt(dataset_name, documents, side_information)
+        oracle = GPT3Oracle(features, prompt, max_queries_cnt=max_feedback_given, cache_file = f"/projects/ogma2/users/vijayv/extra_storage/okb-canonicalization/clustering/file/gpt3_cache/{dataset_name}_pairwise_constraint_cache.jsonl")
 
         active_learner = DistanceBasedSelector(n_clusters=num_clusters)
         active_learner.fit(features, oracle=oracle)
@@ -255,7 +327,8 @@ def cluster(semisupervised_algo, features, labels, num_clusters, dataset_name, n
         clusterer.constraints_ = pairwise_constraints
 
     elif process_raw_data and semisupervised_algo == "GPT_SCCL_OracleFree":
-        oracle = GPT3Oracle(features, labels, dataset_name, split=split, max_queries_cnt=max_feedback_given, side_information=side_information)
+        prompt = construct_pairwise_oracle_prompt(dataset_name, documents, side_information)
+        oracle = GPT3Oracle(features, prompt, max_queries_cnt=max_feedback_given, cache_file = f"/projects/ogma2/users/vijayv/extra_storage/okb-canonicalization/clustering/file/gpt3_cache/{dataset_name}_pairwise_constraint_cache.jsonl")
         # gpt3_oracle = GPT3Oracle(features, labels, max_queries_cnt=max_feedback_given, side_information=side_information, read_only=True)
         # oracle = ExampleOracle(labels, max_queries_cnt=max_feedback_given)
         # oracle.selected_sentences = gpt3_oracle.selected_sentences
@@ -274,7 +347,8 @@ def cluster(semisupervised_algo, features, labels, num_clusters, dataset_name, n
             oracle.cache_writer.close()
 
     elif not process_raw_data and semisupervised_algo == "GPT_SCCL_OracleFree":
-        oracle = GPT3Oracle(features, labels, dataset_name, split=split, max_queries_cnt=max_feedback_given, side_information=side_information)
+        prompt = construct_pairwise_oracle_prompt(dataset_name, documents, side_information)
+        oracle = GPT3Oracle(features, prompt, max_queries_cnt=max_feedback_given, cache_file = f"/projects/ogma2/users/vijayv/extra_storage/okb-canonicalization/clustering/file/gpt3_cache/{dataset_name}_pairwise_constraint_cache.jsonl")
         # gpt3_oracle = GPT3Oracle(features, labels, max_queries_cnt=max_feedback_given, side_information=side_information, read_only=True)
         # oracle = ExampleOracle(labels, max_queries_cnt=max_feedback_given)
         # oracle.selected_sentences = gpt3_oracle.selected_sentences
@@ -313,7 +387,9 @@ def cluster(semisupervised_algo, features, labels, num_clusters, dataset_name, n
         clusterer.fit(features, ml=pairwise_constraints[0], cl=pairwise_constraints[1])
     elif semisupervised_algo == "PCKMeans":
         oracle = ExampleOracle(labels, max_queries_cnt=max_feedback_given)
-        gpt3_oracle = GPT3Oracle(features, labels, dataset_name, split=split, max_queries_cnt=max_feedback_given, side_information=side_information, read_only=True)
+        prompt = construct_pairwise_oracle_prompt(dataset_name, documents, side_information)
+        gpt3_oracle = GPT3Oracle(features, prompt, max_queries_cnt=max_feedback_given, cache_file = f"/projects/ogma2/users/vijayv/extra_storage/okb-canonicalization/clustering/file/gpt3_cache/{dataset_name}_pairwise_constraint_cache.jsonl")
+
         oracle.selected_sentences = gpt3_oracle.selected_sentences
 
         active_learner = DistanceBasedSelector(n_clusters=num_clusters)
@@ -402,6 +478,7 @@ def plot_cluster(features, gt_labels, clusterer_labels, metrics, plot_path, pair
 
 
 def compare_algorithms(features,
+                       documents,
                        labels,
                        side_information,
                        num_clusters,
@@ -459,7 +536,7 @@ def compare_algorithms(features,
             if verbose:
                 print(f"Running {semisupervised_algo} for seed {seed}")
             start_time = time.perf_counter()
-            clusterer = cluster(semisupervised_algo, features, labels, num_clusters, dataset_name, num_corrections=num_corrections, split=split, max_feedback_given=max_feedback_given, normalize_vectors=normalize_vectors, split_normalization=split_normalization, init=init, num_reinit=num_reinit, verbose=verbose, side_information=side_information, include_linear_transformation=include_linear_transformation, include_contrastive_loss=include_contrastive_loss, tensorboard_dir=tensorboard_dir, process_raw_data=process_raw_data, pckmeans_w=pckmeans_w, seed=seed)
+            clusterer = cluster(semisupervised_algo, features, documents, labels, num_clusters, dataset_name, num_corrections=num_corrections, split=split, max_feedback_given=max_feedback_given, normalize_vectors=normalize_vectors, split_normalization=split_normalization, init=init, num_reinit=num_reinit, verbose=verbose, side_information=side_information, include_linear_transformation=include_linear_transformation, include_contrastive_loss=include_contrastive_loss, tensorboard_dir=tensorboard_dir, process_raw_data=process_raw_data, pckmeans_w=pckmeans_w, seed=seed)
             elapsed_time = time.perf_counter() - start_time
             if verbose:
                 print(f"Took {round(elapsed_time, 3)} seconds to cluster points.")
@@ -523,12 +600,13 @@ def extract_features(dataset, feature_extractor, verbose=False):
 if __name__ == "__main__":
     args = parser.parse_args()
     algorithms=args.algorithms
-    X, y, side_information = load_dataset(args.dataset, args.data_path, args.dataset_split)
+    X, y, documents, side_information = load_dataset(args.dataset, args.data_path, args.dataset_split)
     # assert set(y) == set(range(len(set(y)))), breakpoint()
     features = extract_features(X, args.feature_extractor, args.verbose)
     #algorithms=["KMeans", "ActivePCKMeans", "PCKMeans", "ConstrainedKMeans", "SeededKMeans"]
     process_raw_data = args.dataset.endswith("-raw")
     results = compare_algorithms(features,
+                                 documents,
                                  y,
                                  side_information,
                                  args.num_clusters,
