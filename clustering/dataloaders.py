@@ -100,7 +100,7 @@ def load_tweet(data_path, cache_path = "/projects/ogma1/vijayv/few-shot-clusteri
     return embeddings, list(data['label']), list(data['text'])
 
 _ = '''
-def load_tweet(data_path, cache_path = "/projects/ogma1/vijayv/okb-canonicalization/clustering/file/tweet_dataset_cache_instructor.pkl"):
+def load_tweet(data_path, cache_path = "/projects/ogma1/vijayv/few-shot-clustering/clustering/file/tweet_dataset_cache_instructor.pkl"):
     data = pd.read_csv(data_path, sep="\t")
     if os.path.exists(cache_path):
         embeddings = pickle.load(open(cache_path, 'rb'))
@@ -275,24 +275,27 @@ def load_dataset(dataset_name, data_path, dataset_split=None):
         side_information = cmvc
 
         side_info = side_information.side_info
-        cache_dir = "/projects/ogma1/vijayv/okb-canonicalization/clustering/file/gpt3_cache"
+        cache_dir = "/projects/ogma1/vijayv/few-shot-clustering/clustering/file/gpt3_cache"
         sentence_unprocessing_mapping_file = os.path.join(cache_dir, f"{dataset_name}_test_sentence_unprocessing_map.json")
         sentence_unprocessing_mapping = json.load(open(sentence_unprocessing_mapping_file))
         selected_sentences = []
         ents = []
+        for i in range(len(samples)):
+            try:
+                ents.append(side_info.id2ent[i])
+            except:
+                breakpoint()
+            entity_sentence_idxs = side_info.ent_id2sentence_list[i]
+            unprocessed_sentences = [sentence_unprocessing_mapping[side_info.sentence_List[j]] for j in entity_sentence_idxs]
+            entity_sentences = process_sentence_punctuation(unprocessed_sentences)
+            entity_sentences_dedup = list(set(entity_sentences))
 
-        ents.append(side_info.id2ent[i])
-        entity_sentence_idxs = side_info.ent_id2sentence_list[i]
-        unprocessed_sentences = [sentence_unprocessing_mapping[side_info.sentence_List[j]] for j in entity_sentence_idxs]
-        entity_sentences = process_sentence_punctuation(unprocessed_sentences)
-        entity_sentences_dedup = list(set(entity_sentences))
-
-        '''
-        Choose longest sentence under 306 characers, as in
-        https://github.com/Yang233666/cmvc/blob/6e752b1aa5db7ff99eb2fa73476e392a00b0b89a/Context_view.py#L98
-        '''
-        longest_sentences = sorted([s for s in entity_sentences_dedup if len(s) < 599], key=len)
-        selected_sentences.append(list(set(longest_sentences[:3])))
+            '''
+            Choose longest sentence under 306 characers, as in
+            https://github.com/Yang233666/cmvc/blob/6e752b1aa5db7ff99eb2fa73476e392a00b0b89a/Context_view.py#L98
+            '''
+            longest_sentences = sorted([s for s in entity_sentences_dedup if len(s) < 599], key=len)
+            selected_sentences.append(list(set(longest_sentences[:3])))
 
         documents = []
         context_labels = ["a", "b", "c", "d"]
