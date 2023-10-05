@@ -34,11 +34,9 @@ from active_semi_clustering.active.pairwise_constraints import Random
 
 
 
-def GPTPairwiseClusteringOracleFree(features, labels):
+def LLMGPTPairwiseClusteringOracleFree(features, documents, num_clusters, prompt, prompt_suffix, text_type, max_feedback_given=10000, kmeans_init="k-means++", pckmeans_w=0.4, cache_file=None):
     # avoid needing other parameters as used in active_clustering.py
-    gpt3_oracle = GPT3Oracle(features, labels, dataset_name, split=split, max_queries_cnt=max_feedback_given, side_information=side_information, read_only=True)
-    oracle = ExampleOracle(labels, max_queries_cnt=max_feedback_given)
-    oracle.selected_sentences = gpt3_oracle.selected_sentences
+    oracle = GPT3Oracle(features, prompt, documents, dataset_name=None, prompt_suffix=prompt_suffix, text_type=text_type, cache_file=cache_file, max_queries_cnt=max_feedback_given)
 
     print("Collecting Constraints")
     active_learner = DistanceBasedSelector(n_clusters=num_clusters)
@@ -46,8 +44,10 @@ def GPTPairwiseClusteringOracleFree(features, labels):
     pairwise_constraints = active_learner.pairwise_constraints_
 
     print("Training PCKMeans")
-    clusterer = PCKMeans(n_clusters=num_clusters, init=init, normalize_vectors=True, split_normalization=True, side_information=side_information, w=pckmeans_w)
+    clusterer = PCKMeans(n_clusters=num_clusters, init=kmeans_init, normalize_vectors=True, split_normalization=True, w=pckmeans_w)
     clusterer.fit(features, ml=pairwise_constraints[0], cl=pairwise_constraints[1])
     clusterer.constraints_ = pairwise_constraints
     if isinstance(oracle, GPT3Oracle) and os.path.exists(oracle.cache_file):
         oracle.cache_writer.close()
+    return clusterer.labels_, clusterer.constraints_
+
