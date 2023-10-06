@@ -139,17 +139,6 @@ def LLMKeyphraseClustering(features, documents, num_clusters, prompt, text_type,
                                        read_only=False,
                                        instruction_only=False,
                                        demonstration_only=False)
-
-    print("Collecting Constraints")
-    active_learner = DistanceBasedSelector(n_clusters=num_clusters)
-    active_learner.fit(features, oracle=oracle)
-    pairwise_constraints = active_learner.pairwise_constraints_
-
-    print("Training PCKMeans")
-    clusterer = PCKMeans(n_clusters=num_clusters, init=kmeans_init, normalize_vectors=True, split_normalization=True, w=pckmeans_w)
-    clusterer.fit(features, ml=pairwise_constraints[0], cl=pairwise_constraints[1])
-    clusterer.constraints_ = pairwise_constraints
-    if isinstance(oracle, GPT3Oracle) and os.path.exists(oracle.cache_file):
-        oracle.cache_writer.close()
-    return clusterer.labels_, clusterer.constraints_
+    clusterer.fit(features)
+    return clusterer.labels_
 
