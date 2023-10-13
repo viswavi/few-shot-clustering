@@ -127,6 +127,7 @@ def LLMKeyphraseClustering(features, documents, num_clusters, prompt, text_type,
 
     clusterer = GPTExpansionClustering(features,
                                        documents,
+                                       encoder_model=encoder_model,
                                        n_clusters=num_clusters,
                                        dataset_name=None,
                                        prompt=prompt,

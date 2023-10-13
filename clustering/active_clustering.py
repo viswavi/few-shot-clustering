@@ -285,7 +285,7 @@ def cluster(semisupervised_algo, features, documents, labels, num_clusters, data
         clusterer.fit(features, num_corrections = num_corrections)
 
     elif semisupervised_algo == "GPTExpansionClustering":
-        cache_file_name = f"{dataset_name}_gpt_paraphrase_cache.jsonl"
+        cache_file_name = f"/projects/ogma2/users/vijayv/extra_storage/okb-canonicalization/clustering/file/gpt3_cache/{dataset_name}_gpt_paraphrase_cache.jsonl"
         clusterer = GPTExpansionClustering(features, labels, documents, dataset_name=dataset_name, split=split, n_clusters=num_clusters, side_information=side_information, cache_file_name=cache_file_name)
         clusterer.fit(features, labels)
 
