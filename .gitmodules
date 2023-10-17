@@ -5,9 +5,6 @@
 [submodule "datasets/scidocs"]
         path = datasets/scidocs
         url = https://github.com/allenai/scidocs.git
-[submodule "clustering/cmvc"]
-	path = clustering/cmvc
-	url = https://github.com/Yang233666/cmvc.git
 [submodule "clustering/sccl"]
 	path = clustering/sccl
 	url = https://github.com/viswavi/sccl
