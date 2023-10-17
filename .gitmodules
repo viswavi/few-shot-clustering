@@ -11,3 +11,6 @@
 [submodule "clustering/short-text-clustering-enhancement"]
 	path = clustering/short-text-clustering-enhancement
 	url = https://github.com/rashadulrakib/short-text-clustering-enhancement.git
+[submodule "clustering/cmvc"]
+	path = clustering/cmvc
+	url = https://github.com/viswavi/cmvc.git
