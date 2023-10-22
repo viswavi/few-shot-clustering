@@ -1,0 +1,41 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "clustering"
+authors = [
+    {name = "Vijay Viswanathan", email = "vijayv@andrew.cmu.edu"},
+]
+description = "A library for efficient semi-supervised clustering with large language models."
+readme = "README.md"
+repository = "https://github.com/viswavi/few-shot-clustering"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3.7",
+]
+dependencies = [
+    "scikit-learn",
+    "matplotlib",
+    "torch",
+    "numpy",
+    "openai",
+    "sentence_transformers",
+    "jsonlines",
+    "ortools",
+    "tqdm"
+]
+
+dynamic = ["version"]
+
+[tool.hatch.build]
+include = [
+    "clustering/*.py",
+]
+only-packages = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["few_shot_clustering"]
+
+[tool.hatch.version]
+path = "version.py"
