@@ -1,16 +1,16 @@
-[submodule "clustering/active-semi-supervised-clustering"]
-	path = clustering/active-semi-supervised-clustering
+[submodule "few_shot_clustering/active-semi-supervised-clustering"]
+	path = few_shot_clustering/active-semi-supervised-clustering
 	url = https://github.com/viswavi/active-semi-supervised-clustering.git
 
 [submodule "datasets/scidocs"]
         path = datasets/scidocs
         url = https://github.com/allenai/scidocs.git
-[submodule "clustering/sccl"]
-	path = clustering/sccl
+[submodule "few_shot_clustering/sccl"]
+	path = few_shot_clustering/sccl
 	url = https://github.com/viswavi/sccl
-[submodule "clustering/short-text-clustering-enhancement"]
-	path = clustering/short-text-clustering-enhancement
+[submodule "few_shot_clustering/short-text-clustering-enhancement"]
+	path = few_shot_clustering/short-text-clustering-enhancement
 	url = https://github.com/rashadulrakib/short-text-clustering-enhancement.git
-[submodule "clustering/cmvc"]
-	path = clustering/cmvc
+[submodule "few_shot_clustering/cmvc"]
+	path = few_shot_clustering/cmvc
 	url = https://github.com/viswavi/cmvc.git
