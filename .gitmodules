@@ -1,15 +1,3 @@
 [submodule "datasets/scidocs"]
         path = datasets/scidocs
         url = https://github.com/allenai/scidocs.git
-[submodule "short-text-clustering-enhancement"]
-	path = short-text-clustering-enhancement
-	url = https://github.com/rashadulrakib/short-text-clustering-enhancement.git
-[submodule "few_shot_clustering/active-semi-supervised-clustering"]
-	path = few_shot_clustering/active-semi-supervised-clustering
-	url = https://github.com/viswavi/active-semi-supervised-clustering.git
-[submodule "few_shot_clustering/sccl"]
-	path = few_shot_clustering/sccl
-	url = https://github.com/viswavi/sccl.git
-[submodule "few_shot_clustering/cmvc"]
-	path = few_shot_clustering/cmvc
-	url = https://github.com/viswavi/cmvc.git
