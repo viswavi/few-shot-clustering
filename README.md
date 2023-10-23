@@ -1,5 +1,18 @@
 # Few Shot Clustering
 
+## Dependencies
+```
+    "scikit-learn",
+    "matplotlib",
+    "torch",
+    "numpy",
+    "openai",
+    "sentence_transformers",
+    "jsonlines",
+    "ortools",
+    "tqdm"
+```
+
 ## Setup
 ### Pull submodules
 
