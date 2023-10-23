@@ -1,2 +1,2 @@
 datasets/scidocs/data/*
-clustering/data/20_newsgroups/*
+few_shot_clustering/data/20_newsgroups/*
