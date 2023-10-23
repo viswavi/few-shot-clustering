@@ -1,0 +1,949 @@
+10	6	reading and writing .txt in matlab
+10	17	intelligent keyword searching
+10	10	bash script executting su command
+10	10	remove whitespace from bash variable
+10	4	redirecting from pubilc_html to public_html/new/
+10	10	how can i tell bash to properly esacape expanded strings?
+10	10	variable assignment in bash
+10	10	modify comfig file using bash scirpt
+10	10	compare/difference of  two arrays in bash
+10	10	how to glob variables in bash script
+10	10	bash : list files by last edited date?
+10	9	how to wrap a commad line executable in a .app package?
+10	10	extract substring in bash
+10	10	a way to parse terminal output / input ? (.bashrc ?)
+10	7	writing two dimensional array to file and reading two dimensional array from file using visual c++
+10	10	echo in a bash script changing '--md5' to '?-md5'
+10	10	bash, argument list segment
+10	10	custom script in .screenrc
+10	10	temporary redirection of stderr in a bash script
+10	10	pipe bash output to two different streams
+10	10	notify upon background jobs finishing running in bash
+10	6	remove characters from eof while writing to file in matlab
+10	3	is there a command which will print the path of the file in the repo-browser in the command line?
+10	10	how to use environment variable inside a quoted string in bash script
+10	10	monitoring bash script won't terminate
+10	8	objective-c tidy
+10	10	bash: delete until a specific file
+10	10	bash: sleep until a specific time/date
+10	10	bash: subprocess access variables
+10	10	bash customizations
+10	10	boolean expressions in shell scripts
+10	16	print trailing zeros in a qstring
+10	7	creating mdf file from sql script
+10	10	how to add a progress bar to a bash script?
+10	10	how to write a bash script to get the time on another linux server?
+10	10	stop echoing ^c to terminal
+10	19	multiple haskell cabal-packages in one directory
+10	10	bash shell script syntax error
+10	10	escaping 'run' command line options in cygwin
+10	13	printing unicode from scala interpreter
+10	10	spawning an interactive telnet session from a shell script
+10	10	can you prevent a command from going into the bash shell command history?
+10	10	bash arrays: need help with white space
+10	10	replace chars in file by index
+10	10	passing arrays as parameters in bash
+10	10	detect os from a bash script
+10	10	advanced directory switching in bash
+10	13	scala raw strings: extra tabs at the start of each line
+10	8	cocoa/ objective-c shell command line execution
+10	10	how to sudo on a computer using ssh inside a bash script
+10	10	functions in bash with special parameters
+10	6	matlab: how do you insert a line of text at the beginning of a file?
+10	19	haskell: inserting every line from a file into a list
+10	10	extract all matching substrings in bash
+10	10	how to check in a bash script if something is running and exit if it is.
+10	10	xargs doesn't recognize bash aliases
+10	2	problem with oracle sqlplus with whitespace in the path of the @ command
+10	10	using conditional statements inside 'expect'
+10	10	sort | uniq | xargs grep ... where lines contain spaces
+10	10	how to trim whitespace from bash variable?
+10	10	can bash be configured to search string on the current input line?
+10	10	test a file date with bash
+10	10	run command when bash script is stopped
+10	6	looking for matlab to f#/c# script convertor
+10	10	parallelize bash script
+10	9	is it possible to add multiple commands to the readline .inputrc file?
+10	10	unable to forward search bash history similarly as with ctrl-r
+10	4	conditional php_flag statements in .htaccess
+10	10	rename several files in the bash.
+10	11	simplejdbctestutils.executescript and multilines script
+10	10	terminate running commands when shell script is killed
+10	15	find string in httpxml.responsetext
+10	10	how do i synchronize (lock/unlock) access to a file in bash from multiple scripts?
+10	10	how to produce range with step n in bash?
+10	10	alternate way to trigger reverse-i-search without pressing ctrl+r in bash
+10	9	bash scripting general questions (conditionals and variable passing)
+10	9	javac help document garbled on the terminal of mac
+10	6	specifying the filename of print using a variable
+10	10	awk pattern macthing
+10	3	svnlook changed encoding
+10	10	bash variables with multiple commands and reentrant
+10	10	dynamically building a command in bash
+10	10	echo printing variables on single line
+10	10	shell script sort list
+10	10	how can i assign the output of a function to a variable using bash?
+10	10	is bash getopts function destructive to the command-line options?
+10	2	sql: the semicolon or the slash?
+10	8	nstextview with tokens
+10	10	finding a pattern and extracting it into another file using sed in bash
+10	10	if statement error bash
+10	10	bash: start multiple chained commands in background
+10	1	how do i keep wordpress from formatting out leading spaces?
+10	10	lines and columns environmental variables lost in a script
+10	10	connecting two bash commands
+10	10	how to build a conditional assignment in bash?
+10	10	removing final bash script argument
+10	10	how can grep interpret literally a string that contains an asterisk and is fed to grep through a variable?
+10	10	bash: detect if user's path has a specific directory in it
+10	8	renaming keys in nsmutabledictionary
+10	10	bash output as applescript list problems.
+10	10	find float in a text file
+10	10	nested case in bash script
+10	4	mamp make the filenames case insensitive
+10	10	cd option in bash script
+10	10	why aliases in a non-interactive bash shell do not work
+10	10	bash configration question, set alias as a sequence of commands?
+10	6	how to call matlab functions from linux command line ?
+10	10	how to extract substring from a text file in bash?
+10	10	retrieving the first non-option command line argument
+10	10	split line into words in bash
+10	10	switch from file contents to stdin in piped command? (linux shell)
+10	10	reading multiple lines in bash without spawning a new subshell?
+10	10	hiding the text before an input to only $-sign in bash?
+10	10	reordering an mbox file chronologically
+10	10	bash script parameters
+10	10	bash: extract last parameter from "$@"
+10	10	how do i include parameters in a bash alias?
+10	10	executing commands containing space in bash
+10	10	how do i print a field from a pipe-separated file?
+10	3	subversion cross-file keyword substitution
+10	5	competition random entry draw script
+10	13	creating a jar file from a scala file
+10	10	creating indented text with bash
+10	10	openssl in bash script
+10	10	how to record the ouput of executable running with bash script and standard input?
+10	10	bash: calling a scripts with double-quote argument
+10	10	bash rename files
+10	10	how to enable command line switches?
+10	10	errors on beginner bash script
+10	4	escaping spaces in mod_rewrite
+10	10	strip characters before period if filename has prefix in bash
+10	10	what is the best way to perform timestamp comparison in bash
+10	10	grabbing every 4th file
+10	10	going backwards in a bash prompt
+10	10	how to change icon/emblem of a directory from bash
+10	10	opening terminal windows with bash
+10	10	bash - remove non-word characters from a file but keep newlines?
+10	8	file watcher in cocoa
+10	19	mail reader using haskell
+10	10	substitution till the end of the line in bash
+10	10	pipe java to grep: why not working?
+10	9	how to pass a command line switch to xcode when i start 'build and debug'
+10	10	find and replace from a bash command
+10	10	{bash} howto insert a number into a string for wget
+10	10	mutable list or array structure in bash? how can i easily append to it?
+10	10	bash: recursively remove files
+10	2	different backup location for duplicate command
+10	10	a sufficant way to show logs in a graphical interface using whiptail bash
+10	10	bash environment variables and finding installation directories
+10	10	how to sort by line length, then reverse alphabetically
+10	10	bash: copy named files recursively, preserving folder structure
+10	10	how do i romove specific characters from file names using bash
+10	10	filter hidden files with bash (for batch image resize script)
+10	10	is it possible for bash commands to continue before the result of the previous command?
+10	5	looping variable names
+10	9	how to extract id tags from mp3 files in cocoa?
+10	10	value of global variable doesn't change in bash.
+10	10	grepping complex strings in variables.
+10	10	basics of using cut awk grep and sed...
+10	10	bash script to find a file in directory tree and append it to another file
+10	10	how do i write a script to ssh to a computer from a remote computer?
+10	4	apache velocity: is there a standard way of verifying the correctness of a template from the command line?
+10	10	how to repace ${} variables in a *nix text file
+10	19	show a list of words repetited in haskell
+10	16	reading from a file not line-by-line
+10	10	bash: redirect (and append) stdout and stderr to file and terminal
+10	8	importing pantomime for sending email!
+10	10	how can i read a list of filenames from a file in bash?
+10	6	write a figure to a file automatically in matlab
+10	10	bash or python for extracting blocks from text files
+10	8	file watcher in cocoa
+10	10	how can i create a temp file with a specific extension in bash?
+10	9	learning applescript
+10	10	the easiest way to replace white spaces with (underscores) _ in bash
+10	10	how to create a bash script to check the ssh connection?
+10	10	status bar in bash
+10	10	little bash script: catch errors?
+10	10	in a bash script, how do i sanitize user input?
+10	10	best way to simulate "group by" from bash
+10	10	string comparison in bash
+10	13	how to split a scala script into multiple files
+10	10	bash usage of vi or emacs
+10	10	can you pass stdin into unix host/dig command?
+10	10	looping over commands to print and execute in bash
+10	10	calling a python function from bash script
+10	19	haskell io and closing files
+10	10	using a dictionary file with sed
+10	13	scala regex multiple block capturing
+10	10	auto confirm eula in bash script
+10	10	how to tell if a sting is not defined in a bash shell script?
+10	6	reading large csv files with strings containing commas as one field
+10	10	bash scripting, checking for errors, logging
+10	9	inspect contents of a basic, unencrypted udif dmg file
+10	10	truncate output in bash
+10	10	find declaration and definition of function using bash
+10	10	do a complete flux of work on bash script
+10	16	how to format/change qmake/make output
+10	10	opening named pipes in non-blocking mode in bash
+10	10	bash scripting - execute and grep command inside script
+10	10	bash script user input and display data.. pls hlep me??
+10	10	how do i prompt a user for confirmation in bash script?
+10	18	fastest way to count number of uppercase characters in c#
+10	10	bash script to find the most recently modified file
+10	10	undelete the deleted command in bash.
+10	10	bash script runs from shell but not from cron job
+10	10	how do i sort a file in place using bash shell?
+10	19	preventing negative numbers in haskell?
+10	19	replacing characters with numbers in haskell
+10	10	bash script to perform operation on each argument against the final argument
+10	10	running two bash commands simultaneously on two different computers from one script
+10	10	using a filename with spaces with scp and chmod in bash
+10	6	is there a way how to run matlab script from specific line without gui?
+10	4	debugging apache perl script that communicates over ssh via expect
+10	10	bash daemon named "sh" or "sleep" not the filename....
+10	10	cannot scp a path with spaces from bash script?
+10	10	cat with new line
+10	10	bash script plugin for eclipse?
+10	10	how do i get bash completion to work with aliases?
+10	8	how to do string manipulation in an nsvaluetransformer?
+10	8	encoding string arguments for urls
+10	10	bash one liner: copy template_*.txt to foo_*.txt?
+10	10	recommended online resources for learning bash scripting
+10	10	using bash command line, how to add "import package.name.*;" to many java files?
+10	10	what goodies are present in unix shells sans bash?
+10	10	compilers for shell scripts
+10	10	putting the output of a command with interaction inside a variable while using grep in bash
+10	10	bash command to repeatidly emulate keypress on a proceess
+10	10	pass list of variables to bash script
+10	10	including string expressions in bash commands
+10	10	remove duplicates from bash history
+10	6	matlab script editing
+10	10	validate emails with bash
+10	10	what is the most compact or efficient way of doing several subsitutions in a file in bash
+10	10	determine if a function exists in bash
+10	10	matching a line with a literal asterisk "*" in grep
+10	2	multi-line pl/sql command with .net oraclecommand
+10	10	replace important symbolic link ‘safely’
+10	10	formatting with echo command
+10	10	bash: measure disk space of certain file types in aggragate
+10	10	count number of files generated from split command
+10	10	how do i write a bash script to restart a process if it dies?
+10	10	check if a function exists from a bash script.
+10	8	cfstringref to nsstring
+10	13	scalac command line parameters in eclipse?
+10	10	accessing ssh key from bash script running via a cron job
+10	10	how do i edit the output of a bash script before executing it?
+10	10	bash: ambiguous redirect
+10	10	unable to understand a line in .bashrc
+10	10	how can i append text to /etc/apt/sources.list from the command line?
+10	10	search through a range of directories bash script
+10	10	shell script - two foor loops and changing extension of file
+10	10	is it possible to make a bash file run as root in crontab?
+10	10	extract the last directory of a pwd output
+10	10	how to insert a new line character after a fixed number of characters in a file
+10	10	arrow key via stdin
+10	10	right align/pad numbers in bash
+10	10	how do i write stderr to a file while using "tee" with a pipe?
+10	10	undeletable file due to backup script
+10	10	run bash script from windows powershell
+10	10	how can i ensure a bash string is alphanumeric, without an underscore?
+10	10	how can i hide a password/username used in a bash script for accessing mysql?
+10	16	keep a stream from fstream open through member functions
+10	10	can this be done by sed?
+10	10	sort subgroups of lines with command-line tools
+10	10	calling grep from a bash script
+10	10	bash globbing - autoexpand for a few specific cases?
+10	10	bash command to open largest file
+10	5	problem parsing an xls file with c#
+10	10	more efficent shell text manipulation
+10	11	loading constants from db and reading them in an include file
+10	10	how to evaluate a given path within a bash shell
+10	10	how to extract and chop version string from file in bash
+10	10	how to search an expression in a file from a bash script?
+10	10	use a cat + grep as an included source in bash
+10	10	grep with "half"-exact match
+10	10	bash shell scripting - csv parsing
+10	10	bash: redirect and append both stdout and stderr
+10	10	argument checking problem in bash script
+10	10	reading java .properties file from bash
+10	10	scripting for bash screen
+10	10	simple question: how to make a bash script that creates 40 simultaneous instances of a program?
+10	10	printing out names of only directories and not files (bash)
+10	10	can a bash script tell what directory it's in?
+10	8	writing a string to nspasteboard
+10	10	how to get physical memory in bash
+10	3	piping data on windows command prompt
+10	10	arrange log entries into dated files
+10	8	create dmg file
+10	10	avoid expansion of * in bash builtin function let
+10	10	how can i derefence symbolic links in bash?
+10	10	bash, escaping single-quotes inside of single-quoted strings
+10	10	sequence expression in bash
+10	10	yyyy-mm-dd format date in shell script
+10	10	error in bash script while reading a file.
+10	10	how to replace a line in bash
+10	10	bash case statements evaluate to strings
+10	10	run bash with redefined ps1 env variable
+10	10	bash. test for a variable unset, using a function
+10	10	using the passwd command from with in a shell script
+10	10	bash script directory detection and creation
+10	10	how to parse rss-feeds / xml in a shell script
+10	10	bash ps1 settings - how to get the current folder back as the terminal title
+10	10	(less ugly way to) slice an array in bash
+10	10	tricky brace expansion in shell
+10	10	autocomplete for the ruby command in bash
+10	10	de-dupe files in bash
+10	10	stderr redirection to stdout
+10	10	paste to codepad.org using bash or curl
+10	10	regular expression grabbing x amount of values out in linux bash
+10	4	mod_rewrite loops even with l flag
+10	10	turn off error messages in a bash script
+10	4	cleaning up nested mod_rewrite statements
+10	10	how to upload (ftp) files to server in a bash script?
+10	9	redirecting audio output
+10	10	in bash, environmental variables not tab-expanding correctly
+10	10	add (collect) exit codes in bash
+10	10	bash / php quoting command line argument
+10	10	linux command line: split a string
+10	9	are there alternatives to ibtool for parsing nib files?
+10	10	execute a shell command from a shell script without stoping if error occurs
+10	10	how to execute a bash command stored as a string with quotes and asterisk
+10	8	comparing strings in cocoa
+10	19	how to import a .hs file in haskell
+10	10	ignore a path entry with bash tab-completion
+10	9	sending mail from bash shell script.
+10	10	timing concurrent processes in bash with 'time'
+10	10	passing bash arguments
+10	10	how do i write a for loop in bash
+10	10	script-file vs command-line: problem with rsync and --exclude
+10	10	read file line by line in bash expands special characters
+10	10	shell script templates
+10	10	unable to make a if-else loop for google-books in bash
+10	10	bash: how to feed a command with the multiple results generated by one subcommand
+10	10	how do i write a bash alias/function to grep all files in all subdirectories for a string?
+10	10	bash: what expands to all files in current directory recursively
+10	19	new line haskell
+10	10	how to convert timestamps to dates in bash?
+10	10	bash script to always answer no to any prompt ?
+10	19	haskell string list through lines
+10	10	bash: convert non-ascii characters to ascii
+10	10	command-line parameters in shell script?
+10	6	matlab strcat function troubles with spaces
+10	5	accessing excel.combobox from c#
+10	10	how to delegate within a crontab to use another file as a crontab? aka crontab in svn/cvs?
+10	6	matlab: different function returns from command line and within function
+10	10	how to confirm a command in every bash loop
+10	10	awk '{print $9}' the last ls -l column including any spaces in the file name.
+10	10	how to automatically ignore files in grep
+10	10	bash script shell input
+10	6	starting matlab from the command line
+10	10	bash script for downloading files with curl
+10	10	bash script calls another bash script and waits for it to complete before proceeding
+10	10	how to supply many argv with one bash var ?
+10	10	how to split a file and keep the first line in each of the pieces?
+10	10	query in shell script
+10	10	lookup shell variables by name, indirectly
+10	10	bash stacktrace
+10	10	looking for recommendations on a good bash tutorial
+10	10	bash scripting call to awk
+10	10	bash script execution date/time
+10	10	bash - format a textfile - pair every two lines
+10	8	read input from a cocoa/foundation tool console?
+10	6	reading directories in matlab
+10	10	creating a .bashrc function to search through all files for a particular string
+10	6	logging function parameters in matlab
+10	10	bash loop - tokenize on lines rather than words
+10	10	bash date/time arithmetic
+10	10	bash: join elements of an array?
+10	10	reading stdin multiple times in bash
+10	9	what is the bash command to create a hardlink to a directory in os x?
+10	19	haskell parsing error
+10	10	what does ${2:-${1}} mean in bash?
+10	10	capturing multiple line output to a bash variable
+10	10	changing word delimiters in bash
+10	10	bash case syntax - meaning of "-@"
+10	10	how to check for an exploding zip file in bash?
+10	8	remove newline character from first line of nsstring
+10	10	bash, find files which contain numbers on filename
+10	10	how do i tell if a file does not exist in bash?
+10	10	delete all files but keep all directories in a bash script?
+10	10	handling metacharacters in search strings
+10	10	how do i remove file suffix and path portion of a path string in bash?
+10	10	escaping the '\' character in the replacement string in a sed expression
+10	10	file reading
+10	6	running a javascript command from matlab to fetch a pdf file
+10	13	how to check existence of a program in the path
+10	10	how to copy a file to multiple directories using the gnu cp command
+10	5	delete a file after user download prompt
+10	10	bash: get list of variables whose name matches a certain pattern
+10	10	bash, dash and string comparison
+10	10	how do i forward parameters to other command in bash script?
+10	10	commands from .bashrc not available in emacs
+10	10	bash egrep numbers not working in case
+10	10	how do you use shell script variables as arguments to sed?
+10	16	qdir and qdiriterator ignore files with non-ascii filenames
+10	10	run bash script as source without source command
+10	9	-bash: ./configure: no such file or directory   - mysql install on osx10.6
+10	10	how can i automatically quote or group commandline arguments for alias in bash?
+10	9	osx: launching multiple instances of an app and passing them command line args
+10	1	echoing a string that contains php (in wordpress)
+10	10	what is the best, python or bash for selectively concatenating lots of files?
+10	19	how to read bytes from a socket in haskell
+10	10	how do i rename a bash function?
+10	10	line of bash code from .configure file
+10	10	bash copy all files expect one.
+10	10	redirect the stdin to come from a different terminal using bash
+10	10	how to run processes piped with bash on multiple cores?
+10	19	crazy haskell indentation
+10	10	bash :: find file in archive from command line
+10	10	how to remove command line color highlighting of vista samba shared directories in ubuntu?
+10	10	bash mysql query to comma separated file
+10	10	bash: for filename do......
+10	10	batch renaming with bash
+10	10	bash script - select from database into variable
+10	10	how to use sed to test and then edit one line of input?
+10	10	in bash, how does one clear the current input?
+10	10	bash input/output in c++
+10	10	os x command line text conversion
+10	10	how to cut some text from string in bash?
+10	10	how can i use lame to encode wav files within a shell script? i'm trying to set artist information via variables with spaces in them. lame craps out. maybe i'm being retarded with bash?
+10	10	change current directory from a script
+10	10	bash: how _best_ to create a script from another script
+10	10	messy bash variable
+10	10	ignore/prune hidden directories with bash find command
+10	10	bash variable expansion
+10	10	bash or php script to execute stocked procedure on sql server
+10	10	bash: recursively adding subdirectories to the path
+10	10	strange error checking if directory exists with bash script
+10	10	how to pipe a here-document through a command and capture the result into a variable?
+10	10	bash: copy a folder full of files and folders to an external hdd, but only if there is enough space to complete the copy.
+10	10	how to retrieve the first word of the output of a command in bash?
+10	10	bash file attribute gymnastics: how do i easily get a file with full paths and privileges?
+10	15	new line characters get submitted differently
+10	10	bash/cygwin/$path:  do i really have to reboot to alter $path?
+10	10	bash syntax question: variable in brackets {} with # comments?
+10	10	set screen-title from shellscript
+10	10	bash script to setup a temporary ssh tunnel.
+10	10	ls return values
+10	10	kill random process with name
+10	10	newline madness in bash script
+10	9	creating mp4/m4a files with chapter marks
+10	10	how to implement a stdin, stdout wrapper ?
+10	10	bash reg-exp substitution
+10	10	echo "-e" doesn't print anything
+10	10	quoting not respected inside a bash variable
+10	10	control processes started by bash daemon
+10	10	bash: how to change the basename only of a list of files
+10	10	how to echo directories containing matching file with bash?
+10	10	how to call bash script
+10	10	how would you represent eof in bash?
+10	10	bash can not get if to work like i want to
+10	10	bash: for loop, copy, backup
+10	10	using find with exec
+10	10	editing history in bash
+10	10	why can't i use job control in a bash script?
+10	10	how to simulate the environmen cron executes a script with?
+10	10	preserving whitespaces in a string as a command line argument
+10	10	how to get the name of the current git branch into a variable in a shell script?
+10	10	how to include a timer in bash scripting?
+10	3	svnmerge and a file replaced with a directory
+10	9	how do i make bash reverse-search work in terminal.app without it displaying garbled output?
+10	6	how to get a quantitative comparison of two signals
+10	10	how to get the nth positional argument in bash?
+10	10	see binary instead of hex in binary file while in a shell like bash.
+10	10	ending tail -f started in a shell script
+10	10	how to write bash script to search for ip's in a file and put write them to another file?
+10	10	bash script to pack file names
+10	10	for loop in bash script
+10	10	bash: find and copy
+10	10	how do i use su to execute the rest of the bash script as that user?
+10	10	awk without printing newline
+10	10	how can i program ksh93 to use bash autocompletion?
+10	13	programmatically setting repeated parameters in scala
+10	10	how to define hash tables in bash?
+10	19	compare strings in haskell
+10	7	default using directives in new c# files
+10	10	auto complete by end/middle of line in bash
+10	10	append text to stderr redirects in bash
+10	10	capturing output of find . -print0 into a bash array
+10	17	drupal: truncate word sentence length function?
+10	10	how to detect a build error from ant/maven via a bash script?
+10	10	indenting bash script output
+10	10	how do i get both stdout and stderr to go to the terminal and a log file?
+10	6	running script stop in the middle
+10	10	howto pass a string as parameter in awk within bash script
+10	10	how to replace the "disown" with "screen"?
+10	10	susbtitution in sed with spaces
+10	10	find file launching a process
+10	10	how to send a sigint to python from a bash script?
+10	6	displaying information from matalb without a line feed
+10	10	caret search and replace in bash shell
+10	10	bash and test-driven development
+10	10	passing bash variables to ssh
+10	10	bash and filenames with spaces
+10	10	insert command into bash shell
+10	10	bash, numeric prefix for emacs bindings?
+10	10	use bash to read a file and then execute a command from the words extracted
+10	10	bash history re-runs: possible command to avoid using !bang! ?
+10	10	bash: how do you "split" the date command?
+10	10	number of tokens in bash variable
+10	10	detecting failure of a bash "export" value
+10	10	using bash to fix maildir mtimes problem
+10	10	bash init.d script detect that mysqld has started and is running
+10	10	bash: how do i truncate an array?
+10	10	cmdline bash variable weirdness
+10	13	how the scala script that reads 5g log file from network drive should be modified in order to read last x lines (like 'tail' in unix)?
+10	13	pattern matching with multiline xml case
+10	10	bash: possible to abort shell script if any command returns a non-zero value?
+10	10	wait for bash background jobs in script to be finished
+10	10	how to create argument tokens (c++ in unix)
+10	10	bash insert a comma (,) after every third field of a variable or array?
+10	10	bash completion: what can we do with it, what lies in the future.
+10	10	bash errors in this script ?
+10	10	how to initialize a bash array with output piped from another command ?
+10	10	how can i redirect stderr to stdout, but ignore the original stdout?
+10	10	how would one implement bash-like tab completion?
+10	10	program interaction and testing via bash script
+10	10	how do i use a file grep comparison inside a bash if/else statement?
+10	10	bash: how to flush output to a file while running
+10	10	define variable to hold non-current date in bash
+10	10	parse a dhcpd.lease file with bash
+10	10	parse an email message for sender name in bash
+10	10	bash script: downloading consecutive numbered files with wget
+10	10	copying a directory tree file by file
+10	10	bash shell function error : command not found
+10	7	replacing typelibs for imports
+10	10	how to chop last n bytes of a sting in bash string choping?
+10	10	escaping 'echo' in batch files
+10	10	saving current directory to bash history
+10	10	bash check if user mount fails
+10	2	how to execute an .sql script file using c#
+10	10	is bash scripting still the way to go?
+10	10	is there a convention for naming 'private functions' in bash?
+10	10	how to create a backup of an postgres db using bash?
+10	10	redirect output to a bash array
+10	10	bash loop between two given dates
+10	10	bash script to archive files and then copy new ones.
+10	10	split string based on delimiter in bash?
+10	10	how to pipe a command result to a -<character><argument> option? (without spaces)
+10	10	count number of occurences of token in a file
+10	10	why is my bash script adding <feff> to the beginning of files?
+10	10	validating parameters to a bash script
+10	10	favorite bash prompt
+10	10	how can this src vs. build tree timestamp comparison be faster? (bash)
+10	10	bash: tee output and capture exit status
+10	10	more simple math help in bash!
+10	10	problem redirecting a c program output in bash
+10	4	how can i make the -f flag apply to directories with a trailing slash?
+10	10	find file in directory from command line
+10	10	how to get this bash script to work if the "filename" contains space?
+10	13	by-name repeated parameters
+10	10	bash: how to traverse directory structure and execute commands?
+10	10	add spaces to the end of some bash autocomplete options, but not to others?
+10	10	bash: hashing multiple files recursively
+10	10	locale-aware uppercase in bash?
+10	10	how do you execute sql from within a bash script?
+10	10	how to test filename expansion result in bash?
+10	10	how to keep a file under n lines long?
+10	10	how do i preserve newlines in a quoted string in bash ?
+10	10	bash: space in variable value later used as parameter
+10	10	bash alias to python script -- is it possible?
+10	10	bash scripting challenge
+10	10	how do i do date math in a bash script on os x leopard?
+10	10	bash script to create symbolic links to shared libraries
+10	10	how can i create a command line (unix/linux) instruction that uses variables to execute numerous commands?
+10	10	what is the most elegant way to remove a path from the $path variable in bash?
+10	10	bash completion for certain types of files in a special directory
+10	10	commenting in bash script
+10	10	bash plugin help: auto insert closing bracet with cursor in middle
+10	19	how to print integer literals in binary or hex in haskell?
+10	10	echo spaces in bash script
+10	10	shortest way to swap two files in bash
+10	10	extract filename and extension in bash
+10	10	bash variable scope
+10	10	multiple commands in an alias for bash
+10	4	getting asn.1 issuer strings from pem files?
+10	10	how can i select random files from a directory in bash?
+10	10	pick up curent user in bash on a mac
+10	10	how do i use regular expressions in bash scripts?
+10	10	unable to add a parameter to your command in bash
+10	10	like to store all command-line arguments to a bash script into a single variable
+10	10	putting the last command's wall time in bash prompt
+10	10	is it possible to detect 32 bit vs 64 bit in a bash script?
+10	10	a script to ssh into a remote folder and check all files?
+10	9	os x bash: dirname
+10	8	simple string parsing in cocoa / objective-c: parsing a command line into command and arguments.
+10	10	how do i delete a bash function?
+10	13	how can i create a parser combinator in which line endings are significant?
+10	10	how to debug a bash script?
+10	10	in the bash script how do i know the script file name?
+10	10	store line in a string in bash
+10	10	bash alias query
+10	10	redirecting stderr to a variable in a bash script
+10	10	split svnversion output in bash
+10	10	bash scripting and bc
+10	19	mapping the :edit command to a certain editor
+10	10	kill process in bash that runs more than specified time?
+10	10	bash: filter away consecutive lines from text file
+10	8	cocoa string question
+10	10	how do i redirect stdin from a shell script to a command in the shell script?
+10	6	how do i write a csv file from a txt file with line omittion
+10	10	bash script on a mac creates a info popup
+10	17	imap_open mbox windows
+10	3	subversion ignoring "--password" and "--username" options
+10	10	how to manage long paths in bash?
+10	10	bash string to date
+10	10	check whether stderr is a pipe in bash
+10	10	bash comparing stored "boolean" value with what?
+10	10	concatenate strings in bash
+10	10	how do i check in bash if a process (or one of its children) is actually doing something (cpu/io)?
+10	17	drupal-salesforce with nusoap
+10	10	how to read using "read" from file descriptor 3 in bash script?
+10	10	another shell open when at server?
+10	1	magpie removes angle brackets from rss feed
+10	11	creating multiple forms in one jsp file. modelattributes have to always be set?
+10	10	hide a bash function internals..
+10	14	can i copy files to a network place from a script or the command line?
+10	10	multi-threaded bash programming - generalized method?
+10	10	add a single bash command
+10	10	replace output in a loop in bash scripting
+10	10	how to do gui for bash scripts?
+10	8	nsscanner - scan next line into string
+10	10	urlencode from a bash script
+10	10	count specific word in line in bash
+10	10	bash tab-completion inside double-quoted string
+10	10	timing a curl operation in bash
+10	10	making graphs with a shell script
+10	9	command key as meta key in os x terminal.app
+10	10	how to make a pipe loop in bash
+10	10	bash - replace all instances of mutliple newline with a single newline
+10	10	shell prompt line wrapping issue
+10	9	parse ds_store w/ php
+10	10	bash script with find command drops me to bash shell
+10	10	run the output of a script as a standalone bash command
+10	10	how to filter out a set of strings a from a set of strings b using bash
+10	10	using dos file contents as command line arguments in bash...
+10	10	picking a random line from stdout
+10	10	how to silent output in a bash script?
+10	10	redirect stderr and stdout in a bash script
+10	10	equivalent of select or poll in bash
+10	10	why can i run a bash function with the 000 permissions?
+10	10	bash: save in a variable the number of seconds a process took to run
+10	16	adding  #ifndef  #define  #endif breaks the compile
+10	10	negate unsigned number in bash
+10	10	bash grep newline
+10	8	read only "n" bytes from a file in cocoa
+10	10	sed replace command inside of a bash script?
+10	19	how to customize the readline keybindings of ghci
+10	10	bash : make job every x days
+10	10	using the result of a command as an argument in bash?
+10	10	bash scripting problem
+10	10	enviroment variable within variable
+10	10	how to get the first line of a file in a bash script?
+10	10	bash - passing arguments by reference
+10	10	how to make this if statement in bash
+10	10	add specific directories to bash find command
+10	10	correct bash and shell script variable capitalization
+10	6	matlab command to access the last line of each file?
+10	10	syntax for a single-line bash infinite while loop
+10	6	using load instead of other i/o command
+10	10	variables as commands in bash scripts
+10	10	why ssh fails from crontab but succedes when executed from a command line?
+10	10	parallel processing from a command queue on linux (bash, python, ruby... whatever)
+10	10	bash tool to parse csv files
+10	19	how to determine the directory in which a running haskell script or application lives?
+10	10	awk and printf in bash
+10	16	qplaintextedit for single line of input
+10	9	osx mysql gui with plain text output?
+10	10	preserving leading white space while reading>>writing a file line by line in bash
+10	10	calenadr calculations in bash
+10	10	bash substituion; remove everything after the string
+10	9	avoiding applescript through ruby: rb-appscript or rubyosa?
+10	10	how can i compare strings in bash script?
+10	10	bash while loop calling a python script
+10	10	how to iterate over arguments in bash script
+10	3	svn and accented characters
+10	10	bash shell for windows?
+10	10	[bash] fill placeholders in file in single pass
+10	4	infinite loop on combination of rewriterules
+10	17	mixing static strings with views arguments
+10	4	adding slashes to the end of directories + more (htaccess)
+10	10	using file contents as command line arguements in bash
+10	10	bash string comparison syntax
+10	10	in bash shell script how do i convert a string to an number
+10	10	individually execute all files in a directory
+10	10	mixing regular expression and other conditional expression in a bash if statement
+10	10	how to run gpg from a script run by cron?
+10	10	bash: echoing an argument after a slash inserts a blank character
+10	10	what is the safest way to initialize bash arrays with quoted values from function output?
+10	10	redirecting bash stdout/stderr to two places?
+10	10	why bash ignore newlines when doing for loop over the contents of a c-style string?
+10	10	uses for this bash filename extraction technique?
+10	10	bash script to watch a folder
+10	10	issue with echo and tab in bash
+10	10	is it possible to capture bash output into the osx finder clipboard
+10	10	bash ^word^replacement^ on all matches?
+10	10	synchronize shell script execution
+10	10	bash: run command before a script exits?
+10	10	literal quotes in flags for a command in a bash script
+10	10	what is '$$' in the bash shell?
+10	10	grep-ing multiple files
+10	2	pl/sql replace() function isn't handling carriage-returns & line-feeds
+10	10	how to get the pid of a process that is piped to another process in bash?
+10	10	help me make this bash script pretty, or just less ghastly
+10	10	switch user and output variable contents
+10	10	are there any commands that are usually used for comparing time in bash shell script?
+10	3	rar command - ignore certain folders
+10	10	how do i escape the wildcard/asterisk character in bash?
+10	10	get current working directory name in bash script
+10	10	bash script to edit a bunch of files
+10	4	automatically log out
+10	10	executing for-each in bash
+10	10	bash to beep if command takes more than 1 minute to finish
+10	10	bash scripting - how to set the group that new files will be created with?
+10	10	what is the proper indentation for bash scripts?
+10	6	how to write a variable with input ?
+10	9	on mac o.s., how to get the name of files that has been dropped onto apple script to boot jar with the name of file as a argument to jar
+10	10	looking for book on bash scriping
+10	10	how to rollover the standard output from bash?
+10	10	in a bash script/command how can i make a pc beep noise, or play a sound file?
+10	10	bash for loop with wildcards and hidden files
+10	9	get short user name from full name
+10	10	passing a string with spaces as a function argument in bash
+10	9	crafting .webloc file
+10	10	bash combine two arrays
+10	10	to bind clear to ^l in bash
+10	10	functionality in .profile (login script) versus distributing to other scripts.
+10	10	bash if -a vs -e option
+10	10	bash rename extension recursive
+10	10	build argument lists containing whitespace for other commands
+10	6	how do you output a line break in the command view in matlab when running a m-file?
+10	10	how to list variables declared in script in bash?
+10	10	how can you open files which contain the word "exam" in terminal?
+10	10	bash scripting - no output, no echo
+10	10	what's the easiest way to colorize bash shell outputs?
+10	10	capturing standard error into a variable in bash
+10	10	bash script to edit xml file
+10	10	how to scp across servers using bash?
+10	10	timeout a command in bash without unnecessary delay
+10	10	run crontab with user input
+10	10	how do you normalize a file path in bash
+10	10	unix commands that support colours
+10	10	storing files inside bash scripts
+10	10	can't seem to use bash -c option with arguments after the -c option string
+10	9	list potential applications that could open a file
+10	10	parsing a line in bash
+10	10	why my bash can't execute r script ?
+10	10	bash return value
+10	10	command substitution but without breaking output into multiple arguments
+10	10	bash - recursively create nonexistant subdirectories
+10	10	shell script for adjusting image size
+10	10	how does this bash fork bomb work?
+10	10	counting duplicates in a sorted sequence using command line tools
+10	10	email from bash script
+10	10	save last working directory on bash logout
+10	10	one line assignment in bash
+10	9	time machine api / command-line scripts ?
+10	10	creating a file downloading script with checksum verification
+10	10	zip columns from separate files together in bash
+10	10	need help understanding a bash command
+10	6	vi input mode in command line matlab?
+10	10	simple math statements in bash in a for loop.
+10	10	bash function to prompt for and return input
+10	10	how to pipe stderr, and not stdout?
+10	7	any way to run a macro (in an open vs instance) from the command line?
+10	10	how to use > in an xargs command?
+10	10	how many ways can i get bash alias completion on partial substring
+10	10	list all leaf subdirectories in linux
+10	10	how to automatically add user account *and* password with a bash script
+10	10	how to run two processes as though they were one in bash?
+10	10	how do i execute a command from a specific directory with actually changing to that directory
+10	10	execute conky with a cron job and bash
+10	10	a bash one-liner to change into the directory where some file is located.
+10	10	display characters of a variable
+10	10	problem with non blocking fifo in bash
+10	10	how do i add a directory with a colon to a shell path?
+10	10	string contains in bash
+10	10	remove first 4 letters from a folder name using bash scripting
+10	10	linux shell scripting
+10	10	access a variable in a bash script
+10	10	how to check if a string has spaces in bash shell
+10	10	encoding keyboard command onto bash script
+10	10	sed move text to beginning of line?
+10	19	multiline matching in haskell posix
+10	10	bash: how _best_ to include other scripts?
+10	8	writing to files in bundle?
+10	10	transpose a file in bash
+10	10	safe rm -rf function in shell script
+10	10	real-time history export amongst bash terminal windows
+10	10	temporary operation in a temporary directory in shell script
+10	10	how do i make sure my bash script isn't already running?
+10	10	how do you call a function defined in .bashrc from the shell?
+10	10	pcmanfm arguements; bash
+10	10	how to force bash autocomplete to one command ?
+10	10	display output of a bash command and keeping the output in a variable
+10	10	bash scripting..copying files without overwriting
+10	10	automatically timing every executed command and show in bash prompt?
+10	15	ajax autocomplete (or autosuggest) with tab completion similar to shell command line completion?
+10	10	chroot + execvp + bash
+10	9	how do i get the name of the active user via the command line in os x?
+10	10	bash: get list of commands starting with a given string
+10	9	enabling mouse and paste support in command line vim
+10	10	bash - how to call a fuinction declared in a parent shell?
+10	16	writing a qnetworkreply to a file
+10	10	problem with temporary unnamed pipe in bash script
+10	10	can i pass an arbitrary block of commands to a bash function?
+10	10	can i read line from a heredoc in bash?
+10	2	oracle sqlplus command line question
+10	10	how do you parse a filename in bash?
+10	10	shell scripting. command substitution issue in my script.
+10	10	why do processes spawned by cron end up defunct?
+10	10	bash+cron: redirecting, and restoring, stdout and stderr produces permission denied
+10	10	email check regular expression with bash script
+10	10	best way to parse command line arguments in bash
+10	10	bash - supress notice of forked command being killed
+10	10	mixing single and double quotations in bash
+10	6	tab-completion of filenames
+10	10	sed replace ' with \'
+10	10	write a shell script that find-greps and outputs filename and content in 1 line
+10	8	string question - cocoa
+10	10	bash: easy way to put a configurable load on a system?
+10	10	ls only these file types using grep
+10	10	how do i use a pipe in the exec parameter for a find command?
+10	2	oracle builtin string character classes
+10	10	manually iterating a line of a file | bash
+10	10	$$ in bash.
+10	13	what is scala -i command-line option supposed to do ?
+10	10	awk my number, im supid in bash
+10	10	how do i reuse a command in bash with different parameters?
+10	10	better way to make a bash script self-tracing?
+10	4	is a destructor the right place to mark the end of a script's execution?
+10	9	how to make the apple script file configurable ?  can apple scipt file, shipped from window ?
+10	9	bash prompt in os x terminal broken
+10	19	how do i read or write gtk treestores from/to files?
+10	10	bash: merging multiple files given different file name prefixes in an array
+10	10	horizontal scroll in a bash window
+10	10	how to assign a heredoc value to a variable in bash?
+10	10	check if a program exists from a bash script.
+10	10	randomizing arg order for a bash for statement
+10	3	shell script for replacing some files with symlinks
+10	10	while executing a shell script in unix bash shell, how is a file location resolved for relative paths? rel. to the script.sh folder or the referenced file's folder.
+10	10	how can i pass a complete argument list in bash while keeping mulitword arguments together?
+10	10	how to ssh from within a bash script?
+10	5	truncate strings in excel - is there a function to remove last part of string after separator
+10	10	can a bash function be used in different scripts?
+10	10	bash - redirecting of stdoutput and stderror does not catch all output
+10	10	how to substitute a string in bash script
+10	10	bash alias of an svn command piped to awk
+10	10	what does the amphersand indicate in this bash command 1>&2
+10	10	handle special characters in bash for...in loop
+10	16	how can i pass the output of a command as a compiler flag through a qt project file?
+10	10	do not try this! the following bash command will spawn processes to kernel death. can you explain the syntax?
+10	10	getting a 'source: not found' error when using source in a bash script
+10	4	what are the ways to run a server side script forever?
+10	13	scala combinator parsers - distinguish between number strings and variable strings
+10	10	bash script for manual routes and default gateway problem
+10	4	apache ant command line arguments without double quotes - is it possible?
+10	10	floating point comparison in shell script
+10	6	matab - trace contour line between two different points
+10	10	a simple small shell script to compute averages
+10	10	bash: limit the number of concurrent jobs?
+10	10	how to bind a key to sigkill in bash?
+10	6	how to add a number to a variable?
+10	10	bash - single quote inside double quote for sql where clause
+10	10	bash (mac): edit file and some if commands.
+10	10	bash in vi-mode: browsing shell history with cursor up/down, cursor position not at the end?
+10	10	bash scripts : whiptail file select
+10	10	getting sed to replace text with argument
+10	4	parse file upload directly without writing to the file system
+10	10	bash read inside a loop reading a file
+10	10	bash script doesnt run correctly as background process
+10	10	how to exit all the calling scripts in bash?
+10	10	removing created temp files in unexpected bash exit
+10	19	how do you route stdin from a file to a function when running ghci
+10	10	in a bash script, how can i exit the entire script if a certain condition occurs?
+10	10	how to properly make path handling robust in a bash program?
+10	10	how to escape white space in bash loop list
+10	10	how do i set environment variable completion in a bash shell on mac
+10	10	bash script does not continue to read the next line of file
+10	10	properly handling space and quotes in bash completion
+10	9	check if screensaver is active using mac bash script command
+10	10	removing directories with spaces with bash
+10	10	writing bash script to read, compare, and verify external ip address.  need help.
+10	9	unable to make a tab completion file for macports in bash?
+10	10	inserting text to a file with sed within bash script
+10	10	how to set an alias inside a bash shell script
+10	10	using a bash script on a mac to connect to network shares?
+10	10	how to compare files with same names in two different directories using a shell script
+10	10	exit shell script based on process exit code
+10	10	bash script - read binary file
+10	10	why a hard coded string var is changing when the bash script is run as root ?
+10	10	bash: getting standard program for file type
+10	10	how do i reverse escape backslash ecodings like "\ " and "\303\266" in bash?
+10	10	unable to put a .txt -file to the end of another .txt -file
+10	10	command line connect to tcp port, read data, match pattern, print true or false
+10	10	detecting program errors in bash scripts?
+10	10	pid of last started process in bash-script
+10	10	how do i find my computer's ip address using the bash shell?
+10	10	bash script passing stdin input to a program and giving control back to user input
+10	10	bash: add value to array without specifying a key
+10	10	exit status code for expect script called from bash
+10	10	how to process file names with variables from a list in a file in bash
+10	10	if text file is not empty, email me
+10	10	using awk (or sed) to remove newlines based on first character of next line
+10	10	how to check syntax in bash (without running the script)
+10	10	how to append name of file to end of each line in file
+10	10	[bash] replace a line in a text file
+10	10	bash: run another program in the current directory while running from path
+10	10	how do i paste text to a line by line text filter like awk, without having stdin echo to the screen?
+10	10	how do you copy text from firefox in windows to bash shell in unix?
+10	10	return a regex match in a bash script, instead of replacing it
+10	10	redirect stdout and stderr to a single file with prefixes
+10	10	shell command to recursively give permission to directories and files
+10	10	bash or python or awk to match and modify files
+10	9	set awk delimiter to parse "airport -s" output
+10	10	running a bash script over ssh
+10	10	how do i change bash history completion to complete what's already on the line?
+10	19	haskell: writing text files and parsing them back to original format
+10	10	extract data from csv in bash script (sed, awk, grep?)
+10	10	how to parse post data in a cgi script with bash scripting?
+10	10	bash scripting: i want to open a set of .php files, and add line before html tag
+10	6	reading a text file in matlab line by line
+10	10	how to terminate script's process tree in cygwin bash from bash script
+10	10	bash: does it support conditional variables like var="test"?"1":"2"
+10	10	how to pass long strings for search and replace in a bash, sed, or rpl script?
+10	10	search multiple php files, and replace text ?
+10	10	writing bash script to change text and write to a log
+10	10	with bash, how can i pipe standard error into another process?
+10	10	bash scripting: how do i parse the output of a command and perform an action based on that output?
+10	10	how can i remove the first line of a text file using bash/sed script
+10	10	[bash] escape a string for sed search pattern
+10	10	extract filename and path from url in bash script
+10	10	how to match string/dir in a path using bash scripting
+10	10	extract substructure from a text file using bash or python
+10	10	send a command to a process
+10	10	bash: how to process variables from an input file?
+10	6	stop writing blank line at the end of csv file (using matlab)
+10	10	gnu screen running a bash init script
+10	4	jmeter command line - linux version vs windows version
+10	10	how to find duplicate files with same name but different case that exist in same folder in linux?
+10	9	is there a way to eject all external hard drives from the command line? (os x)
+10	10	what are some of your favorite little known command-line tricks using bash?
+10	10	how do i check in bash whether a file was created more than x time ago?
+10	10	how do you use binary conversion in python/bash/awk?
+10	10	bash: syntax error: redirection unexpected
+10	10	preserve ls colouring after grep'ing
+10	10	bash loop command until file contains n duplicate entries (lines)
+10	19	haskell: reading multiple command line arguments
+10	4	execute shell command in php on the desktop of another logged in user

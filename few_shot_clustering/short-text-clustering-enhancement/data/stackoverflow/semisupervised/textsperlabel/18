@@ -1,0 +1,1150 @@
+18	8	how to open a launch nswindow in cocoa on a button click
+18	16	gui thread detecting in the qt libary
+18	8	copy/paste not working in modal window
+18	16	pyqt: getting widgets to resize automatically in a qdialog
+18	16	in qt, for a context menu item, how to hide the space of the icon
+18	8	cocoa: quartz, core graphics, context vs view. oh my!
+18	8	app crashes when updating an highlighted nsmenuitem
+18	19	exposition on arrows
+18	16	how to get qgraphicsscene report item move events
+18	16	qgraphicsitem : emulating an item origin which is not the top left corner
+18	16	how to maintain widgets aspect ratio in qt?
+18	16	qt qmenu position
+18	16	qt qpushbutton icon above text
+18	8	cocoa: dictionary with enum keys?
+18	8	graphic effects library for core graphics?
+18	4	disable trinidad skins
+18	8	hide nswindowtoolbarbutton
+18	5	count a list of cells with the same background color
+18	8	how do i deselect all cells in an nsbrowser
+18	8	cocoa - notification on nsuserdefaults value change?
+18	8	cocoa color indicator bling?
+18	9	false applescript result in cocoa
+18	8	nsmenu with ibaction method for clicking the menu header?
+18	14	is there any way to change the index of menu items in a sharepoint menu?
+18	16	minimizing mfc application with open qt dialog
+18	14	businessdatalist web part edit view using code.
+18	16	getting mousemoveevents in qt
+18	9	can't copy or paste text in cocoa after deleted edit menu item
+18	16	wait until qwidget closes
+18	16	question about qt slots and multiple calls
+18	8	nstableview -setdatasource not working when triggered by fsevents
+18	16	problem in line editor in qt?
+18	8	setneedsdisplay not working?
+18	16	qt4 qnetworkmanager hangs
+18	8	cocoa - communication from child view to parent view
+18	5	office 2003 interop problems, interface, method not found.
+18	16	figuring out which menu item was triggered in qt
+18	16	mimicking/faking a mouse click and mouse wheel using qt
+18	11	modifying show method of generated roo controler
+18	16	qt set window background
+18	17	how to use tree javascript  menu in taxonomy menu ?
+18	16	how to access to parent widget on qt?
+18	8	reference from uitableviewcell to parent uitableview?
+18	16	drag & drop with .ui files
+18	15	ajax-ish updating of a canvas element
+18	9	best programmer's image editor for osx
+18	9	finder item in some point
+18	15	automatically processing contents of <textarea> without user pressing a button
+18	8	add app to the "startup items"
+18	8	getting a cgimageref from ikimagebrowserview
+18	14	custom list definition using document library
+18	8	simplifying a complicated cocoa-touch view controller
+18	16	export qt menu to text
+18	8	using toolbar & views on cocoa
+18	14	adding presence indicator to a custom web part
+18	16	how to make item view render rich (html) text in qt
+18	9	css: how to increase the size of a osx submit button
+18	8	in cocoa, how can i darken everything displayed in a single nsview?
+18	2	how could predicate pushing on an inline view slow down a query?
+18	16	drag&drop problem in a treeview qt
+18	17	date popup module - i want a time popup as well
+18	8	how to disable the alter panel caused by nsalter automatic?
+18	14	setting up the sharepoint+silverlight blueprint colleague view web part
+18	16	two shortcuts for a qabstractbutton
+18	16	mfc control in a qt tab widget
+18	8	deleting a row from an outline view.
+18	8	nsoutlineview, nstreecontroller and willdisplaycell
+18	9	how to get nsalert sheet to return focus to calling window?
+18	8	delegate methods of nstextfield using nsnotification
+18	8	cocoa - prevent caching of javascript in webkit - safari beta 4 bug?
+18	5	how to make the excel broken autofilter indicator go away?
+18	8	uiviewcontroller vs. uiview - which one should create subviews?
+18	16	weird qt bug (to do with properties editor)
+18	8	core animation with a core graphics drawing
+18	8	cocoa: laying out dates on a month-view calendar
+18	16	qt qhboxlayout cell size ssues
+18	16	qt: qlist of qbuttongroup
+18	8	how do i create a cocoa window programmatically?
+18	16	desktopdock or stardoc in qt
+18	16	scrolling different widgets at the same time
+18	8	how to click a text with underline for showing a web?
+18	16	qpixmap of a qgraphicstextitem
+18	8	receiving keydown and keyup events in a cocoa status bar app
+18	16	fewer connections in a qt calculator
+18	16	calling qt's qgraphicsview::setviewport with a custom qglwidget
+18	16	passing variables from one form to another in qt
+18	16	accessing the child ui elements in a qt ui
+18	16	qdialog doesn't accept text input if modal
+18	8	cocoa: learn currently selected keyboard layout / input language
+18	8	looking for info on custom drawing of interface components (cocoa)
+18	8	how do i get the inner/client size of a nsview subclass?
+18	16	creating qt models for tree views
+18	17	grouping items in a view
+18	16	qt splitter disable
+18	16	qt: printing pagerect and paperrect issues
+18	16	qt stylesheets: qheaderview draws header text in bold when view data is selected
+18	16	how to create opengl 3 context with qt 4?
+18	8	initwithframe not called, but awakefromnib is
+18	16	easily creating dynamic form/controls within qt
+18	8	problems with drag and drop in an nsoutlineview.
+18	16	how can i find out why a custom widget isn't showing up in the qt designer?
+18	16	qt (4) equivalent macros/methods/constants for their win32 api counterparts?
+18	8	drawing a view hierachy into a specific content in cocoa
+18	16	grab information from "qwidget"
+18	9	how can i get notified when the user finishes editing a cell in an nstableview?
+18	16	qt signals & inheritance question
+18	8	can i end editing for the field editor's control without disrupting focus?
+18	8	detecting when an nsview is dealloc'ed
+18	8	nsapplication delegate and preference panes
+18	16	in qt, how do i align form elements in different group boxes?
+18	16	how to decode "application/x-qabstractitemmodeldatalist" in qt for drag and drop?
+18	16	focusing on a tabified qdockwidget in pyqt
+18	16	qt: square constraint on window resize
+18	15	problem with flooding menu?
+18	8	creating a quartz composer style interface
+18	8	nspopupbuttoncell inside custom cell does not pop up when clicked.
+18	8	change templates in xcode
+18	9	how to tab between buttons on an osx dialog box
+18	8	best route to creating a calendar based date picker for cocoa?
+18	13	idiomatic table cell renderers in scala
+18	8	getting to the managed objects in nstableview
+18	8	is there a simple way to combine a text and icon in an nscell in cocoa?
+18	8	making a checkbox toggle the dock icon on and off.
+18	16	custom tray icon balloon tooltips in qt?
+18	16	how can i add a user editable checkbox in qtableview using only qstandarditemmodel
+18	8	why doesn't cocoa like this url?
+18	8	giving the root row of an outline view a different background color.
+18	16	qt, text on a black and white screen
+18	9	alternative laf to quaqua
+18	8	nsautoreleasepool in nsoperation main?
+18	16	thread id in qt
+18	8	why do all the checkbox's in my outline view check when only one is clicked?
+18	8	key-value-observing a to-many relationship in cocoa
+18	8	cocoa nsnumberformattercurrencystyle without "$" return zero
+18	8	how do i find the pixel position of a character in an nstextview?
+18	20	magento 3.1 - left hand menu
+18	5	how do i set up radio buttons in excel?
+18	16	how do i respond to an internal drag-and-drop operation using a qlistwidget?
+18	9	custom class - iboutlets not working?
+18	8	custom nscontrol target/action howto!
+18	8	gray nstableview à la itunes
+18	8	can i start a thread by pressing a button in a cocoa interface and keep using interface while thread runs
+18	15	creating a draggable widget system
+18	16	qt, signals without naming?
+18	8	how does textmate draw it's own key equivalents in nsmenuitem
+18	20	adding a custom form element to an adminhtml form
+18	16	qt: erase background (windows aero glass)
+18	16	removing custom widget from qvboxlayout
+18	8	scroll bars in nstokenfield
+18	16	how to disable the up/down buttons within the qdoublespinbox
+18	16	set dirty dot in mac window using qt
+18	16	qt graphicsscene constantly redrawing
+18	16	qt, set background images loaded from disk
+18	15	ajax toolkit reorderlist two components with the same id 'componentid' can't be added to the applicaiton
+18	16	python qt: qprinter not defined
+18	16	using qt with directx
+18	16	interface segregation in qt
+18	16	how can i view programmatically what resources qt thinks it has?
+18	8	send an action cocoa - ibaction
+18	16	qt portable ipc: only qsharedmemory?
+18	16	pyqt, qt, one event handler working with many items
+18	16	qt qplaintextedit background
+18	2	oracle form builder: switching between tabs in a form
+18	8	fun function every minute in cocoa
+18	8	loading data into a cocoa view before the application loads
+18	8	arrow keys with nstableview
+18	8	how do you toggle the status icon in the menubar on and off using a checkbox?
+18	9	obtain a cgcontextref of nsview outside of drawrect ?
+18	8	creating a checkbox programatically using cocoa
+18	16	qobject::connect issues with qabstractitemmodel
+18	16	how can i redefine a built in keyboard shortcut's behavior?
+18	9	xcode crashes on startup
+18	5	how can i hide protected excel addin functions from appearing in insert function dialogue box?
+18	8	key value observing in cocoa, introspecting the change property
+18	8	how to change tint color of cocoa's nslevelindicator?
+18	16	qtabwidget tab context menu
+18	10	how do i change the colors displayed in cygwin rxvt?
+18	16	porting nuclues grafix gui to qt
+18	16	qt4 qmenu items sorting
+18	16	qt must-read
+18	9	nstextview not refreshed properly on scrolling
+18	16	problem with detecting phone orientation change in symbian/qt
+18	8	how do i keep an nspathcontrol updated with the selected cell in an nsbrowser
+18	14	dynamically display edit control block menu item in sharepoint
+18	8	logging all cocoa events?
+18	1	dropdown menu in ie6 inserting too much width, not dropping-down
+18	15	disabling interstitial graphic when using cfdiv binding
+18	20	magenot - add link to my account in main menu navigation bar
+18	8	is there  a way to get coordinates relative to the innermost nsview when the parent is not the window?
+18	8	bottom bar in nswindow
+18	8	how to show a splash ui before app run?
+18	8	why is movie jumpy when i play simultaneously in 2 cocoa views?
+18	8	how do i dismiss a sheet with the escape key?
+18	16	beginner qt signals and slots question
+18	8	how do i draw a badge on my dock icon using cocoa?
+18	16	how do you debug qt layout problems
+18	1	center block element in element
+18	17	get a node to show up underneath a view's menu item
+18	15	maskededitvalidator displaymoney doesn't show up in composite control
+18	6	executing pushbutton callback from another function in matlab
+18	16	qt cannot open input file 'c:\qt\qt\lib\qtmaind.lib'
+18	8	cocoa mini toolbar under table (add, remove)
+18	16	qpainter and qtimer
+18	16	qtreeview stylesheet customization problem with scrollbar
+18	8	dynamically hiding columns in a nstableview
+18	5	uniformly link contents of cells
+18	8	loading custom framework in iphone
+18	8	how to display indeterminate nsprogressindicator in the nsoutlineview?
+18	16	opencv, nokia and qt - will it work?
+18	8	nsborderlesswindowmask window wont show nspanels if not front most window
+18	16	qt widget overlays
+18	16	custom container requirement to work with qt's foreach
+18	16	how to show tooltips in qt
+18	15	ajaxcontroltoolkit accordion and databinding
+18	16	qt linking error.
+18	16	qt regex matches html tag innertext
+18	16	qt play/pause action?
+18	16	qgraphicsview and qgraphicsitem: don´t scale item when scaling the view rect
+18	16	can i write programs in qt and sell them as "closed sourced"?
+18	7	embedding non-edit widgets in a datagridview
+18	8	observing self in cocoa
+18	8	nsview with variable number of items inside
+18	16	removing rows from qtreewidget (qt programming)
+18	16	qt increase qtabwidget's qtabbar size
+18	5	run macro to update cells
+18	8	making a menu item display a window.
+18	8	nsbutton default button with blueish look
+18	15	asp.net: can you call modalpopupextender from gridview's edit button?
+18	8	callbacks in objc+cocoa
+18	16	qt and context menu
+18	8	how to show a local image in the webview?
+18	8	cocoa control for setting shorcuts
+18	14	different coloured fly out menu
+18	16	qt context menu breaking selection in qtreeview
+18	17	hide "authoring information", "menu options" and "publishing options" in node creation form
+18	15	background image in an image map
+18	8	avoiding, finding and removing memory leaks in cocoa
+18	16	how to deallocate memory when a qt window closes?
+18	8	interface-builder outlets causing odd display behaviour
+18	16	how to find global position of text cursor?
+18	16	new to qt help needed.
+18	16	displaying webcam video with qt
+18	8	cocoa: filling an nsbezierpath with an image
+18	2	fully unrap a view
+18	8	enabling save for an nsdocument
+18	16	how to group widgets in my qt app?
+18	16	how do i add a header with data to a qtablewidget in qt?
+18	16	qt jambi: qabstractlistmodel not displaying in qlistview
+18	9	browser plug-ins not loading in webview implementation
+18	16	qt: mousemoveevent and interfer with hoverenterevent of child object
+18	8	creating cgimagecontext for resizing uiimage fails in simulator
+18	8	triggering a method when a row in a table view is edited.
+18	19	finding the leaves of an inductively-defined tree
+18	8	in cocoa, what is the best way to change the cursor when hovering over a circular view?
+18	8	using nsfontpanel in cocoa
+18	8	making the text in a text cell change color when the rows checkbox has been checked.
+18	16	how can i tell a qtablewidget to end editing a cell?
+18	16	qwidget, how to highlight the widget under the cursor
+18	15	facebook game function, optimizin a call, and loading bar
+18	8	problems with iboutlet getting nil.
+18	17	placing one vocabularly underneath another?
+18	8	threadsafe uitableview
+18	8	cannot hide controls in nsview
+18	16	qt4 login window
+18	16	center qgraphicsview in widget
+18	16	qt webkit - autocomplete an input
+18	14	wrapping text inside a bound field in spgridview
+18	8	how would you make a checkbox in a outline view become checked when all it's children's checkbox's are checked?
+18	16	python qt: main widget scroll bar
+18	16	how to capture an image from the window mobile device using qt?
+18	7	compartment items not displayed in dsl diagram
+18	15	dynamic ui styling/theming
+18	16	can i make qcompleter complete inline and show a popup.
+18	8	how to make part of an nsslider stop at tick marks?
+18	16	qt, vs2005, qwt - can't use q_object in class derived from qwt widgets
+18	16	checking available room in qt dock
+18	16	creating popup menu in qt for qtableview
+18	8	highlight colors in an nstablecolumn on highlight
+18	8	customize finder 'get info' window?
+18	1	drop-down js menu blinking in ie7
+18	8	cocoa interface builder's 'attributes inspector' like window
+18	8	how should a custom view update a model object?
+18	3	svn/tortoise - label generation
+18	16	smooth text animation (marquee text effect) using qt
+18	7	reportviewer displaying black background in print layout mode
+18	16	qt-gui with several "pages", how to synchronize the size of several qwidgets
+18	9	macintosh c creating a navigation window to choose an app
+18	9	changing the font in aquamacs?
+18	8	how to get notifications of nsview ishidden changes?
+18	8	creating a quick look style zooming effect
+18	16	qt + vtk + cmake
+18	5	how do i multiply two cells by their names?
+18	8	reloading a table view in an iphone app?
+18	8	fullscreen key down actions
+18	16	how can i prevent dragged items to be drawn during a drag and drop operation in qt?
+18	14	change edit control block link in wss
+18	16	qt application: simulating modal behaviour (enable/disable user input)
+18	8	hide buttons from titlebar in cocoa
+18	8	how to create a cggradient for my uiview subclass ?
+18	8	cocoa autoreleasing in loops
+18	16	hiding qt widget and keeping widget space
+18	16	pyqt custom widget in c++
+18	8	change text cursor (caret) colour in cocoa?
+18	16	qt: using qpainter on child widgets
+18	5	unresponsive cancel button on vba userform
+18	16	(qt/kdelib)  how to know the end of a command in kterminalinterface?
+18	15	accordion control gets 'extended' when we switch to designer
+18	7	can you add custom t4 templates to the vs2008 "add new item" dialog?
+18	16	qt: why is foreach iterating with a const reference ?
+18	7	what's the name of visual studio import ui widget (picture inside)
+18	16	how to update qcompeter's model dynamically
+18	8	cocoa nsdocument: getting autosave to work
+18	16	how to make qt work when main thread is busy?
+18	16	getting only one dimension of indexes from the getselectedindexes function in qt?
+18	8	updating nstableview in an instance of nscollectionviewitem
+18	8	filtering a tree controller.
+18	16	qtreewidgetitem addchild to already present item yields nothing
+18	8	disable nstoolbar customisation via window's toolbar button?
+18	16	qt best choice for animation on embedded
+18	16	notifying subclass of qabstractitemmodel about changes
+18	16	custom dock area using qt 4.4
+18	16	problem with drawing focus frame in qt
+18	16	signal and slots for customized class
+18	8	how do i convert cocoa co-ords from top left == origin to bottom left == origin
+18	16	keyboard and mouse event transparent widget
+18	20	enabling new admin action(button sales_order/view) in acl
+18	16	description of folder structure of qt sdk
+18	16	handling a qtextedit from another form
+18	16	beneficial to limit scope of qt objects?
+18	6	stumped trying to implement save/load object functionality in a matlab ui
+18	8	pixel perfection with uibutton to cover a uitableviewcell
+18	8	am i using nstimer correctly in iphone view-based app?
+18	8	mouse events for an nssegmentedcell subclass?
+18	8	in cocoa, how can i display the spinning nsprogressindicator in a different color?
+18	8	capturing all multitouch trackpad input in cocoa
+18	16	hidden features of qt.
+18	6	how to set some custom variables on matlab startup
+18	16	qt qicon to load svg files?
+18	8	countdown timer in cocoa
+18	8	cocoa bindings: custom setter methods?
+18	16	how to add widgets in runtime? (qt)
+18	16	qt create game host
+18	16	how do i reuse paintings in qt
+18	16	search box in qtoolbar
+18	16	how to create a bold, red text label in qt?
+18	14	cannot display image from list
+18	8	forcing reading of a text field before dismissing modal dialog in cocoa
+18	16	in qt, how to have a fixed size for qdialog
+18	8	duplicating views
+18	8	ns(array|tree)controller architecture for multiple nsviewcontrollers
+18	16	compiling qt-creator with mingw
+18	8	nstableview selection & highlights
+18	8	how to implement browser toolbar in cocoa?
+18	16	qt: custom widget in qscrollarea
+18	16	animation with qtimeline
+18	8	how can i create a gui and react to cocoa events programatically?
+18	14	render image in custom webpart from picture library
+18	20	local vs core contoller
+18	16	how do i make tab control take over entire window in qt creator?
+18	11	view is not rendered when returning modelandview
+18	16	how can i autoexpand an item in a qtreeview when it is filtered by qsortfilterproxymodel?
+18	9	cocoa won't capture shift modifier?
+18	16	qt jpg image display
+18	8	hide a window in cocoa from awakefromnib
+18	8	cocoa + dynamic text labels on nib file
+18	8	cocoa - singleton object: where to initialize member variables?
+18	8	how would you put an image next to a text cell for only parent rows in an outline view?
+18	16	how to draw & export a transparent image with nokia qt c++ ?
+18	16	how can i add a qmenu and qmenuitems to a window from qt designer
+18	16	qt animation: appearing & disappearing objects
+18	16	qt: hide the title bar of a dialog/window
+18	9	save entire desktop state?
+18	8	double click a nstableview row in cocoa?
+18	8	cocoa core data - background thread
+18	16	printing dialog or window with qt
+18	11	how to inject messagesource to a view extending abstractview
+18	16	mac hud window in qt
+18	8	altering the style of an nssearchfield.
+18	8	nsstatusitem to be always left?
+18	16	using qframe to display different panes of information?
+18	16	text under a widget added with qtoolbar.addwidget()
+18	16	on qt widgets like doublespinbox or combobox, how do i have custom right click menu
+18	8	cocoa screen capturing?
+18	8	wrap nsbutton title
+18	8	how to add a checkbox in a alert panel?
+18	8	design an nsview subclass in interface builder and then instantiate it?
+18	8	core data bindings with subviews and multiple nibs
+18	8	cocoa -/+ declarations
+18	10	mini project: change the color of the terminal based on the time of day
+18	16	qt webkit printing shrink factor
+18	8	how to i change the main menu in cocoa?
+18	16	qt background color
+18	9	remember window sizes and placement when unplugging and replugging second monitor.
+18	16	outlook style toolbar in qt
+18	5	how to capture the "print" button from the menu bar in a macro
+18	8	how would you make a checkbox delete a row in a table if checked (cocoa) ?
+18	15	how do i get the ajax top menu that stackoverlow has?
+18	9	how to get a window to receive drag and drop files in xcode
+18	16	qtmovie notification
+18	8	cocoa: what nstextview the insertion point is currently blinking in?
+18	16	qapplication
+18	16	displaying translucent / irregular-shaped windows with qt
+18	8	dynamically loading a part of a window in cocoa
+18	16	qt widget update later but when?
+18	8	when close the top window ,how to let the focus to the next level window?
+18	16	qt: transparent qrubberband?
+18	8	setting the nsbrowsercell image using bindings?
+18	8	background image for a window in cocoa framework
+18	15	how to scroll asp.net textbox to bottom
+18	8	filtering data in an nspopupbuttoncell in an nstableview
+18	20	megento module action on productview
+18	8	starting editing on a row as soon as it is added.
+18	8	is parentviewcontroller always a navigation controller?
+18	8	appdelegate or appcontroller
+18	15	progress bar in perl
+18	16	change background of qtabbar tabs using stylesheets
+18	8	updating the image of a nsstatusitem
+18	7	how can easily view the contents of a datatable or dataview in the immediate window
+18	9	mac dev - how to refresh view for 2d game?
+18	16	how to change qt applications's dock icon at run-time in macos?
+18	9	macbook trackpad gestures: move active window
+18	8	core animation - sheet-like window sliding
+18	16	qt single exe with lgpl?
+18	16	creating "pretty" qt custom widgets
+18	1	how to check whether a particular widget is show or not in the sidebar ?
+18	9	binding ikimagebrowserview's zoom to the size of its parent nsscrollview
+18	16	qtableview selected element in pyqt4
+18	8	how do i collect key input in a video-game style cocoa app?
+18	9	applescript for unlock screen dialog
+18	8	integrate nsstepper with nstextfield
+18	16	qt +hiding window after startup
+18	8	how to move the cursor of a qtmovie?
+18	4	implementing tiny mce as local html editor
+18	16	[qt] how many threads does qt create to work in the background?
+18	16	need more qt style sheet!
+18	8	interface builder uidatepicker
+18	9	drawing in other processes window on macosx?
+18	15	html checkbox change value in mysql
+18	8	how to make a transparent nsview subclass handle mouse events?
+18	16	add qradiobuttons on runtime.
+18	16	qt image format plugins
+18	16	show dialog/frame fullscreen on a second sceen sing qt/c++
+18	8	how to add a file selector/opener in cocoa with interface builder?
+18	16	qt creator/qt embedded widget demo problem
+18	6	matlab's hmmtrain assumes initial transition from state 1
+18	16	qt animation
+18	9	center an nsview within an nsscrollview
+18	16	qt: context menu (qmenu) reference from the qtablewidget.
+18	7	how do i enter a datetime value in the vs quickwatch window?
+18	8	how to use nscollectionview and outlets properly?
+18	8	override interface builder instantiation of objects?
+18	8	how to open a panel with new folder function by nsopenpanel ?
+18	16	invoking context menu in qtreewidget
+18	16	detailed information from qobject::connect
+18	8	cocoa binding to a particular item in an array controller
+18	8	can nsalert be used to create a floating window?
+18	6	matlab functions refusing to function depending on placement
+18	9	accessing isight programatically?
+18	1	disqus commenting without notification on top
+18	8	how can i reset a cocoa nssearchfield programmatically?
+18	16	set parent's status bar text?
+18	8	cocoa menu with images
+18	16	adding a custom widget to qt designer
+18	16	how to create a qwidget with a hwnd as parent?
+18	15	how can i add a hover class to an element?
+18	16	qtabbar vs qtabwidget
+18	16	using items in the background of a qgraphicsscene
+18	16	qt dialog with no window icon
+18	8	move focus to newly added record in an nstableview
+18	9	how to tab focus onto a dropdown field in mac osx
+18	5	how can a cell's background color be set other than the obvious cell shading property?
+18	8	kvc/kvo and bindings: why am i only receiving one change notification?
+18	16	using qfilesystemmodel in a qcompleter
+18	17	move nice menus to just below the title
+18	16	how do you move a widget from one tab to another and keep a layout
+18	8	cocoa memory editing inspection
+18	16	checking if a folder exists (and creating folders) in qt, c++
+18	16	get visible rectangle of qgraphicsview?
+18	8	cocoa : how to make a control invisible?
+18	8	changing font tracking in cocoa
+18	8	exc_bad_access when using nsoutlineview
+18	9	how to set background color of cell with nsbuttoncell type in nstableview ?
+18	8	a view can have a drawer?
+18	8	customising an nstextfieldcell depending on the isenabled biding of the table column
+18	16	updating a qprogressdialog with a qfuture
+18	16	mapping widget for qt
+18	8	how to implement gradient button bar in cocoa
+18	16	set a custom icon for a qaction when disabled
+18	8	observing an nsmutablearray for insertion/removal
+18	16	how can i implement google maps-like tile scrolling in qt?
+18	16	qt: set a default cursor for an application
+18	15	how to hide ajax html editor bottom toolbar
+18	16	show window in qt without stealing focus
+18	16	invoking methods in qthread's context
+18	8	how to give nswindow a particular background color
+18	9	how have you (or have you) learned keyboard shortcut navigation?
+18	16	qt qgraphicsscene copy
+18	8	global variables in cocoa/objective-c?
+18	8	nsstring retain problems
+18	8	hot to select items in nsoutlineview without nstreecontroller?
+18	7	how can i move the cursor in insert mode in viemu (w/o using the arrow keys)?
+18	14	removing contents of placeholderpagetitleintitlearea
+18	16	qt question to fullscreen flash application
+18	16	qt: qgraphicsscene not updating when i would expect it to.
+18	16	qt python : qtreewidget child problem
+18	16	qt qimage pixel manipulation problems
+18	8	adding a subview below my uitableview
+18	16	qt layout on qmainwindow
+18	8	nsalert without bouncing dock icon
+18	16	keep qpixmap copy of screen contents using x11, xdamage, xrender, and other tricks.
+18	16	get several values from the user in qt
+18	9	how do you create a keynote-like interface in cocoa and ib?
+18	17	customization of hook function
+18	6	in matlab, how do i change the background color of a subplot?
+18	8	how would you make a status item show or hide a window when clicked?
+18	8	esc and enter keys in cocoa dialog
+18	17	how to print just the popup window
+18	5	print certain tabs
+18	7	scrollbar in datagridview
+18	8	cocoa without interface builder, initialize an instance of app controller?
+18	16	in qt, how to show keyboard shortcuts in menu but disable them?
+18	16	qt python : combo-box bug behavior?
+18	14	override splist.writesecurity behaviour?
+18	16	how do i see the contents of qt objects during debugging?
+18	16	qt clicktoflash
+18	16	how do i tell qt to always show an editor in a qtableview?
+18	8	implementing "scrubby sliders" in cocoa?
+18	16	blinking background cell in a model
+18	8	how would you give an outline view alternating row colors?
+18	8	cocoa: measure time between keypresses?
+18	6	matlab subclassing question
+18	8	keydown and cocoa sample
+18	16	qt - keyboard layout
+18	16	how to paint contents in multi-thread using qt?
+18	8	subclassing nsoutlineview
+18	8	in cocoa/interface builder, how to clear text in textfield after button click
+18	16	combing an external event loop with qt's
+18	8	how to automatically expand all children of an nsoutlineview in cocoa?
+18	16	can i insert a test into a qt event window?
+18	9	when to create interface builder plug-in for custom view?
+18	8	how can i make an nsoutlineview where some of the entires are buttons?
+18	14	filterable spfieldurl in default view.
+18	8	how can i access specific subsets of a large nsdictionary in cocoa?
+18	8	cocoa focus ring color animation
+18	16	how  do i resize qtableview so that the area is not scrolled anymore
+18	9	interface builder segmented controls?
+18	8	putting an nspopupbutton in an nstoolbar
+18	16	custom styles for custom widgets in qt
+18	8	modal custom sheet not closing
+18	16	cocoa textured window in qt
+18	16	how to create a qt window behave like a message box ?
+18	9	arial font doesn't display properly in mac
+18	16	create database in qt
+18	16	finding a 3rd party qwidget with injected code & qwidget::find(hwnd)
+18	8	how to change style for nodes in nsoutlineview?
+18	8	nstextfield with "padding" on the right
+18	16	qt: how to send an event to the operating/window system?
+18	15	get accurate position for a click on a linked image using jquery
+18	8	observing properties with custom accessors
+18	16	sharing same model in two qgraphicscene instances in qt
+18	8	adding to a tree controller from an nsarray.
+18	15	googlemap-like drag and zoom
+18	5	programmatic positioning of vba charts has stopped working
+18	16	disable drag/drop in qtwebkit
+18	8	core animation code structure/conventions
+18	8	question about extensiblity of cocoa touch controls
+18	8	how to show a title of  document window without icon?
+18	8	core animation window flip effect
+18	8	how do i create cocoa interfaces without interface builder?
+18	17	adding event to yui rich text editor
+18	8	a good place to find interface builder plugins…
+18	16	custom/owner draw control in pyqt?
+18	8	remove white backgrounds from images
+18	16	qt how to use std::string in a qlineedit
+18	16	what signal can be connected to an initial dialog display in pyqt4 (qt)
+18	16	decrease qt gui application size
+18	8	how to have an nsmenu with dynamic actions
+18	16	qt icon embedded in executeable
+18	16	qt4: transparent window with rounded corners
+18	8	cocoa core data self referential interface builder question
+18	8	using predicates on an array controller to filter related objects
+18	8	how to controll the webview in the scrollview with the scrollview's controller?
+18	8	cocoa interface style
+18	8	what are the factors to decide between using core data versus rolling out a custom model?
+18	8	nstableview troubles
+18	16	qt: how to set qmenu to align to the right of a toolbar?
+18	9	cocoa nsarray/nsset: -makeobjectsperformselector: vs. fast enumeration
+18	8	status bar on bottom of window that looks like interface builder
+18	8	how do you add context senstive menu to nsoutlineview (ie right click menu)
+18	16	passing by reference [c++], [qt]
+18	8	cocoa: [statusitem setview:myview] makes a white bar menu item no matter what
+18	16	fit-to-width for a qwebview
+18	20	magento - removing the black background from automatic thumbnails?
+18	16	any way to "bulk load" a qt data model to avoid excess signal invocations?
+18	16	catching a drag exit in qt?
+18	5	excel - bottom border if text is present?
+18	16	qt trouble overriding paintevent
+18	8	animating rows in an nstableview
+18	8	error drawing text on nsimage in pyobjc
+18	9	how to disable window close button in osx using wxpython?
+18	8	how do i fix the height of my view after collapsing nssplitview?
+18	8	cocoa + what ui element should i use?
+18	16	newbie qt question about connect
+18	8	correctly handling mouse events with nscontrol and nscell?
+18	8	retrieving the selected object in an nsoutlineview.
+18	8	how do you make a outline view re-orderable like a table view?
+18	16	problems with multiple qapplications
+18	8	navigation controller strategy with an address book picker
+18	8	mouseover in nstableview
+18	16	using .pri files in qt
+18	17	create a view that displays node count?
+18	10	unable to have a tab completion of system variables without a backward flash
+18	8	why would nswindow with nstableview not resize?
+18	16	qt qfiledialog qsizepolicy of sidebar
+18	17	how to change drupals menu alternatives for creating a page
+18	16	how to set fixed axis intervals with qt/qwtplot?
+18	8	how do you give a text field a default font and some padding?
+18	16	qt gui internals - widget painting?
+18	8	how to show the logged messages window in xcode
+18	6	break polyhedron into tetrahedron
+18	9	height of nstextview with one line?
+18	1	can you help me center a "ul" element with css?
+18	16	glwidget in qt only updating on mousemove
+18	8	cocoa: getting the current mouse position on the screen
+18	15	not ajax-related controls in ajaxcontroltoolkit?
+18	8	writing to an iframe from nstextview
+18	8	uitextfield changing font size via interface builder
+18	16	connecting multiple signals to a single slot in qt
+18	8	setting color when drawing into a nsimage
+18	15	modalpopupextender performance issues
+18	16	qt widget being resized twice upon initialization?
+18	16	getting the bounding box of a constant size item in qt graphics views
+18	8	ugly looking text when drawing nsattributedstring in cgcontext
+18	8	why shouldn't i use a cursor rect on a rotated nsview subclass?
+18	16	displaying qtextedits over the window
+18	16	qt - top level widget with keyboard and mouse event transparency?
+18	8	nspopupbuttoncell inside custom nscell does not change selection when item is selected from menu
+18	9	managing swing  ui default font sizes without quaqua
+18	16	qt custom window
+18	16	how to change a qpushbutton icon when it has focus?
+18	20	how can you change category position per store view
+18	8	focus a nstextfield
+18	8	change alpha on main window - cocoa
+18	8	how to display unarchived custom nsview objects
+18	8	flipping quicktime preview & capture
+18	8	creating cocoa popupmenus programatically and getting code form a gui item built with the interface builder
+18	8	notification of webview's selection change
+18	8	subclassing a nstextfield
+18	16	custom style with qt
+18	8	animating nsdrawer
+18	16	hardcoded qmakespec in qt creator?
+18	16	how do i put an qimage with transparency onto the clipboard for another application to use?
+18	8	nspopupbutton, bindings and a shortening lifespan
+18	8	nsenumerator performance vs for loop in cocoa
+18	16	auto-hide panel in qt or wxwidgets
+18	16	model - view - controler in qt
+18	8	checkbox in tableview
+18	16	qt library event loop problems
+18	8	binding a custom nsview: does it demand creating an ibplugin ?
+18	8	binding nsslider to control the zoom of an ikimagebrowserview
+18	16	moving qt ui code out to separate class
+18	16	in qt, how do i set the background color of a widget like combobox or double spin box
+18	8	what's the difference between a coreanimation layer backed view and a layer hosting view
+18	15	when you show and hide a div, will it re-adjust surrounding elements automagically?
+18	8	how can i pass a class name as an argument to an object factory in cocoa?
+18	8	how do i tell nstableview not to resize all other columns when showing/hiding a column?
+18	8	how do you flip the coordinate system of an nsview?
+18	20	enterprise edition controller events not firing if full page cache is enabled
+18	7	numericupdown control
+18	8	uinavigationcontroller and autorotation.
+18	16	qt and qmake build dir
+18	16	qt, non-modal dialog doesn't close itself
+18	8	mouse event is not detected on my nstableview + cocoa
+18	5	return background color of selected cell
+18	16	how to show another window from mainwindow in qt
+18	9	how to close modal window when window is closed ?
+18	8	implementing a kvo/bindings-compliant bridge-pattern in cocoa
+18	8	nsnotificationcenter selector won't work with its nsnotification
+18	8	how to drag nsstatusitems
+18	8	a view controller that can be instantiated both programatically and in ib?
+18	9	how to stop nsscrollview from scrolling to top when horizontally resizing contained nstextview?
+18	16	qpainter colored text (syntax coloring)
+18	16	show/hide qdockwidget?
+18	16	how to create a tray icon with custom image using qt?
+18	8	what cocoa/core foundation helper functions do you wish you knew about 2 years ago?
+18	8	cocoa control for keywords/tags
+18	8	how to highlight a row in nstableview. very simple question
+18	17	view of nodes and their translations
+18	8	lsuielement application that starts a window with an application menu?
+18	8	cocoa - return information from nsoperation
+18	16	qt dependencies between projects
+18	8	how do i use an nsformatter subclass with an nspopupbutton
+18	8	highlight nstoolbaritems
+18	16	in qt, create a table with an blank editable row
+18	16	ie window in qt
+18	16	how to control the position of qdialog
+18	16	how to enable context menu on a verticalheaderitem inside a qtablewidget?
+18	8	how can i trigger core animation on an animator proxy during a call to resizesubviewswitholdsize?
+18	8	cocoa threadsafe mutable collection access
+18	16	deleting qwinwidget
+18	16	help recommend qt opensource project
+18	14	capturing title change event on spweb
+18	16	way to do radio buttons in qt 4.4.3 menus
+18	8	cocoa/iphone: backgroundcolor and opaque properties
+18	16	qt: add ui elements using qt script
+18	8	link an array controller to an array in xcode via outlets
+18	5	find text cells that are too small to display contents
+18	9	how to be notified of the minimize button being pressed in an osx window?
+18	13	table cell renderer using nimbus and scala
+18	16	capture qt widget as an image file
+18	9	font used in quicksilver - large text?
+18	16	why can i not insert a qstackedwidget inside a custom widget?
+18	8	code in nstimer prevents automatic sleep
+18	8	what is a referencing outlet?
+18	8	extending the attributes inspector in interface builder
+18	16	qt: writing plugins for other applications
+18	16	web interface identical to qt user interface
+18	8	how to display a raw yuv frame in a cocoa opengl program
+18	8	cocoa notification example
+18	16	add qobject in the combo box of qt
+18	7	shortcut to collapse to definitions except regions
+18	8	how do you make a text label display how many rows there are in the table.
+18	8	drawing once per frame in cocoa
+18	17	hide link to a view if it's empty
+18	9	how to write osx finder new functionality/view
+18	7	is it possible to disable command input in the toolbar search box?
+18	7	vs2005 "add new item..." dialog - default item
+18	15	get scriptaculous slideup effect to work with rubyonrails
+18	5	unlock cell on a condition from adjacent cell
+18	8	nstableview, multiple cells and bindings
+18	6	dynamically add fields to matlab gui?
+18	8	cocoa - suggested techniques for debugging binding problems between xcode and interface builder
+18	16	use preferences menu item.
+18	8	helper functions in cocoa
+18	8	cocoa utility class
+18	8	nstableview with custom cells
+18	16	qt for symbian - odd network sockets behavior
+18	9	the logic behind macos's exposé
+18	16	including a library in qt, why isn't this working?
+18	16	how to style qtabbar close button
+18	14	vsewss problems when creating a new base class which inherits from spitemeventreceiver
+18	8	nscolorwell subclass not getting mousemoved events
+18	16	how to know a qtreewidget selected item?
+18	8	how to get the filepath when drag it from finder to a webview?
+18	16	how does qt implements signals and slots?
+18	16	using win32 api in qt ose project
+18	16	how to link qt to and already existing mingw installation?
+18	16	write text to a qtextedit box from a c function
+18	2	stumped and seeking input re: database design
+18	8	nstableview switch column
+18	16	qt use-case for same signal to 2 slots on same object?
+18	8	core animation... cyclic animations?
+18	16	obtaining text from a qlistview
+18	16	how do i get a checkbox item from a qtableview and qstandarditemmodel alone?
+18	17	views doesn't show checkbox fields where answer > 1
+18	1	word press - changed directory and images do not appear
+18	8	register as login item with cocoa?
+18	8	programmatically activate nsmenuitem
+18	8	how to color text in popup menu of nscombobox?
+18	16	measuring text width in qt
+18	8	making an nsbutton in-active.
+18	5	docking custom task panes
+18	16	styling qpushbutton with css?
+18	16	how to remove spacebar action from qtoolbutton
+18	8	why are subviews of an nsview not sent a release message when a cocoa application terminates?
+18	8	retrieving all of an nstreecontroller's objects.
+18	8	how to change the height of an nsprogressindicator?
+18	16	qt qtabwidget icon problem
+18	8	how to hide the dock icon
+18	8	how can i make my nsscroller subclass have a different width?
+18	19	finding whether or not an item is contained within an k-ary tree
+18	16	thread pool in qt 4.3
+18	16	animations with full alpha in qt 4.4?
+18	8	how do i cross fade text to an nstextview and an image to an nsimageview in a cocoa app?
+18	8	cocoa webview - disable all interaction
+18	8	handle osx dock drag n drop
+18	8	trouble with float in objective-c
+18	14	dynamically set the defaultvalue of a parameterbinding in a dataformwebpart
+18	8	uiwebview in multithread viewcontroller
+18	8	stop text from wrapping with nslayoutmanager
+18	9	when using py2app, is there a way to customize the traceback dialog that gets displayed? (or show a different cocoa dialog?)
+18	8	start up question..
+18	16	qt: new student to qt questions
+18	8	how to add a menu into the safari menubar or add a button into it's mainwindow?
+18	8	second frontmost app?
+18	16	qt signals and slots - are they intended for gui only or for entire app architecture?
+18	8	cocoa + nsmenu item
+18	16	qt qfiledialog input field - tab complete like shell
+18	9	applying a modifier key from one keyboard to a keypress on another in os x
+18	16	qt's pragma directives
+18	8	setting one side of an nssplitview programmatically
+18	8	how do i get the representedobject from a view in an nscollectionviewitem?
+18	8	programmatic equivalent of "visible at launch" for nswindows
+18	20	add a checkbox to product image gallery (like "disable/exclude")
+18	19	problems with scrolling in textview in gtk2hs and haskell.
+18	16	qtcpsocket in qthread
+18	15	ie not updating display after callpback pane updates the dom
+18	16	c++/qt download file in sync
+18	16	how to display image from array of colors data in qt?
+18	7	mfc "warning: skipping non-radio button in group."
+18	8	load swf inside nsview
+18	8	nsscrollview bar not scrolling through nstableview rows
+18	16	nonclosing close button in windows mobile ( developed with qt)
+18	16	qt dialog window opens in same window
+18	8	how can i make an undecorated window in cocoa?
+18	16	crash in qhash
+18	8	how do you put a normal control into an nsview?
+18	9	table view not updating according to bindings - part deux
+18	8	nsmatrix and autoresize only certain cells?
+18	20	inserted  custom option not displaying only displays after refresh
+18	14	accessing list images
+18	2	ora-01031: insufficient privileges when selecting view
+18	8	persistent uibarbuttonitem in uitoolbar?
+18	8	how to rotate a calayer-backed nsview subclass
+18	7	designing panels without a parent form in vs?
+18	16	contents of pystring in qt creator debugger?
+18	8	how can i slide a view in and out of a window in a cocoa program.
+18	11	getting value from one controller to another controller
+18	16	getting data from a qtreewidgetitem inherited class
+18	9	how do i get keyboard events in an nsstatuswindowlevel window while my application is not frontmost?
+18	16	scalable painting of a qt application
+18	15	default radio button not triggering an updatecontrol postback
+18	16	qdockwidget - remove handle
+18	16	resizing mfc dialog with embeded qwinwidget
+18	9	change cursor in gl fullscreen on osx using cocoa?
+18	9	using applescript to hide keynote text fields in a slide
+18	16	styling a qscrollbar by qstyle
+18	16	transparent icons on toolbar draw ugly borders
+18	16	private/public qt signals
+18	15	auto-generated form value
+18	8	finding a specific element in an nsarraycontroller
+18	16	qt: creating an "svg image button"
+18	19	haskell: show screwed up?
+18	16	why are my qt plugins not loading?
+18	16	how to implement the "edit" menu with "cut", "paste and "copy"?
+18	8	multiple documents in a single window in cocoa
+18	16	qtpython qtreewidget problem
+18	16	recompiled qt libraries with vs, now why won't qt creator compile?
+18	8	uiwebview slow loading images--disturbs scrolling to anchors
+18	16	qt webkit & opengl rendering context
+18	13	scala popup menu
+18	8	switch between views in cocoa (not cocoa touch)
+18	16	qt -- pass events to multiple objects?
+18	16	cannot integrate custom widgets dll into qt designer
+18	16	how to make modeless dialog stay on top of its parent in solaris cde
+18	16	how to design floating tool bar in qt 4.5.2
+18	16	qcompleter and qlineedit for multiple words
+18	8	current text direction (bidi support) in cocoa?
+18	16	find qwidget of single instance qt application
+18	7	displaying code sections with a different background color?
+18	7	what is the shortcut key for run to cursor
+18	8	what is the @package compiler directive for in cocoa?
+18	7	shortcut key for 'view in object browser'
+18	16	qt: doesn't cause memory leak?
+18	16	qt rtti trouble
+18	16	better way of calling a function in child thread in qt?
+18	16	qt/c++ casting question
+18	16	qt: problem with creation of c++ library
+18	16	binding qt to llvm
+18	16	qt wrapper for c libraries
+18	8	cocoa/opengl coordinate transformations
+18	8	adding padding to the 'left' of a text field.
+18	9	in applescript, how can i get to the help menu search field, like spotlight?
+18	18	datacontext refresh doesn't invoke propertychanging & propertychanged events
+18	16	can i use a qtimer to periodically refresh a form while still letting user edit some of the fields?
+18	16	qt / thread event loop qtimer/mysql queries
+18	19	parsec-3.1.0 with custom token datatype
+18	2	how do i set the window tile for a sql*plus (windows) instance?
+18	8	how do you make a row in a table view go slighly opaque if a checkbox in that row is checked?
+18	8	how would you make a button display a window when clicked?
+18	16	in qt4, how to check if paintevent is triggered by a resize?
+18	8	how do i create a lock/unlock button and behavior in my secure preference pane?
+18	8	iphone dev: passing object from controller to a view
+18	8	how do you make the application window open when the dock icon is clicked?
+18	8	can you detect a ctrl-click (context menu) request in the mousedown event?
+18	16	slow selection in qtreeview, why?
+18	8	how can my app detect a change to another app's window?
+18	16	should i use delegate classes if i want items to be edited using a dialog in qt?
+18	16	qt: qimage always saves transparent color as black.
+18	8	is it possible to create a uitabbarcontroller whose tabbar items have text labels only (no icons)
+18	8	how do i index through a cocoa nsarray to draw a shape in quartz composer for every element in the array?
+18	16	building multiple targets in qt / qmake
+18	16	building the multimedia module of qt mobilty with qml extensions
+18	8	core animation view intermittently not appearing
+18	7	[vs] how do i add debug breakpoints to lines displayed in a "find results" window
+18	8	nstextfield on top of custom drawing - black outline and cursor not blinking?
+18	16	hand coded gui versus qt designer gui
+18	8	resizing an nspanel to fit a dynamic nsmatrix and a button
+18	16	hiding a qwidget on a qtoolbar?
+18	8	nsview leaves artifacts on another nsview when the first is moved across the second
+18	16	is it possible to run q qt symbian application in the background and interact with the homescreen?
+18	8	getting nsarraycontroller item for right click in nscollectionview
+18	16	setting focus on qlineedit while showing the qlistview view
+18	8	iphone subview design (uiview vs uiviewcontroller)
+18	16	styling qtableview cells
+18	16	dynamically manipulate qt gui
+18	8	cocoa nsview changing autosizing properties
+18	16	how to manipulate pages content inside webkit window (using qt and qtwebkit)
+18	16	show editors for all cells in row in qtableview
+18	8	how can i resize an nstextfield to fit the text that it holds?
+18	8	how can i use cocoa's accessibility api to detect that a window is brought to front?
+18	16	how to change behaviour of qmainwindow / qdockwidget separator
+18	16	qt: show result of color selection?
+18	8	rightmousedown: not called in nscontrol subclass
+18	8	how to implement very large scrolled view in cocoa
+18	8	open string in app per drag'n'drop on icon
+18	16	in qt how do i get a button press to set a spinbox to a certain value?
+18	8	how should i rotate a uiview, without altering the location of the touch events i get?
+18	10	bash menu:  return to menu after selection made and executed?
+18	8	cocoa keyboard shortcuts in dialog without an edit menu
+18	16	in a qtablewidget, changing the text color of the selected row
+18	8	how to prevent the os x text layout engine from automatically "flipping" lines with right-to-left text?
+18	8	how should i remove all items from an nstableview controlled by nsarraycontroller?
+18	16	best qt widget to use for properties window?
+18	16	how could i use the qcolordialog widget inside another widget not as a separate dialog?
+18	8	how would you make a text cell in a an outline view show how many children the parent row has?
+18	16	table and list view with single model in qt
+18	8	how to make a keyboard shortcut to close dialog with xcode/interface builder?
+18	8	making the children rows in an outline view be deleted when their parent is.
+18	8	how would you make a checkbox cell only display on a certain entitys rows in an outline view?
+18	16	how to draw a progress bar inside a list widget in qt
+18	16	how can i hide/delete the "?" help button on the "title bar" of a qt dialog?
+18	8	add/remove rows to/from nstableview in objective-c
+18	16	qtcreator's integrated form editor won't load custom widget plugins (designer does)
+18	16	displaying multiple icons in a single cell of a qtableview
+18	8	multiple custom controls that use mousemoved in one window...
+18	8	nstableview and nsoutlineview drag and drop help
+18	8	how do you make a button remove a row with core data in an outline view?
+18	8	how do i bind the enabled binding of a button to whether or not an nsarraycontroller has a selection?
+18	8	making an nsalert be displayed when the user attempts to delete a row from an nsoutlineview when it has children.
+18	16	trying to get signals to work in my qt. i need some advice and help
+18	8	how do i use the return value of a sheet to decide whether or not to close a window?
+18	16	experience compiling and building qt
+18	16	qt, getting the text when qpainter::drawtext() is called
+18	8	open a terminal window to a specified folder from a cocoa app.
+18	8	making a nspopupbutton display all my ical calandars.
+18	16	is it possible to have a qwidget as a child to a qobject?
+18	16	how to set qwidget cursor outside the gui thread
+18	8	how to customize nstextfield look (font used, font size) in cocoa ?
+18	16	change tab stop size in rendered html using qt's qlabel class
+18	16	what is the best way to make a qtableview's cells have up and down button pushed states in qt?
+18	16	how to click a button in a out-of-focus widget without changing the current focus to it
+18	16	qtableview - what signal is send when user selects a row by clicking to it?
+18	16	resize qwidget in a layout manually on runtime
+18	6	making gif animation from "movie" command
+18	16	is there a way to determine if a top level qt window has been moved?
+18	16	how do i auto-adjust the size of a qdialog depending on the text length of one of its children?
+18	16	qt - what is required for a qtdir to be considered valid by build tools?
+18	16	issue with qt slider signal/gui
+18	16	qlineedit: how to handle up and down arrows?
+18	10	bash open firefox window, then each subsequent window in tabs
+18	16	passing data around with qmimedata in qt drag and drop
+18	16	qt::tool window diassapears when application become inactive.
+18	16	qt & double buffering - are there any neat tricks to capture pixels or manipulate the back buffer?
+18	16	is it possible to use qt threading without inheriting any qt object?
+18	16	can i insert multiple copies of a widget in a form at runtime?
+18	16	how to wait main application thread till worker thread complete in qt
+18	16	help with mixing widget painting and udp data transfers in a multi-threaded context
+18	14	how can i restrict the visibility of a custom list action to a newly defined group
+18	5	activate range, allow edit, continue
+18	7	tool to view the contents of the solution user options file (.suo)
+18	15	retrieving value (not display item) of dropdown
+18	10	load the result of an egrep inside a editor (vim/emacs/gedit)
+18	16	unable to bind a signal to a slot in qt
+18	16	python qtreewidget: return tree hierarchy
+18	16	is it possible to see definition of q_signals, q_slot, slot(), signal() macros? (qt)
+18	6	how to add "help"-text to a mex-function?
+18	18	executing a certain action for all elements in an enumerable<t>
+18	9	change background of terminal.app from the commandline
+18	16	opengl / c++ / qt - advice needed
+18	16	problems communicating with external editor in qt4
+18	16	linking with a debug/release lib with qmake/qt creator
+18	16	include problems when using cmake with gnu on qt project
+18	8	how do you develop an application to draw, edit and save uml models in cocoa?
+18	7	how do i enable platform builder mode in vs2008
+18	17	city selection on ubercart checkout menu?
+18	16	are qt's stylesheets really handling _dynamic_ properties?
+18	16	any uml-like modeling tool for qt signals and slots?
+18	16	how to design an ide using qt?
+18	20	magneto xml layout with custom modules
+18	15	limit number of jquery drag and drop id's
+18	17	change user_profile_form form fields order
+18	9	how to create a zip file in the same format as the finder's "compress" menu item?
+18	20	updating frontend layout from a module
+18	8	how would you make a status item's title be an image not text?
+18	11	handlerexceptionresolver for annotated controller.
+18	9	in cocoa do i need to remove an object from receiving kvo notifications when deallocating it?
+18	16	new qt directory is not valid
+18	16	how to emit cross-thread signal in qt?
+18	14	splist.getitems(view) returns an exception when attempting to get item title
+18	9	why is my cocoa program getting exc_bad_access during startup?
+18	16	how do i embed a binary executable (to be executed at runtime) in a qt program?
+18	5	multiplying multiple cells by a number
+18	8	limiting the number of objects in nsarraycontroller
+18	8	how can i detect that the number of rows in an nstableview has changed?
+18	16	for qt 4.6.x, how to auto-size text to fit in a specified width?
+18	7	manually finding the size of a block of text
+18	9	disabling color correction in quartz 2d
+18	1	rich text editor (wysiwyg) for custom fields input
+18	14	controlling how custom field types are rendered when exported to spreadsheet
+18	2	checking for the presence of text in a text column efficiently
+18	9	how to edit .globalpreferences.plist without logout and login?
+18	17	removing "user-profile.tpl.php" but it doesn't revert to default view
+18	16	resources to learn qt/embedded 4.5 ?
+18	16	how to add this functionality to qt 4.6 embedded linux qws ( qt windowing system) ?
+18	16	qt app text size incorrect under macosx
+18	16	problem installing qt on vista
+18	16	using sqlite with qt
+18	16	is qt classified as a c++ library? if not a library, how would you classify qt?
+18	16	how to run parallel codes using qt ?
+18	16	qt: python tcp client sends data over socket. how to read these bytes with qt ?
+18	16	align tab in qtabbar from left
+18	16	qt fold/unfold widget?
+18	16	how can i simulate user interaction (key press event) in qt?
+18	16	raise and lower qtreewidgetitem in a qtreewidget?
+18	16	how to auto-resize qt widget?
+18	16	qt 4.5.3 qevent::entereditfocus
+18	16	qt repaint/redraw/update/do something!
+18	16	central qwidget [qt]
+18	16	qt python: qtextedit - display input
+18	16	qt painted content goes lost
+18	16	setrawheader don't follow elements in the web view
+18	16	opengl threaded tile texture loading with qt 4.5 / 4.6
+18	16	simple qt embedded window question
+18	9	how to add popup menu on nstoolbar item ?
+18	16	removing arrows from scrollbar in qt
+18	16	qstackedwidget inside qtabwidget tab?
+18	16	qtextedit (qt control) alternative for mfc application?
+18	16	qt slot get signaled twice
+18	16	qt4: qabstracttablemodel drag and drop w/o mime
+18	16	qt4: qtableview mouse button events not caught
+18	16	qt: how to show icon when item selected
+18	16	qt, making ui that shrinks and expands
+18	16	qt styles: how to style a widget that uses a .ui generated class?
+18	16	qt::how to prevent an icon being highlighted?
+18	16	qt show() function after hide(), worked when the window inactive but not active
+18	16	passing / forwarding events to a sub-object in qt
+18	16	qt equivalent of nstokenfield
+18	6	axes background color not rendering properly when exporting videos
+18	16	callback for button in qtcreator?
+18	16	hierarchy in qt [c++]
+18	16	qgraphicsview accepted events
+18	16	qt show/hide widget animation
+18	16	i wanna start qt
+18	1	wordpresss- custom table loop- not quite right
+18	16	qt qtreewidget preserve sort
+18	16	changing a label in qt
+18	9	menu items become disabled in mac when an "alwaysontop" frame is showing
+18	16	how to change the text color of qlistwidget
+18	9	how to re-show main window after closed in cocoa ?
+18	16	how to customize listview in qt
+18	16	looking for qt styling with borderless window tutorial or how to
+18	16	in qt, how do i make a window be the current window?
+18	16	how to get the paint event for buttons in qt
+18	16	qt - qscrollarea widget clipping contents
+18	16	qt: defining a custom event type
+18	16	qt::how to lower the text in a qspinbox
+18	9	ikimageview and scroll bars
+18	9	force window to front/focus?
+18	16	transparent image in qt
+18	19	fixing the size of a gtk widget.
+18	16	qdialog popping up another qdialog
+18	16	trouble with progressbar in qt
+18	16	qt - how to detect what application is in focus
+18	16	overwrite data and setdata in qt's qfilesystemmodel
+18	16	qt widget disobeys drop in windows
+18	16	qt 4.6.x under macos/x:  widget update performance mystery
+18	16	problem in inserting element to listview in qt
+18	16	help needed in implimenting control in qt
+18	16	overlapping labels in qt fridge magnets example
+18	20	remove everything in  sidebar but one menu
+18	10	how to let putty change its cursor shape accordingly?
+18	12	custom entitynotfounddelegate
+18	6	saving/associating slider values with a pop-up menu
+18	19	render yesod widget
+18	8	how do you change the look of a check box?
+18	8	how do you make a button link to a website in cocoa?
+18	8	how to do a full text search in cocoa?
+18	8	how to get the token type from a cfstringtokenizer in cocoa?
+18	16	mixing qt with stl and boost - are there any bridges to make it easy?
+18	8	do cocoa nssortdescriptors belong in the model or the controller?
+18	16	how can i have more than a ui for a qmainwindow?
+18	16	should qt target the hyperspace?
+18	8	how would you make the text in a checkbox cell be able to be edited?
+18	16	how do i code in qt under the lpgl and maintain proprietary code?
+18	8	nsoutlineview not doing what it has should do in it's subclass.
+18	8	how to programatically get current battery level with cocoa
+18	16	what features in qt do you like the most?
+18	8	in cocoa, how do i set the ttl on a packet?
+18	8	how can i send a html email from cocoa?
+18	8	can you manually implement cocoa bindings?
+18	8	cocoa: any checks required for multiple asynchronous nsurlconnections?
+18	16	how to map a resource file in qt 4.5?
+18	8	how do i implement a customized list in cocoa?
+18	16	how to encrypt and decrypt a file with qt/c++?
+18	16	how do i run xpath queries in qt?
+18	15	how can i dynamically add and remove <fieldsets> using prototype and scriptaculous?
+18	16	qt database interface... best place to get started?
+18	16	how do i make a qvector of widgets?
+18	8	how can i force invalidation of a cocoa program without additional custom code?
+18	17	how to sort a view using durpal fivestar average ratings?
+18	8	what are the most valuable parts of computer science studies for cocoa developers?
+18	16	qt: is is possible to get the qscriptengine from qwebframe?
+18	8	how do i help prevent my users from initiating a drag accidentally in cocoa?
+18	16	most effective row removal strategy for qstandarditemmodel
+18	8	what are the ways to convert/encode to aac in cocoa?
+18	1	how do i make a certain text style larger?
+18	11	how to add filterclass into applicationcontext?
+18	16	is anyone using valgrind and qt ?
+18	16	how realize a financial software in qt?
+18	16	qt equivalent of .net data binding?
+18	11	springjunit4classrunner -- can i change the lifetime of the injected resources?
+18	16	qt: do events get processed in order?
+18	16	any readings/books recommended for a beginner mobile qt developers?
+18	16	modifying qt core components/widgets, best practices?
+18	16	qgraphicsview/scene - multithreading nightmare
+18	16	best json parser for qt?
+18	16	qt "connect" syntax is very long. is it any tricks to make it shorter?
+18	16	qtextcodec subclass - how to register my codec
+18	9	how to add text to disk image?
+18	16	is there a test suite for verifying a qt port?
+18	16	qt::what needs to be included in the configuration to use dbus?
+18	13	what is the difference between a view and a stream?
+18	16	qt::how small can it be made?
+18	16	in qt, how do i query the state of a qmutex or a qreadwritelock?
+18	1	how to add remember me function at custom login box ?
+18	11	minimizing springldap dependencies.
+18	20	how to add custom modules in magneto
+18	16	how to intercept all signals emitted by a given event in qt?
+18	16	python qt: embedded html bug?
+18	16	wcf service with qt?
+18	19	problems trying out happstack-tutorial
+18	1	padding has blue border in ie and firefox but not in chrome.
+18	19	continuation monad "interface"
+18	20	sqlstate[42s02]: base table or view not found:
+18	20	magneto as b2b - view 'company name' instead of first/last name
+18	8	cocoa controllers - best practice for notifying on completion, for disposal?
+18	16	java swing or java qt?
+18	8	observevalueforkeypath:ofobject:change:context: doesn't work properly with arrays
+18	4	hide directories from listing, but don't disable directory listings.
+18	16	qt auto software version?
+18	16	how to create a subdirectory for a project in qt-creator?
+18	16	is qt-embedded-linux drawing library fixed point ?
+18	16	qt client - labview server
+18	16	can i use breakpoints with try catch statements with qt creator?
+18	19	maximize frame on startup  in wxhaskell
+18	17	fixing problems on a site that only breaks on ie7
+18	8	disable option-enter line breaks in nstextfield?
+18	16	how to tell qwebpage not to load images?
+18	9	how can i know if the user is in exposé mode?

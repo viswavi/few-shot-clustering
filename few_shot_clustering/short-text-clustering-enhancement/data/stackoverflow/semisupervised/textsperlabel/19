@@ -1,0 +1,802 @@
+19	2	difference between two queries when selecting a random sample from oracle
+19	2	microsoft provider for oracle and positional parameters
+19	2	oracle backup database with sqlplus it's possible?
+19	20	multiple stores and multiple admins with different roles.
+19	12	hibernate tool to create basic mappings based on a mysql db
+19	17	preserving data integrity in drupal:
+19	12	disable hibernate auto update on flush on read only synonyms
+19	12	please help me with mysql slow query analysis.
+19	2	sessions with clustered instances of oracle application server
+19	2	disable trasactions in oracle
+19	2	how accurate is oracle's explain plan?
+19	2	what is the bullet-proof way to specify the easy connect string for oracle?
+19	2	lazy evaluation of oracle pl/sql statements in select clauses of sql queries
+19	20	mangento in postgres or oracle database ?
+19	2	unwanted leading blank space on oracle number format
+19	2	oracle sql expert certification 1z0-047
+19	12	how do i use the current date in an hql query with an oracle database?
+19	2	setting classpath for a java stored procedure in oracle
+19	18	from "linq to sql" to "azure table storage" or "sql data service"
+19	2	how to make a big query on an asp page for an oracle db
+19	2	oracle equivalent to mssql datediff
+19	2	how do you work on oracle packages in a collaborative, version-controlled environment?
+19	2	oracle - oci query timeout
+19	2	oracle connections from a com+ application
+19	2	how to determine the schemas inside an oracle data pump export file.
+19	2	oracle gotchas for an experienced newb
+19	2	best way to select out of millions of rows in an oracle db
+19	2	mixing "using" and "on" in oracle ansi join
+19	2	describe query with oracle (.net connector)
+19	11	db backup problem with spring/hibernate generationtype.auto
+19	2	are oracle stored procedures faster than in line sql for a microsoft.net application ?
+19	16	how to force qdatetime::fromstring to read utc time.
+19	2	oracle 9i: synonymed table does not exist?
+19	2	understanding the results of execute explain plan in oracle sql developer
+19	2	oracle database 10g view performance
+19	2	genealogy query in oracle
+19	12	hibernate and sql server best practicies
+19	2	how to get column info from oracle table you don't own (without using describe)?
+19	2	why is there a discrepancy between activerecord sql and pl/sql developer sql?
+19	9	transfer mysql to sqlite
+19	2	how to connect to oracle from far computer in lan ?
+19	12	fetch last record in mysql
+19	2	why would a database trigger be invalid in an oracle db?
+19	12	how to limit user access at database level in hibernate
+19	2	oracle resource manager plan design
+19	2	what's the difference between the oracle sys and system accounts?
+19	2	meaning of (+) in sql queries
+19	2	oracle materialized view tuning
+19	2	oracle rollback segments and ado.net
+19	2	oracle temporary tablespace
+19	1	retreiving widget data with mysql query in wordpress
+19	2	how can i optimize a dynamic search query in oracle
+19	2	bitwise exclusive or in oracle
+19	2	converting sql server date format to oracle
+19	18	linq to sql, stored procedures and the methods pane
+19	2	differences between two analytic queries
+19	11	during spring unit test, data written to db but test not seeing the data
+19	2	oracle associative array type is not able to use in using statement (if  type is declared within package)
+19	11	em.persist seems doesn't persist data on postgresql db
+19	2	how to list active / open connections in oracle?
+19	2	oracle xe for linux...?
+19	2	what is the best column for storing xml in an oracle database?
+19	12	nhibernate hql sql server 2005 / 2008 containstable
+19	2	is there any way to programmatically "move" an oracle table definition from one database to another?
+19	2	oracle merge constants into single table
+19	7	implementing a sql server 2008 user-defined function in managed code for geocoding
+19	2	oracle 10g - optomize where is not null
+19	2	how do i bring an oracle blob into sql server?
+19	2	problem with oracle application server ssl certificates
+19	2	in oracle, why do public synonyms become invalid when a table partition is dropped.
+19	2	evaluate oracle expression
+19	2	create black and white pdf from oracle reports
+19	2	database design - should a date be used as part of a primary key
+19	2	batch multiple select statements when calling oracle from ado.net
+19	4	who are using all the memory on my production server(apache + mysql + rails) ?
+19	15	testing an sql query in php
+19	12	hibernate for stored procedure access
+19	2	how to tranform an oracle sql into a stored procedure that should iterate through some tables fetching a certain data field?
+19	2	how can i "batch download" data from oracle?
+19	2	is there an easy way to clone the structure of a table in oracle?
+19	2	how to develop an after serverror trigger in oracle?
+19	2	is odp.net required for oracle 11g client?
+19	2	how to do monthly refresh of large db tables without interrupting user access to them
+19	2	open source client for oracle?
+19	2	oracle stored procedures, sys_refcursor and nhibernate
+19	2	how to trunc a date to seconds in oracle
+19	2	oracle server performance monitoring tools
+19	2	faster insert oracle hash cluster table
+19	2	oracle packages in version control?
+19	2	oracle ora-00600
+19	2	oracle sql technique to avoid filling trans log
+19	2	storing array of floats as a blob in oracle
+19	2	oracle java stored procedure command-line interaction
+19	2	how can i kill all sessions connecting to my oracle database?
+19	2	oracle connections problem
+19	2	oracle all foreign key references
+19	2	testing for a valid date in a oracle procedure's parameter
+19	12	hibernate security apprehension: hibernate vs. stored procedures
+19	2	general oracle data collection storage
+19	2	choosing a desktop database
+19	2	how update oracle heterogeneous services metadata?
+19	2	help on integrating oracle bi into existing application
+19	5	excel odbc and 64 bit server
+19	2	loose coupling among objects within oracle schema
+19	11	problem managing session with multiple data sources
+19	4	stress testing a server and vps's vs. dedicated servers
+19	2	adding sort keys and filter to oracle stored procedure
+19	2	how to determine an oracle query without access to source code?
+19	12	mix hql and sql in the same query
+19	2	is there an open-source sql database that has the concept of oracle's "rowid" pseudo-column?
+19	2	migrating a character based oracle form
+19	2	oracle syntax for creating database link owned by another user
+19	2	what tablespace are oracle sequences stored in?
+19	2	converting small-ish oracle long raw values to other types
+19	2	software to synchonize oracle schema
+19	2	paging with oracle
+19	2	connecting to remote oracle via cygwin sqlplus
+19	2	oracle sql*loader getting cdata values...
+19	2	autoincrement in oracle
+19	2	ssis oracle parameter mapping
+19	2	how can i open a file using java stored procedure
+19	5	sql server newbie needs help
+19	2	in sql*plus, how do i change the prompt to show the connected user and database?
+19	2	[oracle] - alternatives to toad
+19	2	deleting a lot of data in oracle
+19	2	what is d2k in oracle
+19	5	how to pull data and export to excel within an ajax framework.
+19	2	instantiating oracle driver results in invocationtargetexception
+19	2	oracle merge partition from procedure giving error
+19	2	oracle external tables: advanced flat file layout
+19	2	connection to oracle without a username or password
+19	2	how can multiple rows be concatenated into one in oracle without creating a stored procedure?
+19	2	how to choose and optimize oracle indexes ?
+19	2	archive log transfer from oracle 9i to oracle 10g
+19	2	howto import an oracle dump in an different tablespace
+19	8	calculating columns with core data like sql
+19	18	standard sql query much faster than linq 2 sql
+19	2	how can i find which tables reference a given table in oracle sql developer?
+19	2	tool for translation of oracle pl/sql into postgresql pl/pgsql
+19	3	how do you version your database schema?
+19	2	microsoft t-sql to oracle pl/sql translation
+19	2	oracle populate backup table from primary table
+19	2	best way in oracle to go from this data to this result
+19	12	connecitnf to ms sql through hibernate
+19	2	how to find out when an oracle table was updated the last time
+19	9	trying to establish a connection
+19	2	toad vs aquafold - connecting to oracle
+19	2	accessing url parameters in oracle forms / oc4j
+19	2	performance of dynamic sql vs stored procedures on oracle
+19	11	using the same service & dao from two threads
+19	2	can an oracle variable of type record be passed between procedures without the procedures knowing its real type?
+19	2	oracle optimizing query involving date calculation
+19	2	oracle: create table as select from another database?
+19	2	oracle tables in one view
+19	2	programmatically marking an oracle bpel task complete
+19	2	what is the syntax for creating a timestamp(6) type field in oracle
+19	2	oracle sequence but then in ms sql server
+19	2	how to limit ram usage in oracle 9
+19	2	oracle rownum
+19	1	wordpress sql query on category/terms
+19	17	drupal shared tables, but from another database
+19	1	how to install wordpress on ms sql
+19	2	how come sqlplus not connecting?
+19	2	oracle forms/applications in internet explorer 8 using jinitator
+19	2	oracle procedure returns integer
+19	2	using pl/sql how do you i get a file's contents in to a blob?
+19	4	is it safe to put database file in htdocs?
+19	18	writing sql function with xquery parameters
+19	2	performance of remote materialized views in oracle
+19	2	version configuration from sql
+19	2	how to make oracle error messages more verbose?
+19	2	accessing a function over database link with different charsets in oracle
+19	2	local temporary table in oracle 10 (for the scope of stored procedure)
+19	2	oracle scheduled jobs
+19	2	performance of oracle .net drivers
+19	4	downside to using persistent connections?
+19	12	hibernate: connect to mysql without username or password
+19	12	hibernate: id generator using increment and oracle schema
+19	2	sql to search objects, including stored procedures, in oracle.
+19	2	attaching an identifier to an oracle session
+19	2	help me understand the difference between clobs and blobs in oracle
+19	2	pl/sql stored procedure... where does the execution time go?
+19	2	what are the advantages/disadvantages of using oracle auto segment space management?
+19	2	how to see oracle table logs ?
+19	2	how to write a sql loader control file to load data into multiple tables
+19	2	detecting if an oracle database is installed
+19	11	how do i write storedprocedure sub-classes to call oracle functions?
+19	11	multiple session factories, one connection?
+19	2	how to accept ref cursor in java without importing oracle package
+19	2	microsoft .net framework data provider for oracle problem executing scripts
+19	2	is there a way to view relationships in oracle sql developer?
+19	2	oracle - exporting procedures / packages to a file
+19	2	oracle: what is the "instantclient" connection string format?
+19	2	querying oracle with a pick list
+19	2	parse csv (comma separated values) in oracle
+19	2	vc++ problem with 64 bit oracle client with openforwardonly flag in database connection.
+19	2	how do you connect to a mysql database using oracle sql developer?
+19	2	losing decimals when using oracle sdo_point in a view
+19	2	are there any .net data providers for oracle that do not require the oracle client to be installed?
+19	18	relational databases and oo languages
+19	2	what is the pl/sql api difference between oracle express edition (xe) and standard edition (se)?
+19	2	oracle pl/sql ora-01722 error
+19	2	is there a way to peek inside of another oracle session?
+19	2	how do i test if a column equals empty_clob() in oracle?
+19	2	diagnostic output of the oracle query optimizer
+19	2	what is the fastest way to load data into a oracle database with .net?
+19	2	database history for client usage
+19	2	oracle db mac address or other unique identifier
+19	14	migrating moss 2007 from sql 2000 to sql 2005
+19	11	multiple servers checking and writing flag in database
+19	2	is it safe/possible to delete code from the table dba_source in oracle 10g?
+19	2	oracle identify data type
+19	2	oracle materialized views vs replication on the same db server
+19	2	what type of index in best for date type on oracle?
+19	2	oracle - what tns names file am i using?
+19	2	storing waveforms in oracle
+19	2	accessing oracle db through sql server using openrowset
+19	2	what is the fastest way to insert data into an oracle table?
+19	12	save blob to db using hibernate
+19	2	oracle differences between nvl and coalesce
+19	12	how can hibernate map the sql data-type nvarchar(max)?
+19	2	what's wrong with adding lobs to an oracle table?
+19	14	upgrading sharepoint 3.0 to sql 2005 backend?
+19	2	reverse engineer (oracle) schema to erd
+19	2	oracle - is there any effects of not having a primary key on  a table ?
+19	12	save more than object with the same identifier into a database in the same session????????
+19	2	oracle and auto_increment/identity
+19	2	rebuild indexes oracle 10g
+19	17	how dangerous is this sql query?
+19	2	using semicolons in oracle sql statements
+19	2	workaround for oracle 9i outputting crlf when using utl_file.putraw() for blobs?
+19	2	bpel for data synchronization
+19	2	oracle proc ora-12547
+19	2	hom to change default nls_date_format for oracle jdbc client
+19	2	oracle: does a 10g oracle client work with an 11g server?
+19	11	spring queryforlong - loss of precision
+19	2	free sql query generator tool for oracle database?
+19	2	oracle command-line tools on linux
+19	2	sql developer error
+19	2	oracle trigger: raise_application_error
+19	2	how to create a stored procedure in oracle which accepts array of parameters
+19	2	can you grant privileges to an oracle cluster object?
+19	2	can i use odac 11g to access 10g
+19	7	vsts database edition and the gdr project structure
+19	2	oracle 10 optimizer from rule to cost: why?
+19	2	oracle connection and nls_lang
+19	2	porting an application from oracle 9 to oracle 11 - gottchas?
+19	2	problem connecting to oracle database via asp.net page under iis
+19	2	how to use a variable in oracle script for the table name
+19	2	how to cancel a long-running database operation?
+19	2	oracle: loading a large xml file?
+19	2	oracle query tuning (duplicate table access)
+19	2	oracle how to export query to a text/csv file
+19	2	oracle 11g cold restore?
+19	2	is there any way to have the jboss connection pool reconnect to oracle when connections go bad?
+19	2	use oracle exception
+19	2	how to increase oracle cbo cost estimation for hash joins, group by's and order by's without hints
+19	19	concurrent db connection pool in haskell
+19	2	oracle update hangs
+19	2	alternatives for loading into oracle
+19	12	nhibernate using single configuration file to connect to multiple dbs
+19	2	transactiontimeout with oracle 11g
+19	2	oracle query to get data from table inserted in last 10 mins.
+19	2	sql: delete all the data from all available tables
+19	12	how to update a database schema without losing your data with hibernate?
+19	2	best oracle database manager/editor?
+19	2	oracle timestamp with timezone named zone vs offset
+19	2	getting oracle client to work on windows 7 rc
+19	6	mysql and matlab
+19	2	difference between varchar and varchar2
+19	2	how many temporary extents is my oracle 10g session using?
+19	2	oracle 10gr2: ensure timestamps are between 9am and 5pm
+19	2	oracle documentation generation tool.
+19	5	how do you typically import data from a spreadsheet to multiple database columns?
+19	2	how to permit update of a view's results in oracle?
+19	2	how to know which stored procedures are running in an oracle database?
+19	2	oracle client x32 and x64 coexistance
+19	2	stored procedures in ms-sql server 2005 and oracle
+19	2	network outage causes stored procedure querying across db link to hang forever
+19	2	oracle datadiff
+19	2	databases oracle
+19	11	i've a function updating database table using spring's jdbctemplate and for some reason there was exception that connection is read only u can not update any database related changes. how to resolve these problem?
+19	2	how to convert sql server to oracle ?
+19	2	notification when alter occurs on oracle database
+19	2	wrap an oracle schema update in a transaction
+19	12	native stored proc v/s hibernate
+19	2	duplicate oracle des encrypting in java
+19	9	mysql innodb insertion is very slow
+19	2	oracle analytic question
+19	17	convert database from antislaed to drupal
+19	2	oracle query optimization
+19	2	oracle query to get book-name?
+19	2	'continue' keyword in oracle 10g pl/sql
+19	2	oracle ref cursor vs select into with exception handling
+19	2	oracle logon protocol (o3logon) in 10g
+19	2	oracle lag between commit and select
+19	2	lost rpc connection to remote agent error with oracle connected to informix
+19	1	can two different sites running on same host, share same database for storage and retrieval?
+19	2	pl/sql logging - how to control?
+19	2	please recommand some book on oracle and apex
+19	12	how to import initial data to database with hibernate?
+19	2	oracle tns names not showing when adding new connection to sqldeveloper
+19	2	connecting to oracle from asp.net is very slow - how to diagnose?
+19	2	performance of dynamic sql with bind vs normal sql within package
+19	2	oracle: variable number of parameters to a stored procedure
+19	2	oracle application server; what role in an organization typically supports the middle tier?
+19	2	how to performance tune when you have heavy concurrency on an oracle table
+19	2	is there a way to do full text search of all oracle packages and procedures?
+19	6	retrive blob field from mysql database with matlab
+19	2	how do i go about using microsoft access (2003/2007) to interface with an oracle (10g) db to produce reports?
+19	2	get resultset from oracle stored procedure
+19	2	oracle sys_guid does not change
+19	2	how do i deploy an oracle database?
+19	2	what is the default precision and scale for a number in oracle?
+19	2	oracle date
+19	2	how do i execute private procedures in an oracle package?
+19	2	how do i get textual contents from blob in oracle sql
+19	2	how to get values of bind parameters from oracle jdbc preparedstatement object
+19	12	hibernate query (not sql) logging
+19	2	intergrating perl and oracle aq
+19	2	how do you pre-set values on the right-hand side of a shuttle item in oracle apex?
+19	18	if all my sql server database access is done thru stored procedures.....
+19	2	possible to create oracle database object types inside of pl/sql?
+19	2	is it possible to refer to column names via bind variables in oracle?
+19	2	oracle database character set issue with the audit tables on debian
+19	2	oracle varchar to number
+19	2	oracle moving / transferring schemas from one server to another
+19	2	limit oracle / aspx query time
+19	2	getting oracle's md5 to match php's md5
+19	2	ora-01031: insufficient privileges creating jms connection to oracle topic
+19	2	oracle performance using functions in where clause
+19	2	how do you strip leading spaces in oracle?
+19	2	oracle data dump and data restore
+19	2	table stats gathering for oracle
+19	2	any good c# code generator for using oracle stored procedures?
+19	2	oracle function concurrency
+19	2	2 oracle question
+19	20	credit card processing between magento & oracle
+19	2	what is the size limit for a varchar2 procedure argument in oracle 10g ?
+19	11	start the h2 database in server mode via spring
+19	2	oracle apex access
+19	2	convert oracle stored procedure using ref_cursor and package global variable to postgresql or mysql.
+19	2	getting started with oracle application development
+19	2	how will you take only stored procedure backup in oralce 10g?
+19	2	reading clob column is slow...
+19	2	limiting returned record from sql query in oracle
+19	2	oracle "partition by" keyword
+19	2	oracle 10g - an invisible column?
+19	2	oracle default values
+19	2	general oracle results table
+19	2	xaconnection performance in oracle (10g)
+19	2	how to access subversion from oracle pl/sql ?
+19	2	oracle connection problem
+19	2	display contents of oracle aq sys.aq$_jms_text_message
+19	2	converting between oracle.sql.timestamptz and standard jdbc classes for dbunit
+19	18	linq + lightweight database, which db to choose?
+19	2	faster 'select distinct thing_id,thing_name from table1' in oracle
+19	2	pl/sql: retrieve names of procedures and functions within a package
+19	19	how do i use data.concurrent.mergeio?
+19	2	best way to encapsulate complex oracle pl/sql cursor logic as a view?
+19	2	how do you add an edit button to each row in a report in oracle apex?
+19	2	how would you migrate hundreds of ms access databases to a central service?
+19	2	how do i use oracle.jdbc.driver.oraclelog to debug oracle 10g database connection failures?
+19	2	in oracle, is starting the sql query's where clause with 1=1 useful?
+19	2	oracle: altering job_queue_processes question
+19	2	oracle 9i: how can i determine, using metadata, whether or not an index is clustered?
+19	2	print from a windows app - data from an oracle db on linux
+19	2	beginning oracle and sql
+19	2	calculate difference between 2 date / times in oracle sql
+19	2	what to look for when downgrading from oracle 10g to 9i?
+19	12	hibernate, insert or update without select.
+19	12	hibernate oracle tablespace annotation
+19	15	how to retrive data from mysql using javascript
+19	2	how to retrieve xml into oracle pl/sql via an http post transaction?
+19	17	using a drupal variable in sql query
+19	2	oracle insert with many bind variables over wan is very slow
+19	2	oracle: what does `(+)` do in a where clause?
+19	4	too many time_wait connections
+19	2	oracle record history using as of timestamp within a range
+19	12	hibernate unable to start on large-scale database
+19	2	jvm crashes when trying to connect to oracle using oci
+19	2	oracle pl/sql - are no_data_found exceptions bad for stored procedure performance?
+19	2	importing 3954275 insert statements into oracle 10g
+19	12	hibernate and oracle native functions
+19	2	best solution for migration from oracle forms 6i to the web?
+19	12	storing dates in oracle via hibernate
+19	6	invoking ado.net from matlab
+19	2	oracle financials gl import
+19	12	in hibernate how do i always use db server's timestamp?
+19	2	what's the best type 4 oracle jdbc driver?
+19	2	optimising a select query that runs slow on oracle which runs quickly on sql server
+19	2	how do you setup a linked server to an oracle database on sql 2000/2005?
+19	2	show running processes in oracle db
+19	2	can i send "batched" inserts to oracle?
+19	16	qt, submitting qsqlrecord to mysql database
+19	2	accessing a windows file folder from oracle forms 10g
+19	2	what is the difference between "as" and "is" in an oracle stored procedure?
+19	13	graph database to store several time based data values, result of simulation
+19	2	oracle detection date of daylight savings change
+19	2	oracle check constraint
+19	2	update sql in oracle conversion from sql server
+19	2	how to wrapp an oracle stored procedure in a function that gets executed by a standard select query?
+19	2	oracle deadlock detection tool
+19	2	why doesn't odp.net 11 xcopy deployment work on a machine with oracle db 10 installed?
+19	2	oracle floats vs number
+19	6	matlab - problem with creating sql query
+19	2	rename oracle table or view
+19	9	where is user specified data being stored on macos
+19	18	ado.net data service not dynamically updating
+19	2	oracle - how to have an out ref cursor parameter in a stored procedure?
+19	2	accessing oracle database from c#
+19	2	query two tables from different schema
+19	12	how to transfer data from one database to another with hibernate?
+19	2	how to create an oracle sequence starting with max value from a table?
+19	2	#define equivalent for oracle sql?
+19	2	no results from oracle query in vb aspx
+19	2	more elegant sql?
+19	2	how do i display the full content of lob column in oracle sql*plus?
+19	2	how should i store a guid in oracle
+19	2	.net: how to retrieve the body of an oracle 9i pl/sql procedure or function
+19	2	oracle 10g express home page is not coming up
+19	2	can i run an arbitrary oracle sql script through odp.net?
+19	12	how to get sql from hibernate criteria api (*not* for logging)
+19	2	when oracle rowid may change ?
+19	2	is there a tool to db diff on 'data' for an oracle database?
+19	2	multiple oracle clients
+19	9	2 mysql instances in mac
+19	2	performance of oracle's dbms_crypto.hash function for sha-1
+19	2	oracle: calling multiple procedures in a batch
+19	2	oracle dbms_scheduler - react to change of system date
+19	2	user interface for creating oracle sql loader control file
+19	2	is this slash character in an oracle pl/sql script an error?
+19	2	oracle error
+19	2	why does oracle require to_nchar when binding sql_c_wchar text via odbc
+19	2	oracle sql developer: sharing configuration via dropbox
+19	2	oracle left outer joins not showing right null values
+19	2	which oracle version supports cube and rollup?
+19	2	improve oracle query performance without indexing
+19	2	does oracle have an equivalent of mssql's table variables?
+19	2	oracle load spikes couple hours after startup.
+19	2	oracle throwing sql error when creating a view
+19	12	seqential & continuous invoice number in hibernate / coldfusion orm?
+19	2	oracle transactions
+19	2	oracle table change monitor
+19	2	sql compare-like tool for oracle?
+19	2	how do i turn off oracle password expiration?
+19	2	optimizing oracle instances
+19	2	how to create or replace a procedure in oracle from jbdc?
+19	2	is there an oracle sql tool that builds insert statements from a result set?
+19	2	how to refer dynamically to another database user?
+19	2	how do i call an oracle function from oci ?
+19	2	slow deletes from table with clob fields in oracle 10g
+19	2	how to execute an oracle stored procedure via a database link.
+19	2	in oracle, is it possible to "insert" a column into a table?
+19	2	why can't an oracle xmltype be sent over a dblink?
+19	2	how to enforce one-and-only-one concurrent logon per user with oracle sso?
+19	2	secure oracle connection from java applet
+19	2	how can i change the sid or an oracle xe instance.
+19	2	how do you read the oracle transaction log
+19	15	update progress and it shows image while data is pulled from database.  but need  to  block the  screen
+19	17	file path from sql query in drupal
+19	18	how can i connect an oracle data base with a dbml file?
+19	2	return an oracle ref cursor to a sqlserver t-sql caller
+19	2	techniques for removing old data on oracle databases
+19	2	oracle setting per user default scheme (not altering a session)
+19	2	oracle number problem: decimal to int64 cast
+19	11	identity from sql insert via jdbctemplate
+19	2	print text in oracle sql developer sql worksheet window
+19	12	strategies for designing a database (being accessed by hibernate) which will have alot of archivial data.
+19	19	haskell & oracle
+19	2	client tools for oracle?
+19	2	oracle linux front end
+19	2	oracle sql developer not responsive when trying to view tables (or suggest an oracle mac client)
+19	2	is there an oracle equivalent to sql server's output inserted.*?
+19	17	loading users from an sql query - the correct way
+19	12	how to export "autonumber" field from one database to another using hibernate?
+19	12	hibernate, c3p0, mysql -- broken pipe
+19	2	what is the difference between views and materialized views in oracle?
+19	2	keeping tables synchronized in oracle
+19	2	is there a way to get types/names of an unknown db query without executing it?
+19	18	how scope of variable defined/flows in ms sql
+19	2	best way to handle lobs in oracle dblink'ed tables
+19	2	quickest query to check for the existence of a row in oracle?
+19	2	how do i log oracle stored procedure calls with parameter values?
+19	2	oracle: how to enable flashback "as of" queries for all developers?
+19	2	what are some good oracle db maintenance tools.
+19	12	hibernate query runs slow in the system, but fast when run directly.
+19	2	how to disable xml dtd validation in oracle db?
+19	2	oracle insert giving error in c#.
+19	2	oracle database allows invalid time portion of datetime column values under what circumstances?
+19	2	what is difference between access and oracle????
+19	2	confusion over class resolution in oracle java stored procedures
+19	11	streaming data through spring jdbc, unkown length
+19	2	oracle number comparisons
+19	2	oracle sql invalid identifier
+19	2	oracle sequences
+19	2	utf 8 from oracle tables
+19	17	drupal watchdog database table flooded with same message over and over?
+19	15	sql query in tables side by side instead of one long table
+19	2	oracle sys_connect_by_path hitting 4000 character limit
+19	2	what does the letter on the oracle release mean?
+19	2	oracle v$osstat
+19	2	oracle instant client with oraole db provider?
+19	4	getting basic information when taking over administration of a server.
+19	18	is db_linq + non-mssql database an acceptable substitute for linq to sql with mssql?
+19	8	how to store dates without times in core data
+19	18	sql command to linq (pivoting)
+19	15	how to keep database connect alive?
+19	1	wp function to retrieve database connection
+19	2	oracle trigger permissions
+19	2	is there an easy way to convert http_accept_language to oracle nls_lang settings?
+19	2	oracle: how to run a stored procedure "later"
+19	2	how to progromatically know to rollback a transaction (can do it in sqlserver, but need oracle solution)
+19	5	xlsio datetime incorrect by about 4 years
+19	2	will oracle optimizer use multiple hints in the same select?
+19	2	when are two columns that look the same not the same in oracle?
+19	2	oracle compile view sql
+19	2	how do i suppress "pl/sql procedure successfully completed" message in sqlplus?
+19	2	what is the best approach for decoupled database design in terms of data sharing?
+19	2	oracle 9i: supposedly missing right parenthesis
+19	2	perl join-like behavior in oracle?
+19	2	oracle unique constraint with where clause
+19	2	why isn't querying a jdbc-compliant database from oracle as easy as pie?
+19	17	drupal, mssql and iis7
+19	2	what is the difference between explicit and inplicit cursors in oracle?
+19	12	problem in using indexes with sql server 2005 and hibernate
+19	2	oracle: how to upsert (update or insert into a table?)
+19	2	insufficiente privileges when creating a trigger for a table in another schema
+19	2	scripting out oracle objects
+19	2	oracle user management
+19	2	how to optimize oracle query for repeated full table sorts?
+19	2	retrieving a curent and most recent previous value (oracle)
+19	5	getting last insert id in excel adodb connection to mysql database
+19	12	hibernate : java application must be restarted for data to be realoaded.
+19	2	what is the dual table in oracle?
+19	8	how do i comment a core data schema?
+19	2	oracle: pattern for to_char(number) to add additional ascii characters?
+19	2	oracle sql query (analytics?)
+19	2	data logging with oracle (or any rdbms)
+19	17	drupal 7 programming advancements, differences from drupal 6 upgrade or wait
+19	2	how to recreate an oracle 9i database from backup files (ora files)
+19	2	how to use enums in oracle?
+19	2	how to query an oracle table from sql server 2000?
+19	2	connect sqlplus in oracle
+19	2	restore and recovery scenario
+19	2	customize oracle awr report
+19	14	migrating moss 2007 from sql 2000 to sql 2005 - addendum
+19	2	oracle stored procedure out parameters
+19	2	control which columns become primary keys with microsoft access odbc link to oracle
+19	2	help me put oracle terminology into sql server terminology
+19	2	how sid is different from service name in oracle tnsnames.ora
+19	2	how to load java stored procedure through jdbc into oracle 10g?
+19	2	how to handle line breaks in data for importing with sql loader
+19	19	haskell as a highly concurrent server
+19	2	how do you add textboxes to oracle apex reports?
+19	2	adding oracle's timestamp to query results
+19	2	using oracle database migration verifier
+19	12	transaction timeout not working on hibernate with oracle
+19	2	oracle 7.3 user management
+19	2	dropping a connected user from an oracle 10g database schema
+19	2	debugging with oracle's utl_smtp
+19	2	how to split oracle sql statements for ado.net
+19	2	what's a quality development environment for writing oracle sql?
+19	2	run oracle update statements in a batch mode
+19	2	is it possible to use a database link between an oracle database and a postgresql database on different physical servers
+19	2	what is the sql server equivalent to oracle's virtual private database?
+19	2	oracle: efficient way to configure columns in an output report
+19	12	optimisticlockexception when trying to fetch data from postgresql
+19	2	oracle: how do i convert hex to decimal in oracle sql?
+19	2	can a query from an oracle to a db2 through a dblink block the db2 table?
+19	2	oracle pl/sql query order by issue
+19	2	run multiple commands in one executescalar in oracle
+19	11	srping, autowire @value from a database
+19	2	oracle cursor issue
+19	2	java library or code sample to parse ctxcat query syntax (for oracle catsearch)
+19	4	how to fix apache2 timestamps, incorrect values
+19	2	why would you use oracle database?
+19	2	orm for asp.net, oracle, looking for a solution.
+19	2	disable and later enable all table indexes in oracle
+19	2	oracle 10g - utl_mail package
+19	18	sql server 2005 and linq transactions
+19	2	export oracle user tables to ms access automaticaly
+19	5	truncation errors importing to sql server 2005 from excel
+19	5	easily using  excel data in sql server
+19	12	how to query a date in hql (hibernate) with joda time?
+19	2	how to created a "singleton" scheduled job in oracle?
+19	2	how do i format my oracle queries so the columns don't wrap?
+19	2	merge output cursor of sp into table?
+19	2	explain plan for query in a stored procedure
+19	2	how to improve performance in oracle using select distinct
+19	2	oracle xe or mysql , which one i should choice?
+19	2	ora-4030 oracle : how to resolve
+19	2	how to specify default file extension for oracle's pro*cobol precompiler
+19	2	correct way to give users access to additional schemas in oracle
+19	2	why doesn't oracle allow consecutive newline characters in commands?
+19	18	do i need to submitchanges after executing a stored procedure with linq-to-sql?
+19	2	can oracle tde protect data from the dba?
+19	2	oracle - select and delete in a procedure
+19	3	subversion berkeley db broken, recovery failed.
+19	12	nhibernate fires sql commands
+19	2	oracle recommendations for high volume writes and low volume read.
+19	2	question about oracle locking and summarisation
+19	2	looking for good tool to convert oracle - sql server
+19	2	what's the equivalent of oracle's to_char in as400 db2 sql syntax?
+19	2	how do i test for an oracle connection
+19	2	top 5 time consuming sqls in oracle
+19	2	oracle db: how can i write query ignoring case?
+19	17	drupal 6: custom profile fields and saving data to a db
+19	2	how to avoid storing credentials to connect to oracle with jdbc?
+19	2	trouble using/displaying special characters from oracle db in .net app
+19	2	oracle sql types over dblink
+19	2	joining other tables in oracle tree queries
+19	2	if i'm posting a question about oracle sql query performance, what should i include in my question?
+19	2	ref cursor versus table function in oracle
+19	5	how can i make ms query (in excel) see tables with field-level security on sql server 2005 or later?
+19	2	calling a stored proc over a dblink
+19	2	how to define persistent variable in sql*plus
+19	2	how do i calculate tables size in oracle
+19	2	find all foreign key errors with oracle set constraints all deferred
+19	2	create table reverse engineering in oracle
+19	2	requirements for connecting to oracle with jdbc?
+19	15	2 connections per server?
+19	2	oracle, deleting many records with child tables
+19	2	in oracle, is there a function that calculates the difference between two dates?
+19	2	finding the days of the week within a date range using oracle sql
+19	12	recording test data in hibernate
+19	2	why oracle does not have autoincrement feature for primary keys?
+19	2	problem with oracle sql loader control file
+19	12	hibernate hbm2ddl and ms sql server: long as column of numeric data type
+19	2	what exactly is the deal with oracle connection identifiers separated by a period
+19	2	determining oracle database instance
+19	2	copying data between oracle schemas using sql
+19	2	free oracle development tools.
+19	2	oracle materialized view refresh time
+19	2	run oracle sql script from java
+19	2	hinky oracle connection (tnsnames.ora help)
+19	2	help constructing an oracle sql with condition
+19	2	oracle diff: how to compare two tables?
+19	2	is oracle rdbms more stable, secure, robust, etc. than mysql rdbms?
+19	2	sql for listing oracle stored procedures
+19	2	oracle 8i query help
+19	12	how do i map a hibernate timestamp to a mysql bigint?
+19	5	importing excel data to a already established sql db visual basic
+19	2	when programatically creating a dsn for an oracle database how can i reliably tell the driver name?
+19	2	connect to a secure database using jdbc
+19	2	oracle generic db link not working
+19	2	why is oracle spewing bad table metadata?
+19	12	how to limit fetching of entities from sql query.
+19	2	using a oracle subselect to replace a case statement
+19	8	core data vs sqlite3
+19	2	program version using the database?
+19	2	oracle date rounding
+19	2	refering to environment variable in oracle sql files on linux and windows
+19	2	oracle pl/sql: any benefits in changing plsql_code_type from interpreted to native ?
+19	2	oracle database connections - what are all the fields i need to fill in?
+19	17	batch node operations in drupal 5
+19	2	use oracle cursor within a sys_refcursor
+19	2	issue in oracle sql query
+19	2	jdbc connection to oracle clustered
+19	2	direct path load of timestamp data with sql*ldr
+19	12	oracle deadlock when hibernate application loading data for readonly use
+19	5	how to get the hour and minutes difference between 2 datetimestamp in excel?
+19	18	discrepancies between “mock” database and “real” database behaviours.
+19	2	how to get oracle create table statement in sql*plus
+19	2	help optimize an oracle query?
+19	15	run db query (sql server 2005) with ajax. is it possible?
+19	2	predicting oracle table growth
+19	2	describe via database link?
+19	2	how do i change the ip address on oracle 10g
+19	2	how to encode string in oracle?
+19	2	data guard oracle 11g
+19	2	what is your experience with oracle's result caching feature?
+19	2	oracle rollback and trigger
+19	15	synchronize data between frontend and backend
+19	2	oracle: how to add minutes to a timestamp?
+19	11	handling transactions spanning across database servers
+19	2	how to install system packages into oracle?
+19	2	oracle datafiles on a network share
+19	2	ssrs report from oracle db - use stored procedure
+19	7	using parameters in ms reporting services (sql 2008) against an odbc data source
+19	2	oracle considers empty strings to be null while sql server does not - how is this best handled?
+19	2	oracle analytics inside cursor
+19	2	oracle vs sql server
+19	2	moving data from sql server to oracle repeatedly
+19	2	oracle - how to create date from an already existing date
+19	2	extracting time zone from oracle jdbc timezonetz object
+19	2	running oracle stored procs from c#
+19	2	oracle and sqlserver function evaluation in queries
+19	2	oracle: using subqueary in a trigger
+19	2	possible to create oracle associative array type outside of a package/procedure?
+19	19	cannot derive a show instance for data containing utctime
+19	2	how can oracle user profiles be put to practical use?
+19	2	oracle database to class diagram
+19	2	generic-like behavior in pl/sql procedure parameters
+19	19	automatic migratiion between different persistent backends
+19	2	oracle empty strings
+19	2	reading an oracle lite odb file without oracle lite
+19	2	changing a column in oracle that has a foreign key constraint
+19	2	testing sql query on oracle which includes a remote database
+19	12	hibernate free query
+19	12	hibernate query taking very long time
+19	2	query long raw data type
+19	2	oracle 'printf' equivalent
+19	2	oracle date index
+19	8	what is stored in ~/library/caches/<my-app-bundle>/cache.db ?
+19	2	how do i specify which oracle client install to use?
+19	11	how to manage a large dataset using spring mysql and rowcallbackhandler
+19	2	oracle to_date headache
+19	12	hibernate oracle and character encoding
+19	2	is it reasonable to use small blobs in oracle?
+19	2	oracle - how to multiple statements with .net
+19	2	odp.net oracle decimal number precision problem when filling a dataset. exception: arithmetic operation resulted in an overflow
+19	2	oracle cursor running through the last item twice
+19	2	oracle objects and collections
+19	2	oracle express edition - can not connect remotely (plus others)
+19	2	how to get utc value for sysdate on oracle
+19	2	strange behaviour when accessing oracle 8i table from servlet
+19	2	how to select a related group of items in oracle sql
+19	2	develop on local oracle instance
+19	2	efficiency of storing an oracle user defined type in an index organized table
+19	2	how to prevent sql injection in oracle sqlplus?
+19	14	simple query of ms sql 2005 db from sharepoint, using sspi authentication?
+19	2	read/write data from/to a file in pl/sql without using utl_file
+19	2	possible to call oracle function from .net using enterprise library?
+19	18	do you have to have sql server installed on a machine if the connection string using is a path to a .mdf file?
+19	2	is there an oracle sql query that aggregates multiple rows into one row?
+19	2	oracle sql query to summarize statistics, using group by
+19	2	optimizations for a write heavy oracle application?
+19	2	allow oracle user to connect from one ip address only
+19	2	does oracle allow an order by within an in clause?
+19	2	does oracle 10g automatically escape double quotes in recordsets?
+19	2	application crashing when talking to oracle unless executable path contains spaces
+19	2	oracle 10gr2: prevent any dates that fall on a sunday?
+19	2	inserting multiple rows into oracle
+19	2	oracle execute immediate with variable number of binds possible?
+19	2	oracle single-table constant merge with clob using jdbc
+19	2	oracle 10g odbc: sqlbindparameter(sql_bigint) succeeds, sqlexecute fails, but there are no diagnostic errors
+19	2	how to use oracle jdbc driver fixedstring property?
+19	2	bulk row transfer between oracle databases with a select filter
+19	2	oracle adds null byte (ascii: 0) to varchar2 string
+19	18	preserving order in sql
+19	2	oracle ordimage processing in pl/sql: getting img-00710 and ora-01031
+19	4	map url to mysql databases
+19	2	dump oracle table(s) data to insert statements
+19	2	bulk insert into oracle database: which is better: for cursor loop or a simple select ?
+19	2	using oracle ref cursor in java without oracle dependency
+19	2	detecting the number of oracle rows updated by a oci ocistmtexecute call
+19	2	oracle export: ora-31600: invalid input value emit_schema for parameter name in function set_transform_param
+19	2	how can i connect to an oracle database as sys using an ado connection string?
+19	2	can i use oracle sql to plot actual dates from schedule information?
+19	2	search all fields in all tables for a specific value (oracle)
+19	2	oracle - odbc connection using ms access error (ora-12154)
+19	2	how do i automatically reset a sequence's value to 0 every year in oracle 10g?
+19	2	how do i get the 'size' of document stored in an oracle blob column in a readable form using sql?
+19	12	using ms sql/oracle's xml datatype in hibernate
+19	2	difference between a user and a schema in oracle?
+19	2	when i call preparedstatement.cancel() in a jdbc application, does it actually kill it in an oracle database?
+19	2	is it stupid to write a large batch processing program entirely in pl/sql?
+19	2	oracle - how does transaction, rollback segment and the undo_retention parameter work ?
+19	2	oracle sql: least() returns multiple rows...?
+19	2	problems with globalization when using oracle collections with thin jdbc
+19	2	assign auto-incrementing value to new column in oracle
+19	2	delete an oracle-user with single quotes in the username
+19	2	is there an easy way to backup oracle sql developer's user snippets?
+19	20	magento - create new user returns sqlstate[hy000] [2002] can't connect to local mysql server through socket '/var/lib/mysql/mysql.sock' help?
+19	2	how can i set the application information on a session using the oracle thin jdbc driver?
+19	2	how to set up oci to connect to oracle from php?
+19	2	oracle sqldeveloper: how to view results from a ref cursor?
+19	12	what does hibernate map a boolean datatype to when using an oracle database by default?
+19	2	best solution for java web based forms connected to oracle plus jni?
+19	2	use oracle 6 from asp.net application
+19	2	connecting to oracle with 32 bit apps running on vista 64 bit
+19	2	installing oracle 10 odp.net on microsoft windows 2008 server 64bit
+19	2	select * breaks when adding columns in oracle application express (apex) 3.0
+19	12	special driver to connect to sql server 2008 express
+19	2	oracle why does creating trigger fail when there is a field called timestamp?
+19	12	how do you prevent hibernate/oracle from converting strings with only spaces to null?
+19	2	how to deploy web service through oracle enterprise manager [java]
+19	2	oracle can i use scalar functions in where clause? or a null issue
+19	2	oracle pl/sql: loop over trigger columns dynamically
+19	2	oracle text: how to sanitize user input
+19	14	webparts compatible with "provide data to" webpart connection
+19	2	understanding lob segments (sys_lob) in oracle?
+19	2	oracle: how to create an element in a specific namespace with xmlelement()
+19	2	oracle pl-sql escape character (for a '?')
+19	2	why does char(1) change to char(3) when copying over an oracle dblink?
+19	2	oracle 'identifier myschema.mytable must be declared'
+19	2	oracle: global namespace qualifier for function?
+19	2	in oracle what does 'buffer gets' actual refer to?
+19	2	why  is oracle's to_char() function adding spaces?
+19	2	why does oracle 9i treat an empty string as null?
+19	2	retrieve value of an xml element in oracle pl sql
+19	2	oracle: how to add a text node into an existing element
+19	2	oracle hierarchical query: how to include top-level parent
+19	2	binding asp.net gridview to an oracle sys_refcursor
+19	2	how to reuse dynamic columns in an oracle sql statement?
+19	2	oracle - best select statement for getting the difference in minutes between two datetime columns?
+19	2	how do i escape a reserved word in oracle
+19	2	abort a pl/sql program
+19	2	installing oracle instantclient on linux without setting environment variables?
+19	2	how do you add weights together in an oracle text index?
+19	2	is it recommended practice to use uniform extent sizes in oracle tablespaces?

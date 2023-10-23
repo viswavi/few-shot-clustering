@@ -1,0 +1,1006 @@
+12	11	what causes a spring 1.2 nullpointerexception when creating prepared statement?
+12	13	can't extend two traits that have a method with the same signature?
+12	3	wamp - php shell_exec() problem
+12	11	getting error when submitting form using springmvc and rest
+12	8	when porting java code to objc, how to represent checked exceptions?
+12	7	msvcr90.dll was not found.
+12	9	what does it mean when authorizationexecutewithprivileges() returns -1?
+12	2	my oracle listner to shuts itself down, what could be happening?
+12	12	hibernate-validator: @notempty does not work for null values
+12	7	on which os should i try the vs2010 beta1? which emulator is faster?
+12	16	qsettings different results
+12	16	getting qmake to generate a proper .app
+12	8	kill process after launching with authorizationexecutewithprivileges
+12	8	why the splash window can’t show before the app lunch?
+12	12	hibernate: outofmemoryerror persisting blob when printing log message
+12	3	how to require commit messages in visualsvn server?
+12	8	keep a reference to a file after it has moved in objective-c?
+12	1	thickbox problem - appearing at bottom of page
+12	16	can phonon be used for capture or transcoding?
+12	7	why does this take so long to compile in vcc 2003?
+12	7	what event is raised when a file is added to a project?
+12	7	executing different set of msbuild tasks for each user?
+12	16	how does qwidget size when used as a window?
+12	20	how do i get attribute set name ?
+12	6	sound generation
+12	6	java/jaxb error in matlab when using unmarshal function
+12	4	help!performance issue with apache, php and symfony~
+12	9	record speaker output with audio unit
+12	19	when is it ok to use an ioref?
+12	11	spring - aspect is not getting applied at runtime
+12	13	what is lift's state idiom?
+12	7	permissions error registering assembly
+12	14	customaction not appearing in listview web part for splist that does not inherit permissions
+12	8	reading swf header with objective-c
+12	14	error 1325.„sharepointdata” is not a valid short file name during sharepoint uninstalling
+12	2	why does running a script from sqlplus not require a password?
+12	11	how can i get error message in form:errors tag by using multiactioncontroller ?
+12	1	what is my error with my feed in wordpress
+12	2	using a ref cursor as input type with odp.net
+12	6	unsatisfiedlinkerror when loading a library from java in matlab
+12	11	getting an application context
+12	19	trying to install cabal package sdl-mpeg can't find include file smpeg.h
+12	9	what is a "symbolification warning"?
+12	9	what are the file permission signs @ and + for?
+12	8	how to tell when a qtmovie starts playing?
+12	11	faces conversion service is not found for converting 'datamodel'
+12	11	spring javamailsenderimpl: where to set the charset?
+12	16	does qt provide a class that represents an ip address?
+12	8	getting the path of a application at runtime + cocoa
+12	20	where is the setcouponcode function is defined in magento
+12	15	what exactly is the point of the scriptmanager's
+12	1	wordpress, cron & time - does time on server affects plugins? how to fix it?
+12	6	am i using histc wrong, or it this matlab's fault?
+12	9	how to diagnosis osx app crash from error log?
+12	16	qt: session management error
+12	2	ora-12638: credential retrieval failed
+12	20	module adminhtml blocks not loading
+12	2	oracle, calling pl/sql issues from within sql-plus file x.sql says my_function "may not be a function"
+12	9	sending messages to objects while debugging objective-c in gdb, without symbols.
+12	13	maximum size of actor queues?
+12	11	java execution context class explain
+12	16	qt moc_ include file problem
+12	16	reattaching to an orphan process in qt
+12	10	add to file if exists and create if not
+12	7	vs2005: assembly '<assembly>' is incorrectly specified as a file.
+12	8	getting notified when the current application changes in cococa
+12	13	source.getline - the line index, first line is 1
+12	4	encoding of the authzsvnaccessfile
+12	15	xmlhttprequest onlys gets to status 3
+12	4	strange css/apache problem
+12	2	oracle triggers error are not captured while using adodb
+12	15	stackoverflow "related questions"
+12	13	ways to improve this code
+12	20	getting error in manage categories - not found for attribute "navigation_column"
+12	3	how to test that test if a path is (or isn't) writable without writing nothing in it.
+12	16	qtwebkit, qwebelement::setplaintext() problem
+12	6	error while loading xls file in matlab?
+12	19	on ghc extensions
+12	19	is ghc able to tail-call optimize io actions?
+12	7	why doesn't intellisense show the appropriate methods according to what i am passing in?
+12	17	redirecting back to your site after checking out in 2checkout?
+12	2	how to disable oracle xe component which is listening on 8080?
+12	14	strange site collection accessor exception
+12	2	what happens to oracle sequence in a disaster recovery?
+12	7	problem with class wizard in vc++ express edition
+12	2	why does dbms_mview.refresh have an implicit commit?
+12	19	problem using network package in ghc
+12	13	why does the empty string not match as seq.empty?
+12	11	bzip2 tomcat output
+12	16	should i remove qdebug header for release?
+12	16	how do i set the execuable attributes with qmake for a c++ project?
+12	15	updatepanel where button event does not fire.
+12	11	startup performance of spring @configurable with compile time weaving
+12	16	qt phonon open raw audio data file
+12	15	at which point in the life of an xmlhttprequest object is serialised xml parsed into a dom?
+12	10	why sometimes when i paste a command on my bash prompt it gets executed?
+12	14	error: request not found in the trackedrequests. we might be creating and closing webs on different threads.
+12	19	tips for more elegant code with monads?
+12	9	gprof reports no time accumulated
+12	11	exception thrown after processing onsubmitaction
+12	11	how to set up a global prefix and suffix used in each error field in spring ?
+12	5	no error message available, result code: e_fail(0x80004005)
+12	15	exception when assigning value to ixmlhttprequest  object in ie7 and ie8
+12	5	what event fires if excel vba code execution is prematurely ended?
+12	16	wtf is a role
+12	11	how to log the time taken by methods in springframework?
+12	9	how can i tell if a file is busy, e.g. the finder is busy copying to it?
+12	5	how to get access to the metaproperties of a file (aspecially a mp3 file) with vba
+12	12	getting duplicate entry errors from hibernate, is mysql to blame?
+12	13	scala errors in eclipse 3.5 using scala 2.8.0b, "syntax error on token string"
+12	11	hibernate/spring3: could not initialize proxy - no session
+12	9	not showing dialog when opening file in acrobat pro using applescript
+12	8	odd problem using addobserver:forkeypath:options:context: in init method
+12	8	directly passing html code into webkit
+12	3	svn weirdness: is it possible it's not my fault
+12	15	ajax request parametors, what am i doign wrong?
+12	1	when upgraded wordpress, got an error "fatal error: call to undefined function require_wp_db()" how to fix?
+12	8	what do these errors in the xcode debugger mean?
+12	1	wordpress: i got rid of the second "home" page, but it's not good enough
+12	5	loop through pivotitems: runtime error 91
+12	8	what should i replace this code with?
+12	16	problem with selection rectange
+12	12	why does hibernate/jdbc/mysql drop connections after a day or so?
+12	13	refactoring val to method results in compile-time error
+12	8	why is my comparing if statement not working?
+12	7	please explain what an outlook add-in is
+12	10	redirecting stdout in a bash file results in a file created even when there is no error. why?
+12	19	why it does not work?
+12	2	undotbs tablespace is full what now?
+12	8	why am i getting these errors in the console when debugging in xcode?
+12	14	use an xml file with a feature
+12	13	processing messages concurrently in an actor
+12	2	what can cause an intermitent ora-12560: tns:protocol adapter error?
+12	19	(newbie) type signature "maybe a" doesn't like "just [event]"
+12	2	strange oracle problem
+12	7	vs2008 crashes with "fatal execution engine error"
+12	4	problem in migrating to lamp from xampp.. memory limit error
+12	15	ie hanging, using 100% of the cpu
+12	7	getting rid of "there is no source code available for the current location"
+12	8	can someone explain these errors to me?
+12	16	qt doesn't find qstackedwidgets' slot setcurrentwidget
+12	6	running code in matlab/mathematica only after having written it all
+12	7	getting the gui of an app that went poof!
+12	17	forcing "drupal_set_message" messages to appear immediately?
+12	19	why is this haskell incorrect?
+12	19	better exception for non-exhaustive patterns in case
+12	8	handling exceptions raised during method called via nsobject's performselectoronmainthread:withobject:waituntildone:
+12	5	what causes "invalid advise flags" run-time error in excel vba?
+12	10	[bash] check if a package is installed and then install it if it's not.
+12	14	http://stackoverflow.com/questions/643853/customaction-not-appearing-in-listview-web-part-for-splist-that-does-not-inherit
+12	7	why can't i debug?
+12	12	when i set nhibernate "adonet.batch_size" the sql not logged any more.
+12	8	correct structure to check for errors using nserror
+12	2	does sqldeveloper support executing scripts?
+12	9	gdbinit conflict with xcode debugging
+12	9	what does the console error 'unable to clear quarantine' mean?
+12	9	how do i disable warnings being flagged as errors in xcode
+12	16	what does the following function do?
+12	11	dependency inject by type using generics - how does it work?
+12	9	libtiff.3.dylib: unknown required load command 0x80000022
+12	16	qt creator: “xyz does not name a type”
+12	10	how to kill all asynchronous processes
+12	16	qt application crashing immediately without debugging info.  how do i track down the problem?
+12	20	prototype (1.6.0.3) function .insert does not work within dom:loaded event in magento 1.4
+12	5	in excel automation, how to gracefully handle invalid file format error upon file opening?
+12	4	top & httpd - demystifying what is actually running
+12	17	why does the '#weight' property sometimes not have any effect in drupal forms?
+12	14	servercontext.current is null
+12	12	throwing specific error messages in plsql oracle...catching in hibernate?
+12	4	php using too much memory
+12	10	how does rubygems modify $path
+12	13	if the nothing type is at the bottom of the class hierarchy, why can i not call any conceivable method on it?
+12	8	delayed call, with possibility of cancelation
+12	16	or is not valid c++ : why does this code compile ?
+12	7	how to profile methods in dependent assemblies in a unit test instrumentation performance session?
+12	5	copy method fail due to memory
+12	17	how to time-delay email deliveries?
+12	17	what does this snippet mean?
+12	10	what does the output mean?
+12	8	memory leaks - formatting a string to display time, each second
+12	14	execute spdatasource query in console app?
+12	16	qt moc.exe not generating *.moc file
+12	11	again: spring3/hibernate3/testng: some tests give lazyinitializationexception, some don't
+12	8	how do you get search capability similar to spotlight or itunes?
+12	6	save output error messages to file in matlab
+12	5	runtime error 1004: application-defined or object-defined error
+12	16	whats up with qlayout->setparent
+12	12	jasperreports jrbeancollectiondatasource still confused...
+12	7	capture console output for debugging in vs?
+12	8	testing errors with ocmock
+12	3	svn\tortoise painfully slow
+12	19	problem installing haskel-platform
+12	3	code promotion: build or binary?
+12	4	suphp upgrade causing 500 internal server error
+12	16	qt's moc causing "undefined reference to:" error
+12	9	xcode gcc exit status 1
+12	2	error "stopped because i can't continue" in sqlloader - direct mode
+12	12	@onetoone getting returned as manytoonetype
+12	16	what am i missing from my enironment variables for my linker to fail with lnk1181?
+12	9	usb (pny 4gb) suddenly appears empty - mounts, but name is strange, files not there
+12	2	ora-12154: tns: could not resolve service name
+12	6	pwm/clock signal generation from a usb-1024hls daq board
+12	16	how to get a line number when parsing with qxmldefaulthandler?
+12	17	drupal + nginx + php-cgi :  502 bad gateway error
+12	9	getting a cgimage out of a pdf file
+12	18	linq query skips without exception. why?
+12	1	error while validating html "document type does not allow element "li" here; missing one of "ul", "ol", "menu", "dir" start-tag"
+12	18	why does asqueryable throw a stackoverflowexception?
+12	1	wordpress database fatal error
+12	6	matlab: dll loaded by mex would not unload?
+12	7	how to debug "unexpected debug information initialization error -- 'failed to find a required export in the runtime.'"
+12	14	what goes on a webfrontend and what on the application server is sharepont 2007/wss 3.0?
+12	2	how to find and tail the oracle alert log
+12	9	how can i find out what a command is executing in terminal on macos
+12	8	why does my nib's window close immediately?
+12	2	why does running this query with execute immediate cause it to fail?
+12	16	porting threads from qt3 to qt4
+12	3	why would svn command line client freeze with no output on win xp?
+12	7	automatically attach vs2005 debugger to a child processes
+12	2	ora-01031: insufficient privileges when creating package
+12	15	xmlhttprequest object not being instantiated?
+12	7	can i have a hit-point in visualstudio that skips lines?
+12	16	qt4.5: using event-loop based localsocket before app.exec
+12	15	javascript not being called
+12	4	why does running "apachectl -k start" not work, but "sudo apachectl -k start" does?
+12	15	web toolkit that does all of this?
+12	15	how to create a link that triggers printing of a file?
+12	15	jquery script is using to much memory
+12	18	trying to get generic when generic is not available.
+12	3	where is the log file when i'm using svn+ssh?
+12	4	getting 206 partial content and not sure why.
+12	15	access denied | uncaught exception in ff 2.0 | servlet call from another host
+12	7	why isn't there a team foundation server express edition?
+12	8	unrecognized selector sent to instance with a drawer
+12	11	spring-modules caching not working... silently.
+12	16	python+qt, qscrollarea problem: what's wrong with this code?
+12	5	vba sql query table error problem
+12	16	possible: program executing qt3 and qt4 code?
+12	2	can i get ora-08177 if there's only one connection to the database?
+12	3	why does so display sv version and what are the advantages?
+12	7	copy always to output directory does not work
+12	3	how does subversion handle file permissions and a .htaccess file?
+12	16	qt: difference between moc output in debug and release?
+12	9	how does one tell if there is an active network connection on os x?
+12	9	how to isolate causes of system hang on unix/osx
+12	7	msvcp80.dll not found while using tbb
+12	14	filenotfoundexception with the spsite constructor. what's the problem?
+12	13	is it a rule that unapply will always return an option?
+12	7	how can i stop cl.exe from terminating when a user logs out?
+12	14	where is the location of microsoft.sharepoint.dll
+12	4	apache: return 404 errors instead of 500 errors.
+12	19	wx file error when using haskell
+12	8	need help to solve window opening problem.
+12	18	why do i get a timeout issue on a linq query
+12	12	what is the missing parameter in connection pooling?
+12	2	what can cause intermittent ora-12519 (tns: no appropriate handler found) errors
+12	15	timeout setting of different browsers?
+12	9	getting items on the local clipboard from a remote ssh session
+12	2	how to write a pl/sql code block that prints out contents of cursor that is out parameter from stored proc
+12	10	is it possible to see output to stdout in this occasion?
+12	19	what exactly does typesynonyminstances do?
+12	7	a first chance exception
+12	9	xcode debugger sucks; alternatives?
+12	3	svn error - 501 not implemented commit failed
+12	9	dtrace on leopard: no probes specified, even when i specify probes
+12	2	ora 12154 error
+12	7	is there a devenv flag to disable pdb generation at compile time?
+12	7	how to valid that some template does *not* compile for given argument types?
+12	12	hibernate takes 10 mins to throw exception when database is down
+12	16	problem with qvariant/qtreewidgetitem/iterator on qt4.4.3
+12	14	unit testing code that uses portalsitemapprovider
+12	2	continue on error in loop
+12	3	what does the subversion status symbol "~" mean?
+12	14	creating a workflow task generates an "invalid field name" error
+12	7	how do i get rid of the dots!
+12	2	how to catch a unique constraint error in a pl/sql block?
+12	16	qprocess::setstandardoutputfile only creates 0kb file
+12	2	index not used due to type conversion?
+12	2	ora-03113: end-of-file on communication channel after long inactivity in asp.net app
+12	3	create a tag upon every build of the application?
+12	7	how do i get the click once publish version to match the assemblyinfo.cs file version.
+12	15	how to get model errors in ajaxsubmit?
+12	13	composing independent traits
+12	7	break whenever a file (or class) is entered
+12	15	implementing "this is taking too long" message with jquery
+12	17	cant find the error in this php piece of code
+12	10	pipe many outputs to same file at the same time?
+12	4	module 'eaccelerator' already loaded php warning
+12	12	nhibernate one-to-many relationship lazy loading when already loaded
+12	16	qdesktopservices::openurl with resource
+12	8	find natural block size of the media being used by file handle
+12	3	why is $id$ sometimes not expanded in svn?
+12	8	why would i make an all-optional message protocol?
+12	17	problem with png fix  for 2 overlapping images
+12	4	apache error log - file does not exist
+12	4	server-side, get progress on sending file
+12	17	calling user_save from within hook_init failing on drupal6
+12	11	xapool connection timed out
+12	9	how to avoid installing unnecessary dependencies with macports?
+12	15	doing an ajax request to a website that might be up, or might be down
+12	8	syncing a core data model with a web service
+12	18	linq to sql - changeconflictexception not being thrown. why?
+12	10	bash/mysql complains about ) character
+12	11	cannot get bean from flowscope
+12	19	how does one get strings (not string literals) into blazehtml attributes/element contents?
+12	11	whats wrong with my url mappings?
+12	16	format the output of qdebug for qmaps
+12	4	what is wrong with this rewriterule?
+12	11	method @secured suppose to throw error when no user authenticated yet
+12	10	is it normal for "rsyslogd" to cost 170m memory?
+12	16	q_object with no type...
+12	17	is openatrium really slow?
+12	19	guard is skipped when it should not be.
+12	15	how to display a message on screen without refreshing like so does?
+12	11	why so long time span in creating session factory?
+12	15	how to get rid of jquery error
+12	19	running a compiled haskell program; getting errors
+12	6	matlab settings - stop if errors
+12	7	getting a signature mismatch error when compiling even though it matches in vs.net 2005
+12	5	excel vba pastelink run-time error 1004: application-defined or object-defined error.
+12	11	org/springframework/metadata/attributes not found in spring3.0?
+12	2	oracle listener state blocked
+12	7	insert tracepoint: how to set the default message?
+12	10	redirecting standard output to the calling process
+12	4	configure continuum 1.2.3 with maven2 project; "username isn't defined."
+12	17	drupal — fatal error: class 'memcache' not found
+12	14	splistitem in formslib does not handle blank values
+12	18	the microsoft.visualstudio.data.interop.ivsdataprovidermanager service could not be found.
+12	14	why does my web part throw an error about "nt authority/anonymous user"?
+12	20	fatal error: call to a member function setactive() on a non-object
+12	16	running ping with qprocess, exit code always 2 if host reachable or not
+12	16	qt creator: “inline function used but never defined” – why?
+12	18	is it true linq is getting scrapped?
+12	16	qgraphicsitem unselect redraw problem
+12	17	drupal_add_css not working
+12	14	exception error message with incorrect line number
+12	10	shell scripting: die on any error
+12	10	bash scripting " [!: not found " errors, and how to write an or statement
+12	16	phonon videowidget error: "the video widget could not be
+12	8	using nstask: app freezing after returning output
+12	14	processbatchdata create strange folder name
+12	9	why does macports take forever to build simple packages?
+12	7	rehsarper 4.0 - renaming a class does not rename the file
+12	5	excel string comparison is failing when it should not
+12	19	haskell: error trying to call putstrln in funciton
+12	7	debugging with exceptions: how to work around 'break when thrown'
+12	11	cannot locate 'org.springframework.security.annotation.jsr250methoddefinitionsource'
+12	1	thousands of instances of index.php opening at the same time
+12	8	how do you test an asynchronous method?
+12	2	pls-00306 error on call to cursor
+12	9	apple event handler failure (python/appscript)
+12	4	how can i determine a process' unshared memory size on sunos?
+12	15	runtime error codes on asyncpostback from ajax toolkit
+12	2	oracle .net error - wrong number or type of arguments
+12	3	access denied when blaming with toroisesvn
+12	5	looping code/skipping rows
+12	16	connecting to a signal hidden by qmessagebox
+12	8	un-recognized selector sent to instance error.
+12	16	how to sort a qtablewidget with my own code?
+12	12	problem using @secondarytable in hiberante
+12	12	what happens if hibernate_sequences table is accidentally reset?
+12	10	how do i create a directory on remote host if it doesn't exist without ssh-ing in?
+12	10	how can a bash script know the directory it is installed in when it is sourced with . operator?
+12	15	exception thrown in a referenced .dll how do i debug?
+12	16	mingw spitting countless warnings about ignoring "dll import" attribute
+12	18	cannot find xml path error
+12	8	is the file hidden?
+12	14	send file to sharepoint using webservices: error deserializing the object of type system.byte[].
+12	8	lsopenurlspec error
+12	7	visual c++ error c2143: syntax error: missing ')' before 'constant'
+12	7	errors in windows forms controls in designer view
+12	7	midl generates the same file for /env win32 and /env win64
+12	19	which is your favorite "hidden gem" package on hackage?
+12	6	compiling matlab to c# problem: fatal error c1083: cannot open include file: 'windows.h'
+12	14	getting properies from sharepointwebcontrols
+12	12	@secondarytable annotation problem
+12	8	weird build error, problem with class name?
+12	13	how does scalatest syntax work?
+12	8	nsfilehandle readinbackgroundandnotify does not work
+12	10	bash: error message does not get redirected to file
+12	2	oracle logon trigger not being fired.
+12	19	getting kind mis-match error when trying to use existential quantification
+12	8	getting rid of the focus rect on an nscell. only shows up when right clicking.
+12	18	why doesn't deferred execution cache iterative values?
+12	1	weird problem using custom fields
+12	10	does anyone have experience with clusters running on clustervisionos?
+12	4	apache comes back with nothing
+12	7	debugging sometimes very slow
+12	1	wordpress previous_posts_link() leads to a 404 error not found
+12	14	random errors while downloading files from sharepoint
+12	8	use an object after it has been released?
+12	14	moss 2007 ssp error "search application '{0}' is not ready."
+12	17	does it worth to use mysqli_client_compress when the db is on another machine ?
+12	7	visual studio error: the "generateresource" task failed unexpectedly.
+12	4	fastcgi cleanup code does not work under windows
+12	14	when is the cache updated in the crosslistquerycache?
+12	4	.htaccess file causing internal server error
+12	9	macosx: introducing delay between paste and enter or between keystrokes
+12	9	setting a charset symbol in dylib
+12	11	the prefix "security" for element "security:http" is not bound
+12	17	does the order of cases matter in php switch statements?
+12	10	touch files from z->a with a delay
+12	16	qt qsystemtrayicon not sending activated signal
+12	2	how to check if a trigger is invalid?
+12	9	opening more than one of the same mac application at once.
+12	5	how do i assign a value to a property where the property name is supplied at runtime in vba?
+12	10	problem in running a script
+12	18	linqtosql strange behaviour
+12	11	auto-wiring a list using util schema gives nosuchbeandefinitionexception
+12	16	what is the mistake in my code. please help
+12	16	does the isselect-method of qsqlquery return true when a stored procedure is executed?
+12	16	in windows, what makes qmake append "d" on a debug target?
+12	15	why are my property get_ and set_ not exposed in an ajax control?
+12	2	getting ora oracle error code using php function oci_connect?
+12	19	are peekcstring and peekcstringlen lazy?
+12	8	error code reference for osx/cocoa
+12	6	compiled matlab: application hangs at the end
+12	11	integration test with spring: cannot convert value of type error
+12	11	no runnable methods error from base test class
+12	7	how do i stop resharper from inserting "object" when i type "new {"
+12	12	does hibernatetemplate work with envers? if so, how?
+12	12	no suitable mysql driver found for jboss application
+12	12	session closed error when trying to get a blob from db using getbinarystream()
+12	18	linq:: error in getting user
+12	8	what is the reason for nsfilemanager's inconsistent use of nsurl?
+12	11	org.springframework.transaction.annotation.transactional vs javax.jdo.annotations.transactional
+12	2	oracle: sequence mysequence.currval is not yet defined in this session
+12	1	using the search box causes get_posts() malfunction
+12	7	problem with large solutions and service factory
+12	4	how to get permission to edit the file apache2.conf? [ubuntu]
+12	15	c:\documents and settings\user\my documents\netbeansprojects\consultingagency\nbproject\build-impl.xml:563: the module has not been deployed.
+12	14	what is causing my custom contenttype feature to throw a "value does not fall within the expected range" error?
+12	13	how to add tracing within a for comprehension?
+12	9	get the path of the .dmg from the mount point
+12	16	what happens when i call qwidget->close()
+12	10	syntax error : end of file unexpected (expecting "fi")
+12	10	cd doesn't work when redirecting output?
+12	5	xll plugin's ddeconnect fails when connecting to excel?
+12	2	does using a view for select operations can imporove performance?
+12	17	modifying webform module
+12	6	warning: ignoring excess mask dialog entries in:
+12	9	nssavepanel: squelching the "confirm replace?" dialog
+12	9	c++ fileio pointer leak error
+12	13	cannot get featurespec structure to show up in the output when combined with junitsuite
+12	12	how can i decide the no of connection required in connection pooling?
+12	10	getting the index of the substring on solaris
+12	6	suppress start message of matlab
+12	8	unit test to verify object getting deallocated
+12	15	creating a popupwindow from html, not a file
+12	3	has anyone run into problems in tortoisesvn where the 'author' isn't written to the log?
+12	8	why do these errors in xcode mean?
+12	18	when should i dispose of a data context
+12	7	weird vs2008 intelliesense problem
+12	16	qmetaobjec::invokemethod returns true, but method is never called
+12	16	can qt work with compiler which has no support for namespace?
+12	18	linqtosql and the  member access not legal on type exception
+12	8	infinite loop when running code in terminal from xcode
+12	8	uuid mismatch detected with the loaded library
+12	2	ora-08177: can't serialize access for this transaction
+12	15	onreadystatechange function not being called
+12	10	how to program using cat
+12	10	how can i suppress the output due to a sigsegv or a sigfpe in a fortran 90 program?
+12	8	no results in spotlight in searches against kmditempath
+12	9	when was <input type=search> introduced in safari
+12	8	nsxmlparser and error constants
+12	3	subversion: what does "target path does not exist" when merging mean?
+12	2	oracle 10.2 pro*c precompiler not reading header file
+12	7	how do i compile an asp.net website into a single .dll?
+12	1	getting wp functions to return rather than printing immediately
+12	6	how to find remaining nodes in following code which are not participating in making edges with each other?
+12	14	why does my out of the box sharepoint navigation look like it is leaking memory
+12	8	sigpipe exception
+12	19	haskell: parsing error with 'where' and a guard
+12	2	tkprof output: sql*net message from client
+12	18	keeping a "reference" to a row object for a long time
+12	20	how to direct link to an attribute set?
+12	9	beginner's question, trying to understand how the linker searches for a static library
+12	8	posix error 14 (bad address) on open read stream in cocoa.  hints?
+12	16	receive wm_copydata messages in a qt app
+12	8	sfauthorizationview authorize: method does not work.
+12	2	what kind of import capability does primavera support?
+12	9	how to create dmg file which will allow autostarting an application efter bootup
+12	8	is there a pattern for dealing with non-memory resources on cleaning up an objc object?
+12	6	how to create a executable .exe file from .m file
+12	8	modify spotlight metadata for a file outside spotlight importer?
+12	11	persistenceunitmanager problem
+12	5	how to suppress the file corrupt warning at excel download?
+12	8	error while checking if a file exists
+12	8	what does the "generate validation methods" checkbox in the managed object class generation dialog do?
+12	10	how to wait in bash for several subprocesses to finish and return exit code !=0 when any subprocess ends with code !=0 ?
+12	11	what is the problem with not using spring
+12	16	qx11embedcontainer and qprocess problem...
+12	19	understanding the type error: "expected signature int*int->int but got int*int->int"
+12	14	sharepoint problem saving a file over an existing file in a document library
+12	14	what does the "onet" in onet.xml stand for?
+12	2	whats wrong with this cursor
+12	17	using node data after node is created
+12	8	why co-cocoa pr-programmers st-stutter...
+12	10	interesting usage of tar... but what is happening?
+12	2	does odp.net close a ref cursor when the connection closes?
+12	10	how to ask bash to wait for a result and send a sigkill when it get it ?
+12	15	dynamically added html does not dynamically remove with jquery in cakephp
+12	3	how should i fix "svn: inconsistent line ending style"?
+12	8	how to new a nib file in xcode 3.0?
+12	10	how do i check the exit code of a command executed by flock?
+12	12	understanding jasperreports and jrbeancollectiondatasource...
+12	8	how to wait for an animator to finish?
+12	8	why am i getting this error, when it cannot be true?
+12	17	xdebug produces corrupted files
+12	8	does not using interface builder buy me anything?
+12	9	is it possible to forward ssh requests that come in over a certain port to another machine?
+12	6	memory management problem in mexfunction
+12	20	get catagory attribute in frontend
+12	8	what does cgcolorgetcomponents() return?
+12	19	please confirm or correct my "english interpretation" of this haskell code snippet
+12	9	unable to make firefox open ack's output
+12	11	compiling jasperreports automatically on change
+12	19	what does a pipe in a class definition mean?
+12	12	connection reset by peer error
+12	14	intermittent problems loading type
+12	8	sethidden not working
+12	10	how to run every script in a directory except itself?
+12	9	accessing i/o catalog class objects
+12	8	how to disable the quit func under the mutildocument environment ?
+12	4	internal server error
+12	10	redirecting test output
+12	6	checking if a matlab handle is a valid one
+12	16	changing terminalinterface command after showing it on qt/kdelibs app
+12	8	core data: strange bindings error on re-opening a document. help?
+12	8	why isn't my sheet attached to the window it's run for?
+12	9	nmblookup os x returning inconsistant results
+12	4	sslverifyclient not asking for certificate
+12	2	continuing inserts in oracle when exception is raised
+12	19	ambigous type variable error msg
+12	6	at compilation, "kamran" was determined to be a variable and this variable is uninitialized.  "kamran" is also a function name and previous versions of matlab  would have called the function.
+12	11	is the following utility class thread-safe?
+12	2	what is sql loader...in details
+12	4	ssi escape html output
+12	10	getting the pid of a job launched in the background remotely
+12	19	how to programmatically retrieve ghc package information?
+12	8	error: incompatible types in assignment
+12	2	how can i tell which sessions are tracing (after a call to dbms_monitor.session_trace_enable)
+12	18	datacontext.createdatabase attribute problem
+12	19	does haskell require a garbage collector?
+12	7	c++/cli: linker gives "resolved token" for win32 function
+12	9	how do i set a task to run every so often?
+12	14	bdc web part connection interface error.
+12	2	oracle: oall8 is in an inconsistent state
+12	12	lazy loading...
+12	14	sharepoint: what happens to lists based on content type when content type is updated?
+12	14	object model permission
+12	11	spring + soapexceptionimpl: error during saving a multipart message
+12	20	batch adding attribute to attribute sets
+12	14	console application - object model - database persmission
+12	7	how can i clear the warnings sections of the error list in vs2008?
+12	2	ora-27101: shared memory realm does not exist in oracle 9
+12	6	how do you pass in a value to a subfunction in matlab i am getting output errors?
+12	7	can i write to the test results window "error message" field without failing a test?
+12	15	ajax slowdown because of virus scanners or active network filtering?
+12	7	vs get returned value in c# code ?
+12	4	how do i redirect to my same url without getting a too many redirects error?
+12	8	why does cocoa returns an empty string occasionally?
+12	1	what's wrong with this code logic?
+12	1	i need to block my feed completly
+12	4	have a script to handle http errors.
+12	19	type error while trying to implement the (>>=) function in order to create a custom monad transformer.
+12	11	how can i set up an ldap connection pool in a jee container?
+12	18	is my iqueryable syntax correct?
+12	5	why would .htaccess fire twice in ie when downloading a protected xls file?
+12	15	ajax assembly error - assembly {0} does not contain a web resource with name {1}
+12	19	why does this haskell code produce the "infinite type" error?
+12	2	odp.net tracing
+12	18	can i get specific metadata from a func<t, object>?
+12	16	problem filtering mousepressevent with installeventfilter
+12	2	why does oracle think i'm missing a right parenthesis?
+12	15	having problem with this ajax module !
+12	4	should mod_proxy_ajp or mod_jk be used for a production environment?
+12	15	how does codeandtheory's live search work?
+12	7	does anyone know the shortcut to open a file within your solution
+12	7	compiling code on an external drive
+12	15	is it normal to have a short delay after .innerhtml = xmlhttp.responsetext; ?
+12	11	how to get error text in controller from bindingresult
+12	11	springaop-generated dynamic sublcass is missing annotation
+12	20	how to check cms block is active?
+12	8	opening links but not iframes in webview
+12	12	hibernate not throwing exception when opensession is called and the connection to db cannot be established
+12	7	how to work-around "object required" error when adding a variable in an atl dialog
+12	19	raise parseerror in haskell/parsec
+12	7	how do i get the assembler output from a c file in vs2005
+12	19	why is haskell throwing a 'cannot construct infinite type' error?
+12	13	what does "trait a <: b" mean?
+12	19	ghc parse error which i do not understand
+12	15	javascript not working, no errors
+12	15	ajax asynchronous in ie - error "the data necessary to complete this operation is not yet available"
+12	8	what folder should my application write its launchd file?
+12	8	returning an array in cocoa, but waiting for delegation to complete
+12	14	workflow auto cleanup timer job does not run
+12	14	onquicklaunch is ignored
+12	2	oracle9i: filter expression fails to exclude data at runtime
+12	9	how to trace a program from its very beginning without running it as root
+12	5	what is the great wisdom in defining your own object if i can't do this?
+12	8	getting a unique id for a window of another application
+12	8	error handling in core data
+12	19	ghc refuses to export qualified modules
+12	15	how to specify javascript to run when modalpopupextender is shown
+12	19	what is stream fusion
+12	2	ora-00933: sql command not properly ended
+12	6	makefile error in matlab real-time workshop
+12	6	how can i display an error message in matlab?
+12	16	why does qwebframe::evalutatejavascript do nothing in this case?
+12	9	debugging nsobjectinaccessibleexception - the nsmanagedobject with id:0x123456789  has been invalidated
+12	8	cocoa distributed objects, long polling, lunchd and "not responding" in activity monitor
+12	8	making the code check to see if the text in a text box matches any of the strings in an nsarray.
+12	7	build won't copy system.drawing to output folder.
+12	16	qthread not starting
+12	13	why it is allowed to point to constructors parameters?
+12	8	problem with webkit rendering google.com (and a few other sites)
+12	5	excel formulas giving #value! error when ported to mac
+12	2	what is the default url for apex for an oracle xe installation?
+12	7	how to find the current name of the test being executing?
+12	7	why isn't my c code being compiled to an exe
+12	1	wordpress 'comment is awaiting moderation.' message not appearing when a comment is submitted?
+12	16	qt question: what is the purpose of the *.pro file?
+12	16	platform independent way of setting a unhandled exception handler using qt?
+12	10	go to path and then tar?
+12	6	matlab "bug" (or really weird behavior)
+12	16	exception handling in qt script with c++
+12	16	were is the mistake in my code
+12	13	what are the relationships between any, anyval, anyref, object and how do they map when used in java code?
+12	8	why is app window only opening once and then not opening again?
+12	16	adding attributes to q_propertys
+12	7	how to get rid validation warnings
+12	15	how to send an object from one js file to another js file ?
+12	16	signal and slott connection in .ui
+12	8	how to show another swf file in the webview which showing a swf file?
+12	10	identify error in if statement
+12	4	apache log lines appearing out of sequence - why?
+12	10	reducing cpu processing time by using nice?
+12	15	does the clientscriptmanager work when called in a partial postback?
+12	19	cabal installing quickcheck version problem
+12	13	why doesn't this match?
+12	4	gss_acquire_cred returning key table entry not found error
+12	18	non generic iqueryable enumeration problem
+12	14	applywebconfigmodifications not working in the farm
+12	4	apache/tomcat error - wrong pages being delivered
+12	12	why hibernate session.close() does not flushes the data automatically?
+12	11	how to throw an informative exception from accessdecisionmanager that uses voters
+12	5	deleting named ranges in vsto
+12	15	when ajax should be used and when it should not?
+12	16	problem with qsqltablemodel -- no automatic updates.
+12	4	redirect requests only if the file is not found?
+12	20	retrieve attribute code
+12	16	reading the final name of a file downloaded using qnetworkaccessmanager
+12	3	relocation r_x86_64_32 against a local symbol' error
+12	10	getting an other program output as input on the fly
+12	16	help getting inserted data after qt's rowinserted signal
+12	16	qt: how to get the file/resource path for a qicon
+12	18	why is the intellisense for properties and methods of instantiated datacontext not showing?
+12	16	clean up before closing the qcoreapplication.
+12	8	why does the cocoa 64 bit garbage collector not release memory?
+12	11	how can i wire-up  org.springframework.transaction.interceptor.transactionproxyfactorybean  and org.springframework.orm.hibernate3.hibernateinterceptor ?
+12	16	what is this widget called?
+12	5	converting xll addin functionality to a native vb module : problem refreshing formulae
+12	5	why does declaring content as a string cause winhttp not send http content in excel vba?
+12	6	why does com.mysql.jdbc.driver take forever to open in matlab?
+12	8	nstreecontroller - malloc double free error
+12	3	change revesion number in subversion, even if the file not change in the commit.
+12	10	can't read variable that was stored from within a while loop, when out of the while loop.
+12	14	required fields in share point data collection not throwing errors
+12	3	loaded a subversion dump but it's inaccessible
+12	2	ora-12514 after rebooting server
+12	15	upload file directly to s3 with progress bar
+12	8	preferences window problem (once open and closed, will not open again)
+12	14	error while sending mail
+12	12	schema2ddl generates wrong datatype for yesnotype
+12	7	sys.debug messages not appearing in vs debugger output window
+12	16	lock error while running programme in qt/c++
+12	9	how to add a filter to `tail -f` output that would issue an audible alarm given matching input?
+12	9	how does the krotateimage flag to icadownloadfile work?
+12	15	my app is maxing out cpu usage in firefox
+12	13	is there potential starvation in this code or is it just me?
+12	7	debuggerdisplay attribute does not work
+12	6	how to clear the console in matlab
+12	14	add new group - access denied error
+12	14	delete a web that doesn't exist.
+12	6	matlab error while evaluating uicontrol callback
+12	8	cannot pass message (or call a function) using the outlet of a customized class
+12	7	what are microsoft's public symbol servers useful for?
+12	2	ora-28579: network error during callback from external procedure agent
+12	9	when is a cgbitmapcontext not a bitmapcontext?
+12	8	recalculate attribute on every change of another attribute in core data mo.
+12	18	when does a library deserve the be called "linq-something" or "something-linq"?
+12	14	event receiver for document library
+12	8	method signature problem.
+12	10	why does bash sometime not flush output to a file
+12	3	how can you overcome the svn 'out of date' error?
+12	11	reading annotation property in aspect
+12	18	how does coding with linq work? what happens behind the scenes?
+12	11	why does spring's @configurable sometimes work and sometimes not?
+12	8	guess encoding when creating an nsstring from nsdata
+12	5	multiple pivot charts setsourcedata error
+12	14	what happens when i edit web.config?
+12	14	spsitedataquery problem with eq on number fields
+12	19	cannot do signed 4 byte relocation on compile
+12	6	matlab "out of memory" error
+12	14	user gets a 403 error (user has full control permission)
+12	18	my o/r designer keeps deleting the designer.cs file!
+12	9	how does one relaunch finder programmatically?
+12	13	scala isn't allowing me to execute a batch file whose path contains spaces.same java code does.what gives?
+12	9	how to compile a dynamic library?
+12	5	excel hangs when printing the first time from asp.net webservice
+12	7	vs2008 macro: perform action on every code file in the solution
+12	16	how to acquire an event only at defined times?
+12	8	weird bindings issue
+12	16	as many threads as process
+12	4	how do i react when somebody tries to guess admin directiories on my website?
+12	16	identifier for win64 configuration in qmake
+12	12	object references an unsaved transient instance - save the transient instance before flushing
+12	18	500 error while deleting in linq
+12	5	performance running clearcontents is very slow when wraptext is enabled in excel
+12	9	how does the osx finder recognize a png file?
+12	12	hibernate @version field error
+12	2	whats wrong with this first_value query?
+12	7	breakpoints not being hit
+12	13	editor does not contain a main type
+12	8	message reason: image not found
+12	9	where is the code for the function under c in screen's copy-mode?
+12	4	apache is listening on a different port, but how do i get it so i don't have to type in the port number?
+12	9	what does this python code do:  shell=(sys.platform!="win32"))
+12	2	how to resolve oracle remoteoperationexception: error reading error from command
+12	15	retrieving http status code from loaded iframe with javascript
+12	19	euler problem in haskell -- can someone spot my error
+12	16	qthread issues. crash after 2058 runs.
+12	13	how can i identify a remote actor?
+12	8	how to get the file size given a path?
+12	2	where is the oracle event log located?
+12	20	removing a block nested in a block via the local.xml file.
+12	16	how to solve qpixmap::fromimage memory leak?
+12	7	error viewing csproj property pages in visualstudio2005
+12	10	wait for "any process" to finish
+12	11	jdbctemplate hangs on long update
+12	16	reducing wav sound file size, without loosing quality
+12	14	portalsitemapprovider causing excessive sprequest objects
+12	12	hibernate cannot recover after socket has timed out
+12	8	nsxmldocumenttidyhtml doesn't tidy some xhtml validation errors.
+12	7	is it possible to start an external program from the target directory when debugging?
+12	4	yslow still not giving me an a for expires header in apache httpd even though i added them
+12	3	where can i find the file visualsvnserverhooks.exe
+12	8	mousedragged but nsopenglview not refreshed until "mouseup"
+12	9	how does an os x installer package calculate required space?
+12	14	app pool identity - farm admin
+12	16	qfiledialog: adding extension automatically when saving file?
+12	5	excel waiting for one macro to finish before calling another
+12	19	how can i resolve this ambiguous type variable error?
+12	11	exception in jee application email notification pattern
+12	11	springjunit4classrunner tests -- work from ant, not from ide
+12	16	why library name gets an additional 0 is its name?
+12	12	hibernaqte exception :org.hibernate.exception.sqlgrammarexception: could not execute query
+12	3	unable to open repository error on windows xp
+12	6	out-of-memory algorithms for addressing large arrays
+12	11	constraintviolationexception vs dataintegrityviolationexception
+12	11	does it make sense to have more than one methodsecurityinterceptor bean?
+12	8	how can i safely write to a given file path in cocoa, adding a numeric suffix if necessary?
+12	14	sharepoint, throwing exception after impersonation.
+12	10	bash threading: wait for all job threads to finish doesn't work?
+12	15	debugger warnings while viewing stackoverflow?
+12	13	is it bad practice to send an  actor a message from something which is not an actor?
+12	4	how to track down cpu intensive requests
+12	20	magento, translate validation error messages
+12	6	parallel matalb and logging
+12	5	why is excel vba giving me an error for a dynamic range?
+12	19	why must recursion be in a separate file in hugs?
+12	6	matlab's garbage collector
+12	12	interceptor's getentityname is not used. bug in hibernate?
+12	9	automatically compile any java class when the file is dropped in a directory
+12	3	an svn error (200 ok) when checking out from my online repo
+12	4	are these lines an error or info in apache's error log?
+12	18	datagridview filtering onclick event (c# winform)
+12	19	simple library to do utf-8 in haskell (since streams no longer compile)
+12	4	apache shutting down unexpectedly
+12	16	what exactly changed when qstandarditemmodel itemchanged is signaled
+12	8	why does spotlight sometimes not run my query?
+12	2	always get exception when trying to fill data to datatable
+12	17	core javascript functions to make error, warning or notice messages appear?
+12	4	apache: cgi links lead to a "you have chosen to open foo.cgi", although scriptalias is set
+12	2	is this implementation correct?
+12	6	handling an invalid security certificate using matlab's urlread command
+12	19	haskell "do nothing" io, or if without else
+12	19	when is the difference between quotrem and divmod useful?
+12	4	webgate configuration problem
+12	19	getting cabal to work with ghc 6.12.1
+12	8	garbage collection crash using nsimage
+12	7	does the vs disassembly window show the whole exe?
+12	5	counta behavior in countifs
+12	19	why is this type variable ambiguous?
+12	11	what happens if i forget to mark the spring sessionstatus as "complete"?
+12	10	ftp not uploading last 4 bytes
+12	11	what is org.springframework.orm.hibernate3.support.blobbytearraytype good for?
+12	17	drupal: xmlsitemap file is not generated
+12	4	mod-rewrite has revealed itself
+12	8	nstableview sort not getting correct id
+12	11	trouble stopping tomcat due to apparent threading issue..
+12	8	how to signal an nsstreameventendencountered on an nsinputstream reading from nsmutabledata.
+12	16	qt gui app: warning if qobject::connect() failed?
+12	2	how can i avoid ta warning fom an unused parameter in plsq?
+12	17	better control of views output markup?
+12	9	getting the speaker audio signal and then streaming it out
+12	11	cannot display view after handler call it
+12	10	how can i keep a file in memory during editing?
+12	4	printing document path with ssi
+12	6	comparing modem.oqpsk probability error and ber
+12	11	g:set blocks out my code
+12	5	finding incorrectly-formatted email addresses in a csv file
+12	3	help diagnosing a subversion error
+12	9	getting the current stack trace on macosx
+12	8	how to block until certain notification is posted in cocoa?
+12	4	php content-length header always zero
+12	15	ie hungs when more than 4 async requests are triggered with xmlhttprequest object
+12	9	mysqldb build error
+12	4	how can i get my website to display a .c file instead of trying to make the user download it?
+12	15	cannot reach readystate=4
+12	4	code won't work under mono, any ideas whats wrong?
+12	14	sharepoint: can i see the content of a document in the itemadding() event handler?
+12	2	how to find oracle error codes that could result from a connection error?
+12	15	why this ajax request is so fast but mine is not ?!
+12	9	unnecessary (?) xcode warning
+12	15	live preview of a forum post or comment, like stackoverflow does
+12	19	stm monad problem
+12	9	getting a list of applications capable of opening a type of file
+12	10	why is this bash prompt acting strangely/disappearing, and how do i fix it (os x)?
+12	6	is it possible for a matlab script to behave differently depending on the os it is being executed on?
+12	19	ghc's rts options for garbage collection
+12	3	mod_dav_svn loading error on centos 5
+12	6	java.lang.unsatisfiedlinkerror: native library {____.dll} already loaded in another classloader
+12	8	is there a way to pause an nsthread indefinitely  and have it resumed from another thread?
+12	8	temporary text attributes causing massive slowdown
+12	18	object reference not set to an instance of object error
+12	3	why does statsvn fail, claiming the directory is not a working copy?
+12	12	connection hangs after time of inactivity
+12	15	in javascript, how can i uniquely identify one browser window from another which are under the same sessionid
+12	2	how bad is ignoring oracle dup_val_on_index exception?
+12	12	error in creating alias in formula tag
+12	2	what could cause an ora-00936 - missing expression with the following sql?
+12	15	ajax/jquery/php issue...
+12	18	compiling a delegate with expression.lambda() - parameter out of scope, but is it really?
+12	13	what does the remote-actor framework do if trying to write to a client which is no longer there?
+12	16	performance issue with qgraphicsscene::createitemgroup
+12	5	mcafee deletes code from vba module
+12	3	how to switch back to a previous version of a file without deleting its subsequent revisions?
+12	4	error installing apache (libaprutil)
+12	14	packaging multiple features into a single wsp solution file
+12	7	mstest copy file to test run folder
+12	3	how does svnserve serve up multiple repositories?
+12	4	how to view error messages from ruby cgi app on remote server?
+12	13	scala "error: io error while decoding" "with utf-8"
+12	5	why does excel throw an exception on quit when started from command line?
+12	8	how should i return an nserror object from a delegate method?
+12	18	linq .contains with large set causes tds error
+12	4	why does apache return a 503 error for ant's get task, but not for my browser?
+12	7	is it possible to have version-independent dll references in a class?
+12	19	why does haskell give me a type error if i hardcode a return value?
+12	14	spfarm.local.solutions.add - exception - "access denied"
+12	13	can extractors be customized with parameters in the body of a case statement (or anywhere else that an extractor would be used)?
+12	20	which file? to edit the breadcrumbs starting point
+12	15	can i use xmlhttprequest on a different port from a script file loaded from that port?
+12	7	a project with output type of class library cannot be started directly - with a startup exe
+12	3	cvs2svn fails with "xxx is not a valid ,v file"
+12	2	pl/sql compilation fails with no error message
+12	14	cannot update document property on itemadded event when using vista
+12	11	how does transaction propagation work when using open session in view?
+12	7	can you set vs2008 to break on an error inside a try-catch statement
+12	5	why does one ado.net excel query work and another does not?
+12	14	spcrosslistquery fails to bring back results
+12	17	problem attaching ubercart view to relevant content
+12	8	making a method happen every 60 seconds when the app is running.
+12	4	where does the tomcat axis file server-config.wsdd come from?
+12	14	sharepoint list error: "value does not fall within the expected range"
+12	2	what is an effective way to  track, identify and report every 'error message raised by your application similar to oracle's ora-00237 database error codes?
+12	15	problem running my project in ie 6.0 and 7.0 (window.location)?
+12	2	oracle connection problem on mac osx: "status : failure -test failed: io exception: the network adapter could not establish the connection"
+12	5	firefox : open xlsx file not saving file butn opening binary.
+12	10	for loop using find lacks doesn't properly handle directory names having white space character
+12	7	vs2008 debugging with firefox as default browser - how to make the debugger stop/close on exit?
+12	7	vs 2k8 doesn't release file handle after debugging stops: unable to copy file x to output directory because it is being used by another process.
+12	20	error :php extension curl must be loaded
+12	11	refreshing/replacing beans in the applicationcontext.  possible or am i missing the point?
+12	7	web client software factory unit testing big fail
+12	7	team foundation server (tfs) file difference viewer - how to split horizontally
+12	3	what does the subversion error "could not read status line" mean?
+12	11	in a spring messages.properties, how to ensure line break of error message when using an error code as key ?
+12	4	php server settings causing problem
+12	16	why does my qt4.5 app open a console window under windows?
+12	7	why do my exception stack traces always point to the last method line?
+12	2	dba_jobs_running: table or view does not exist when trying to access from procedure
+12	13	passing enum parameter to a case class does not work
+12	3	moving code from codeplex to google code - keeping history.
+12	12	before calling session.gettransaction, do i have to ensure one exists?
+12	16	qmetaobject compiler explain?
+12	17	cache: how to exempt just one block
+12	19	newbie question: what role does the indentation play here? and why one indent doesn't work?
+12	5	windows 7 .net excel .saveas() error exception from hresult: 0x800a03ec
+12	9	why this keyboard intercepting kernel extension doesn't work?
+12	20	help with magento: controller file was loaded but class does not exist
+12	4	tomcat fails on first request in combination with jsvc
+12	4	suppose a server is hosting a video file. why is it that sometimes, it requires a full download before playing.  sometimes, i can stream it?
+12	19	c compiler selection in cabal package
+12	11	getting server name in contextloaderlistener
+12	3	getting specific revision via http with visualsvn server
+12	8	nstask returning http headers
+12	6	how to access elements of matrices  from mat file in python?
+12	17	create block that displays preconfigured-term search results
+12	15	how to make all connected browsers reload initiated by a server-side event
+12	15	jquery ajaxupload and php max file size issue
+12	15	can you send dynamic data to a processing applet?
+12	15	my trigger doesn't work in updatepanel?
+12	15	problem with textbox inside updatepanel - not causing ontextchanged event
+12	11	springjunit4classrunner initialize beans for each test?
+12	12	attempt to create saveorupdate event with null entity
+12	16	order of slots called on qobject
+12	9	delegate problem with nstextfield
+12	8	change file save location
+12	7	can optimizations affect the ability to debug a vc++ app using its pdb?
+12	16	qsqlquery with international chars does not return a result
+12	4	httpservletrequest.getremoteaddr() returning wrong address
+12	8	when does selectedcell change?
+12	8	how can i retrieve the html to be loaded into a webview (or webframe) from a local persistent store?
+12	8	why does an nsview's frame: method return the wrong results?
+12	16	argument type for qt signal and slot, does const reference qualifiers matters?
+12	8	core data simple relationship in code
+12	8	running process listing
+12	10	how to close a file descriptor from another process in unix systems
+12	6	eclipse / java path problems
+12	10	wget --domains not helping.. what am i doing wrong?
+12	14	how do you bound an event receiver to a *specific* custom content type?
+12	16	generate .h and .cpp from .ui file
+12	20	allot customer group according to their email id
+12	19	why doesn't this type declaration work?
+12	6	error when calling compiled m-file(.jar) in a multi threaded java app
+12	10	unexpected operator error
+12	12	why does hibernate not force you to mark fields as virtual, but nhibernate does?
+12	5	how to import .class file in jsp page which is not in standard library?
+12	9	my_thread_global_end threads didn't exit, error?
+12	13	why does seq.contains accept type any rather than the type parameter a?
+12	17	php image crop error
+12	5	performance issue with accessing microsoft.office.core.documentproperties
+12	1	show warning/error to user without using wp_die
+12	17	drupal_add_css not working
+12	9	mysql install: error: failed to build gem native extension.
+12	16	closed state of qdockwidgets not restored by restoredockwidget?
+12	16	exception generated with qtconcurrent and calling qtime:currenttime
+12	9	how to suppress the keychain prompt when the app modified?
+12	13	how to catch exceptions and redirect to error page in lift?
+12	16	qt instalation error
+12	16	breakpoints not working after installing valgrind
+12	12	how can i turn off the majority of hbm2ddl's output in the console in ant?
+12	6	why does file have to be saved prior to running ?
+12	6	simulink: type consistency errors
+12	11	error creating bean with name 'sessionfactory'
+12	19	problem with double and rational number
+12	19	ghci error: not in scope
+12	19	why this either-monad code does not type check?
+12	6	matlab: getting "unexpected error status flag encountered. resetting to proper state"
+12	19	why isn't my io executed in order?
+12	11	@autowire strange problem
+12	11	no properties file found error for reloadableresourcebundlemessagesource
+12	13	niewbie outofmemory problem
+12	6	why the valid looking statement gives error in matlab?
+12	6	why is this class re-initialized every time?
+12	19	help understand strange behavior in a lazy code
+12	19	why does s ++ t not lead to a stack overflow for large s?
+12	19	strange type-related error
+12	19	strange error in haskell about indentation of if-then-else
+12	19	problem with incomplete input when using attoparsec
+12	19	why this is not throwing any type error?
+12	20	fatal error varien_autoload not found
+12	20	error : not all products are available in the requested quantity !! what does this mean?
+12	19	duplicate definition for symbol __module_registered error
+12	20	weird error in my system.log file over and over and over
+12	19	how does this constitute a haskell rigid type error?
+12	19	why does ghc infer type of `io b` for an application of `hsetbuffering`?
+12	19	how do i silence network.browser.browse's logs to stdout?
+12	1	wp_redirect acting weird. requires die() afterward?
+12	11	caused by: java.lang.nosuchmethoderror: org.springframework.beans.mutablepropertyvalues.add(ljava/lang/string;ljava/lang/object;)lorg/springframework/beans/mutablepropertyvalues;
+12	6	??? error using ==> dlmread at 55 filename must be a string.
+12	13	is odersky serious with "bills !*&^%~ code!"   ?
+12	11	how to create commonsmultipartfile object given only a file.
+12	6	error: attempted to access data(2,:); index out of bounds because size(data)=[1,7129].
+12	13	optional attribute values in mappedfield
+12	17	total number of stories on the website
+12	16	qt does not create output files in debug/release folders in linux
+12	9	code to record a screencast in macos
+12	19	hackage package dependencies and future-proof libraries
+12	19	how can my-program.hs get its version number from my-program.cabal at build time?
+12	19	has anyone ever encountered a monad transformer in the wild?
+12	20	how do you overide a class that is called by another class with parent::method
+12	19	demanging typeclass functions in ghc profiler output
+12	6	using polyfit to predict where the object falls ?
+12	16	qobject::findchild returns wrong address when used with a custom widget plugin
+12	10	can we change the day and time of  a schedule task which is already created
+12	1	how to remove js:illredir-s [trj] (virus) from website ?
+12	16	no results with qxmlquery
+12	19	how do you install ghc into cygwin or point cygwin to ghc?
+12	16	code/function/library to intent/format/prettify javascript/qtscript code for readablity within the application?
+12	19	code golf (sort of): a functional puzzle
+12	13	`sbt package` results in huge war file - how to make it smaller?
+12	10	why does wdiff not work with named pipes

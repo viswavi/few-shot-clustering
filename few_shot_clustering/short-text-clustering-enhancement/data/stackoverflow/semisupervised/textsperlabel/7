@@ -1,0 +1,1050 @@
+7	15	do i understand ajax correctly?
+7	18	how would you query this in linq?
+7	3	how do i make my colleagues not despising svn?
+7	2	will oracle retire 10gas in favor of weblogic?
+7	5	what in the best exel book for non-programmers?
+7	16	how can what is the best way to get the hash of a qpixmap?
+7	17	at what point do you need to be a programmer to work with drupal?
+7	7	what is the best way to deploy a vb.net application?
+7	1	are there any "blank" wordpress designs?
+7	8	how can i dynamically create a selector at runtime with objective-c?
+7	15	does partialview do what i think it should (but doesn't)?
+7	9	is there any good free tool for the mac, to draw uml and object diagrams?
+7	3	how do you deal with configuration files in source control?
+7	19	how do i convert a variable to a string?
+7	7	how should i set up external resources in my project?
+7	2	possible to create oracle regular expression that's able to match null?
+7	3	easiest/best way to set up svn commit emails?
+7	11	best way to set html head title in a spring+tiles2 application?
+7	8	the easiest way to write nsdata to a file
+7	3	can i see a log of who did what with my subversion server?
+7	18	should repositories implement iqueryable<t>?
+7	2	what's an occi context and environment?
+7	8	easy way to make a uilabel cover and exactly match contents of a uitextfield?
+7	2	cannot connect with toad but can with other tools/apps
+7	2	how to use sqlab xpert tuning to tune sql for better performance?
+7	2	unit testing for pl/sql
+7	3	any bad experiences with xp-dev.com?
+7	15	where can i find a large ajax loader .gif?
+7	2	is there a .net interface to oracle sqlplus?
+7	10	what are replacement and new practices from sh to bash?
+7	19	what are some good books for learning haskell (and/or ocaml/ml) in particular, and functional programming style in general?
+7	14	how should i use this setspn command when installing sharepoint
+7	14	is there a connection between sourcesafe (version control) and sharepoint (collaboration)?
+7	18	what is the most impressive linq statement that you have come accross?
+7	18	is linq best way to build a model or create my own classes
+7	4	is there a way to force traffic comin from www.abc.com to go to abc.com via htaccess or dns?
+7	19	in haskell how do you extract strings from an xml document?
+7	2	system.data.oracleclient: how can i mock/fake/stub oracleexception?
+7	2	oracle coherence: is it stable?
+7	17	how do i upgrade from drupal 5 to 6?
+7	7	what's a good directory structure for large c#/c++ solutions?
+7	13	how does the "specs" bdd framework for scala work?
+7	5	are there such things as variables within an excel formula?
+7	14	how does sharepoint recognize a file type?
+7	18	what is the best practise design for a scalable web application involving session state
+7	18	what's the smart way to implement orderby / thenby?
+7	4	what is the best alternative way of montoring apache active mq other than using jmx api
+7	15	how to set time in ajex slider control?
+7	3	learning how to use subversion
+7	2	how can i clean up dead connections using oracle?
+7	19	is it better to use the state monad, or to pass state recursively?
+7	14	what are the best methods to ensure our sharepoint implementation is accessible?
+7	8	how to register new schema in cocoa/objective-c?
+7	18	what is the best way to sort using a gridview and linq?
+7	7	how do you build a debug .exe (msvcrtd.lib) against a release built lib (msvcrt.lib)?
+7	18	is there a better way to code this linq fragment?
+7	13	need opinion regarding design/architecture of a web application
+7	18	how do you transfer the execution of a iqueryable object to a ienumerable ?
+7	8	can we use cocoa httpserver in ipad?
+7	2	is there a way to specify a super-type sub-type relationship in oracle designer?
+7	3	how do i get srcsrv with svnindex.cmd to index extern files ?
+7	3	how do i make/apply a diff patch to this situation ?
+7	2	is direct-path insert a good way to do bulk inserts in oracle?
+7	5	string manipulation with excel - how to remove part of a string if another part is there?
+7	18	what options do i have for linq projections?
+7	9	what's the best way to find out the installed version of the iphone sdk?
+7	2	how can i get rid of dynamic sql
+7	18	what is the most elegant way to implement a business rule relating to a child collection in linq?
+7	11	springsource tool suite (eclipse) tutorial?
+7	3	what's the best free collaborative platform for 2/3 programmers?
+7	13	what's so great about scala?
+7	8	how do you check for sanity in objective-c and cocoa?
+7	7	xml comments: to use or not to use?
+7	7	which projects do you include in your solutions
+7	9	is there sth like microsoft's technet or msdn subcriptions for apple, too?
+7	10	how to list running screen sessions ?
+7	4	how do you make an etag that matches apache?
+7	4	best way to rotate apache log files
+7	18	iqueryable efficiency
+7	17	how would you optimize the
+7	4	i can do http://bookroom and smb://bookroom... to test my local site or use shared resources.  anything i don't know yet?
+7	19	where can i find some good documentation about haskell programming language?
+7	7	what do you use to develop for powershell?
+7	18	can this be refactored into nicey nice linq?
+7	2	how do i remember which way round prior should go in connect by queries
+7	16	is there an easy way to customize a qprogressbar?
+7	14	how to create and require completion of a subset of several tasks workflow foundation?
+7	9	what's the best way to use username/password auth in a ruby script in os x?
+7	14	how do i use a list from a different site in sharepoint 3.0?
+7	8	how do i get each line from an nsstring?
+7	6	how to automate matlab/simulink/real-timeworkshop  code generation?
+7	18	stop linq2sql using named pipes?
+7	17	correct way to force an invoice e-mail to be sent to a user in ubercart?
+7	9	how do you find the amount of free space on a mounted volume using cocoa?
+7	8	how best to debug a crash within objc_msgsend?
+7	10	to understand typeset for pythonpath
+7	15	are http-only cookies a viable option for an ajax website?
+7	18	bug in linq contains statement - is there a fix or workaround?
+7	3	should i have 1 or many repositories?
+7	16	simplest build of qmysql3
+7	8	can you write cocoa apps with html/css and javascript?
+7	10	easy way to split a large text file?
+7	7	asp.net framework effects of moving from 2.0 to 3.5?
+7	14	what's the best way to link to an external style sheet in sharepoint
+7	7	using envdte.solution - how to remove source control bindings
+7	19	how long does it take for you to be comfortable with haskell?
+7	4	should a apache server extension be created or create a server from scratch?
+7	12	does an orm integrate with existing applications or do i not understand?
+7	4	how do you use mod_rewrite to move a site down a sub directory?
+7	2	is there any good oracle podcasts
+7	3	how do i use the new svn merge-tracking?
+7	3	writing a pre-commit hook using sharpsvn. does it lack svnlook propget?
+7	13	is there a built-in more elegant way of filtering-and-mapping a collection by element type?
+7	18	what or/m tool that supports linq/iqueryable would you recommend?
+7	10	are there any tools to convert markdown documents to html en masse?
+7	18	is there a way to use linq to oralce
+7	15	best way to implement realtime ui updates like so's 'new answer' notifier?
+7	14	my app edits a file in sharepoint via web client/webdav(webclnt.dll).  how can i check out/check in?
+7	2	why do you hate sequences on oracle?
+7	14	should i keep solutions and features in a 1-1 ratio?
+7	19	using monadplus in frp.reactive.fieldtrip
+7	2	oracle: how to use updatexml to update multiple nodes in a document?
+7	3	semi-editable files (eg config files) and version control - best practices?
+7	10	how to test if a given path is a mount point
+7	8	how can i use custom animations for onorderout in core animation?
+7	19	what are my ide/editor choices for haskell?
+7	14	what would i have to do to get the new html editor ajax control to work as a sharepoint content editor webpart?
+7	9	lost library when recompiling obj-c project
+7	4	why are event-based network applications inherently faster than threaded ones?
+7	14	how can "modified by" be changed when using runwithelevatedprivileges?
+7	8	how do i create a nice -description method that nests recusively like nsarray
+7	4	best way to log post data in apache?
+7	9	what's an easy way to have terminal use a different color based on ssh host name?
+7	3	managed source control hosting and continuous integration with cvsdude and cruisecontrol.net
+7	16	cross platform c library for gui apps?
+7	16	how can i get rid of the resize-handle in a qdialog?
+7	8	get rid of newapplication in a dynamic way?
+7	3	best way to migrate from vss to subversion?
+7	7	visual studio and dual/multiple monitors: how do i get optimized use out of my monitors?
+7	8	which delegate method i should use when i cliked on a textfield?
+7	8	is the nsdocumentdirectory unique for a given application?
+7	8	how to remove files and directory in a appointed path?
+7	8	cpan/gem-like repository for objective-c and cocoa?
+7	2	what's the best way to store milisseconds in oracle?
+7	10	how do you handle the "too many files" problem when working in bash?
+7	1	what's best way to format c# in wordpress?
+7	16	creating gui application completely in qtscript, what is your opinion?
+7	7	is there a way to do "intraword" text navigation in vs?
+7	6	why is caching answers taking longer in matlab?
+7	2	how do i find the high water mark (for sessions) on oracle 9i
+7	9	best way to export a qtmovie with a fade-in and fade-out in the audio
+7	17	how do upload images remotely to drupal using the image module?
+7	7	how to programmatically cancel an embedded msbuild build
+7	14	inherit existing web parts and override methods
+7	8	what is the best way to solve an objective-c namepsace collision?
+7	7	how do i make microsoft vcc crash out on the first build-error?
+7	7	any suggestions for effectively testing ajax enabled web pages using msvs tester edition tools?
+7	18	examples on when not to use linq
+7	8	best way to escape characters like newline and double-quote in nsstring
+7	7	already have msdn with team system test edition, how do i....
+7	14	make it impossible for users to remove web parts/zones?
+7	8	cocoa/objective-c - can i somehow see the implementation files?
+7	3	best way to let third-parties work on your site
+7	4	is there a non-scripting language for linux/apache?
+7	10	how can i put $home/opt/git/bin to my path?
+7	4	how do i trouble shoot why my rewrite rules aren't being applied by apache?
+7	5	what would be the best way to use python's functions from excel ?
+7	2	what's the best way to determine which version of oracle client i'm running?
+7	8	easy way to get size of folder (objc/cocoa) ?
+7	7	is there a way to use vs with a remote site accessible only by sftp?
+7	14	are there any other classes like spbuiltinfieldid and spbuiltincontenttypeid?
+7	20	aw blog (create bookmarklet feature)
+7	14	wss/moss development ... where to draw the line?
+7	2	how do you obtain the maximum possible date in oracle?
+7	9	why does mac's $find not have the option -printf?
+7	11	how to make jetty dynamically load "static" pages.
+7	19	proper way to import things already defined in the prelude in haskell
+7	17	need help choosing a framework for bilingual site
+7	18	is there a pattern using linq to dynamically create a filter?
+7	9	is quicksilver dead?
+7	18	ienumberable.except wont work, so what do i do?
+7	4	is there a way to make git remember the password for webdav remotes?
+7	8	what describes the "file's owner" best in objective-c / coca nib?
+7	7	c#: how to include dependent dlls?
+7	3	what python bindings are there for cvs?
+7	13	learning sclala.
+7	8	how do you explicitly animate a calayer's backgroundcolor?
+7	8	best way to make nsrunloop wait for a flag to be set?
+7	12	how do i make/develop hibernate caching?
+7	10	is there a good, online tutorial for learning intermediate-to-advanced bash programmable completion?
+7	2	how do you know what a good index is?
+7	14	is there a reference for the sharepoint xslt extension functions?
+7	14	how do you deploy your sharepoint solutions?
+7	14	what is the best way to handle all spitem's on sharepoint web application level?
+7	18	what design pattern should i use to create an easy binding map between a query and textboxes for linq search screens?
+7	5	what's the fastest way to walk through an excel range object backwards?
+7	2	how do i use create or replace?
+7	6	matlab symbolic toolbox: what's wrong with my code?
+7	8	is it possible to bind the null placeholder in cocoa?
+7	7	best practices: ide code color scheme and font
+7	10	using change directory (cd) inside scripts - best practices
+7	14	how do i reorder the fields/columns in a view?
+7	2	better understanding an oc4j stack trace
+7	10	control-r reverse-i-search in bash: how do you "reset" the search?
+7	18	when to use .first and when to use .firstordefault with linq?
+7	11	annotation-based and xml-based transaction definitions precedence
+7	19	f# vs haskell, which is better for general purpose programming?
+7	4	suggestions for fun web programming projects at home
+7	3	svn?  vss?  why is one better than the other?
+7	18	who has bought the autocompletion for linqpad?
+7	16	is there a way to make drawtext() update a qpicture's bounding rect?
+7	3	best tools for code reviews
+7	15	eval is evil... so what should i use instead?
+7	7	what is the optimal vstf source structure? are there any best practices?
+7	14	any way to get sharepoint to stop converting attachment file names to all lower case on inbound emails?
+7	8	using frameworks in a command line tool
+7	18	how much overhead does 'update check' have for linq updates
+7	8	is there a framewok / api i could use to export iphone-sdk's abrecordref instances to vcard?
+7	4	can any have the information about the apache roller weblogger software
+7	9	where can i go for hands-on cocoa training besides wdc?
+7	16	is there a simple way to restore widget sizes in qt?
+7	3	is there any way to perform pre-/post-switch commands using tortoisesvn?
+7	8	how to create an ipod-esque uislider
+7	18	linq: in what situation do you use linq?
+7	13	how to let the user switch language in playframework 2
+7	13	how does one write the pythagoras theorem in scala?
+7	9	why use sysv or posix shared memory vs mmap()?
+7	2	what situations cause oracle packages to become invalid?
+7	3	how do you store dependencies of you program, and tests items deployement in your scc ?
+7	2	inserting into oracle the wrong way - how to deal with it?
+7	10	how do i schedule a process' termination?
+7	8	what's the easiest way to create an array of structs?
+7	16	is it necessary for qt::paintevent to be reentrant?
+7	11	best way to validate url parameters in spring mvc website?
+7	3	how do you remove subversion control for a folder?
+7	15	best practices for handling a web service failure
+7	18	beginners guide to linq
+7	2	is there an good alternative to sql*plusfor oracle?
+7	15	are there any diagnostics tools for troubleshooting content delivery with opera mini?
+7	4	what's a good library to manipulate apache2 config files?
+7	14	what can you do with sharepoint on intranet?
+7	8	cocoa/objective-c nsprocessinfo weirdness...
+7	18	force an iqueryable to execute?
+7	8	what open source cocoa/cocoa touch frameworks are out there?
+7	3	which do you like - visual svn or ankhsvn?
+7	6	in need of a good matlab class tutorial
+7	1	how do i get wordpress to override a previous posts query?
+7	10	bash : how to use screen to have a term session used at home after work?
+7	17	best way to save extra data for user in drupal 6
+7	19	what's the right way to divide two int values to obtain a float?
+7	3	what is the best way to back up an svn server for all the code and content?
+7	11	best way to pass objects between controller actions in grails
+7	18	does linq and projects like i4o make object oriented dbs a viable alternateive to relational dbs?
+7	15	don't mix response.write with ajax, but what about ui.htmltextwriter?
+7	14	how do you read sharepoint lists programatically?
+7	3	is there a way to add a subversion section to the right click menu for textmate ?
+7	2	how to keep implementation/maintenance costs low in pro*c?
+7	3	how to make subversion (or any program) perform periodic commits?
+7	2	can you use microsoft entity framework with oracle?
+7	11	gwt+grail.. advantages and shortcomings..
+7	16	how can i implement a blocking process in a single slot without freezing the gui?
+7	2	how do you choose storage engines for oracle?
+7	2	oracle: best way to search over a range of values?
+7	5	using large collections in vb.net
+7	18	bulding a linq query programatically without local variables tricking me
+7	12	use of insert and update attributes
+7	14	how do i know you have logged in a sharepoint webpage?
+7	15	to ajaxify or not?
+7	18	which linq syntax do you prefer? fluent or query expression
+7	8	how do you gui-test your cocoa apps?
+7	14	what is the best way to retrieve distinct / unique values using spquery?
+7	19	which tree-based dictionary is the easiest to implement functionally?
+7	15	mvc architecture for front-end
+7	8	how do i get objects in the responder chain to handle `inserttext:` messages?
+7	6	need for tool for video processing
+7	3	configuring subversion to use system users/passwords
+7	10	autoconf using sh, i need shell=bash, how do i force autoconf to use bash?
+7	3	how do i find how much svn traffic i'm using?
+7	5	what is the best way of generating a xslx file on a web site? possibly with millions of rows?
+7	19	functional metapost in 5 steps
+7	10	what is the xdg_session_cookie environment variable for?
+7	18	is it a good idea to learn linq first, then sql?
+7	12	do you always use a second-level cache in hibernate?
+7	14	how do i interpret error codes from frontpage extensions?
+7	14	is it possible to format a numberfield in a page layout?
+7	8	how to use native c types with performselectoronmainthread:?
+7	17	best way to manage team membership in drupal-based site
+7	18	how do you extend linq to sql?
+7	7	best way to license microsoft software as a very small developer
+7	18	how to use the system.linq.dynamic assembly w/ ienumerable(of t)
+7	9	why should i have a version control system if i use time machine?
+7	8	how do you print out a stack trace to the console/log in cocoa?
+7	8	what's a good way to bind from a shared utility window and the frontmost document window?
+7	5	what's the best way to export bug tracking data from hosted hp quality center?
+7	11	what are some use cases for various dispatcherservlet.detectallxxx flags?
+7	3	how make difference between working version control directories?
+7	8	best way to implement touchesmoved
+7	19	implementing a cache
+7	14	what are some decent ways to prevent users from creating meeting workspaces?
+7	5	system.runtime.interopservices.comexception : this command is unavailable because the license to use this application has expired.
+7	17	learning drupal fast track: how to create a stackoverflow clone?
+7	18	is there an implementation of iqueryable over dbdatareader?
+7	17	good download manager for drupal?
+7	10	how do i extract xml properties using shell scripts
+7	20	how does magento code work?
+7	8	any reason to use nsviewanimation over coreanimation techniques?
+7	9	best way to copy of move files with objective-c?
+7	18	how scalable is linq?
+7	16	rational behind qt way of naming classes?
+7	12	how to use hibernate @any-related annotataions?
+7	18	are linq queries above different linq providers possible?
+7	4	how do i hide directories in apache, specifically source-control?
+7	3	how do i fix this subversion mkcol error?
+7	8	how to stop an nsinvocationoperation?
+7	4	why modrewrite applies automatic .php to this simple rules?
+7	5	how can i hook up to excel events in javascript
+7	11	anybody using qi4j
+7	8	what are alternatives to objective-c for mac programming?
+7	8	what kind of category methods do you use to make cocoa programming easier?
+7	15	the best way to synchronize client-side javascript clock with server date
+7	10	how do i tell rsync to run only if the destination directory exists?
+7	14	does spsecurity.runwithelevatedprivileges do anything in a console app?
+7	7	how to disable the "auto format" feature of visualstudio2008 editor?
+7	13	do you plan to use the scala programming language and on what project?
+7	7	why should i not use the /optimize switch to compile my c# code?
+7	4	do you have to restart apache to make re-write rules in the .htaccess take effect?
+7	1	is there a tool for managing redundant pages across a website?
+7	9	how can you generate a makefile from an xcode project?
+7	7	make visualstudio c# have files/folders outside of the project directory.
+7	12	how does the new keyword in hql work?
+7	9	how can i tell if voice over is turned on in system preferences?
+7	14	designing sharepoint pages - what can i use?
+7	10	how to make a php process auto-restart when dead?
+7	8	need help with nsmutabledata.
+7	18	does linq's executecommand provide protection from sql injection attacks?
+7	8	objective-c networking - best practices?
+7	17	any way to rename image filenames?
+7	18	speed test linq2sql v entiry framework
+7	18	are linq expression trees turing complete?
+7	7	what to do about the solution explorer and getting around? suggestions and improvements!
+7	7	what would be the most convenient way to connect visual studio 2005 (c#) to oracle8?
+7	7	where is tfs work item help text displayed?
+7	13	why cannot this.type be used for new instances
+7	8	what data type do i use for an integer in soap xml in cocoa?
+7	3	is there a way to know the url of the svn server?
+7	4	how many rewriterules can you have in .htaccess without trouble?
+7	3	how do i start with working sub-version + delphi?
+7	2	what are the benefits of using oracle designer?
+7	8	how do i convert an nsstring into something i can use with fscreatedirectoryunicode?
+7	9	cross-platform objective-c / c++ development
+7	7	automatically adding .net code comments
+7	2	is it possible to know from which package a procedure has been called ?
+7	3	is there any way to throttle the network bandwidth that an svn checkout does?
+7	8	how do i serialize an object to file using nskeyedarchiver in nspropertylistxmlformat_v1_0 format?
+7	3	best way to deploy subversion in a multisite windows environment
+7	14	how do i call a sharepoint webservice from a c# client using kerberos authentication ?
+7	3	how to use subversion for non-compiled language?
+7	15	best toolkit for new web application (odd requirements)
+7	5	how do i create a filter for microsoft excel?
+7	2	oracle: any replacements for dbms_output package?
+7	18	what is the best way to optimize or "tune" linq expressions?
+7	7	how do i find a complete list of extensions installed in vs2008?
+7	18	will there be iqueryable-like additions to iobservable? (.net rx)
+7	16	is qt jambi dead?
+7	7	how do you integrate a tdd approach with visualstudio?
+7	18	linq help - newbie
+7	11	real life business case for using spring method replacement?
+7	8	is there anything like a generic list in cocoa / objective-c?
+7	4	what is the best way to do server-side output caching php?
+7	11	what is the best way to initialize a bean?
+7	3	what is a good book about svn?
+7	7	what is .net framework ?
+7	7	how to automatically convert vs2003 classes to partial designer.cs files?
+7	14	how can i iterate recursivly though a sharepoint list using webservices?
+7	10	how to show relationships between todo-lists?
+7	5	is there a way to programmatically concatenate excel files?
+7	3	how can i use svnlook functionality on client machine
+7	4	is there a good listing of projects like apache software foundation?
+7	15	how sophisticated should be my ajax code?
+7	8	best language suited for scanning many files for a keyword (called from a cocoa app)?
+7	3	need good scheme/workflow for managing database objects using subversion
+7	18	is linq to everything a good abstraction?
+7	14	where are sharepoint resources strings located.
+7	14	sharepoint: how can i perform a series of operations within a transaction?
+7	7	is it possible to use vs2008 built libraries from a vs2003 solution?
+7	18	how to deal with a flaw in system.data.datatableextensions.copytodatatable()
+7	3	can someone explain source (versioning) control to me?
+7	3	do you use version control other than for source code?
+7	3	best way to use subversion as a project communication tool?
+7	11	how to use currentsessioncontext/springsessioncontext along with hibernatedaosupport to intercept calls to getcurrentsession()
+7	18	need help in resolving error in predicates for and operator in linq
+7	10	if .bash_profile usually source .bashrc any way, why not just use .bashrc ?
+7	2	how do you use telnet to check a connection to oracle?
+7	7	any free alternative to visualstudio?
+7	14	how do you handle code promotion in a sharepoint environment?
+7	8	how do i save state with calayers?
+7	19	enable --hyperling-source for "cabal install"
+7	11	in a spring configuration, what is the difference between using name vs id?
+7	10	how do i control a job's "name" in bash?
+7	7	is there a recommended number of lines of code per file?
+7	19	why does the pointfree version of this function look like this?
+7	12	can i have a collection of iusertype instances?
+7	9	i need to develop a project involving hardware which should also work the same on windows as well as macs. whats the way forward?
+7	11	when using @transactional do i need to use jpatemplate/hibernatetemplate ?
+7	5	how do i create a toolbar in an xla document?
+7	9	can i hide a directory/path from launch services?
+7	7	what's the best way to create a drop-down list in a windows application using visual basic?
+7	1	alternative to update_option() in wp-admin
+7	9	how can you have a xemacs-like-auctex in macvim?
+7	8	which delegate method i should use to respond to clicks on a text field?
+7	1	can wordpress install on iis and how?
+7	2	oracle - side-by-side schema update technology...is there any?
+7	3	svn doubt - vmware image / install / hosted which would you pick?
+7	17	what's best drupal deployment strategy?
+7	2	best practices: .net: how to return pk against an oracle database?
+7	17	can you tell if hook nodapia (or any hook) is being run from batch mode?
+7	3	is there a tool that can display a svn repository visually ( i.e. pretty charts )?
+7	8	examples of cocoa/objective-c and distributed objects?
+7	18	a dsl for linq queries - looking for ideas
+7	14	how do i upload a document to sharepoint with java?
+7	13	what is the best way to format a string in scala?
+7	16	implement manualresetevent and autoresetevent
+7	18	iqueryable<t> with asp.net mvc - can you use this if model currently not using linq?
+7	16	auto close qmessagebox
+7	10	using xvkbd to read a barcode. how to disable enter key?
+7	8	how do i time a cocoa app?
+7	8	how to create a binding for nsapp.docktile's
+7	19	what are your favorite programming-related academic papers?
+7	12	how can i create a ddl for my jpa entities from java code?
+7	18	how do i write this in ruby/python? or, can you translate my linq to ruby/python?
+7	14	has anyone here worked on kofax-sharepoint 2007 integration?
+7	8	how do i dispose of my own sharedinstance in objective-c?
+7	2	how do i find the definition of a system-named constraint in oracle?
+7	8	how do i detect if an application is document-based?
+7	7	which would you rather use: visualsvn or ankhsvn?
+7	18	it is possible to use full text search (fts) with linq?
+7	18	use resourcereader to create a hybriddictionary of resources.
+7	12	best strategy to multiple crud with jsf
+7	17	how does aop work in drupal?
+7	8	is it possible to observe a readonly property of an object in cocoa?
+7	4	how do i create a custom directive for apache velocity
+7	8	how do you implement the method makekeyandorderfront: ?
+7	7	msbuild directory structure limit workarounds
+7	3	does subversion 1.5 performance stink?
+7	15	progressive enhancement
+7	18	what are some clever uses of linq?
+7	15	javascript or php - what is most efficient for updating?
+7	8	how do i find the correct case of a filename?
+7	4	how do i (should i?) use apache poi hwpfdocument?
+7	11	is there a static way to get the httpservletrequest of the current request
+7	15	is there a list of ajax jsf libraries available?
+7	6	what is matlab? does it generate executables?
+7	6	is there any way to silence the 'hold' function in matlab
+7	1	best blogging software for developer
+7	8	how to use @sum with coredata
+7	3	help on version-control for legacy code.
+7	1	safety when installing plugins on domains i don't own
+7	11	best way to cache persistent data (e.g. code books) in spring?
+7	9	can spotlight index a macfuse filesystem?
+7	7	how to use "macros" in visualstudio 2008 build events?
+7	7	linqpad feature - does vs do this?
+7	8	is there a "right" way to have nstextfieldcell draw vertically centered text?
+7	15	recommendations for ajah library
+7	8	is an nsmutablestring in this case more efficient than nsstring?
+7	2	best way to select the id of the matching row with the most recent timestamp
+7	8	how do i add a third party framework to xcode project?
+7	4	can i re-write my urls like this and is it a good idea?
+7	14	what's the best way to report errors from a sharepoint workflow?
+7	8	how to tell if the user's using 24 hour time using cocoa
+7	18	what is the most concise way to find the existence of a node using linq to xml?
+7	3	how to explicity tell svn to treat a file as text, not binary
+7	14	how to direct to a custom error page?
+7	19	how can i simplify an expression using basic arithmetics?
+7	8	create a colored bubble/circle programmatically
+7	13	how to count rows in lift (scala's web framework)
+7	13	is there any wicket-like web framwork to use with scala (not lift)?
+7	3	can you "ignore" a file in perforce?
+7	14	how do you deploy your common sharepoint library
+7	8	best way to remove from nsmutablearray while iterating?
+7	9	how to use p4merge as the merge/diff tool for mercurial?
+7	8	how would one implement a sidebar similar to mail/itunes/finder/etc in cocoa/ib?
+7	7	what's the state of play with "visual inheritance"
+7	14	are sharepoint site templates really less performant than site definitions?
+7	9	fastest way to navigate through files in textmate?
+7	8	how do i create an import-only document type in cocoa?
+7	16	which way to go in linux (qt or kdevelop)
+7	18	how do you handle arbitrary namespaces when querying over linq to xml?
+7	15	is there any advantage of webservices over web-pages for providing ajax content?
+7	7	.net install package sometimes not completely removing previous versions
+7	7	would you like to continue and run the last successful build?
+7	9	what are the alternatives to using phpmyadmin?
+7	3	what happens if i don't use the --reintegrate option in subversion 1.5?
+7	8	open source objective-c projects with high quality code?
+7	7	change version informaiton in a built binary
+7	14	how do i make a microsoft word document “read only” within a sharepoint document library?
+7	3	what's the best way to persuade my employer to move from vss to subversion?
+7	16	is it possible to use qfontdatabase::addapplicationfont() in symbian?
+7	7	what code snippet editor do you use?
+7	2	resources for an oracle beginner
+7	9	building objective-c app with external framework
+7	16	does qt 4.5 have any skins?
+7	3	do you use the branches/tags/trunk convention?
+7	19	how to do conditional compilation in haskell?
+7	8	how do i update a constraint on my calayer?
+7	6	porting matlab functions to scilab. how to use symbolic?
+7	4	manual alternative to mod_deflate
+7	18	is linq slower than calling sprocs?
+7	2	will pro*c work with msvc 6?
+7	8	to use cocoa bindings or not?
+7	7	how do you manage .vcproj files in souce control which are changed by multiple developers?
+7	7	what do you use (free) to format c# code?
+7	14	is there any good replacement for sharepoint designer?
+7	8	how do i create nscolor instances that exactly match those in a photoshop ui mockup?
+7	15	why use jquery?
+7	8	how do you start debugging a cocoa app with a url?
+7	5	what is the best way to package and distribute an excel application.
+7	14	can i programaticaly replace one webpart with another in sharepoint?
+7	8	what is the correct way to tell when an nsarraycontroller is finished loading it's content from a persistent store?
+7	14	how to implement an ifilter for indexing heavyweight formats?
+7	11	when is it appropriate to use an ear and when should your apps be in wars?
+7	3	how to use svn with emacs (psvn can't create tunnel)
+7	12	hibernate.hbm2ddl.auto how does hibernate decide when to create or update the ddl?
+7	6	how to elegantly ignore some return values of a matlab function?
+7	3	how do i learn to use svn effectively?
+7	2	does oracle allow the uncommited read option?
+7	18	is yield useful outside of linq?
+7	8	which is easier for beginners: rubycocoa or objc/cocoa
+7	12	how can i use a .hbm.xml file as input in hbmtemplate for maven?
+7	18	is it possible to serialize a linq object?
+7	18	how do i do a deep copy of a node in linq to xml?
+7	13	using undercover with scalatest and mavern
+7	3	what's each svn automatic conflict resolution action performs?
+7	3	is there any reason why you all want to be notify whenever someone commit some codes?
+7	17	good drupal books/resources for programmers/developers?
+7	9	how can i make spotlight index markdown files?
+7	3	when using cvs2svn how can you rename symbols such that a branch and tag resolve to the same name?
+7	9	how do you keep the machine awake?
+7	7	where can you find the c# language specifications?
+7	8	how do you read a third-party cocoa project?
+7	9	why should i use grand central dispatch over openmp?
+7	3	how can i get an updated $revision$ in my code
+7	4	why do my hot-deployed files disappear sometimes? (i think apache has something to do with it)
+7	7	how can i add two projects..vs2008
+7	3	how to use svn with beyond compare 3
+7	2	is it possible to kill a single query in oracle without killing the session?
+7	8	what is the best way to implement syntax highlighting of source code in cocoa?
+7	18	expression.invoke in entity framework?
+7	3	what  is the best practice regarding source code managment ?
+7	2	what content management does your workplace use?
+7	8	should i use nsdecimalnumber to deal with money?
+7	1	possible to change location of the login landing?
+7	2	things to watch out for in moving from oracle express to the real deal?
+7	19	what are the relative merits of wxhaskell and gtk2hs?
+7	19	how to handle this exception?
+7	3	how to create project specific respository post-commit actions
+7	2	how do i close an oracleconnection in .net
+7	7	which language should i pick up: vb.net or c#
+7	16	how do windows work in qt embedded?
+7	8	how can i troubleshoot my custom url scheme?
+7	15	how can i make comments like on stackoverflow?
+7	15	how important do you think progressive enhancement is?
+7	5	where to find out the method used for excel functions
+7	14	how to get a sharepoint-userfield with javascript ?
+7	3	how to effectively manage code changes to third party applications
+7	16	how to use qmake's subdirs template?
+7	16	does anyone commit qt to their own source control?
+7	18	is linq doa?
+7	15	what is the correct way to determine that an ajax call is successful?
+7	4	do i have to duplicate the virtualhost directives for port 80 and 443?
+7	7	how to quickly organize functions in source code (c#) to order by alpabetical order?
+7	3	what is the optimal way to organize shared .net assemblies in svn?
+7	18	simple tutorial for linq
+7	12	hibernate <generator class="" > when is it best to use what?
+7	15	is there a way to maintain isajaxrequest() across redirecttoaction?
+7	8	is there a better way to find midnight tomorrow?
+7	3	how to best update a website from subversion.
+7	17	drupal problem, how to create a fast content module?
+7	9	line-end agnostic diff?
+7	16	what's the best strategy for large amounts of audio files in mobile application?
+7	4	mod_rewrite depends on what other modules?
+7	14	what are your biggest complaints about sharepoint?
+7	18	how do i build a linq expression tree that does this?
+7	1	is there a way to stop wysisyg editor in wordpress from trimming out certain tags?
+7	5	what is the most efficent way to get a range "set difference" in excel automation?
+7	4	can abybody explain the structure of apache server.......
+7	8	where do you put cleanup code for nsdocument sub-classes?
+7	18	how to do this in ado.net entities framework
+7	15	best way to ajax-control table rows
+7	15	how do you serve a file without leaving the page?
+7	18	what's the cleanest way to make a linq object "dirty"?
+7	13	using kate with simple build tool (sbt)
+7	16	how do i store the window size between sessions in qt?
+7	2	how to use explain plain to optimize queries?
+7	2	how do you programatically identify a stored procedure's dependancies?
+7	14	how to create a lookup column that targets a doc lib and uses the 'name' of the document?
+7	3	is there a graceful way to stop svnserve -d
+7	14	best pattern for allowunsafeupdates
+7	2	odp.net oraclecommandbuilder.deriveparameters for 9i
+7	9	detect bottleneck on program and use opencl to speedup
+7	8	in cocoa, is there a proper way to handle overlapping nsview siblings?
+7	8	use settarget: message of a cell to make the target file's owner
+7	13	why does option not implement iterable directly?
+7	13	dependency in traits inheritance
+7	2	is there a way to make oracle recalculate a query plan for each query invocation?
+7	2	how to determine the version of oc4j being used?
+7	8	getting the list of running applications ordered by last use
+7	19	what are some good haskell primers/tutorials for beginners?
+7	14	how to use custom css with my sharepoint webpart?
+7	13	should i upgrade to intellij ultimate edition?
+7	18	has someone recent and trusted news about linq to xsd?
+7	19	is it possible to print all reudctions in haskell - using winhugs?
+7	8	case-insensitive kvc in cocoa?
+7	18	getting started using linq, what do i need?
+7	7	visualstudio: how to save the obj folder somewhere else
+7	14	is it safe to use the administrator tasks in central administration?
+7	7	can ctrl+backspace be made to work in vs2008's solution explorer?
+7	18	linq to nhibernate project status? contributing? lead?
+7	9	how do i enable more than 8-bit colors in terminal.app?
+7	18	how do i linqify this?
+7	16	is qhash::contains method case-sensitive or case-incensitive?
+7	16	best way to add python scripting into qt application?
+7	7	saxon.net xslt 2.0 processor
+7	18	how does linq implement the singleordefault() method?
+7	3	why doesn't svn import work?
+7	14	what is the most wanted sharepoint feature?
+7	12	cannot do 2nd level cache
+7	5	how to troubleshoot why excel disables an add-in?
+7	17	how can i change drupal's default menu strings without hacking the core files or using the string override plugin?
+7	2	how can i tell if i have uncommitted work in an oracle transaction?
+7	8	how do i make the value binding of nstokenfield supply an nsstring?
+7	13	how to use scalax.io.commandlineparser?
+7	7	how to disable a programmatical breakpoint / assert?
+7	2	how can i implement a "natural" sort?
+7	19	mutual recursion -- can someone help explain how this code works?
+7	14	how does sharepoint+rtwebparts handle timezones?
+7	15	what would be the best place to start learning ajax (i have perl as a backend)
+7	3	what's the best three-way merge tool?
+7	9	create a "universal binary" from two apps?
+7	18	is list.foreach technically a part of linq or not?
+7	15	best approach for using ajax loaders?
+7	9	how do i add additional languages to the sla.r i use with my .dmg?
+7	15	when to use a lightbox effect?
+7	13	immutability and shared references - how to reconcile?
+7	7	any good powershell msbuild tasks?
+7	14	what steps do you take to increase performance of a sharepoint site?
+7	9	how do i determine file encoding in osx?
+7	4	acessing other webapps while one is in document root
+7	8	is there a way to use bindings with an editable nssecuretextfieldcell in an nstableview?
+7	15	are there reasons not to use jsonp for aja~x requests?
+7	13	gae jcache numberformatexception, will i need to write java to avoid?
+7	18	what are some good linq resouces?
+7	8	is it possible to use cocoa's bindings to have an editable nstableview hooked up to an nsmutablearray?
+7	2	is there a easy way to suppress the xml row tags of a collection in oracle?
+7	19	how to count the number of times a fuction was called, the fp way
+7	3	how do i simultaneously work on version 1.1 and version 2.0?
+7	17	my products categories have (meta)data - use taxonomies or implement them as content items?
+7	4	how do i make my urls work with mod_rewite?
+7	14	do organizations ever use sharepoint on a port other than 80?
+7	3	how do you move a file in svn?
+7	15	is it possible to integrate ajax toolkit into mvc appliocations?
+7	10	problems using git diff to create file list for deploy
+7	8	best way to handle multiple nstableview(s)
+7	3	is there any way to only update added files?
+7	3	is a good idea to put all projects in the same trunk?
+7	13	scala best way of turning a collection into a map-by-key?
+7	8	objective c categories and performance?
+7	14	is there a way to put get the url of the site in creation in the onet.xml file?
+7	7	is it possible to customize the colors of rockscroll's variable syntax highlighting?
+7	7	what's an easy way to access prebuild macros such as $(solutiondir) and $(devenvdir) from code in c#?
+7	14	how to create a preprocessing application for indexing heavyweight formats in microsoft search server 2008?
+7	18	how would you do a "not in" query with linq?
+7	19	haskell - how to best to represent a programming language's grammar?
+7	7	is there a fast way to change tabindexes on a form with lots of controls?
+7	3	is there a way to do a reverse update with subversion?
+7	1	how to check whether your work on wp or wpmu ?
+7	10	simple way to convert 00:20:40.28 (hours:minutes:seconds.split seconds) to seconds
+7	14	what is the purpose of zones in sharepoint? (web application zones or authentication zones or how do they call it)
+7	18	how can i get my orderby to work using an anonymous type?
+7	14	what kind of cal do i need for sharepoint?
+7	12	is it possible to use analyic functions in hibernate?
+7	15	transitioning from winforms to ajax, what do i need to know?
+7	9	are there any an os x equivalent to `hcitool`?
+7	6	how to use sift algorithm to compute how similiar two images are?
+7	2	what is native web services?
+7	7	good techniques to use makefiles in visualstudio?
+7	7	can you configure vs2008 code analysis to use a british english dictionary?
+7	2	what is the best way to escape non-format characters in oracle's to_char?
+7	14	what does the alias attribute of fieldref do?
+7	4	how to find where apache's httpd.exe is installed?
+7	9	how to import file into sqlite?
+7	9	what's a good way to write a cocoa front-end to an erlang application?
+7	8	best way to draw text with opengl and cocoa?
+7	9	how can i increase the key repeat rate beyond the os's limit?
+7	9	what is a good gui text editor for the mac?
+7	3	best branching stragetgy when doing continuous integration?
+7	15	designing an ajax commenting system, a point in the right direction?
+7	14	sharepoint: how do i move stuff between sites
+7	15	how to make xmlhttprequest  work over https on firefox?
+7	14	how do you instantiate a spweb object from a console app?
+7	16	how do i use gdbmacros.cpp in qtcreator?
+7	16	is it possible to sort numbers in a qtreewidget colum??
+7	3	best way to track and enforce peer reviews before commit
+7	16	how to create a vcproj with qmake such that it contains customized filters?
+7	12	is it worth the effort to move from a hand crafted hibernate mapping file to annotaions?
+7	3	how to maintain slightly different software?
+7	10	worth switching to zsh for casual use?
+7	16	how to know when a web page is loaded when using qtwebkit?
+7	5	how can you make game of life in excel?
+7	5	how can i start a specific excel version in com automation?
+7	2	is oracle bc4j still supported?
+7	8	regular expressions in cocoa / objective-c.
+7	2	proper way to set oracle_home?
+7	8	what is the most elegant way to encode/decode an object to dictionary
+7	8	nsdocument architecture pros and cons
+7	18	sorting iqueryable by aggregate in vb.net
+7	14	where can  i change the html template for a sharepoint notification?
+7	14	using a sharepoint document library, how can i create 'permalinks'?
+7	8	is it possible to have a binding that combines more than one key path?
+7	3	what reporting is available for svn?
+7	2	what tool do you use for developing and administrating your database?
+7	9	should you register new extensions with apple?
+7	7	team is going from xp32 to xp64 for .net development - any gotchas?
+7	18	how does linq work (behind the scenes)?
+7	3	does this sound like a good idea? ( svn / version control / webdev / deployment )
+7	7	most efficient way to cut/paste in visualstudio
+7	12	is there a good reason to configure hibernate with xml rather than via annotations?
+7	6	packages in matlab for a beginner?
+7	16	qt/wxwidgets third party components?
+7	18	is there something wrong with my system.xml.linq library?
+7	3	what is a pre-revprop-change hook in svn and how do i create it?
+7	10	how do i alter tab autocomplete in bash to dive through folders?
+7	7	are there any known issues of vs 2003/2005 and 2008 coexisting?
+7	12	how to do orm for this situation?
+7	9	bluetooth example code for cocoa (objective-c)
+7	2	what would simple guidelines would you give your developers for writing good sql against oracle?
+7	8	how does apple make the info.plist display its "information property list"?
+7	10	what is the best way to write a wrapper function that runs commands and logs their exit code
+7	14	whats the best way to create a smart part in sharepoint?
+7	8	what's the best way to validate a user-entered url in a cocoa application?
+7	2	should i use tnsnames.ora or tnsnames.ora?
+7	13	how to write a lazy, variable argument version of "orelse"
+7	10	what are your most important console aliases?
+7	9	does anyone use betterauthorizationsample?
+7	16	is there an analogue to qt's qcanvas in windows forms?
+7	14	good book for learning sharepoint development
+7	19	how much math do i need to become productive in haskell?
+7	2	what is the best way to encrypt a clob?
+7	9	is there any way to pass an nsarray to a method that expects a variable number of arguments, such as +stringwithformat:
+7	14	how do you change the listtemplateid of an existing sharepoint list?
+7	4	how do i change which version of python mod_python uses
+7	8	best practices for passing data between processes in cocoa
+7	10	how to get curl to save to a different directory?
+7	17	is it possible to set a module's checkbox to "readonly"?
+7	18	why use a web service with linq to sql?
+7	8	best way to post nsnotification with nsrect info?
+7	19	how do you do generic programming in haskell?
+7	7	how to create xml/xsd equivalent of a dataset or datatable in vs2008 (or other tool)
+7	15	what's a good book for learning ajax?
+7	2	how do you rate oracle portals as a platform?
+7	2	oracle: how can i programmatically arrange to have my current connection killed?
+7	16	is there a way to package a dynamic library in the application binary?
+7	3	which is more popular (currently, by recent install base) svn or cvs?
+7	2	can multiple indexes work together?
+7	6	what are you favourite matlab/octave programming tricks?
+7	19	what is the simplest way to write web apps in haskell?
+7	2	do ddl statements always give you an implicit commit, or can you get an implicit rollback?
+7	8	what is the best way to model an association class in core data?
+7	13	non-mathematical use cases for functional programming ?
+7	3	why does "anonymous" need read access in authz in order for tortoisesvn to do a diff or log?
+7	13	modern java alternatives
+7	13	how to interpret scaladoc?
+7	15	compatibility of comet with current technology
+7	19	implement zip using foldr
+7	4	using custom response headers to help detect site transfers
+7	18	should i worry about the upgrade path for linq (the query language)
+7	14	how do you include a javascript file from within a sharepoint webpart?
+7	7	vs2008 express editions and resources
+7	7	structuring projects & dependencies of large winforms applications in c#
+7	19	how to reduce memory usage in a haskell app?
+7	1	how do you add html/styling to the author profile on wordpress?
+7	7	how do i reference a diagram in a dsl t4 template?
+7	3	how can i get the functionality of svn:externals in a read-only fashion?
+7	6	generate contour given x, y and z  vectors
+7	18	is there a linq library for c++?
+7	8	how can i change the way nsbuttoncell objects highlight when clicked?
+7	6	best way to organize matlab classes?
+7	3	which version control tool is best sutiable to handle reflective or cyclic mergeing? svn, git?
+7	9	elevating rights to use mach_inject
+7	4	releasing under license: do all files need the copyright statment?
+7	14	copying a document to another library and incrementing version
+7	5	how do i copy a range in vba?
+7	18	efficient way to make paging on sql server 2008
+7	18	what is the biggest mistake people make when starting to use linq?
+7	9	how do i tell when a cups print jobs has been completed plus info about that job?
+7	4	how can i pass structured data to my (f)cgi through apache?
+7	4	how do i generate an ssl certificate with microsoft certificate services and then install / configure it to work with apache?
+7	8	how do i get controls on an nspanel to look correct?
+7	3	how do i download code using svn/tortoise from google code?
+7	18	what are the advantages of linq?
+7	19	what's the fuss about haskell?
+7	14	how to efficiently delete all files in a document library?
+7	3	where to manage the most sensitive content you have under version control?
+7	11	properties framework in java apps
+7	18	how can an object-oriented programmer get his/her head around database-driven programming?
+7	6	how to create a new figure in matlab?
+7	3	how can i set up a network 'reference directory/folder' with subversion?
+7	18	how do you use linq to connect a table to a view?
+7	16	is it possible to use qtconcurrent::run() with a function member of a class
+7	15	a good way to send complex objects with ajax?
+7	16	what advantages does  c++ have over other languages for qt development?
+7	4	what is the defirence between dos and brute force attacks?
+7	14	sharepoint solution packaging: how do i get a custom icon for my features?
+7	5	how can i use excel for project management?
+7	11	how to create a custom el expression handling regime for jbpm
+7	14	what knowledge should a software architect have about sharepoint?
+7	5	vba editor auto-deletes spaces at the ends of lines
+7	11	in what case would a programmer get the webapplicationcontext out of dispatchservlet?
+7	19	in ghc, is there a way to print the exports of module?
+7	14	how can i force my sharepoint ajaxsmartpart to use the smaller "release" mode javascript?
+7	6	looking for an alternative matlab editor.
+7	14	how to know kbs of document in a document library in sharepoint 2007?
+7	13	lift snippet help
+7	13	how do i configure jedit for scala projects?
+7	18	does linq use datarelations to optimize joins?
+7	15	ajax architecture question
+7	10	easy parallelisation
+7	3	how do i list all repositories with the svnparentpath directive on apache+svn?
+7	15	what's the real advantage of using scriptmanager.registerclientscriptresource?
+7	14	something good & something bad about sharepoint
+7	13	practical use of futures? ie, how to kill them?
+7	11	is it safe to assume that spring messagesource implementations are thread-safe?
+7	17	what are the best practices for a small distributed team which will work on a drupal project?
+7	14	how do i convert elevated privilege code from c# to vb.net for use with sharepoint?
+7	3	is there any way to sticky a file in subversion
+7	17	is drupal ready for the enterprise?
+7	8	can i make this code work with shortcut recorder?
+7	8	how do i create a temporary file with cocoa?
+7	2	is there a way to enable / disable constraints in db2 v7?
+7	7	how can i make a setup that makes my software require administrative priviliges while installation?
+7	19	how can i initialize state in a hidden way in haskell (like the prng does)?
+7	18	how to order by time and time only in c#??
+7	16	what is the correct way to handle timezones in datetimes input from a string in qt
+7	3	where to start with source-control
+7	9	what's the right way to draw an image in the upper left corner on a mac?
+7	18	how .net 3.5 (lambdas, linq) evolved
+7	18	how would i use linq2xml in this scenario?
+7	15	whats the best way to implement an ajax timeout?
+7	19	how do i simplify the below expressions using primitive recursion ????
+7	6	how to check if a figure is opened and how to close it?
+7	19	how can i evaluate an expression?
+7	14	best deployment approach for vsewss 1.2
+7	3	using revision control  for home development
+7	3	how can i manage merging updates from several developers?
+7	3	what is the best way to backup subversion repositories?
+7	3	using mercurial, is there an easy way to diff my working copy with the tip file in the default remote repository
+7	7	unable to launch the asp.net development server because port '1900' is in use.
+7	15	is it possible to cache a whole website including start html page and startup with no internet connection?
+7	8	ensure a subprocess is dead in cocoa
+7	13	lift net.liftweb.http.s#param doesnt works like wiki says
+7	11	how to ensure that  methods called from same thread use the same db session
+7	19	what tool is my best bet for threaded haskell debugging today?
+7	4	how to fix a misconfiguration with phusion passenger and a virtualhost directive?
+7	4	use http auth only if accessing a specific domain
+7	2	in oracle spatial (sdo), is there a way to get the centroid point of a polygon that is contained by the surface of the polygon?
+7	8	what's the best way to draw a bunch of (~200) colored rectangles in cocoa?
+7	6	what algorithm good for image matching?
+7	6	finding the best trade-off point on a curve
+7	1	best way to get post info into variables without displaying them in wordpress
+7	15	is there any way to suppress the browser's login prompt on 401 response when using xmlhttprequest
+7	9	make applescript program that listens systemwide for shortcuts
+7	16	multiple qmainwindow instances?
+7	16	qt4: is it possible to make a qlistview scroll smoothly?
+7	8	use nsarraycontroller with nested nsmutablearrays (cocoa bindings question)
+7	8	which gui element does ical use for calendar view?
+7	9	is it possible to create new widget instances from within a dashboard widget?
+7	18	vs2008: make a non-linqed website linqed
+7	7	how to make clipboard ring appear in vs2008 toolbox?
+7	7	vs2008 files and "start debugging"
+7	20	what files in magneto have no purpose being in source control?
+7	4	using rewritecond, can i change how fast content is served to users in different parts of the world?
+7	10	make sure int variable is 2 numbers long, else add 0 in front to make it 2 numbers long
+7	2	create or replace role?
+7	19	how can i make cabal search for external programs?
+7	18	linqy way to check if any objects in a collection have the same property value
+7	14	how do i implement iwebpartfield.schema correctly when providing a string field
+7	18	best way to update in linq to sql
+7	10	need to write a program to sanely configure a login shell
+7	4	how do i create a self signed ssl certificate to use while testing a web app.
+7	4	can i use resources licenced under the apache public license in my commercial app?
+7	8	best way to start learning cococa in iphone or osx, espeicaly getting the big picture
+7	7	what is the easiest way to determine the dependencies of a .net assembly.
+7	11	can any one tell me which is the best way to learn spring
+7	14	does sharepoint in any way support wiki markup languages?
+7	5	using not like in filter property of vba recordset
+7	5	easiest and quickest way of web enabling old vba apps
+7	8	best resource to learn application programming? (.net/cocoa/etc)
+7	17	single person working on a web app. what platform to use?
+7	3	does anyone have experience with national instruments cvi and source control?
+7	15	how do widgets like "http://sharethis.com/" make what seem to be xss calls
+7	19	which functional programming language should i use?
+7	7	how do you deal with multiple open files of the same name in visualstudio?
+7	8	good ways to learn cocoa?
+7	9	for c++ macosx app, what threading library to use?
+7	7	what is the best way to separate ui (designer/editor) logic from the package framework (like visual studio package)
+7	10	easiest way to extract the urls from an html page using sed or awk only.
+7	2	compare strings by their written representation - is it possible?
+7	8	what's the accepted way to implement export functionality in a document-based cocoa app?
+7	8	what's the best way to trim whitespace from a string in objective-c?
+7	11	best way to learn spring framework
+7	8	do i still need to learn about managing memory now that objective-c/cocoa has garbage collection?
+7	19	does functional programming mandate new naming conventions?
+7	18	linq help. int.contains and int == iqueryable doesn't work.
+7	7	vs2008 windows form designer does not like my control.
+7	15	thinking of new way of building a db page populating data via api calls - are there any issues doing it this way
+7	18	c# is there a linq to html, or some other good .net html manipulation api?
+7	18	need lambda expression orderby with datetime conversion
+7	5	vb.net/com server code way slower than excel vba code
+7	7	what is the easiest way to create a overview 'outline' of  the most important sections  of an app  in vs 2005 (vb.net) ?
+7	13	what's the "functional way" to avoid passing state-choosing context down the call stack?
+7	9	is it possible to have packagemaker build an installer without "packaging" the content at build time?
+7	19	generate syntax-colored, hyperlinked source code from haskell or objective-c
+7	16	how to make qmake compile multiple cross platform binaries
+7	15	is it possible to integrate javascript with flash/a java applet/some other plugin that can create a tcp connection?
+7	14	which codeplex/google code project to study in order by learn sharepoint best practices
+7	7	how to generate build dependencies after custom build tool has been launched ?
+7	7	is it possible to convert projects wizard created for msvs 2005 to msvs 2008 format autom
+7	3	source control alternatives to tortoisesvn for a one man developer, only local usage
+7	13	better way to access tuple(other than match case)
+7	8	what's the best way to add a composite property for binding to an existing class
+7	14	how to use the sharepoint multiplelookupfield control?
+7	17	possible to save a node using a multi-step form?
+7	4	how do i make apache know which app directory to use for different domains?
+7	8	is there a way to programmatically determine the proper sizes for apple's built-in controls?
+7	13	how to use sbt (simple build tool) with google app engine?
+7	8	apple photosearch example code - need help.
+7	15	best book to learn web development for a professional developer?
+7	13	a better way to test the value of an option?
+7	13	how to make this code more functional ?
+7	5	excel vba application.ontime.  i think its a bad idea to use this... thoughts either way?
+7	1	what is the proper way to wrap this php loop around the javascript
+7	19	explain largestdivisible code from the learn you a haskell for great good tutorial
+7	19	flowcharting functional programming languages
+7	8	address book thread safety and performance
+7	17	how does one create product collections in ubercart?
+7	20	is there an application that does two way sync of magento and a billing software?
+7	19	the reason for monadstate get and put?
+7	1	use post tags for meta keyword content
+7	17	best way to give editors ability to assign background images in drupal 6
+7	17	need some drupal best practive guidance.
+7	16	i want to implement right click menus on qtwidgetitems
+7	8	how do i override nserror presentation when bindings is involved?
+7	16	how do i align qtwidget to right in the qttoolbar?
+7	1	can anybody help me with using wp_print_scripts, wp_enque_scripts, wp_head, wp_register_script
+7	12	how do i make my pojos transactional?
+7	9	what is a good regular expression tester for os x?
+7	4	what is a good reference for server side development?
+7	15	could someone reccommend video tutorial websites for beginners?
+7	9	can i use nsspeechsynthesizer from javascript?
+7	11	is it possible to use placeholder in context.xml
+7	9	i already have php installed, what's the easiest (best) way to get gdlib installed?
+7	16	is there a way to emulate a qgroupvboxlayout?
+7	9	a simple way to generate tones / sine waves on mac? (ruby would be nice)
+7	9	how can you tell if a directory is writeable in objective-c?
+7	12	java coding best-practices for reusing part of a query to count
+7	9	how do you create an alias in cocoa? is a symlink good enough?
+7	9	what's the best way to find if the processor type is ppc or intel in cocoa? (do i have to use carbon?)
+7	10	who can hack the code to make it work with .icon?
+7	13	can i zip more than two lists together?
+7	19	is there a way to list the functions in a module in ghci?
+7	10	how to use ping in a script
+7	16	is there a way to have all radion buttons be unchecked
+7	15	best way to reload parts of a form
+7	10	is there a better way to erase a line than echo "                                                  "?
+7	5	suggest me an easy way to automate such tasks
+7	16	ownnership of qstate. do i need to delete all qstates?
+7	10	how can i use linux to parse out only a section of a variable with different delimiters?
+7	16	what is the recommended way of passing keyboad events to qprocess transparently?
+7	12	why are people continuing to use xml mapping files instead of annotations?
+7	16	how to handle proxies when using qnetworkaccessmanager
+7	16	does the use of stylesheet in a dynamic manner add alot of computation
+7	13	is there a way to control which implicit conversion will be the default used?
+7	9	how do i use stackshot to debug my application?
+7	16	can i use qt as c++ library without using it's ui framework
+7	16	is there an "easy" way to add customizable keyboard shortcuts to my qt4 app?
+7	1	using cms to make webapps.
+7	19	what programming task provided your breakthrough with monads?
+7	9	is there any way to force textmate to cache files?
+7	13	why and when do i need to follow a method name with _?
+7	15	best way to show notifications and messages live on a webpage?
+7	4	what's the best php / mysql emulator
+7	16	whats the best way to send qstrings in a function call?
+7	4	sites that do server aliasing for other websites to use an external platform
+7	9	how to use notificationconf?
+7	13	is there a way of publishing akka actors with mina?
+7	16	how to use the platinum upnp sdk?
+7	16	what is the best place to start learning qt?
+7	16	best way to parse html in qt?
+7	17	to use or not to use the user module
+7	13	scala programmer - "should there be one obvious way to do it" or "more than one way to do it"?
+7	9	will packagemaker work for me?
+7	17	what are the merits of using the various vcs (version control systems) that exist to track drupal projects?
+7	20	best way to link category to customized modul
+7	16	why qtcreator doesn't use qtplugin?
+7	16	ss it possible to use cin and qt ???
+7	1	how to make blog network like smashingmagazine
+7	12	hql multiple updates. is there a better way?
+7	4	whats the best way to get multiple instances of an application to run in apache tomcat?
+7	13	is there an easy way to integrate scaladoc into intellij idea?
+7	17	looking for advice on the best way to show birt reports in drupal
+7	4	how to make a file extension downloadable?
+7	4	is there a way to encode a url in velocity template
+7	11	what's the most minimal way to achieve dependency injection?
+7	13	short way to breakout to specific collection type?
+7	6	i want to use some matlab functions via .dlls and use them in c#, pls conduct which way i can doing that!?
+7	13	what is the most efficient way to create emtpy listbuffer ?
+7	20	which is the best php opensource e-commerce for handle 5 million prducts import daily?
+7	19	what do you do when you feel you need a variatic list comprehension?
+7	13	is there an easy way to convert a boolean to an integer?
+7	19	can not get scion_server to be created using runghc
+7	11	what transaction manager should i use for jbdc template when using jpa ?
+7	13	how to make ensime work in windows?
+7	11	why is springsource tool suite (sts) so slow? and how can i fix it?
+7	19	handling incremental data modeling changes in functional programming
+7	19	is there a good way to quickcheck happstack.state methods?
+7	19	how do i use multiple where clauses in ghci?
+7	19	is cabal-install supposed to act this way?
+7	20	after overriding contoller how to best update handles
+7	20	what is the best way to limit a modules functionality by store or website
+7	20	what is the best way to to execute code before a  page is loaded
+7	12	is it possible to load an object, it transient state from the get go?
+7	16	when to use signals and slots and when not to
+7	11	using webservicetemplate with a keystore
+7	10	how to use a pipe in a foreach statement
+7	13	scalaz: request for use case
+7	6	a think on sum(x, 1)
+7	19	haskel dot (.) and dollar ($) composition: correct use.
+7	19	what are some good intermediate problems and projects for learning haskell?
+7	19	how can i make a maybe-transformer maybet into an instance of monadwriter?
+7	19	use of type synonyms in monad transformers
+7	16	how to prevent libqtgui.so and libqtcore.so from being linked to a simple library built with qmake
+7	8	open source card games or books for objective-c/cocoa?
+7	9	how do i know which osbundlelibrary to include when using xcode?
+7	9	what software switcher (kvm) do you use for multi platform development?
+7	8	cocoa/objective-c: how much optimization should i do myself?
+7	13	how to split and dispatch an async control-flow using continuations?
+7	13	how to create a compiler action for sbt
+7	16	how do you handle a qspinbox that can be edited by both the user and the program?
+7	11	acl architechture for a software as a service in sprgin 3.0
+7	13	how to eliminate stack trace when running specs through sbt?
+7	8	how to implement pay pal in cocoa objective c application.

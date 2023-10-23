@@ -1,0 +1,1015 @@
+11	8	tripping over nsvalue, nsnumber & nsdecimalnumber
+11	6	what's the closest thing to #define in matlab?
+11	6	matlab: get variable type
+11	2	negating an arbitrary where clause condition (including the null tests)
+11	9	shark crashes on processor bandwidth trace
+11	19	haskell - koch snowflake
+11	10	what's the difference between .bashrc, .bash_profile, and .environment?
+11	16	qcombobox with single value: select this value
+11	8	who owns an nswindowcontroller, in standard practice?
+11	2	how can i use the 'nvl' function on a result table?
+11	18	how do i use subquery, groupby, max, and top in single linqtosql statement?
+11	8	how can i generate convenient date ranges based on a given nsdate?
+11	19	typed fp: tuple arguments and curriable arguments
+11	18	lambda expression of select * from tablename
+11	16	how to reverse a qlist?
+11	4	moveable type images not displayed
+11	12	treat '0',"-1" as null
+11	15	basic xmlhttp question
+11	8	cocoa + nsoutlineview + reloaditem:reloadchildren:
+11	16	qt (creator) with winsocks (ws2_32)
+11	9	good framework for the game of go (weiqi, baduk)?
+11	11	spring-aop
+11	13	cost of using repeated parameters
+11	15	how to populate dropdown with dynamic date based on 2 other dropdown boxes
+11	9	printing 4"x6" cards in osx (cocoa)
+11	13	very dumb question about intellij idea
+11	19	verbosecheck in quickcheck 2?
+11	19	have j style adverbs, forks etc been emulated via libraries in mainstream functional languages?
+11	11	springdoclet usage?
+11	18	update submitchanges() - does not update.
+11	15	how to clear the textbox value of asyncfileupload .. ?
+11	18	how to get max string length in every column of a datatable
+11	16	any ideas why qhash and qmap return const t instead of const t& ?
+11	7	format code from ide ( vs2008)
+11	9	determine if windowserver is available?
+11	13	cannot override a concrete member without a third member that's overridden by both
+11	6	sharing memory between processes [matlab]
+11	16	qabstractitemmodel.parent(), why?
+11	14	portalsitemapprovider
+11	12	how to set query to be read uncommitedd?
+11	8	how to transform array argu from object_c to javascript?
+11	9	help with osspinlock* usage to replace a while(true) {sleep(1);}
+11	8	[nsview setframe:] not working?
+11	9	cgwindowid from axuielement
+11	18	sub query where x in (from... ?
+11	19	why tointeger :: int -> integer is lazy?
+11	19	implications of foldr vs. foldl (or foldl')
+11	15	javascript/ajax - manually remove event handler from a sys.eventhandlerlist()
+11	10	bash: assign '&' to variable not as string
+11	9	rdc sessions to win 7 terminate on ctr and arrow keys
+11	16	should i use qcoreapplication::processevents() or qapplication::processevents()?
+11	4	how to simulate [l] in .htaccess
+11	16	qt: adapting signals / binding arguments to slots?
+11	5	calling individual cell instead of range
+11	10	problem with bash's command_not_found_handle()
+11	13	by-name-parameters for constructors
+11	1	php regex expression for the following...
+11	9	macports confusion
+11	11	<security:custom-authentication-provider /> means?
+11	8	cross-model relationships in nsmanagedobjectmodel from merged models?
+11	12	differerence between hibernate types: boolean, yes_no, true_false
+11	14	deployment of custom content type, forms, cqwp, and xsl.
+11	13	restrictions in trait mixing
+11	16	question about what i should have before connect
+11	13	how to get enumeration  value's enumeration definition?
+11	16	how do i watch a serial port with qsocketnotifier (linux)?
+11	17	drupal :how to pass current userid as argument
+11	19	why does ghci say that 1.1 + 1.1 + 1.1 > 3.3 is true?
+11	6	how to use aryule() in matlab to extend a number series?
+11	17	removing [nid:n] in nodereference autocomplete
+11	15	amcharts rendering data incorrectly.
+11	10	bash/sh single-quote, doublequote & backquote question
+11	18	determining and arranging items on lenght  in ienumerable<t>
+11	10	how do i simplify bash's 'eval "$time $bin_file $bin_opts &> $log_file"' and keep it working?
+11	8	why don't i declare nsinteger with a *
+11	2	oracle v-limits (varchar, varray, etc)
+11	16	how to connect a slot to signal qprocess::started() ? qt
+11	19	haskell - mapping the odd placed values and the even placed values differently
+11	9	recoverable class fbd error(s)
+11	10	escape < and > in sed/bash
+11	12	hibernate: page results and know the result size
+11	13	capture types of varargs parameters
+11	5	has anyone else seen bugs in excel's activex combo boxes, (especially when contained in a sheet and when using the listfillrange or linkedcell properties)?
+11	15	ajax browser-dependent limit on length of data sent? (sajax)
+11	19	haskell: variant of `show` that doesn't wrap string and char in quotes
+11	10	bash condition of the form - [ -n "${var:-x}" ] gets evaluated even though var is set
+11	16	how to set selected filter on qfiledialog?
+11	11	getting exeception
+11	6	do i conserve memory in matlab by declaring variables global instead of passing them as arguments?
+11	12	hibernatetemplate composite key fetching value null
+11	6	how would i pick one node randomly from n no. of nodes,i have n random no. of nodes with x and y co-ordinates .(in matlab)
+11	2	inserts are 4x slower if table has lots of record (400k) vs. if it's empty
+11	5	same column in two worksheets are aligned differently horizontally
+11	13	how to subclass an object with a var in its primary constructor
+11	6	can matlab catch signals from linux? sigio
+11	5	ms access 03 - muliplte "ifs" in one field of update query's criteria??
+11	16	qfontmetrics::leading() returns 0
+11	17	usng enum in drupal
+11	16	qt: expand ~ to home-directory
+11	11	pointcut matching methods with annotated parameters
+11	8	cocoa development: malloc: free_garbage: garbage ptr = 0x18a15e0, has non-zero refcount = 1 error
+11	15	override activexobject
+11	3	assembla no longer free!! :(
+11	13	what are stackable modifications?
+11	19	function computes the mean of a list - better solution ?
+11	15	rest service exposed on wcf not populating parameter values
+11	10	what's the difference between $(...) and `...`
+11	8	create nsstring by repeating another string a given number of times
+11	8	creating object named after the value of an nsstring - is it possible?
+11	19	effecient queue in haskell.
+11	9	sporadic errsecauthfailed (-25293) when accessing keychain with seckeychainfindgenericpassword?
+11	12	loading hibernate property from an external source (hashmap)
+11	10	press alt + numeric in bash and you get (arg [numeric]) what is that?
+11	10	what's wrong with my bash array?
+11	7	stringstream manipulators & vstudio 2003
+11	12	hql 1 to many count() question
+11	11	where is requestmapping?
+11	15	asp.net webpart > userctrl > clientscript.registerstartupscript not working!?
+11	19	haskell: what is the difference between $ (dollar) and $! (dollar exclamation point)
+11	8	cross platform development - go with a cross platform ui toolkit or native on multiple platforms?
+11	19	what are zygo/meta/histo/para/futu/dyna/whatever-morphisms?
+11	16	is there a performance difference between qlist<qlist<int> >mylist; and int ** mylist;  ?
+11	5	how to do: sum columnb where columna is xyz - in excel?
+11	19	ghc-pkg vs cabal
+11	18	linq: difference between 'select c' and 'select new (c...'
+11	10	bash == operator in [[ ]] is too smart!
+11	13	what should be done to have 'value' in the enumeration ?
+11	18	how do i decipher the select method docs on msdn?
+11	16	building optimized qt4 - "./configure" flags and their meanings
+11	13	can't access resizablearray's protected method, swap, from subclass, arraybuffer?
+11	16	qx11embedwidget and qx11embedcontainer
+11	2	how to debug ora-01775: looping chain of synonyms?
+11	15	custom c# data transfer objects from javascript pagemethods.
+11	16	global variable in qt, how to?
+11	8	how to make an nsstring path (file name) safe
+11	17	cannot see anything from #prefix and #suffix fields
+11	4	(13)permission denied: access to /cgi-bin/test.cgi denied
+11	19	how to change propertis of drawingarea in gtk2hs
+11	16	does qt support openmp?
+11	19	rearranging string containing repeating patterns of variable length
+11	7	can one access testcontext in an assemblycleanup method?
+11	13	scala turning an iterator[option[t]] into an iterator[t]
+11	8	when is an nspersistentdocument's data store moved to final save location?
+11	6	how do i set a surf to one color (no gradient) in my matlab-plot?
+11	19	what is being passed in?
+11	6	how to change the default parameters for newfit() in matlab?
+11	8	filtering a nsoutlineview/nstreecontroller.
+11	8	[self release], [self dealloc] or [super dealloc] in init methods?
+11	19	are there any tutorials on building a simple interpreter using alex + happy?
+11	8	passing a native pointer to performselectoronmainthread's withobject argument?
+11	17	drupal 6 absolute wildcards in _menu(), is it possible ?
+11	5	nested if statements returning zero if nothing entered in cell.
+11	9	com.apple.dont_steal_mac_os_x
+11	1	how to get and display post's "position" in the query?
+11	12	map database column1, column2, columnn to a collection of elements
+11	16	qtscript: how to reload current script?
+11	18	entityset<ienumerable<t>> to ienumerable<t>
+11	17	drupal 6: how to email users of tasks due (week b4, day before, and overdue)
+11	16	saving qlist<t> to a file?
+11	6	nargin vs exist
+11	4	apache velocity $ vs $!{}
+11	16	qtpython: removechild/addchild qgroupbox
+11	9	ioregistryentry::frompath() fail.
+11	19	what is macid ?
+11	10	how do you append to an already existing string?
+11	15	how can i get around the same origin policy?
+11	13	how to expose a constructor variable(sic!) as read-only?
+11	13	do self: t => and this: t => have the same meaning when defining a trait?
+11	6	pass data from workspace to a function
+11	8	how to escape double quotes in string?
+11	11	transactional services => beannotofrequiredtypeexception, should be advice, but is transactioninterceptor
+11	18	can i declare a global inferred variable in c#?
+11	19	gadts and scrap your boilerplate
+11	18	is there a statement to prepend an element t to a ienumerable<t>.
+11	18	linq2entities / linq2sql - comprehensive search...
+11	20	magneto discount  coupon code set but value is not subtracted  from subtotal...
+11	8	what does the ns prefix means?
+11	12	using restrictions.disjunction over @jointable association
+11	8	xcode error -  … undelcared …
+11	1	using the php substr on the_permalink() in wordpress
+11	19	mysterious word ("lps") appears in a list of haskell output
+11	18	mocking and iqueriable<t>
+11	6	matlab's fminsearch function
+11	5	xl vba - passing an array in a user defined function?
+11	16	qimage from datastream
+11	11	bindingresult.rejectvalue does not find value from validationmessages.properties
+11	17	call to drupal_render() returns null
+11	4	mod rewrite : replace all _ (underscore) with - (hyphen)
+11	12	how to create a hibernate idbag with a collection-id that has a default value?
+11	19	can liftm differ from lifta?
+11	19	y-combinator in ft edsl
+11	1	wordpress include("../../../wp-blog-header"); failing
+11	19	how do i get ghci to see packages i installed from cabal?
+11	1	wordpress the_author() and wp_get_archives() not working
+11	16	settabchangesfocus(bool) has no effect qt
+11	5	vlookup doesn't work
+11	9	replacing cmnewprofilesearch with non-deprecated, 64-bit code
+11	12	criteria query with restriction across a joined subclass problem
+11	19	are there any purely functional schemes or lisps?
+11	15	favorites star switching in javascript
+11	1	wordpress get count of posts without using get_posts()?
+11	8	why can't i correctly parse this date string with nsdateformatter?
+11	19	where do theses values come from in this haskell function?
+11	13	convert scala set into java (java.util.set)?
+11	18	linq over datatable  with .skip() and .take() method
+11	17	how to change node languages in batches?
+11	8	set default values for a global variable in a custom class?
+11	1	what's the difference between get_posts and the_content?
+11	19	(emulated) macros in haskell?
+11	8	initialize nsmutablearray: [nsmutablearray array];
+11	10	bash syntax: what is the "<<"?
+11	18	how remove empty element from string array in one line?
+11	1	can't echo wp_count_posts('page')???
+11	13	implicit parameter in scalaz
+11	14	how can you work out the id of a users mysite
+11	8	qtkit, opening input devices???
+11	10	cp --parents in ms-dos/vbscript
+11	15	nhibernate + json/ajax parent/child relationships? why no workie?
+11	20	apply tax by shipping orgin when store pick up
+11	19	patter matching for custom read function
+11	6	problem with matlab imread()
+11	10	how to escape extended pathname expansion patterns in quoted expressions?
+11	8	extracting 32-bit rgba value from nscolor
+11	19	in haskell, is there (num a) => infinity :: a ?
+11	16	qt question about a qlist<qstinglist>
+11	10	how do i use tr to substitute '--' string
+11	16	how can i get the selected value out of a qcombobox?
+11	7	cocreateinstance without an addref()?
+11	8	unfiltering nspasteboard
+11	7	validate all aspx, ascx and html files when building
+11	20	don't display stock counter for bundle products
+11	16	signals dont get emitted
+11	11	add soapheader to org.springframework.ws.webservicemessage
+11	6	in matlab, what ascii characters are allowed to be in a function name?
+11	19	when should i use $ (and can it always be replaced with parentheses)?
+11	13	function.tupled and placeholder syntax
+11	6	alternate method to kron
+11	8	global object for javascript to interact with safari plug-in
+11	1	insert in the head tag after wp_head
+11	8	working around nsfilehandle nstask blocking when passing large amounts of data
+11	9	python 2.5 removal
+11	18	why always return null when call the method iqueryable.firstordefault()?
+11	16	good combination of a c++ toolkit/library, cross platform db (not necessarily sql)
+11	19	how to specify type for bulk list assignemets
+11	12	how can you remove a criterion from a criteria?
+11	19	how do typeclasses and modules interact?
+11	5	what's xlshtml?
+11	11	what is the difference between putting @autowired to a variable and a method ?
+11	8	does nsstring stringwithcstring: length: retain the byte array i pass in?
+11	20	can subccategories be included in the menus directly?
+11	2	nls_lang setting for jdbc thin driver?
+11	12	projections.count() and projections.countdistinct() both result in the same query
+11	9	[os x] what can cause dlopen: no suitable image found (can't map)?
+11	10	check if a string contain asterisk (*)
+11	5	re-initializing "thisworkbook.path"
+11	10	can ${var} expressions be nested in bash?
+11	9	race condition when calling fsdeleteobject
+11	13	how to define a structural type that refers to itself?
+11	16	show other data in qtableview with qitemdelegate
+11	9	mac priting : programatically can not set printquality, mediatype, papersource, outputbin
+11	16	how can i set the path + filename in qt designer's property box?
+11	10	access x11 display from empty environment (bash)
+11	1	how to eliminate a particular category from query
+11	16	qnetworkaccessmanager/qnetworkreply with custom qtcpsocket?
+11	9	parser for 32-bit and 64-bit mach-o binary/executable formats in c++
+11	13	array in scala 2.8 (beta)
+11	7	vbproj / csproj
+11	15	initializing js components at the end of html or on "onload"?
+11	15	setting location.hash in frames.
+11	8	should +initialize/+load always start with an: if (self == [myclass class]) guard?
+11	12	how to make divide(column1/column2) in hibernate criteria projections
+11	16	add a new plugins path to qtwebkit
+11	13	why option[t] ?
+11	17	what is free tagging?
+11	20	magento error: sqlstate[hy000]: general error: 1
+11	10	covnerting variable to integer
+11	8	is there a difference between delegate/selector and target/action?
+11	8	creating a bundle - what's going wrong?
+11	17	algorithm to get result like taxonomy_get_tree(). but retrieve only non empty terms.
+11	6	find the corners of a polygon represented by a region mask
+11	2	when did oracle start supporting "top": select top ? p2_.product_id from product?
+11	17	drupal: creating anchor only link with l()
+11	8	under what circumstances would [[nsscreen mainscreen] visibleframe] return null?
+11	16	install eventfilter on qwidget (qt4.4.3/kde4)
+11	8	outlineview:datacellfortablecolumn:item: has strange side effect
+11	17	drupal: order exposed filter items, be carefully it is not that simple (i cannot user "sort")
+11	1	html anchor too pull all sticky posts ?
+11	8	using a constant nsstring as the key for nsuserdefaults
+11	10	bash: why is echo adding extra space?
+11	12	hibernate: when to use getsession() and when to use getcurrentsession()?
+11	7	debug/release diffrence
+11	16	qtimer firing issue in qgis(quantum gis)
+11	16	cant exchange widget in qsplitter (qt)
+11	18	how save xpathexpression result to separate xml with ancestor structure?
+11	5	adding mutiple if statements together
+11	18	what is the difference between objectquery and "var" ?
+11	2	ora-01830: date format picture ends before converting entire input string
+11	6	what's the matlab equivalent of null, when it's calling com/activex methods?
+11	4	apache/nginx fine grained (per file) permissions?
+11	8	objective c makes integer from pointer without a cast passing objects as args
+11	2	setting global_names parameter.
+11	16	how to connect a signal to a slot in a diifferent thread?
+11	8	nsstring to wchar_t*?
+11	10	what's the difference between "&> foo" and "> foo 2>&1"?
+11	10	technique to compute next day's date from a date supplied via an arg?
+11	13	what the meaning of colon, underscore and star in lift's sitemap(entries:_*) ?
+11	6	how do i go from 1.4795e+004 to 14795.00 ??
+11	9	how to find out if there is an "." in an nsstring?
+11	13	why is partialfunction <: function in scala?
+11	8	audio equivalent of qtmovieview?
+11	16	can font size be disabled in qfontdialog::getfont()?
+11	16	qvariant and qregistermetatype question
+11	16	how do i determine if the item is selected or not in the paint() function of qitemdelegate?
+11	17	how to solve the problem with the use of deprecated function ereg() of php 5.3.0 in drupal  6.13
+11	9	unmounting removable drive in air 2 beta
+11	13	difference between trait inheritance and self type annotation
+11	8	nsdatepickerelementflags for nsdatepicker row editor returned from [nspredicateroweditortemplate templateswithattributekeypaths:inentitydescription:]
+11	17	drupal/ubercart ... node styling?
+11	6	how to represent a polygon with hole(s) ?
+11	3	cruisecontrol.net : using svnlabeller / svnrevisionlabeller
+11	20	div identified by webdevtoolbar isnt in file?
+11	5	double question in excl strings?
+11	1	how can i rename (or even remove?) buddypress' wire-section?
+11	16	qt, mouse skipping, not updating every pixel, mousemoveevent()
+11	15	refactor to replace ajaxcontroltoolkit or radajaxmanager
+11	6	how to select k no. of nodes with probability p(say p=0.25) out of n(say n=100) randomly generated nodes and those k nodes shown as red colored in whole figure?
+11	11	@autowired and transactionproxyfactorybean?
+11	19	mtl, transformers, monads-fd, monadlib, and the paradox of choice
+11	5	removing parts of a cell
+11	6	matlab recursion error (beginner)
+11	8	nsrequest - encode url for nsrequest post body (iphone objectiive-c)
+11	7	what do 'delimiter' and 'inheritsfromparent' tags mean in .vsprops files?
+11	19	how do you combine filter conditions
+11	8	nsmanagedobjectcontextobjectswillchangenotification
+11	12	get criteria by associationpath
+11	2	oracle10 and jdbc: how to make char ignore trailing spaces at comparision?
+11	11	q about abstractapplicationcontext.getbeansoftype() and getbean()
+11	12	why the name 'hibernate' chosen for hibernate?
+11	9	osx malicious terminal command (colon, brackets, curly brackets, apersand, etc)
+11	16	qwidget::find(hwnd) always returning 0
+11	5	error: <target>.columnname and <source>.columnname have conflicting properties: datatype property mismatch.
+11	10	improved technique to store a filename in a variable?
+11	8	how to use nsstring drawinrect to centre text?
+11	18	how can i make sure that firstordefault<keyvaluepair> has returned a value
+11	19	haskell type error: could not deduce (show a) arising from a use of `show' from the context (num a)
+11	9	how to dump (print) an osdictionary to the console / log?
+11	20	magento getcollection() can we put where condition?
+11	13	is the + in += on a map a prefix operator of =?
+11	16	qwebelement manipulation of a qwebpage in a separate thread
+11	11	@secured()      is there any statement show on log...?
+11	16	os.path.join() in qt?
+11	8	bind user defaults to different identifier
+11	11	filterinvocation being called instead of methodinvocation
+11	13	calculating the difference between two java date instances
+11	17	d6: a homepage with only blocks?
+11	12	[basiclazyinitializer] javassist enhancement failed
+11	3	enable anonymous access (svnserv)
+11	1	execute function if criteria is met - wordpress
+11	10	how to get a variable value if variable name is stores as string?
+11	12	optimizing an orm-based model post-launch
+11	9	how can i exit [nsrunloop rununtildate]?
+11	6	general method for making sub arrays around a particular element
+11	17	passing information from a drupal forms api validation function to a submit function
+11	13	functional equivalent of if (p(f(a), f(b)) a else b
+11	16	file selector in a qtablewidget
+11	2	a useful example of when to use vsize function instead of length function in oracle?
+11	8	storing modified image in iphone.
+11	16	qpixmap from qbitmap
+11	13	nested cps "reset"
+11	13	using comparision operators in scalas pattern matching system.
+11	17	what is the purpose of form_state , delta variables in drupal
+11	9	any risks using macports?
+11	8	how can i use nslog in main() but outside of nsapplicationmain?
+11	10	question about [[]], [] and $#
+11	11	accessing a bean with a dot(.) in its id
+11	16	why don't i have settextformat in my qtextedit? [qt] [c++]
+11	12	jpa map<string,string> mapping
+11	20	apply discount directly to subtotal in magetno..
+11	6	how to merge a 64 by 64 cell into a 1 by 1 cell
+11	13	why is this option transformed to a string? [scala]
+11	19	writing a function list to a tuple
+11	5	how can i calculate the mean of all months until now?
+11	12	what the heck is a jpa configuration?
+11	15	a div above another?
+11	13	match tuple with null
+11	10	appened to /etc/apt/sources.list
+11	17	can drupal's t() function localise english homonyms?
+11	18	nhibernate.linq and compareto string
+11	2	how do you convert sys_guid() to varchar?
+11	18	how do i dynamically create an expression<func<myclass, bool>> predicate?
+11	1	php function not working as expected
+11	16	how to set auto=repeat on a qaction in a qtoolbar?
+11	16	qt: table widget, numbers only
+11	15	assigning random colors per session, for chat
+11	13	what are the precise rules for when you can omit parenthesis, dots, braces, = (functions) etc?
+11	3	subversion: expected format '3' of repisotory; found format '5'
+11	13	how to convert x => option[r] to partialfunction[x,r]
+11	8	why does -[nstextstorage replacecharactersinrange: withattributedstring:] sometimes, sometimes not honor fonts in other character sets?
+11	6	equations solver function in matlab. how do i handle [eqns,vars] = geteqns(varargin{:}) errors?
+11	13	could/should an implicit conversion from t to option[t] be added/created in scala?
+11	4	digester: extracting node name
+11	19	map versus mapm behavior
+11	17	d6: how to get at node fields in preprocess_page() ?
+11	8	ordinal weekday suffix option for nsdateformatter setdateformat
+11	10	how can i ssh directly to a particular directory?
+11	18	how do i use linq .contains(string[]) instead of .contains(string)
+11	12	get children count via hql
+11	8	encrypting data in cocoa, decoding in php (and vice versa)
+11	18	extracting text from an ienumerable<t>
+11	10	calculate difference of numbers in two files
+11	16	how to change string into qstring?
+11	13	scala: how to "store" a function in a var?
+11	14	wss 3.0: change parent type for a content type.
+11	11	call valang validator in multiactioncontroller modelandview method... possible? how?
+11	20	inventory decreases by 1 even if order was cancelled
+11	1	get the title of all posts
+11	16	qwebpage triggers loadfinished() several times
+11	19	collecting io outputs into list
+11	6	whay was writtem matlab in c instead of fortran?
+11	6	matalb: convert global coordinates to figure coordinates
+11	6	modem.oqpskmod -> modem.oqpskdemod not same result
+11	18	using a single func<t,bool> with where() and inheritance
+11	12	hibernat sesson problem new
+11	15	need some help synch'ing outer loop counter with dialog.onconfirm()
+11	1	php: iterate through folders and display html contends
+11	17	drupal, rules, flag, date
+11	4	combining mod_access and mod_auth
+11	8	- (void) processimage:(char *)image;  ---char* causes a memory leak?
+11	1	word press plugin
+11	9	trouble installing/compiling lua on macosx
+11	8	adding non-model nodes to an nstreecontroller
+11	19	what's new in quickcheck 2?
+11	18	struggling with .tolist() returing an entityset<...>, not an ilist<..>
+11	8	how to join nsarray elements into an nsstring?
+11	4	$_server['request_uri'] seems to have gone... where?
+11	8	providing data as needed for qtmovie
+11	16	qtembedded (for kindle!): how are the device plugins supposed to get feedback from the app?
+11	19	are monads writer m and either e categorically dual?
+11	10	how to use expr on float?
+11	6	better (non-linear) binning
+11	19	safe and polymorphic toenum
+11	19	o(1) circular buffer in haskell?
+11	7	where is the 'autos' view in msdev 2005 ?
+11	12	not able to delete
+11	9	locking your own nspreferencepane?
+11	4	php print() arabic string.
+11	12	maxelementsondisk from ehcache to treecache
+11	1	show last 5 posts that have <!--more-->
+11	5	excel averageif with today() function as criteria
+11	12	count(*)  in hibernate criteria ?
+11	13	why "avoid method overloading" ?
+11	16	reading/writing qobjects
+11	6	how to call(execute) a function in a for loops in matlab
+11	19	what does the parantheses signify in (x:xs) when pattern matching?
+11	13	scala: 'def foo = {1}' vs 'def foo {1}'
+11	17	pass variable from module to theme template when using drupal_render
+11	6	check each pixel for a specific colour (within a certain threshold)
+11	10	bash script what is := for?
+11	8	have you ever used nszonemalloc() instead of malloc()?
+11	17	preprocess function for cck node types
+11	12	how to avoid stale mysql/hibernate connections (mysqlnontransientconnectionexception)
+11	16	penalty of using qgraphicsobject vs qgraphicsitem?
+11	16	how to end line with qtextedit [qt] [c++]
+11	7	nmake, visualstudio, and .mak files
+11	19	what is ghci's default implementation of monaderror?
+11	13	sleeping actors?
+11	11	using resteasy with javassist?
+11	20	how do i filter a collection by a yesno type attribute?
+11	1	wordpress: wpdb->insert versus wpdb->prepare(wpdb->query("insert...
+11	12	how to trasnform query?
+11	15	removing javascript created content...
+11	2	replace (translate) one char to many
+11	6	run-time error '-2147352567 (80020009)'
+11	19	pattern matching in a let expression
+11	13	closures and universal quantification
+11	19	adding deriving(data) to standard types
+11	16	basic authentication with qt (qnetworkaccessmanager).
+11	11	spring <prop> tag
+11	8	adding caltasks from an nsarray.
+11	14	what does ialertnotifyhandler's onnotification() return value do?
+11	8	how useful is nsobject's ismemberofclass: method?
+11	12	fetching join using @jointable with sqlquery
+11	6	using nntool [matlab] from command line.
+11	12	how to define usertype' s name globally in hibernate?
+11	10	what happened to the tmp environment variable?
+11	2	last day of the month with a twist in sqlplus
+11	13	using option all over the place feels a bit awkward. am i doing something wrong?
+11	15	$.ajax() methods data
+11	10	perform or on two hash outputs of sha1sum.
+11	9	compiled freeimage from source. #include freeimage.h not found.
+11	6	checking if function is a part of/which toolbox
+11	12	creating a custom hibernate usertype - what does ismutable() mean?
+11	8	how to create an nsstring with one random letter?
+11	10	inputbox and menubox simultaneously
+11	1	wordpress get_categories() issue
+11	13	remove duplicates in list specifying equality function
+11	8	save documents as folders, like pages, numbers, etc...
+11	11	how do i get my dependenices inject using @configurable in conjunction with readresolve()
+11	19	haskell: what does it mean to have a typeclass of `num [a]` vs a typeclass of `(num a) => [a]`
+11	6	tformfwd and tforminv - what's the difference?
+11	1	how do i get wp nonce value for my php libcurl script
+11	5	how to retrive cell addresses which call specific function
+11	6	.txt files in matlab
+11	19	haskell: can't use "map putstrln" ?
+11	19	is it possible to use unary function instead of binary in `flip`?
+11	11	etl , esper or drools?
+11	10	how to base64 encode /dev/random or /dev/urandom?
+11	12	hibernate "preinsertevent.getsource()" nosuchmethoderror.
+11	8	how to use nsurlrequest with non-static content?
+11	11	get resultset from spring-jdbc
+11	20	magento fatal error: call to member function getsku() on a non-object
+11	1	wordpress > how to remove the default pages (about, hello world) via script
+11	16	can i decide where a qaction is added to a qmenubar
+11	1	why is ie7 rendering these differently?
+11	15	maskededit extender lost data on postback
+11	13	regex.matchdata returning null: why not option[string]?
+11	10	local variable inside  the loop issue
+11	1	setting variable in header.php but not seen in footer.php
+11	9	how to get variable value of applescript in cocoa ?
+11	13	tuple parameter declaration and assignment oddity
+11	13	lift image upload, resize, store in database, display
+11	16	qcalendarwidget as "pop-up", not as new widget?
+11	10	in bash, how can i print the first n elements of a list?
+11	15	browser compatibility between ie6 and ie7
+11	8	trouble with nsdecimalnumber's decimalnumberbydividingby: withbehavior:
+11	9	how to replace old paramtext/standartalert with newer cfstring replacements?
+11	19	how can i convert a (storablearray (int, int) word8) into a lazy bytestring?
+11	19	how is (==) defined in haskell?
+11	1	wordpress plugin: finding the <!--more--> in the_content
+11	19	how do i get the values of #define-d constants?
+11	18	linq: ienumerable<keyvaluepair<sometype, ienumerable<othertype>>>  selection
+11	14	listtemplateowner
+11	16	how can i connect the pressed() signal of 32 buttons to a single function without declaring 32 slots?
+11	10	bash: $[<arithmetic-expression>] vs. $((<arithmetic-expression>))
+11	8	₡urr€nc¥ i$ ki₤₤ing me!
+11	13	existential quantification over values
+11	13	composing actors
+11	2	oracle / python  converting to string -> hex (for raw column) -> varchar2
+11	13	why is flatten declared on generictraversabletemplate?
+11	8	nsnumberformatter: plussign vs. positiveprefix
+11	8	nsstring to fsref conversion doesn't work
+11	5	passing and receiving an array from function
+11	5	selected index of a vba combobox
+11	10	pushd/popd on ksh?
+11	14	setting the 'audience' in a sharepoint-navigationnode ?
+11	18	is there any performance difference between mycollection.where(...).firstordefault() and mycollection.firstordefault(...)
+11	19	anyone ever flip (<$>)
+11	13	scala and html: download an image (*.jpg, ect)  to hard drive
+11	3	how do you treat legacy code (and data)?
+11	16	can i use qwaitcondition.wait() in a slot called by the main thread?
+11	13	convert option[object] to option[int] implicitly
+11	7	mspdbsrv.exe living forever?
+11	10	how can i grab a section of a logfile between 2 timestamps?
+11	5	implementation of excel's round function
+11	14	spgridview single datakeyname instead for multiple?
+11	15	javascript if(function_foo()) doesn't wait for function_foo() to complete
+11	19	are rank2types/rankntypes practical without polytype variables?
+11	16	*** glibc detected ***  double free or corruption (fasttop):
+11	15	postback or callback?
+11	10	while loop never ends
+11	18	extending data context classes (interface, new properties etc)
+11	10	how can i cut(1) camelcase words?
+11	16	qbytearray to integer
+11	12	hiberate problems, jdbc identity_insert is set to off
+11	12	hibernate select..where.. in (value1, val2...)
+11	19	foldl versus foldr behavior with infinite lists
+11	9	python - virtualenv , python 3?
+11	15	lightbox not working in ajax.updater div (prototype)
+11	20	j2t_ajaxcheckout installation
+11	17	how to theme a node differently depending on being inside nodereference
+11	15	php return empty json string
+11	18	linq: max or default?
+11	20	magento router: how can i catch parameters in all urls?
+11	13	list[map[string,a]] to database table in scalaquery
+11	13	trait implementation
+11	18	linqtosql, timespan, aggregates ... can it be done?
+11	15	'xmlhttprequest is undefined' ie6
+11	4	apache | ab | socket: cannot allocate memory (12)
+11	1	wrap stray text in <p> tags
+11	13	sort arraybuffer[a] in scala?
+11	8	how to generate a dsa signature?
+11	18	convert dataset to iqueryable<t> or ienumerable<t>
+11	6	finding zeros of an expression
+11	16	qt winid() forcing 32bit values
+11	6	matlab ismember() problem
+11	17	$op variable for form_alter
+11	16	qt: having problems responding on qwebview::linkclicked(qurl) - slot signal issue
+11	16	can i add states, trasitions, proprerties if i a qstatemachine is already started?
+11	13	scala: something like option (some, none) but with three states: some, none, unknown
+11	8	enforcing that a class posts a particular nsnotification?
+11	11	<on-start> expression
+11	15	do all browsers support php's $_server['http_x_requested_with']?
+11	10	solaris echo " [ " character problem
+11	16	generate vector emf/wmf (windows metafile) clipboard content from qt 4.5
+11	8	cocoa - localized string from nsdate, nscalendardate...
+11	19	fundeps and gadts: when is type checking decidable?
+11	2	oracle9i querries
+11	5	how to detect if filter(s) changed on a worksheet?
+11	8	making an nstextfield act like a "microwave timer", store as nsnumber
+11	19	confusion with contt, callcc, when ...
+11	8	calling performselectoronmainthread => multithreaded app?
+11	12	passing parameter to hbm2ddl
+11	15	how do i escape an ampersand in a javascript string so that the page will validate strict?
+11	1	wordpress: how can i move my index (blogpage) to another page (innerpage)?
+11	8	how to make an itunes like (playlists, library) left-sided (collapsible) navigation bar?
+11	16	qtexteditor returns quotes(
+11	4	is this true? "gzipped items will not have the same etags (even if the content did not change)"
+11	1	fetch posts starting with alphabet [x]
+11	12	hibernate second level cache <<net.sf.ehcache.hibernate.ehcacheprovider>>
+11	8	catransform3d vs. cgaffinetransform?
+11	1	find and store (regex, php)
+11	18	why use asqueryable() instead of list()
+11	13	overloading on return type ???
+11	15	should i just let the user hang?
+11	19	why can't ghci resolve the kind of [[]] ?
+11	13	how does the notnull trait work in 2.8?
+11	16	qt map signals based on parameter value
+11	4	problem with function session_start() (works slowly).
+11	5	how to calculate future value (fv) using javascript
+11	10	double or single bracket, parenthese, curly bracket
+11	10	bash: test whether string is valid as an integer?
+11	18	determining scope of a memberexpressions target
+11	11	jdbctemplate, jpatemplate
+11	19	haskell: any debugshow function?
+11	2	what is the difference between a hash join and a merge join (oracle rdmbs )?
+11	12	what is difference between delete_orphan and delete ?
+11	2	[probably something stupid] can't create trigger using sqlplus in oracle
+11	12	how to work with zero dates ("0000-00-00") in hibernate?
+11	10	using $@ properly (bash)
+11	6	matlab + jni = error?
+11	8	why the observer in nsnotification called twise....    ?
+11	12	why would spring's hibernatetemplate's loadall() method generate updates for each row?
+11	8	[super viewdidload] convention
+11	16	qsignalmapper and original sender()
+11	12	how to map a one-to-many collection to a joined subclass when key is in the parent class
+11	18	iqueryable  where extention method with  or's
+11	4	apache: multiple ../ in query string = internal server error (error 500)
+11	20	paypal standard option does not appear on the checkout page
+11	6	modem.oqpsk with half sine wave
+11	11	mapping both static and dynamic files in tomcat/spring?
+11	8	[self arguments] in nsscriptcommand
+11	16	qt qtableview and horizontalheader()->restorestate()
+11	4	url_rewrite /#/something/here to /something/here
+11	1	this is asking a lot, i know, but: help me translate this glossary plugin for wp
+11	16	qt - qprocess start in a loop
+11	8	nstableview - nsbuttoncell data source type?
+11	8	pixel size od nsbitmapimagerep
+11	15	how come it is so expensive?
+11	10	how to determine function name from inside a functoin
+11	19	what does the >> symbol mean in haskell.
+11	12	proper way of writing a hql in ( ... ) query
+11	17	drupal_render: how to make well-formed div structure of the form?
+11	12	[postgresql] how to map the type interval in hibernate ?
+11	8	determine if nsnumber is nan
+11	19	testing io actions with monadic quickcheck
+11	8	nsstring's initwithdata:encoding: return type issue
+11	20	prototype - replace & with &amp;
+11	18	linqtosql filter and order by syntax
+11	13	pattern matching a string as seq[char]
+11	19	complete haskore example
+11	8	[cocoa/objc] find parent directory of a path
+11	11	what's mean that caused by: javax.validation.validationexception: unable to find a default provider ?
+11	7	generating member for labels:  any reason i should?
+11	16	question about qthread implementation
+11	10	is there an environment variable that contains the clipboard contents?
+11	19	haskel parsec term seperator question
+11	13	scala: what is the difference between while(true) and loop?
+11	8	contextual munu and action:@selector
+11	16	how to set an initial size of a qscrollarea?
+11	11	how to create dynamic template string
+11	6	[matlab] filling in an array
+11	15	how to play a sound when <div> is updated
+11	16	where can i store a qaction(group) id?
+11	13	referring to a enumeration value type in a method signature
+11	13	implementing a def with 1 parameter as a val of type function1
+11	19	operating on a return from a maybe that contains "just"
+11	4	self-extracting web environment
+11	7	smart tool (addin?) for creating class body from header file
+11	11	spring aop pointcut syntax for and, or and not
+11	5	modeless msgbox, error trapping, .find
+11	19	a function isn't loading
+11	9	incorrect macosx select() behaviour on non-blocking connect
+11	16	inheriting std::istream or equivalent
+11	12	hibernate: threadlocalsessioncontext: already session bound on call to bind()
+11	2	how to determine a pl/sql function's schema from within the function
+11	16	controlling the order of qobject children (possible workaround?)
+11	9	programatically trigger "detect displays."
+11	1	display posts from x cat and y tag
+11	10	what does <() do in bash?
+11	16	qt4 parent pointer usage
+11	20	downloading invoices (pdf) does not complete.
+11	17	drupal: last core version update. risky, if i don't update it ?
+11	6	matlab: how do i pass a parameter to a function?
+11	4	same port, but different documentroots
+11	8	nswindowcontroller
+11	5	value is a variable but used as a method
+11	15	where to get a free country-region-city data base?
+11	19	where next, after haskell?
+11	10	is [[ ]] preferable over [ ] in bash scripts?
+11	20	megento vertnav expand one category
+11	4	rewritecond backreferencing %n not working?
+11	18	expressiontype.quote
+11	10	set values to elements of an array in a function
+11	8	remove correctly selected nsmanagedobjects
+11	10	how to check if gcc has failed, returned a warning, or succeeded? (in bash)
+11	8	how can i set a "hidden" attribute for text inside nsattributedstring?
+11	6	multi-dimension any()
+11	11	methodinvokingbean question
+11	19	what to do with “inferred type is less polymorphic than expected”?
+11	16	qlistwidget on freemantle
+11	15	script puzzle <script src="ajaxpage.php?emp_id=23" /> ?
+11	9	patching out calll by replacing with nops works in user space but not in kernel space
+11	15	innerhtml size limit
+11	8	why do nsstring and nslog appear to handle %c and %lc (and %s and %ls) differently?
+11	6	matlab on cmd (winxp)
+11	1	two or more tinymce editors.
+11	18	difference between expression.call overloads?
+11	8	what are the steps to creating an 'executable bundle'
+11	17	drupal: how to rate node filefields?
+11	19	why can't i define a new type in ghci?
+11	15	newbie: what does jquery.ajaxsetup 'beforesend' do?
+11	8	nsbuttoncell (nsswitchbutton) binded to bool value
+11	9	replace macports dependency with other package
+11	8	how do i create an fsref from a nsstring containing a path?
+11	10	bash || within if []; block
+11	3	distributing svn ( master & mirrors )
+11	6	matlab: why 24.0000 is not equal to 24.0000  ?!!!
+11	20	access to filter var attribute?
+11	9	libmysqlclient15-dev on macs?
+11	9	linking error: undefined symbols, lots of them (cpp cross compiling)
+11	16	qprogressbar and qnetworkreply signals
+11	16	how to set the line where a qtoolbar is displayed?
+11	12	persisting using hibernate/jpa
+11	16	qmutex stuck in locked state
+11	8	how do i iterate over an nsarray?
+11	4	what is the purpose of (apache) putting inode into an etag?
+11	19	many types of string (bytestring)
+11	16	missing file [qt]
+11	13	pattern matching with conjunctions (patterna and patternb)
+11	8	nscolor with calibrated values works differently than regular color??
+11	10	how to do a search? (bash)
+11	3	svn error: expected fs format between '1' and '3'; found format '4'
+11	19	something like mapm, but for arrays? (like arraymap, but mapping an impure function)
+11	6	modem.oqpskmod for ber
+11	8	how to get value from nstextfield(in cocoa)?
+11	8	nstimeinterval to readable nsnumber
+11	6	matlab: function makes 4 recursive calls. i have a 4-core processor. can i parallelize?
+11	10	eval to variable failing (w/crontab)
+11	19	haskell parsing tools - yacc:lex :: happy:?
+11	1	php date() function displaying wrong time
+11	8	explanation of cocoa @selector usage.
+11	2	rownum vs row_number
+11	19	function application: why is $ used here?
+11	19	using haskell for sizable real-time systems: how (if?) ?
+11	16	set a qcombobox or qspinbox to a value not allowed
+11	18	do you tolist()?
+11	16	do i have to delete it? [qt]
+11	19	what is [] (list constructor) *really* in haskell?
+11	6	matlab function for 'does matrix contain value x?' (ala php's in_array())
+11	9	nsmatrix in scrollview; origin settings are locked. why?
+11	7	why doesn't 'shell' work in vbscript in vs6?
+11	16	qt: downloadprogress not emitted from qnetworkreply
+11	6	matlab: displaying markup (html or other format)
+11	12	hibernate: why @onetomany with list<myclass> fails?
+11	19	map function for custom n-ary tree
+11	19	exercise on haskell, type definition, and guards.
+11	5	vb.net equivalent of optional range argument in vba function
+11	17	multiple environment (development, staging, live) in drupal
+11	20	troubles after installing two stores with same php docroot
+11	19	haskell: difference between . (dot) and $ (dollar sign)
+11	16	how to save unsigned char to mysql
+11	18	linq2xml, why isn't element(), elements() working?
+11	11	jpatamplate how to autocommit...?
+11	12	nullpointerexception on merge()
+11	5	adodb.connection undefined
+11	19	confusion regarding laziness
+11	13	the cost of nested methods
+11	16	tab-key blocks circumflex (^)
+11	15	authorization, authentication when doing ajax (jquery) calls to .net web services (asmx, wcf, etc), what do i need to know?
+11	8	get duration in avaudioplayer?
+11	8	does [nsstepper setminimum/setmaximum] also set the value?
+11	12	hibernate3: self-referencing objects
+11	16	qmenu* << qaction* -- help me write a global qmenu insertion operator
+11	9	quartz display services replacement for deprecated functions?
+11	1	what are  current_user_can () function parameters ?
+11	17	*simple* flv player (no logo, no advertisement)
+11	19	differences between hugs, yhc and ghci
+11	6	how do you do symbolic differentiation on function handle?
+11	19	split bytestring on a bytestring (instead of a word8 or char)
+11	19	in haskell how do you match against the type 'either a b' ?
+11	20	are all price values in catalog_product_entity_decimal ?
+11	6	differences between matlab and comsol script?
+11	8	accesing a nsarray.
+11	13	how do i convert pipe delimited to comma delimited with escaping
+11	16	qt: reject() closing whole app? why?
+11	16	why does qt add more than three columns when i use restorestate() on a qtablewidget?
+11	16	deleting 'qnetworkreply *' returned by qnetworkaccessmanager::post
+11	5	parsing older spreadsheetml schemas
+11	6	safe, fast cflags for mex functions in matlab
+11	9	what was the name of the mac (68000) assembler?
+11	17	can i omit <?php drupal_render($form); ?>
+11	5	how can i display an environment variable from within exce?
+11	8	how does [uiview beginanimations] work?
+11	16	saving qpixmap to jpeg failing (qt 4.5)
+11	13	o(1) conversion from mutable.map to immutable.map?
+11	11	how do i setquerytimeout on simplejdbctemplate?
+11	19	how can i set up a simple test with cabal?
+11	6	unpacking varargin to individual variables
+11	9	embed webserver in carbon bundle
+11	17	theming for/with javascript?
+11	16	qsize ( int width, int height )
+11	15	some paramters in $.ajax not passing
+11	2	how to determine if a table has been accessed in the last month?
+11	12	hibernate: delete where record field < getdate()
+11	1	is there any way to hook a debug function into a hook such as init and retrieve every php function whose operates there ?
+11	8	using nsproxy and forwardinvocation:
+11	10	how can i ping many subsites ~/[0, 3].html in bash?
+11	2	ora-01654: unable to extend index
+11	17	uninterrupted mp3 play on a website?
+11	18	linq-to-sql todictionary()
+11	6	elementwise ifs in matlab - do they exist?
+11	14	moss 2007 server hanging problem - appdomainunloadlistener.registerself() & publishinghttpmodule.init()
+11	13	generics and constrained polymorphism versus subtyping
+11	13	conflicting nested inherited traits
+11	10	how can i assign the match of my regular expression to a variable?
+11	7	vs: automatic "argumentnull' check ?
+11	5	how to compare literals in countif
+11	17	silently modifying nodes
+11	19	haskell. strict application $!
+11	16	qtwebkit manager
+11	16	qslider focus issue (mac leopard) with qapplication::focuschanged(qwidget*,qwidget*)
+11	14	how can i use sharepoint (via soap?) from python ?
+11	19	haddock losing part of the documentation?
+11	15	why have "while(1);" in xmlhttprequest response?
+11	1	removing title from wp_list_cats()
+11	18	ignore read-only class properties when using datacontext.executequery<t>
+11	2	pl/sql function to return string with regexp special chars escaped
+11	16	what is the minimum amount of tweaking needed to get qclipboard::settext() to work under x11?
+11	16	how to convert qwidget 's image format from argb32_premultiplied to argb32 ?
+11	7	vssettings
+11	18	what supposed to be the signature of my extension-methods
+11	6	how to make matlab xunit work on matlab r2008b (7.7)?
+11	12	map (key ,value)
+11	16	qt threading with signal slot?
+11	9	[macosx]does dlopen call open and read functions?
+11	19	disadvantage of unlifted type products?
+11	16	qabstractsocket::unknownsocketerror
+11	8	how do i convert nsstring to nsdata?
+11	8	count of chars in nsstring or nsmutablestring?
+11	1	wordpress wp_list_categories() help
+11	9	coreaudio audiounitsetproperty always fails to set sample rate
+11	7	update all wcf service references in one click (two clicks would be ok too!)
+11	13	lift calendarmonthview sample fails with lift 1.1-snapshot
+11	2	what is the difference between converting to hex on the client end and using rawtohex?
+11	19	casting an mmapped bytestring to other types?
+11	13	parser combinator: how to terminate repetition on keyword
+11	19	matching multiple data type constructors at once
+11	13	implementing seq[t] for cps-classes
+11	12	swarmcache hiberanate configuration
+11	6	shading an area boundered by a curve
+11	13	need help with continuations-error "found cps expression in non-cps position"
+11	13	discovering a functional algorithm from a mutable one
+11	6	how to convert indexed bitmap images to non-index binary bitmap and replace in place?
+11	6	connect points and compute area
+11	17	preventing form_token from rendering in "get" forms
+11	15	what comparable javascript function can reference a file like php's include()?
+11	11	autowiring unmanaged beans annotated with @component
+11	11	jpa multiple persisrtence unit [bug]
+11	12	what is the proper jpa mapping for @id in parent and unique sequence in base classes
+11	12	string value is truncating when saved to the database
+11	17	problems using mysql instead of mysqli
+11	8	binding nstextfield to nsnumber
+11	16	how to make qlineedit expand inside qscrollarea
+11	16	is qimage able to open and render pure 16-bit images?
+11	9	finging the upper left corner in a quartz plugin
+11	6	simulink: implementing a custom transfer function
+11	14	splistitem.properties datetime fields are in weird hex format
+11	2	import date format mmddyyyy
+11	7	should the new mfc feature pack contols appear in vs toolbox
+11	19	could not deduce (marray (stuarray s) int (st s)) from context () when applying runst
+11	5	dsum: how to define the criteria range using braces?
+11	18	how do i work with and xml tag within a string?
+11	8	[nspredicateroweditortemplate templateswithattributekeypaths:inentitydescription:] for to-many key?
+11	15	ie7 onsubmit return false in function may fail?
+11	19	ambigous type variable error when defining custom "read" function
+11	13	int vs integer: type mismatch, found: int, required: string
+11	8	multiline nstokenfield and the return key
+11	10	replace a particular value in a string of key - values
+11	19	instance of fractional [char] required for definition?
+11	10	passing variable through ssh doesnt work
+11	20	what is the conceptual difference between a product and a quote item
+11	20	wrong amount for item in quote and order
+11	19	testing quickcheck properties against multiple types?
+11	12	hiberate save-update listener and ascertaining field changes
+11	8	problems with the php script to generate the licenses in aquatic prime
+11	4	how to keep a text file readable just from php and python, and not by users?
+11	1	multiple loop working, function inside isn't
+11	12	using min, max and count on hql
+11	19	different results when applying function to equal values
+11	8	why are there more files/hardlinks with the same inode than the reference count shows?
+11	10	regex match a string with spaces (use quotes?) in an if statement
+11	8	using single quote when building a string in cocoa
+11	11	conversion strategies for bind variables
+11	16	pointer wont return with assigned address
+11	16	for qdoublespinbox, can i give an range 0.0<min<max<1.0. if yes how do i get the step buttons to work with it
+11	15	how to return variable from the function called by onreadystatechange=function()
+11	16	qt: meaning of slot return value?
+11	15	is it possible to destroy loaded javascript, including function & local variable?
+11	7	how get vs html editor to default to single quotes?
+11	13	why is method overloading not defined for different return types?
+11	13	why does `array(0,1,2) == array(0,1,2)` not return the expected result?
+11	16	can qsignalmapper be used to re-emit signals with multiple parameters?
+11	15	google webtool kit or really simple history?
+11	5	vba - calling a function which accepts parent object as variable
+11	8	returning a pointer to memory allocated within a function in cocoa objective-c.
+11	19	applying a function to an arbitrarily long list of arguments
+11	18	is it possible to return ienumerable of anonymous objects from datacontext.executequery?
+11	10	generate random number
+11	13	how to define accessor method for default constructor parameter?
+11	19	understanding syb boilerplate elimination
+11	19	writing a function with a universally-quantified return type
+11	13	double variable argument list.
+11	19	putstrln, type char does not match [char]
+11	12	converting a hql-query which includes elements() to criteria api
+11	19	applying a function that may fail to all values in a list
+11	11	incompatible types found: required: default enums in annotations
+11	7	including eval / bind values in onclientclick code
+11	9	is it safe to manipulate objects that i created outside my thread if i don't explicitly access them on the thread which created them?
+11	6	how to generate a unit vector pointing in a random direction with isotropic distribution of direction?
+11	18	check if a value is in a collection with link
+11	10	remove slash from the end of a variable
+11	10	unix commandline history substitution ^foo^bar (for multiple replacements)
+11	10	substitution after the end of the word
+11	7	running vc2008 debug builds on non-dev machines
+11	5	how do you determine daylight savings time in vba?
+11	17	the most common pitfalls for a beginner drupa user?
+11	14	how to enable "connect to outlook" function in your custom list?
+11	18	why does linq treat two methods that do the "same" thing differently?
+11	8	how do i include calls to methods only present in one operating system version when compiling for multiple versions?
+11	20	sort categories according to date when its added
+11	17	how do i group similar catalog products (cd & mp3) on the landing page of my ubercart store?
+11	4	redirecting /media/* to /project/media/* and everything else to /dispatch.php
+11	15	function fails on the second time i call it.
+11	16	qpainter fails when calling begin
+11	9	nsmutabledictionary removeobjectforkey throwing exc_bad_access for a var that isn't released...
+11	13	parser combinator not terminating - how to log what is going on?
+11	6	graph/tree representation and recursion.
+11	13	stuck with jvm, sick of java... where to go?
+11	19	what is the correct type declaration for this function?
+11	19	whats the difference between io string and normal string in haskell
+11	13	parameter extends a class
+11	13	default type-parametrized function literal class parameter
+11	19	higher-kinded types with c++
+11	19	pattern matching for lambda expressions
+11	19	pattern matching for equality
+11	8	cocoa why do i have to retain and release a function parameter?
+11	8	any "fundamentals-oriented" example of nsscroller out there?
+11	9	how to configure term on macosx with color
+11	13	unit testing several implementation of the same trait/interface
+11	19	statet and wx gui coexistance
+11	19	constraining the returntype to a context
+11	16	find if qtreewidgetitem is top level
+11	19	why doesn't the "$" function work consistantly?
+11	20	getstorecategories() returns nothing
+11	8	how to animate scrollpoint?
+11	19	introduction or simple examples for iteratee?
+11	11	simpleformcontroller help
+11	19	help functors sink in.
+11	16	how to create & call slot in other class than mainwindow?
+11	19	ghci displaying execution stack
+11	13	overloading generic implicit conversions
+11	19	what are uses of polymorphic kinds?
+11	19	monad "bind" function question
+11	9	plist bundle version values
+11	8	apple documentation a bit lite?  tips?
+11	6	adding slider to a movie
+11	1	how can i turn off all commenting across wordpressmu
+11	1	hooking into comment_text() to add surrounding tag
+11	17	underscore before theme name
+11	17	css layout not working in ie7 (all other browsers are fine)
+11	13	so i compiled something with maven, now what do i do with it?
+11	13	how to designate a thread pool for actors
+11	11	is securitycontextholder thread safe?
+11	13	lift `??` construct and maven example
+11	13	how do i get the scalaz idea live templates working for the symbolic methods?
+11	20	magneto performance tunning
+11	1	why the comment's id are continues?
+11	11	how to access sprinr context in junit tests annonted with @runwith and @contextconfiguration?
+11	11	java.lang.illegalargumentexception: method must not be null
+11	20	filter collection by attribute set
+11	15	rotating a div element in jquery
+11	9	darwin: how to kill parent process without killing child?
+11	16	remove all spacing in qgridlayout
+11	9	how can i deny users to add/modify/remove printers to cups ?
+11	9	how to set a folder as classpath in jarbundler
+11	13	is scalas/haskells parser combinators sufficient?
+11	11	springframework3.0: how to create interceptors that only apply to requests that map to certain controllers?
+11	19	haskell - use just or no just made difference, but i don't know why...
+11	13	parser combinators info
+11	6	calculate most common values
+11	13	inheritance and type parameters of traversable
+11	20	overridding a shipping method - what am i missing
+11	11	multiactioncontroller no longer receiving requests?
+11	19	an unusual type signature
+11	19	parsec: backtracking not working
+11	17	saving nodes with a filefield
+11	1	css not rendering on mamp
+11	19	haddock for cabal-installed modules?
+11	2	simulated olap
+11	8	maximum length of [nsxmlnode stringvalue]
+11	6	removing an array dimension where the elements sum to zero
+11	8	nsindexpath incrementing values
+11	13	zip elements with odd and even indices in a list
+11	9	why is it allowed to write to / on macosx as normal user?
+11	6	generate square mesh, given an unordered x, y and z vectors

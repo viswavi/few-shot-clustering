@@ -1,0 +1,879 @@
+1	3	svn branching and merging in a rapidly changing feature environment with a high-turnover
+1	3	subversion repository statistics, other than statsvn?
+1	3	subversion, is it save to remove mergeinfo from a reintegrate merge
+1	3	svn plugin for vs2008
+1	3	subversion: tag and commit modified files at once
+1	3	how do i know which files in a directory arn't in my svn repository?
+1	3	svn and renaming the server it's running on
+1	3	how to export a part of svn repository with dependencies?
+1	3	what are the long-term effects of reorganising a subversion repository
+1	3	disabling the constant upgrade messages from subversion clients...
+1	3	what is the correct way to restore a a deleted file from svn?
+1	3	import dumped svn repo into visual svn
+1	3	what is your preferred method for moving directory structures around in subversion?
+1	3	how do i work around this error while copying svn repository by svnsync?
+1	3	best way to organize a subversion repository of many small projects
+1	3	putting subversion repositories in subdirectories?
+1	6	how to convert m-files to dlls?
+1	3	is there an svn command to remove files from the client only?
+1	10	how can i remove missing files with spaces in svn?
+1	3	trac vs fogbugz
+1	3	svn watchlists?
+1	3	how do you stop svn checkout from bringing back files that were deleted from the project?
+1	3	copy svn repository
+1	3	what to do when 'svn cleanup' fails?
+1	3	svn marks entire files as conflicted
+1	3	how to use an internet subversion respository when devloping code?
+1	3	save me from my svn self
+1	3	publishing a website  using svn export
+1	3	command line subversion client for windows vista 64bits
+1	3	nuking huge file in svn repository
+1	3	how to remove svn from a folder
+1	3	confusing subversion status !m
+1	3	[easy] svn checkout with svn protocol
+1	3	why does subversion chown/recreate files on checkin?
+1	3	how do i svn add all unversioned files to svn?
+1	10	recursively add file extension to all files
+1	3	subversion branch/trunk best practice - keeping branch up-to-date?
+1	3	automating builds from subversion tags
+1	3	synchronize sourcesafe with svn
+1	3	what are patches used for in svn?
+1	3	subversion error: "working copy [directory] not locked"
+1	3	svn changelists: how to limit operations to "default" changelist?
+1	3	best practice: collaborative environment, bin directory, svn
+1	3	what do you use the svn tags directory for anyways?
+1	3	how to force examine before commit in svn and so on?
+1	3	how to merge from branch to branch and back again (bidirectional merging) in svn?
+1	3	copy the svn:ignore files when branching
+1	8	deploying beta software updates and sparkle
+1	3	code freeze in svn
+1	3	how can i enforce a reviewers name being entered into svn log
+1	3	access denied  tortoise svn 64 bits
+1	3	check that an svn repository url does not exist
+1	3	subversion merge a delete command
+1	3	svn update of multiple files
+1	3	use svnkit 1.2.1 from trunk
+1	3	how do you manage your run once sql install scripts in subversion?
+1	3	how good is subversion at storing lots of binary files?
+1	3	svn full dump (moving servers)
+1	3	svn won't download newly added files
+1	3	svn admin can create folders, but can't delete them
+1	3	svn:externals and permissions
+1	3	subversion - is trunk really the best place for the main development?
+1	3	looking for a secure svn remote update post-commit hook
+1	3	svn: colleague checked in a folder into repository, but i can't update my version to it
+1	3	create a "label" in subversion indicating what files should be in the next release
+1	3	subversion - merging repositories
+1	3	best subversion clients for windows vista (64bit)
+1	3	moving to subversion from sourcesafe
+1	3	how do you setup a shared working copy in subversion
+1	3	pattern matching characters for svn:ignore
+1	17	shut off htmlpurifier upgrade message
+1	3	hosted subversion recommendations or suggestions
+1	3	can i go back and edit comments on an svn checkin
+1	3	svn optimizations to keep large repositories responsive
+1	9	how can i remove .ds_store files from a git repository?
+1	3	how to list source versions using subversion
+1	3	? structuring a revision control system (svn)
+1	3	is there a way to import svn history into git after the fact?
+1	3	svn - delete existing repository
+1	3	recommend good svn layout for my project
+1	3	team foundation server - use api to sync to svn
+1	3	subversion ignore classes directory after its been added (and linked to src directory)
+1	3	svn + project management + wiki + todo list
+1	3	how much disk space should i reserve for my subversion repository?
+1	3	can i move an existing subversion repository into a new parent repository (and retain the history)?
+1	3	how to add cvs directories recursively
+1	3	what is the best subversion client for linux?
+1	3	svn 1.3 vs 1.5 (latest)
+1	3	how can i repair "upgraded" subversion working directories?
+1	3	how can i speed up svn updates?
+1	3	which eclipse subversion plugin should i use?
+1	3	perforce blame
+1	3	tortoisesvn not asking for authentication?
+1	3	subversion: how to nuke a repository?
+1	10	source all files in a directory from .bash_profile
+1	3	what is the reasoning behind the recommended layout for subversion repositories?
+1	3	what's the least painful way to transfer local subversion changes to another machine?
+1	20	how to keep testing and production e-commerce db in sync when you have "sales" updates in production?
+1	3	how do you sanitize your source before doing a subversion commit?
+1	3	can the same files be committed to 2 svn repositories?
+1	3	best reflection of extract-interface refactoring in subversion
+1	3	svn best-practives - working in a team
+1	3	timing the release branch
+1	11	splitting applicationcontext to multiple files
+1	3	rearranging project after svn checkout
+1	3	how do i find the number of times a file was revised in subversion?
+1	3	svn problem
+1	3	svn ignore without deleting files?
+1	3	force an svn update command to overwrite current files
+1	3	how to migrate svn to another repository
+1	3	what should i do with the vendor directory with respect to subversion?
+1	3	include externals in subversion diff
+1	3	svn branching in eclipse (conceptual)
+1	3	should i checkout the full branch when performing only commits with subversion?
+1	12	hibernate daily builds
+1	3	undelete in svn working copy
+1	3	svn access to a https repository: username / password always being prompted for
+1	3	how do i avoid "svn: out of date:" problems?
+1	3	how to check out a subversion repository using svn+ssh protocol?
+1	3	standard diff format in svn
+1	3	svn hooks for windows
+1	3	svn - permission denied
+1	3	tortoisesvn - missing files in client
+1	3	subversion access from .net
+1	3	subversion for sourcesafe users
+1	3	iyo: worst subversion misfeatures?
+1	3	how to setup multiple authentication types for 1 subversion repo?
+1	3	how to move a single folder from one subversion repository to another repository?
+1	3	manage vss to svn migration
+1	3	automatically creating a tag in subversion
+1	3	svn checkout of drupal to another site
+1	10	delete all files/directories except two specific directories
+1	3	automatically remove subversion unversioned files
+1	3	how can i search an svn repository for the existance of files in any revision
+1	3	tips for manual merge of diverged code
+1	3	svn maintenance
+1	3	how can i branch in svn and have it branch my svn:external folders as well?
+1	3	providing a common interface to svn and cvs
+1	3	how to synchronize svn revision and version ressources of exe/dll files?
+1	3	tortoise svn author in log file missing
+1	3	post commit hook to update a file under version
+1	3	list all svn:externals recursively?
+1	3	is it possible to set-up a personal svn remote repository which can be accessed through the internet?
+1	3	svn - how to set all files to same revision number and date.
+1	3	svn config-file question revisited
+1	3	svn:list all checked in files
+1	3	subverison and ci build processes
+1	3	svn performance after many revisions
+1	3	how would you set up an subversion repository for in house software projects
+1	3	svn import adds and commits a dir,but dir cant be browsed..
+1	3	problems commiting deleted directory to svn repository
+1	3	recovering from a slightly out of date subversion repository backup
+1	3	force subversion not to merge specific files
+1	3	how to do internal svn:externals
+1	3	any way to check in a file or add a file to svn repository without a svn client?
+1	3	how can i retore svn control if the .svn folder has been damaged
+1	3	how can i publish a subversion repository to a local iis?
+1	3	how do you get the history of a file/folder property in svn?
+1	3	how to use svn and perforce simultaneously
+1	3	will subclipse 1.4.4 work with subversion 1.3.2
+1	3	vsssc and vssscc files - usefull for svn?
+1	3	how do you use svn export to move files from dev or qa to production environment?
+1	3	how to synchronize two subversion repositories?
+1	3	tortiose svn revisions
+1	3	how do i add a file to subversion that has the same name as a directory that was deleted?
+1	3	always commit the same file with svn
+1	3	should the webinfo file be excluded from svn
+1	3	subversion - how to commit change?
+1	3	pushing from subversion to web server
+1	3	how to find out subversion repository version?
+1	10	using bash to get revision number from subversion
+1	3	svn automatic code formatting on check in?
+1	3	is it possible to migrate a single component from one svn repository to another while preserving history?
+1	3	what subversion distributions are suitable for an enterprise
+1	3	svn: how do i maintain my local config.blah file?
+1	3	how can a svn repository become corrupt?
+1	9	unable to start subversion using launchctl
+1	3	how to apply a patch using svn export?
+1	3	do you have to have branch, tag and trunk folders for an svn repository?
+1	3	reorganizing a subversion repository with branches
+1	3	svn and binaries
+1	3	how do i convince my team to drop sourcesafe and move to svn?
+1	3	svn externals change source to target directory
+1	3	undo svn delete ./* --force
+1	3	how to "unversion" a file in either svn and/or git
+1	3	is there a metadata exclusion filter for the svn diff command?
+1	3	move directory across svn repository using tortoise svn
+1	3	subversion merge trunk to branch
+1	9	offsite backup from a timemachine capsule
+1	3	is it safe to install svn on a production win2008 web server?
+1	3	how to run multiple svn services
+1	3	how to undo removal of a file in svn
+1	2	when to commit changes?
+1	3	external library update in a svn repository
+1	3	tortoise svn subversion update error
+1	3	how can i query my subversion repository?
+1	3	how to get back a file my svn client deleted?
+1	3	svn error - not a working copy
+1	3	branching strategies (in subversion) for multiple products from one codebase
+1	10	sync file modification time across multiple directories
+1	3	svn diff across 2 different repositories
+1	3	svn admin management gui tool
+1	7	pdb files in visualstudio bin\debug folders
+1	3	svn firefox plugin
+1	10	list directories containinf more than 1 file
+1	3	svn in-place import and checkout
+1	3	how can i create a directory listing of a subversion repository.
+1	3	how can i access a subversion repository using a local path in windows?
+1	3	ankhsvn vs visualsvn
+1	3	what is a working copy and what does "switching" do for me in tortoise svn?
+1	3	upgrading to svn 1.5
+1	3	installing svn 1.5.x on debian etch - best approach?
+1	3	how do i undo "svn switch" on a subdirectory?
+1	3	subversion server on 64-bit windows?
+1	3	using mercurial locally only with subversion server
+1	3	how to do a bulk svn mv in unix
+1	3	error when switching to different svn branch
+1	7	team system unit testing and configuration
+1	3	sending svn commits to an rss feed
+1	3	failing to ignore svn-controlled directory when doing svn update
+1	3	subversion for iseries
+1	3	creating patches between revisions per file
+1	3	how can i determine who locked a file using svn
+1	3	how can i import a directory structure into svn, keeping the file and folder modifed dates the same?
+1	3	what is the maximum password length in subversion?
+1	3	tortoisesvn can't connect to machine in workgroup
+1	3	how can i change the repository url using ankhsvn 2.x
+1	3	interoperation between mercurial and subversion
+1	7	tortoise subwcrev.exe pre-build event
+1	3	partial commits with subversion
+1	3	in svn, how do i copy just the subdirectories of a directory to another directory?
+1	3	what causes svn commit to fail and report a file/dir as obstructed?
+1	3	how do i browse an old revision of a subversion repository through the web view?
+1	7	share .obj files between different configurations
+1	3	how to update a file in svn?
+1	3	fixing a broken subversion setup
+1	3	moving files or directories with tortoisesvn
+1	3	svn - remote, disconnected working
+1	3	best way to prevent changes on a branch with subversion
+1	3	rollbacking bad changes with svn in eclipse
+1	4	source unavailable under a opensource license
+1	3	prevent file casing problems in subversion
+1	14	how to manage list version history in wss 2.0
+1	3	subversion server vs. network repository access through tortoise
+1	3	libapache2-svn, matching version with subversion 1.6.1
+1	3	java class file from svn to tomcat on server: how to compile automatically?
+1	3	is there a means to produce a changelog in svn
+1	3	when does svn base become equal to the head
+1	3	squashing or editing some commits before doing git-svn dcommit?
+1	3	which is the command to query a subversion repository for all files checked out to a specific user?
+1	3	how can i view all historical changes to a file in svn
+1	3	locationmatch and dav svn
+1	3	subversion asks for incorrect user
+1	3	how can svn co give a "directory already exists error"?
+1	3	similar svn server software for os x that's like visual svn
+1	3	how to make svn diff produce file that patch would apply, when svn cp or svn mv was used?
+1	3	svn stumbling blocks
+1	3	using git in a company?
+1	10	how to remove large amount of files using rm
+1	3	how does git-svn behave with svn repositories that have changed layout?
+1	3	how can i check out just the trunks of multiple projects from the same repository.
+1	3	have you integrated mantis and subversion?
+1	3	branching a subversion repository into a distributed cms
+1	3	where can i find prebuilt subversion binaries for sgi irix?
+1	3	subversion
+1	3	how to configure svn in local server/lan server
+1	3	grouping commited files together (as a single commit) after you've already committed them to the repository in svn?
+1	3	svn / subversion: get all files on new check out, but then exclude certain files from update/check in
+1	3	safe to share a subversion working copy between os?
+1	3	what is the difference between the project and svn workingdirectory config blocks in cruisecontrol.net
+1	3	svn merge changes made on ftp into working copy
+1	3	svn: can i copy a subset of files to a new tag?
+1	3	how to get a list of to-be-added files that don't have svn:mime-type property set?
+1	3	problems commiting file to svn repository
+1	4	apache+svn setup - receiving forbidden on some svn requests but not all
+1	3	suggestions for setting up a subversion repository
+1	3	free online svn repositories
+1	3	svn working copy xxx locked and cleanup failed
+1	3	should i use self-signed certificates in general?  for svn in particular?
+1	3	how to quickly search a subversion repository?
+1	3	having latest copy of svn'ed files in document root
+1	3	is there a tool for monitoring and annotating svn checkins?
+1	3	script to backup svn repository to network share
+1	3	how do you retrieve the commit message and file list for a particular revision?
+1	3	collabnet svn log files, are there any?
+1	3	with svn how do i add a log message to trunk when creating a tag?
+1	3	how should i branch and tag before and after a release?
+1	3	how to reach past revisions trough an http client
+1	3	subversion cherry picking
+1	3	sql scripts under subversion
+1	3	svn installation
+1	17	using .inc files when theming.
+1	3	how do i resolve a merge conflict with svn properties?
+1	3	tips for running subversion in a windows world
+1	3	how to tell svn to ignore files for all team members
+1	3	dealing with svn keyword expansion with git-svn
+1	3	help with svn setup
+1	3	how to execute subversion post-commit trigger without new changeset?
+1	17	how can i keep data in sync during deployment?
+1	3	credential caching fail on svn 1.5.2
+1	3	subversion and revision engineering - what are the best web resources to read about?
+1	3	how to automate svn: how to automate commit transferring between branches
+1	3	how do i prevent a subversion update with no changes from causing iis from recompiling the website?
+1	3	svn libraries for .net?
+1	3	subversion "suite"?
+1	9	subversion on mac - refuses to get password from keychain
+1	3	which windows svn server should i use?
+1	3	what are the uses of svn copy?
+1	3	(visual)svn ignore files by regex
+1	3	svn repo syncing
+1	3	svn ignore versioned on update
+1	3	svn update command to target a single externals subfolder ?
+1	3	svn plugins for eclipse - subclipse vs. subversive
+1	3	how do i make a directory immutable in svn?
+1	3	set up a specific svn repository
+1	3	are merges in subversion more difficult than in team foundation system?
+1	3	how to forbit subversion commits to svn:external to revisions?
+1	3	only trigger a build on commits to the trunk with svn
+1	3	should i add compiled dlls to my subversion repository?
+1	3	svn manage settings between computers
+1	10	move files to directories based on first part of filename?
+1	3	handling conflicts in svn with tortoise?
+1	3	find checkout history for svn working folder
+1	3	after adding a symbolic link in a svn repository i keep receiving an error inside of that directory
+1	3	can't connect to svn repository
+1	3	how do i delete 1 file from a revision in svn?
+1	3	are subversion externals an antipattern?
+1	1	facebook-wordpress comment/feedabck integration
+1	3	subversion as version-incrementor at each commit?
+1	3	svn and revision numbers
+1	3	svn replicate directory
+1	3	get log details for a specific revision number in a post-commit hook with sharpsvn?
+1	3	how to change where subversion repositories are stored?
+1	3	svn workflow, lamp
+1	3	svn rename problem
+1	3	check out from a remote svn repository to a remote location?
+1	3	fast recursive grepping of svn working copy
+1	3	tips for using cvs or subversion as a backup framework for office documents
+1	9	how to switch svn server from one ip address to another
+1	3	svn mergeinfo properties on paths other than the working copy root
+1	12	how can i use maven to get the latest hibernate release?
+1	3	subversion merge history visualisation
+1	13	is scala.net production ready?
+1	3	committing binaries to svn
+1	3	using '_svn' directories instead of '.svn' in a working copy
+1	3	how to get daily commit count and the number of modified paths from svn repository?
+1	3	svn list of files that are modified in local copy
+1	3	how can i have subversion keep only the latest verison of a file?
+1	3	subversion - where should the svn:externals come from?
+1	3	making the folder unmanaged by svn
+1	3	how to migrate from svn to mercurial on windows
+1	3	running a command with every svn commit
+1	3	has anyone successfully migrated from vss 2005 to svn?
+1	3	netbean subversion
+1	3	tortoisesvn compatibility mode
+1	3	svn - reintegration merge error: "must be ancestrally related"
+1	3	svn + repostiory location
+1	3	subversion branch reintegration
+1	3	automatically find the revisions to merge in subclipse
+1	3	seeing a combined diff of many commits in subversion ?
+1	3	differences between svn and svn+ssh on a windows svn server?
+1	3	svn pre-commit hook for avoiding changes to tags subdirectories
+1	3	lighttpd and webdav for serving a subversion repo
+1	3	subversion: prevent local modifications to one file from being committed?
+1	3	how do i copy my entire working copy between hard drives?
+1	3	checkout one file from subversion
+1	3	subversion - move repository
+1	3	using subversion for web applications
+1	3	how mature is php:svn
+1	3	unlocking a svn working copy which has unversioned resources
+1	3	what is a decent svn monitoring tool?
+1	3	do you continue development in a branch or in the trunk?
+1	3	excluding commits by specific users from svn merge
+1	3	using svn:ignore to ignore everything but certain files.
+1	3	how to recover from svn hotcopy backups
+1	3	how to migrate all url's in svn:externals properties across a repository?
+1	3	[svn] where did my committed file go?
+1	3	best setup for code promotion and feature branching in subversion?
+1	3	svn - how do i change the head to a previous revision
+1	3	should subversion branches that are reintegrate-merged to trunk be deleted?
+1	3	svn working copies on network share
+1	3	svn externals not working
+1	3	problem connecting to svn repository
+1	3	svn externals sub folder changes not showing in view log (tortoise svn)
+1	3	using svn for general purpose backup
+1	3	svn 1.5.x vs (latest)
+1	3	how can you access svn over http in a windows environment?
+1	3	return subversion working copy to an old revision
+1	3	svn checkout or export for production environment?
+1	3	how can i maintain history of a file that is moved to a directory overwriting a file of the same name
+1	3	svn merge doubt
+1	3	updating from svn repository returns "could not read chunk size" error
+1	3	query svn repository from asp.net to get revision history
+1	3	can i run a script when i commit to subversion?
+1	3	how do i enable svn commands from any directory?
+1	3	subversion - how to move some changesets from trunk to a branch?
+1	3	subversive connectors not working with newest ganymede update
+1	3	subversion project structure?
+1	3	.net projects build automation with nant/msbuild + svn
+1	3	using svnversion with svn:keywords
+1	3	connect to my repository remotely using tortoisesvn
+1	3	svn update is not updating!!
+1	3	subversion update externals to a date
+1	3	access denied to all svn directories
+1	3	how can i find the revision history of the file that was deleted and then resubmitted to svn?
+1	3	svn: path does not exist in revision
+1	3	handling and syncing own custom version of an open source library with svn
+1	3	i cannot commit changes after merge in svn
+1	3	svn command line from eclipse
+1	3	how to get started with svn:externals?
+1	3	how can i downgrade the version of an svn working copy?
+1	3	check for a subversion update
+1	3	how do i properly branch post-commit and revert the trunk in svn?
+1	3	running narrange from svn pre-commit hook
+1	3	how to branch code to another responsibility for svn?
+1	3	best practices for using subversion on a development server?
+1	3	can you force an apache restart in a post-commit svn hook?
+1	7	continuous integration
+1	3	how to determine change statistics between revisions
+1	3	how to setup access control in svn?
+1	3	how to force your local version as newest on svn
+1	3	svn organisation problem
+1	3	list subversion repositories
+1	3	svn: how to re-create a directory that's created but not committed yet
+1	3	svn post-commit hook doesn't have persmissions to create file in working copy directory
+1	3	should i add a new svn repository or a new folder ?
+1	3	how do i create a dump file from my subversion hosting account?
+1	3	is svn 1.5 merge-tracking ready for prime-time?
+1	3	svn backup
+1	3	tips to sync up webapps and svn?
+1	4	how can i convince mod_rewrite to stay away from my subversion repositories?
+1	3	svn to zip on the fly
+1	3	fork and sync google code svn into github
+1	3	svn checkout the contents of a folder, not the folder itself
+1	3	migrate from subversion to team foundation server
+1	3	using a wiki as a central development project repository
+1	3	switch from svn to git for c# developments?
+1	9	svn resolve multiple files using bash/terminal on os x
+1	7	how to keep the installer's version number in sync with the installed assemblies' version numbers?
+1	9	svn errorcode=2 could not open the requested svn filesystem
+1	3	svn: dealing with "dead" files.
+1	3	moving from vss to svn
+1	3	subversion prevent listing of a repository in folder with svnparentpath
+1	3	changing svn repository
+1	3	is there a simpler c++ subversion api or an example .vcproj for minimal_client.c?
+1	3	better merge tool for subversion
+1	3	svn up command says entity too large
+1	3	server side svn branch reintegrate
+1	3	refactoring and concurrent development branches
+1	3	how do i prevent a subversion user accessing part of the repository?
+1	12	want each call to save to commit
+1	3	subversion "label" like sourcesafe
+1	3	subversion upgrade question - 1.5.3 to 1.5.4
+1	3	tortoisesvn error
+1	3	svn analysis tool
+1	3	what svn command would list all the files modified on a branch?
+1	3	windows backup for svn repositories
+1	3	subversion merge problem: cannot reintegrate yet
+1	3	svn - merge one branch into another?
+1	3	svn repository path changed: how to re-bind my local folder to it?
+1	3	how can i remove all my changes in my svn working directory
+1	3	svn - not a working copy error
+1	3	how do you get a list of changes from a subversion repository by date range?
+1	8	best practices for using version-controlling on cocoa projects
+1	3	is there some way to commit a file "partially" in tortoisesvn?
+1	3	how do i improve windows subversion client update performance?
+1	3	migrating svn 1.4 repo's to 1.6, populating node origins.
+1	3	svn : get all files from a revision
+1	10	how to removing trailing whitespace of all files recursively?
+1	3	how to undo an 'svn copy'
+1	3	how to get all changes with an svn update, using tortoisesvn
+1	3	is there a viable scc integration for subversion?
+1	3	how to quarantine a specific subversion revision?
+1	3	detect svn changes in a .bat
+1	9	trying to get rsync to copy files back to svn
+1	10	updating live server from vcs
+1	3	how do i update all svn:externals references after a server migration?
+1	3	how to set author name for subversion when i'm using svn:keywords
+1	10	how to create folders using file names and then move files into folders?
+1	3	try to svn checkout, but get: svn: '.' is already a working copy for a different url
+1	3	checkout svn+ssh with loginname
+1	3	add a file to subversion with special characters like '%' in the filename.
+1	3	git or subversion?
+1	3	how do i integrate a branch into a trunk if the folder structure has changed?
+1	10	import files directly to svn repo without checking out first
+1	3	opinion of hosted svn providers?
+1	3	can't delete recycling bin when code from svn is in it
+1	3	when updating from a svn respository, is it possible to update another repository, too?
+1	3	best practice for subversion and image uploads
+1	3	best general svn ignore pattern?
+1	3	how can i only commit property changes without the client recursively going through everthing?
+1	3	shelve in tortoisesvn?
+1	3	how do i view all ignored patterns set with svn:ignore recursively in an svn repository?
+1	3	proper way to move files to tags from trunk using svn?
+1	3	installed visual svn server, except i get this message when do svn check out
+1	3	how do i achive the below using svn ?
+1	3	svn: locally ignore files when updating
+1	3	single file merge in subversion
+1	3	is it safe to commit more files as a pre-commit hook
+1	3	? choosing a subversion server
+1	3	how to find out whether subversion working directory is locked by svn?
+1	3	what is the best way to make files live using subversion on a production server?
+1	3	restore svn backups from multiple files.
+1	3	how do i search all revisions of a file in a subversion repository?
+1	3	what is the best way to merge a feature branch into the mainline in subversion?
+1	4	auto edit host and vhost and file for a new site on aptana
+1	3	branch off a specific directory from one svn repository into own repo
+1	3	how to maintain a locally modified copy of an external svn repository
+1	3	change default author in local svn repo
+1	3	transferring svn properties
+1	3	how can i make only some folders show up for certain developers with svn
+1	3	svn: checkout/export only the directory structure
+1	3	difference between checkout and export in svn
+1	3	recover empty svn db file
+1	3	subversion: retract accidental checkin
+1	3	subclipse svn:ignore
+1	3	javascript to extract author/date from svn keyword substitution
+1	3	subversion commit failed merge of file: 200 ok
+1	3	alternative to binaries in subversion
+1	3	svn revision number
+1	4	can the svn and http protocols be used safely on the same repository simultaneously?
+1	3	same working copy of the code with 2 svn servers.
+1	3	tortoise svn in system tray possible?
+1	3	svn: track merges
+1	3	cool svn command tips and tricks and diff between files on the hard disk using svn command
+1	3	commit from directory, not under version control, to override current revision
+1	3	best svn client ignore pattern for vb.net solutions?
+1	3	forbidding svn commit lacking description
+1	3	files end up in wrong directory after svn copy
+1	3	what is the difference between a svn server and a http server
+1	3	getting tortoisesvn to set a file's modified time to the timestamp of the latest revision
+1	3	in subversion can i be a user other than my login name?
+1	3	svn "propfind request failed on..."
+1	3	obstructed folders in subversion
+1	4	svn (mod_dav) 403 forbidden option request
+1	3	use local git repository with a master subversion repository.
+1	3	how do we keep track of our working copy's branch?
+1	3	good stand-alone svn client
+1	12	how to create hbm files from java files??
+1	14	deploy webaprt with feature
+1	3	excluding a single project file from an svn repository
+1	3	how do i get a list of all unversioned files from svn?
+1	3	subversion tagging and security
+1	3	how do i get svn:ignore to work properly?
+1	7	updating the version number of all assemblies in a solution
+1	3	how to get a list of all svn commits in a repository and who did what to what files?
+1	7	can vs_version_info be added to non-exe files?
+1	3	commitimg to svn protected repository
+1	3	svn: branches for every little change?
+1	3	how to change the subversion directory usingg eclipse
+1	7	.net solution subversion best practices?
+1	3	moving directories in subversion
+1	3	how to prevent svn from expanding $id$ keyword?
+1	3	how do i roll back all or part of a commit to svn?
+1	3	tortoise svn move command fails
+1	3	how do i sync between vss and svn
+1	16	undo redo with an auto delete mechanism
+1	3	very slow merge with subversion 1.5
+1	14	viewing files in a remote ftp folder from a webpart
+1	3	how do i delete all directories matching a pattern using svn?
+1	3	using "git externals" with subversion?
+1	3	excluding subdirectories with a pattern in subversion
+1	3	getting the last revision number in svn?
+1	3	how do you arrange several proyects in a single svn server?
+1	10	delete all but the 4 newest directories
+1	3	subversion merging changes from a different repository
+1	3	ignore some files from svn commit
+1	3	an online svn client
+1	7	how do i keep resharper files out of svn?
+1	3	cvs to svn conversion -- how to replace cvs tags functionalities
+1	3	svn problem: what is the latest revision that still contained this code snipped?
+1	3	svn switch --relocate not persisting
+1	3	methods to store binary files in svn
+1	3	how to make a private branch of public svn repository?
+1	3	svn export with revision history problem
+1	3	svn merge help
+1	3	subversion: how to merge only specific revisions into trunk?
+1	3	how do i connect to a remote svn server?
+1	3	obtain current svn revision in webapp
+1	3	getting a useful report from svn - non-code files messing the stats up
+1	3	best practice for creating subversion repositories?
+1	3	how can i do a single svn commit across multiple externals at the command line?
+1	3	revert a whole directory in tortoise svn?
+1	3	how to make svn only update files but not add new ones.
+1	3	forking subversion project
+1	3	how well does svn work for office 2007 documents?
+1	3	how to upgrade svn 1.4.4 (r25188) to svn 1.6
+1	3	svn repository search
+1	3	svn create tag problem
+1	3	how could i get my svn-only host to pull from a git repository?
+1	3	do i lose change information with svn move --force?
+1	3	subversion - async development cicle... two trunks?
+1	3	svn update not working in post commit
+1	3	vss front end for svn
+1	3	use svn instead of cvs on sourceforge
+1	3	codeplex svn $author$ property problem
+1	3	in subversion, is it possible to merge back changes made in a branch of a branch?
+1	3	problem setting up svn & webdav in ubuntu
+1	3	best practices for a single large svn project.
+1	7	how to configure msbuild to do some tasks only on release builds?
+1	3	automatically add svn:needs-lock
+1	3	svn - project in multiple solutions
+1	3	get revision number of a remote repository
+1	3	subversion merge between multiple working copies?
+1	3	style cleanup that doesn't trample svn blame?
+1	8	how to get the system version?
+1	3	svn merge with revision not doing what i expect
+1	3	how to access the current subversion build number?
+1	3	local copy of svn repository
+1	9	svn commit problems on mac osx terminal
+1	3	change default svn diffing tool
+1	3	svn: a versioned directory of the same name already exists
+1	7	how to get rid of vsmacros80 folder from project root?
+1	3	sharing files in svn
+1	3	in subversion what are best practices to modifying historical files?
+1	3	error commiting data in subversion
+1	3	need help adding files to a subversion repository.
+1	3	how can i change the commiter of an old revision in svn
+1	2	rolling forward the archivelog and online redo logs to the restored database
+1	3	automated builds of branches with svn
+1	3	adding a svn repository in eclipse
+1	3	revovering from subversion corruption
+1	10	moving files to a directory
+1	3	release management in svn
+1	3	using svn to lock documents for editing and update notifications
+1	3	import to the same subversion repository directory multiple times?
+1	3	remove external dependecy from svn repo
+1	10	how to delete files older than x hours
+1	3	how to maintain separate svn repositories for the same project?
+1	3	why does authorization fail when i commit to svn using visualsvn?
+1	3	how to setup a subversion (svn) server on gnu/linux - ubuntu
+1	3	svn merge merged extra stuff
+1	3	does my script has to update the svn server?
+1	3	how do i do an exclusive checkout in svn?
+1	3	when updating a whole project's root, how to exclude svn externals from being updated?
+1	3	svn tortoise remap source folders
+1	1	using svn in windows (wordpress plugin-repository)?
+1	3	why would subversion timeout when i try to commit changes to a directory?
+1	3	svn repository structure - why is this better?
+1	3	in svn, can i revert a change and shelve it for later?
+1	3	multi-domain subversion deployment on media temple dv
+1	3	ever need to parse the svn log for files committed by a particular user since a certain date?
+1	3	shared components throughout all projects, is there a better alternative than svn:externals?
+1	3	how to combine svn commits?
+1	3	synchronize svn through ftp
+1	3	any disadvantages of accessing subversion repositories through file:/// for a solo developer?
+1	3	can i keep cruisecontrol.net's ccnet.config in svn, then have cruisecontrol update its own config file when a change is checked in?
+1	3	using subversion trunk as documenroot
+1	3	svn: set properties on directories only
+1	3	single read-only user for svn
+1	3	removing irrelevent directories with svn
+1	3	any problems with svn merge on a multi column ( tab delimited ) text file?
+1	3	subclipse alternative
+1	3	crashed svn repository
+1	3	phantom directories in an svn repository
+1	3	svn update problem in eclipse
+1	3	trac-past-commit-hook on remote repository
+1	3	subversion vendor branches
+1	3	preventing db password from being accidentally checked into public svn
+1	10	moving a directory atomically
+1	3	experience with svn vs. team foundation server?
+1	3	subversion auto-props woes
+1	3	subversion: how to retrieve files changed in range of revisions?
+1	3	how do you structure your svn repository?
+1	14	stsadm differential backups when directories are renamed?
+1	3	is there a tool to read a subversion repository via .net?
+1	3	svn add interactive
+1	3	list all files changed by a particular user in subversion
+1	3	combining multiple svn repositories into one
+1	3	does clearcase fit our development process?
+1	10	protect against accidental deletion
+1	3	how do i create a branch in svn?
+1	3	migrating to git
+1	3	migrating to team system from svn & cruise control.net and back
+1	3	how to migrate from a complicated subversion repository to a distributed version control system?
+1	3	where is the attic in subversion?
+1	3	a command line that yields the complete url of a file inside the svn repository?
+1	3	robust svn export and copy script?
+1	3	can you modify text files when committing to subversion?
+1	3	svn - retrieving useful information
+1	3	how do i correct a subversion project where i omitted trunk?
+1	3	svn versioning
+1	3	new folders are not uploaded in svn
+1	3	how do you use git svn?
+1	3	where can i find a svn application that will display the whole tree (or branch) graphically as a map
+1	3	using svn and .net winforms - building install files deletes _svn folders
+1	3	how do i dump one project out of a svn repository which contains multiple projects
+1	11	how to batch delete using bulkupdate
+1	3	ignore svn ignore... possible?
+1	3	how to set an svn repository path to a server path?
+1	3	in-house projects: to stable release or not?
+1	3	what project files shouldn't be checked into svn
+1	3	svn: could not read status line: connection was closed by server
+1	3	svn remote repository
+1	3	merging uncommitted changes into some other branch using svn
+1	3	creating symbolic links to branches in svn?
+1	3	subversion does not remember my user/password
+1	3	is svn-merge backwards?
+1	3	importing an svn branch into git
+1	3	have svn automatically detect your user credentials?
+1	3	how can i view the version tree for a file in svn which shows the merges from branches back to trunk?
+1	3	is this the correct step-by-step and organization for creating an svn repo with multiple projects and vendors?
+1	3	svn log not showing all the revisions made to a file
+1	3	will creating a new folder break subversion?
+1	3	what do the letter suffixes on svn version numbers mean?
+1	3	update from svn wtihout merging automatically
+1	3	is it possible to checkout files from subversion without those .svn folders?
+1	3	subversion not merging changes into renamed files?
+1	3	examining subversion history of deleted file
+1	3	is there any way to block files being committed to svn repository
+1	3	svn weirdness day 2: svn list and svn update report different things
+1	9	svn won't commit unversioned files even though they show up with svn status
+1	3	implementing a code freeze with subversion
+1	3	how to dlete files from svn that have already been deleted from the fs?
+1	2	backup and recovery scenario
+1	3	graphical representation of svn branch/merge activity
+1	3	how to set up a not-local svn-server?
+1	3	order of svn diff revision range
+1	3	which documents should be added to a svn repo?
+1	3	recovering from an unfortunate "svn copy"
+1	3	svn pre commit hooks
+1	10	unable to find release notes for bash
+1	3	how do i branch an individual file in svn?
+1	3	how to write an automatic "copy, check-out, change and check-in"-skript for svn
+1	3	svn merge functionality broken by tree conflicts
+1	3	svn checkout and update without the .svn directory
+1	3	local copy of svn repository, syncing to remote copy?
+1	3	svn: added files but deleted few before committing: not able to commit now
+1	3	merging from branch to trunk with 'merge range of revisions'
+1	3	how to avoid svn conflicts when merging branch back into trunk
+1	3	when doing a tortoise svn merge, it includes a bunch of directories in the changes. why?
+1	3	subversion in a single picture
+1	3	replacing trunk with branch in subversion
+1	3	subversion sub-repository
+1	16	gnu make --jobs option in qmake
+1	3	synchronizing code with two subversion repositories
+1	10	removing files starting with --
+1	3	folder structure for many projects in one svn repository?
+1	7	how to associate external files with an assembly
+1	7	remove vsmacros80 directory
+1	3	why doesn't git-svn use the subversion repositories uuid instead of its url
+1	3	how to specify the repository in apache dav svn?
+1	7	i wan't to delete all bin and obj folders to force all projects to rebuild everything
+1	3	viewing repository information from within eclipse, when code was checked out using svn tortoise
+1	3	is there a way to change a svn users username through the entire repository history?
+1	3	using subversion with a really really big site
+1	3	svn syncing with eclipse ide 3.5.0
+1	3	listing the files and revisions with a certain check-in message in subversion
+1	3	will an svn:external subdirectory sync with its head revision upon every 'svn update' to the parent working copy?
+1	3	svn diff export
+1	3	can svn:externals be used while ignoring externals for that url?
+1	3	querying for svn revision suddenly seems slow (since svn 1.5 maybe?)
+1	4	run index.php rather than listing files
+1	3	begining svn
+1	3	setting up svn to best suit dev -> qa -> prod
+1	3	merging missed changes in subversion
+1	3	how can i use ftp to update my website from a subversion repository ?
+1	3	svn recursive delete
+1	3	one svn repository or many?
+1	3	mirroring perforce with svk?
+1	10	remove all .pyc files from a project
+1	3	svn accident, overwrote some key changes in my file and commited to repository.  can it be recovered?
+1	3	how to programatically  do file versioning with svn and .net?
+1	3	how to ignore subversion specific subdirectories during commit
+1	3	unable to commit to subversion
+1	3	what is the optimal configuration for serving multiple projects with subversion ?
+1	3	is it acceptable/good to store binaries in svn?
+1	3	visual svnserver with trac
+1	3	running subversion under apache
+1	3	branching from deleted path in svn
+1	3	how can i really get subversion to ignore a directory?
+1	3	how are tags made in subversion?
+1	3	is there any tool that will document an svn repository?
+1	3	how do i move tags in subversion
+1	3	subversion branch question
+1	3	migrating complex svn branch hierarchy to mercurial
+1	3	how big of a security risk is checking out an svn project right into production site?
+1	3	synchronizing svn repo from local to server?
+1	3	make svn directory locally read-only
+1	3	svn url format
+1	7	vs2008 setup project installing extra dependency files
+1	3	subversion: generate a full diff from every checkin that includes username
+1	3	what stratagies are best for storing art assets in svn?
+1	3	svn obliterate!
+1	3	svn checkout question
+1	3	how to import code to subversion?
+1	10	reorganize folders with a script
+1	3	how to use svn, branch? tag? trunk?
+1	3	svn diff a specific line in a file
+1	3	svn: is there a way to mark a file as "do not commit"
+1	3	can i combine multiple svn directories into another single directory using externals?
+1	3	migrating from svn to perforce -- tips?  experience?
+1	3	how to track multiple svn branches in git
+1	3	i am looking for svn admin like "visualsvn server" for remote server?
+1	3	how do you remove a file from being version controlled without deleting the file in subversion?
+1	3	subversion creating revision directories with too-strict permissions
+1	3	what is the more efficient version control methodology - checkout or merge (ie perforce vs subversion)
+1	3	how do i get a list of files that have been added to the svn since a certain date?
+1	3	getting new file added to subversion with updating whole folder
+1	3	mergeing across branches in subversion isn't adding all the new files. why not?
+1	3	best way to run unit tests after each commit ? - svn - branch per feature
+1	4	how to properly set up svn on web server?
+1	3	how to drop and create new repositories with as subversion server?
+1	3	best svn tools
+1	3	any tools to get code churn metrics for a subversion repository?
+1	3	why am i getting tree conflicts in subversion?
+1	3	how can i convert an existing website, deployed to multiple servers, to be svn managed and not blow away user files?
+1	3	resolving svn merge postponed conflicts recursively
+1	3	resolving svn binary conflicts
+1	3	strange svn scenario - checkouts need to update with no ssh access
+1	3	how can i merge in a new folder structure to svn?
+1	20	magento & subversion (svn) - getting a development environment started?
+1	10	how to delete files older than n weeks from a microsoft ftp server
+1	3	recover files from old subversion backup
+1	3	how to reset svn-properties according to new svn config?
+1	3	how to - from unfuddle to a local svn server.
+1	3	what is your favorite web app deployment workflow with svn?
+1	3	svn folder to new repository root
+1	10	script to recursively delete cvs directory on server
+1	3	best practice for svn tags?
+1	3	how does one manage multiple release branches in subversion?
+1	3	tools for svn merging
+1	3	subversion not updating working copy properly
+1	3	multiple repositories, single setup
+1	3	maintaining configuration differences between dev and live environments during deployment from svn
+1	3	using subversion as a standard source control repository for a large development firm
+1	3	accessing svn repo wtih tortoisesvn from work vs. home + vpn
+1	3	subversion diff including new files
+1	3	subversion: fail update when there are conflicts?
+1	3	does subversion merge diff or just update revision on unmodified files
+1	3	it is possible to completely remove a file from my svn repository?
+1	3	which naming conventions do you use for svn branches and tags?
+1	3	web svn for windows?
+1	10	remove old backup files
+1	3	what do you deploy to clients svn branches or tags
+1	3	recommendation on tools to migrate from clearcase to svn?
+1	3	attaching visualsvn server to an existing repository
+1	3	common types of subversion hooks
+1	3	how can i make eclipse file search not include svn directories?
+1	3	can i add a new folder to a tfs repository server-side without using a local working copy?
+1	3	commit changed files, added new files and omit some files to an external server in subversion on linux / ubuntu
+1	3	svn remove file from repository without deleting local copy.
+1	3	best way to see what files are locked in subversion
+1	3	is it possible to get a list of added or deleted files from subversion?
+1	10	synchronize home directories from multiple clients to a server
+1	3	using svnserve to host subversion server, configuration files, etc.
+1	3	svn commit error after deleting files locally
+1	3	how to remove a file/folder from a svn repository and add to ignore list
+1	3	how do you make eclipse use an existing svn working copy?
+1	3	best way to keep config files under svn ?
+1	3	svn how to resolve new tree conflicts when file is added on two branches
+1	3	how do i properly remove an svn:externals and replace it with a local (non-external) copy of the same directory?
+1	3	app to change ldap password for a jira/svn server
+1	3	svn -change directory structure on an existing repository
+1	3	subversion question: how can i use post-commit hooks to copy committed files to a web directory?
+1	3	how granular are your svn "projects": one big project containing several releated apps or one "project' per app
+1	3	subversion with 32 bit server and 32/64 bit clients
+1	3	better way to revert to a previous svn revision of a file?
+1	3	how do i make svn ignore unversion files only in my working copy?
+1	3	easy way to embed svn revision number in page in php?
+1	3	how to prevent vs 2008 from publishing .svn folders as part of publish process?
+1	3	svn - how to make an older revision the head revision?
+1	3	why does tortoisesvn (1.5.3) try to merge 1-head when i pull from trunk?
+1	3	<s>svn</s> version control question -- multiple projects depend on the same source.
+1	3	how do i import multiple branch-type directories into git-svn which aren't exclusive children of the same parent?
+1	3	svn - unable to merge branch back into trunk - numerous tree-conflicts
+1	3	anyone have commit notification hook script that will send email upon commit of codes?
+1	3	relative path in subversion external configuration
+1	3	svn: mkactivity 403 forbidden
+1	3	subversion: allow both svn based (passwd file) and windows domain authentication
+1	4	how many files do search engines index per directory
+1	3	svn management on a project that uses absolute paths.
+1	3	subversion... pratical with a php framework app or not?
+1	3	does git-svn store svn passwords?
+1	3	how do i tell subversion to treat a file as a binary file?
+1	3	where can i find a web based svn admin app that does this...
+1	3	how do i set up an asp.net mvc app with subversion?
+1	3	how do i make subversion (svn) send email on checkins?
+1	3	how can i use beyond compare 3 as the diff3-cmd for svn?

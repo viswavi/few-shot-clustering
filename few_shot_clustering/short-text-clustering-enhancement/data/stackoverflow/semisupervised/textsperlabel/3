@@ -1,0 +1,1084 @@
+3	18	refactoring the orderby expression
+3	18	linq entities as business objects - pro/cons
+3	18	group by multiple columns - linq
+3	18	linq multiple where clause
+3	2	maxvalue partition name
+3	2	how to constrain a database table so only one row can have a particular value in a column?
+3	18	linq: getelementat() equivalent for retrieving multiple items?
+3	18	bind exclude asp.net mvc doesn't work on linq entity
+3	18	linq with generic predicate constraint
+3	2	sql/oracle: when indexes on multiple columns can be used
+3	18	vexing linq to sql predicate building in a for loop
+3	8	is there an easy way of sorting a plist (array of dictionaries) by key value?
+3	18	linq to sql + stackoverflow exception when querying objects
+3	18	linq orderby clause is causing weird results
+3	18	linq - casting iqueryable to ilist returns null - why?
+3	18	groupby with linq method syntax (not query syntax)
+3	18	linq: check whether an array is a subset of another
+3	18	ado.net entity framework - linq to multiple dbms
+3	18	linq to objects nested group-by
+3	18	linq to sql lookup table? join perhaps? i'm lost... ;/
+3	18	how to do subquery in linq
+3	2	table join efficiency question
+3	2	oracle - select where field has lowercase characters
+3	18	vb.net linq - how to append a where clause?
+3	18	preserve order of values with linq and tolookup()
+3	2	shift operators in pl/sql
+3	18	a newbie question on linq to sql
+3	18	how do i navigate through multiple relationships using linq to entities?
+3	18	linq syntax in vb.net
+3	19	how to express {2n+3m+1|n,m∈n} in list comprehension form? ( n is the set of natraul number including 0)
+3	18	how can i find xelement using linq
+3	18	linq to entity duplicate record issue
+3	18	how do you page a collection with linq?
+3	18	nested transactions in linq to sql
+3	18	how can i set the value of a column for every row in a table using linq?
+3	18	why the sql query is different on that linq query when run on c# and on vb.net?
+3	18	how can i use linq to sort by multiple fields?
+3	18	linq error invalid column name on group by sum.
+3	18	linq to sql + update table
+3	14	how should i store old dates in sharepoint?
+3	18	how to get unique first letter of names and count of names starting with that letter from sql server using linq?
+3	18	advanced multiple join in subquery using linq
+3	18	linq - select correct values from nested collection
+3	18	linq to sql query using "not in"
+3	14	how to delete entry in content database while delete list item
+3	18	linq output as an interface?
+3	18	hiw to bind linq data to dropdownlist
+3	18	boolean column in microsoft access and filtering data using linq
+3	2	prevent oracle minus statement from removing duplicates
+3	18	when using a linq where clause on a dictionary, how can i return a dictionary of the same type?
+3	18	how to name fields using dynamic linq?
+3	8	how do i localise a default attribute in a core data entity
+3	18	how unique is linq?
+3	2	serialize oracle row to xml
+3	18	using linq with stored procedures
+3	18	basic linq expression for an itemcollection
+3	12	how do i get sql string from an hql query?
+3	18	nested group by in linq
+3	18	linq over stored procedures
+3	18	typecast each object in an array on a single line of code, using linq
+3	18	does linq and lambda expressions reduce cyclomatic-complexity?
+3	18	switching to linq
+3	18	how to select only date value no time in linq to sql?
+3	18	multiple simultaneous posts to db with linq
+3	18	linq 2 sql: setting objecttrackingenabled to false breaks lazy loading of child entities?
+3	18	linq with subquery/group by/join
+3	18	[linq] operations on lambda grouping
+3	18	use linq for arbitrary sorting
+3	18	linq to xml - how to implement a simple xlink lookup - finding nodes anywhere
+3	16	selecting an index in a qlistview
+3	18	how to limit a linq left outer join to one row
+3	18	navigating trees with linq to entities
+3	2	too many columns in a single database table?
+3	16	using qsortfilterproxymodel with a tree model
+3	8	how do you make a menu bar item display how many rows there are in a table?
+3	18	overlay/join two collections with linq
+3	8	binding two different model-key-paths to the same nsarraycontroller selection
+3	18	calling a sp which returns a long select return using linq
+3	18	foreach in linq
+3	18	linq to entities and concatenated properties
+3	2	update the results of a select statement
+3	18	is accessing rows with varbinary data via linq causing a timeout? how to fix?
+3	2	how to set session variable skip_unusable_indexes to true in a pl/sql package to speed up a table delete/insert?
+3	18	how to insert a record with linq and c# and return the primary key of that record
+3	18	linqtosql - multiple subqueries creates many roundtrips
+3	2	how do you detect if there is an index for a specific column on a table in oracle?
+3	5	count rows until the sum value of the rows is greater than a value
+3	2	oracle 11g sql to get unique values in one column of a multi-column query
+3	18	linq newbie: moving nodes
+3	18	the || (or) operator in linq with c#
+3	18	concatenate collection of xml tags to string with linq
+3	18	complex expressions in a linq where clause
+3	6	how to randomly select from a list of 47 names that are entered from a data file?
+3	12	list sorting and ordering problem...
+3	18	linq join on mutliple properties
+3	2	how to use a function-based index on a column that contains nulls in oracle 10+?
+3	18	conditional group by statement using linq
+3	18	linq orderbyascending?
+3	18	linq updatecheck on parent "lastupdatedon" field while updating children
+3	18	when to use lambda expressions instead of a where clause in linq
+3	2	converting a string to an integer in oracle
+3	14	in a meeting workspace get all agenda items from a list programmatically.
+3	18	linq joins and ado.net data services
+3	18	how do i project to a dictionary with a custom type using linq to sql?
+3	18	linq order by for a list(of myobjects)
+3	18	linq distinct operator ignore case?
+3	18	help required to optimize linq query
+3	18	is linq a cursor?
+3	18	linq - how do you do a query for items in one query source that are not in another one?
+3	18	linq question: where on a select
+3	8	nsoutlineview - auto-expand all nodes
+3	19	values inside monads, nested in data structures?
+3	18	linq to sql - updating data context objects in partial classes
+3	18	c# ranking of objects, multiple criteria
+3	18	linq :: use static datacontext to prevent concurrency problem
+3	18	get directory structure using linq?
+3	18	is it possible to change &amp; to & in the results from a linq query?
+3	18	how to get the index of a record ordered by something in linq?
+3	18	linq query with sum and order by
+3	18	sorting & unique records in linq
+3	18	linq dilemma
+3	18	linq groupjoin innerkeyselector/outerkeyseletor issue with two datatables
+3	18	multiple grouping, inner joning in linq
+3	18	linq: using inner join, group and sum
+3	18	linq - how combine conditions in a join statement
+3	5	retain cell address when sorting list
+3	18	linq dependent calculation assignment
+3	18	linq: dot notation vs query expression
+3	18	adding related records in linq
+3	14	how to automatically  sort splistitems based on a field
+3	2	how do i determine the maximum and minimum value for an oracle number column?
+3	18	linq injecting unicode characters
+3	18	generic linq ordering function?
+3	2	how can i combine multiple rows into a comma-delimited list in oracle?
+3	18	linq refactoring
+3	18	linq select ilist
+3	18	linq to update a collection with values from another collection?
+3	18	insert 2 table in single query in linq
+3	2	add date without exceeding a month.
+3	18	group by question in linq
+3	18	linq to sql loadwith limiting fields returned
+3	2	sql: counting number of occurances over multiple columns in oracle
+3	18	c# linq to vb.net (not a from in where ... query style)
+3	14	add elements to an an announcements list for a specific user
+3	18	linq with 3 tier
+3	14	how do i use calculated value date in sharepoint lists field to find a date+30 days?
+3	2	find out name of pl/sql procedure
+3	18	linq to sql deployment problem
+3	18	.net linq join
+3	12	hql order by qurey giving problem
+3	15	what is the simplest way to allow a user to drag and drop table rows in order to change their order?
+3	5	how do i get a count of columns that contain data from excel
+3	18	linq - not selecting certain fields?
+3	18	linq to xml and viewlist problem
+3	18	how to get linq to produce exactly the sql i want?
+3	18	merge 2 linq sequences into one, with precedence
+3	18	linq multiple grouping
+3	2	using an alias in a where clause
+3	14	caml queries: how to filter folders from result set?
+3	18	paginated search results with linq to sql
+3	18	should i use two "where" clauses or "&&" in my linq query?
+3	2	need ideas on outputting table data to a csv using pl/sql in a dynamic fashion
+3	2	finding correlated values from second table without resorting to pl/sql
+3	18	is there cache with linq query support
+3	18	can linq update and query atomically?
+3	7	return value alternative in managed code
+3	18	linq nested query using .contains with a bigint
+3	18	linq query on the maximum value of 2 fields
+3	18	how do i get the min from a linq to dataset query
+3	18	linq to xml when a node does not exist
+3	18	how does orderby in linq works (behind the scenes)?
+3	5	given a date range, count # of workdays per pay period the range falls in
+3	18	getting a collection of index values using a linq query
+3	18	join with linqtosql, only select top(x) on joined table?
+3	2	can i have a deferrable unique functional index in oracle?
+3	14	sharepoint: calculated column replace all spaces
+3	18	linq to sql truncating string returned by stored procedure
+3	2	oracle extractvalue failing when query returns many rows
+3	18	custom linq ordering
+3	18	linq to sql
+3	17	sorting grouped nodes by taxonomy term
+3	18	how do i delete a single row in linq?
+3	18	linq to sql caching vs multi-user application.
+3	9	getting the row of a nsbuttoncell
+3	18	accessing dynamically created stored procedure from linq
+3	10	how do i sum together file sizes in bash, grouping together the results by date?
+3	18	linq to sql classes
+3	18	verificationexception operation could destabilize the runtime on simple linq query
+3	18	what are the alternatives to using expand in a linq to ado.net data service query?
+3	18	flattening linq group query
+3	18	c# excluding related values from a list (linq)
+3	18	linq operators like in
+3	14	can i add object field to spitem, to attach some kind of object to item?
+3	18	dynamic linq on ienumerable?
+3	2	update a field based on subtotal from another table
+3	18	conditional multiple fields searching and filtering in linq
+3	18	linq predicatebuilder - multiple ors - newbie q
+3	18	search for whole word with linq to sql
+3	18	linq case statement
+3	12	how to use join in an hql update?
+3	2	sql to replace smart quotes
+3	18	linq design and prototyping
+3	18	bindable linq (blinq) in vb.net
+3	18	linq to objects - where search within a list
+3	18	optimizing a linq query.
+3	18	a range of objects from a list
+3	18	simple linq query
+3	18	how to get top 3 elements in int array using linq?
+3	18	how to do the following in linq
+3	14	merging and querying multiple lists
+3	18	combine two counting queries into one boolean query
+3	14	sharepoint "group by" is broken when using "allow multiple values" for a column
+3	18	linq to sql deferred loading
+3	2	how to check for an index in oracle
+3	18	linq and gorup by data nested within a structure
+3	14	sharepoint sites.exportweb return values
+3	18	strange exception thrown using dynamic linq entity framework query
+3	18	linq table enumeration with column enumeration
+3	18	query an xdocument for elements by name at any depth
+3	18	exception when casting from concrete class to interface in linq query.
+3	18	filtering null values in select
+3	18	changing a linq objects data context
+3	18	how to create a join in an expression tree for linq?
+3	18	need some help ordering a linq result.
+3	18	linq -- how do i perform aggregation without the "group by"
+3	2	oracle/sql: why does query "select * from records where rownum >= 5 and rownum <= 10" - return zero rows
+3	18	flag itersection of two lists using linq
+3	2	oracle 10g pl/sql- select results as update column values
+3	2	oracle: program not forking correctly in select case statement on a date
+3	5	top ten ordering in excel based on complex team rules
+3	18	can you reverse a string in one line with linq or a lambda expression
+3	18	how group by in linq with 2 field ?
+3	18	linq-to-sql select filter
+3	18	linq select() function throws out loaded values (loadoptions)
+3	18	linq to sql not recognizing new associations?
+3	18	how do i get the next item in a subset of an ordered table using linq?
+3	18	linq to sql:  join multiple columns from the same table
+3	18	how do i get the max row with a group by in linq query
+3	14	caml query to locate specific spfolder nested in document library tree
+3	18	can i define default sort order in linq
+3	14	easiest way to scrape sharepoint list data to a seperate sql server table?
+3	2	removing duplicate rows from table in oracle
+3	18	linq iterate a control collection
+3	2	how to use a procedure parameter in a query
+3	18	what would this sql query (w count and group by) look like when translated to linq?
+3	18	building up a linq query based on bools
+3	18	linq - how to convert query syntax to method syntax
+3	18	linq - excluding items from different list types.
+3	12	hibernate  reference column in table to indicate how to unmarshall an attribute in a different column in the same table
+3	18	is there a better way to get sub-sequences where each item matches a predicate?
+3	18	linq and .count timing out
+3	18	best practice to renumber items in a list? sql or c#/vb.net
+3	18	linq - dynamic where clause?
+3	18	linq count returned results
+3	2	oracle correlated subquery in from list
+3	11	putting values in error.getmodel in onbindandvalidate
+3	18	submitting a list of items to database with linq datacontext
+3	18	how do i use linq for paging a generic collection?
+3	18	linq to sql bug (or very strange feature) when using iqueryable, foreach, and multiple where
+3	18	linq join question
+3	7	variable quantity columns report
+3	18	deleting database in linq
+3	2	pl/sql evaluation order
+3	12	hql order by within a collection
+3	12	is there a more efficient way of making pagination in hibernate than executing select and count queries?
+3	18	linq query built in foreach loop always takes parameter value from last iteration
+3	16	runtime-dynamic properties in qpropertyeditor
+3	18	linq: isnot in object collection
+3	18	drawbacks of linq
+3	18	linq to sql
+3	18	apply function to all elements of collection through linq
+3	18	does "select new" in linq trigger an evaluation / load?
+3	18	what would you choose for your data layer today, linq or subsonic?
+3	18	how would you write an upsert for linq to sql?
+3	18	linq to sql vs entity framework, microsoft support for
+3	2	how to change a column's attribute without affecting the values already present?
+3	18	how do i find similar column names using linq?
+3	18	linq join several arrays
+3	18	linq to sql and data projection, mvc
+3	12	using an enum as a mapkey results in a raw in the database
+3	18	linq for diffing sets
+3	18	select a dictionary<t1, t2> with linq
+3	14	dataview component in spd attaches needless strings to field values.
+3	6	accessing values using subscripts without using sub2ind
+3	18	linq to sql - update to increment a non-primary-key field - thread-safe
+3	18	linq query with left join and group
+3	18	setting linqdatasource bound dropdownlist using url querystring
+3	18	table alias in linq edmx
+3	18	linq (or anything) to add items from an objects list to the objects row in a datagrid?
+3	18	what does full linq support mean?
+3	18	linq: using associatewith and distinct together
+3	18	distinct list of objects based on an arbitrary key in linq
+3	18	linq to sql or linq to dataset?
+3	18	linq update problem
+3	18	help with tricky linq group by for time ranges
+3	2	eliminate sort order on data tab of sql devloper table view.
+3	18	how to write that special select query
+3	18	dynamic linq and dynamic lambda expressions?
+3	14	caml query to add a listitem in sharepoint
+3	18	linq except operator and object equality
+3	2	working with date ranges in php/oracle
+3	18	linq to read xml (c#)
+3	18	full linq query instead of lambdas with fluent-nhibernate?
+3	5	removing some rows based on criteria - solving this by pivot tables
+3	2	manually inserting data in a table(s) with primary key populated with sequence
+3	18	how can i combine this code into one or two linq queries?
+3	18	having some confusion with linq
+3	14	sharepoint: person column in custom list
+3	12	enum tables in hibernate/nhibernate
+3	18	modify linq query how to?
+3	18	conversion sql to linq
+3	18	when using linq, is dbnull equivalent to null?
+3	2	oracle 10gr2: enforce a date range
+3	18	how to use foreach in linq
+3	2	are there alternative methods for saying 'next' in a pl/sql for loop?
+3	18	linq to sql - how to dynamically filter by columns not in select
+3	18	how can i query two databases and combine the results using linq?
+3	18	how to get a custom object out of a generic list with linq?
+3	2	oracle: what exactly do quotation marks around the table name do?
+3	18	linq select compound from
+3	8	using nspredicate to filter an nsarray based on nsdictionary keys
+3	2	what do the letter codes in oracle user_contraints table's constraint_type column stand for?
+3	18	create xml using linq to xml and arrays
+3	18	how do i delete records from a child collection in linq to sql?
+3	18	split a collection into n parts with linq?
+3	18	linq: remove items from iqueryable
+3	18	linq to sql query syntax
+3	18	linq to sql how to do "where [column] in (list of values)"
+3	18	use linq to concatenate multiple rows into single row (csv property)
+3	18	linq to entities - building where clauses to test within a many to many relationship.
+3	18	linq: how to assign to related  entities ?
+3	18	linq to sql question - specifying columns then modifying column
+3	18	handling crud operations for a linq to sql view
+3	18	linq query for a forum
+3	18	how do i get the highest currently used id number in a table with linq?
+3	18	linq insertonsubmit: nullreferenceexception
+3	18	what is the quickest way to query a database with linq?
+3	2	returning oracle ref cursor and appending multiple results
+3	18	linq: group by month and year within a datetime field
+3	18	where and when to use linq?
+3	18	how to update data with linq by attach method
+3	10	how to get all matches from regex?
+3	18	linq and dbml file
+3	18	why i can't use .copytodatatable in linq query?
+3	14	sharepoint list.items.getdatatable column names not match field names
+3	18	linq methods
+3	14	combining diffirent lists data and showing it in a webpart
+3	18	ok dumb question time. linq to sql. join.
+3	18	conditional linq queries
+3	18	how can i make a linq query with subqueries in the from statement?
+3	18	can i select multiple objects in a linq query
+3	18	find or create element in linq-to-xml
+3	18	concurrency with linq to sql stored procedures
+3	18	extracting generic linq queries
+3	18	linq - help me grasp it with an example i think linq should be able to solve!
+3	18	lamda extension to combine lists
+3	18	linq group by a start time to endtime on datetime column
+3	2	oracle minus - from a list of values, how do i count only non reversed values.
+3	18	debugging linq to sql submitchanges()
+3	18	linq-to-sql query that returns only one item, not a collection of them?
+3	18	linq - row not found or changed
+3	18	linq to dataset update with a stored procedure
+3	14	accessing spworkflowstatus from an splistitem
+3	18	using linq to query flat text files with fixed-length records?
+3	18	linq object persistance
+3	14	creating a custom field that requires unique values
+3	8	setting up kvo for calculated values, based on calculated values.
+3	18	are the following lambda and linq expressions equivalent?
+3	2	is there integer ranges for where clause?
+3	18	strongly typed dynamic linq sorting
+3	18	adding a custom member to a mapped type
+3	19	how can i write an addition of two items in a string representation???
+3	18	pros and cons of linq (language-integrated query)
+3	18	how to combine where clause and group by in linq
+3	18	dotnet linq alternatives/equivalents?
+3	18	returning multiple streams from linq query.
+3	14	workflow that knows which fields were changed
+3	18	how do you add an index field to linq results
+3	18	how to add several dependent records with linq2sql
+3	12	searching object property in a predefined list using hql
+3	19	first column of a matrix given as a list of rows in haskell
+3	18	how linq works internally?
+3	12	using hibernate to 'order by' a column which having a expression(sum, max, ...)?
+3	18	sorting variable multidimensional arrays
+3	18	linq ienumerable where not finding element
+3	5	working out which cell vlookup refers to
+3	18	linq to sql: order by value in related table
+3	18	stuck on a subquery that is grouping, in linq`
+3	2	scalar subquery in if statement condition in pl/sql
+3	2	does making a primary key in multiple columns generate indexes for all of them?
+3	18	linq - what locale/collation it uses to compare objects?
+3	2	oracle: combine multiple results in a subquery into a single comma-separated value
+3	2	resultset logic when selecting tables without a join?
+3	18	nested linq queries
+3	18	linq to xml - get rid of blank xmlns
+3	2	oracle - dynamic column name in select statement
+3	18	how do i create a linq query that gets everything but a specific value
+3	18	how to get next active item in a list with linq.
+3	18	linq and object initialisation
+3	18	linq query on int using string
+3	18	while using linq sum rounds up the values. how to avoide that?
+3	14	wss 3.0 list populated from sql query
+3	2	pl/sql: fetching from a cursor that is passed between two functions
+3	8	property declaration for to-many fields in core data
+3	18	how to select items that do not show up in a second list with linq
+3	18	populating child collection property with linq sub-query
+3	2	tools for matching name/address data
+3	18	linq to xsd at runtime.
+3	18	restrict linq subquery when databound to a grid
+3	18	linq to sql designer bug
+3	18	how do i get the sum in this linq query?
+3	18	storing images with linq to sql: converting byte array or stream to binary
+3	18	linq: multiple order by
+3	6	i need to order a list that is dependant on another list. how to change both lists?
+3	18	linq external mapping to class library
+3	18	can i acheive this with linq instead of for each?
+3	18	refactoring linq iqueryable expression to remove duplicated portions of queries
+3	14	get the numerical value of an spfieldcurrency field
+3	18	linq group by more than one group
+3	12	how to maintain null for numeric values when using beanutils.copyproperties?
+3	2	identifiers in a diamond relationship between tables
+3	18	linq to sql inserting large object from .net
+3	14	listing which content types use a specified site column
+3	18	updating table with composite primary key using linq
+3	18	using linq with stored procedure that returns multiple instances of the same entity per row
+3	18	linq list of lists to single list
+3	18	how to delete a record in linq
+3	8	creating a core data inverse relationship
+3	18	flatten one-to-many relationship using dynamic linq
+3	18	dynamic linq context
+3	18	linq compiled query using contains (like sqls in statement)
+3	18	multiple orderby in this linq code
+3	18	out to merge a collection of collections in linq
+3	2	can you add values to an oracle apex shuttle item using a textbox?
+3	18	linq to sql onloaded() with sql view?
+3	18	how to use linq to compile a lambda expression to custom sql or otherwise?
+3	2	oracle pl/sql: loop through xmltype  nodes
+3	2	oracle natural joins and count(1)
+3	18	linq to sql multiple datacontext-s
+3	18	how to do joins in linq on multiple fields in single join
+3	18	linq: get a list of all tables within datacontext
+3	18	how to do a "where in values" in linq-to-entities
+3	18	checking for duplicates in a complex object using linq or lamda expression
+3	18	a listview, a linqdatasource, linq-to-sql and ordering
+3	18	querying a timestamp column from linq to sql
+3	18	linq where query problem in c#
+3	18	how to simplify this linq query with distinct on each column into a single statement
+3	18	linq and retrieving primary key
+3	18	stored procedure & linq, dmbl file unable to interpret the result set
+3	18	using linq to get sum of a list with custom objects
+3	18	linq expression trees
+3	18	how to assign null to sql entity columns
+3	18	linq update record
+3	18	linq expression for surrounding numbers in an array
+3	18	linq to sql batch delete
+3	11	c:foreach using list: must evaluate to a collection, map, array, or null
+3	18	linq subquery returning null
+3	18	linq to entity framwork: return sorted list of related rows
+3	12	in nhibernate, map 4 similar columns to list<string>
+3	18	avoiding code repetition when using linq
+3	15	problem adding item to sortable list
+3	15	how can i add properties to an object in ie6?
+3	18	most popular group by in linq?
+3	2	inner join vs where
+3	18	linq caveats
+3	18	linq equivalent of foreach
+3	18	problem with paging with linq and datatable
+3	18	linq query - explanation needed of why these examples are different.
+3	18	split string in linq select statement
+3	18	using linq to get column value from column name when you have the row?
+3	18	how do i do this select statement with linq?
+3	18	stop linq to sql from renaming properties of the datacontext after i rename them
+3	10	how do i iterate over a range of numbers in bash?
+3	18	how to lambda the group by data on a linq to sql results?
+3	14	sharepoint list item not returning fields
+3	18	how can i turn these linq joins into left outer joins?
+3	18	linq version of top percent
+3	18	linq query to include a subtype
+3	18	linq to sql without explicit foreign key relationships
+3	2	why can't i reference a user defined type field when using nested queries?
+3	2	oracle join operator
+3	18	linq to sql vs ado.net
+3	18	clever tricks to find specific linq queries in sql profiler
+3	18	can take be used in query expressions in c# linq?
+3	18	sum of items in a collection
+3	18	linq: recursively get children
+3	18	linq query operator for log table
+3	18	collections from linq to sql and the abiltiy to filter.
+3	18	linq conditional group
+3	18	linq to resx?
+3	5	multi-column sort with vba
+3	12	how to remove trailing whitespace in a database column?
+3	18	linq error : explicit construction of entity type
+3	18	linq to sql and object lifetimes, references vs. values
+3	18	write a linq expression to select a subtree of items
+3	18	using linq submitchanges without timestamp and storedprocedures the same time
+3	8	how do you set a title so that every row in a table has the title already typed in when you add a new row?
+3	2	oracle in-line method to produce csv for relation
+3	2	referencing oracle user defined types over dblink?
+3	18	linq (min && max)
+3	5	excel: filter table rows by specified column value
+3	18	ling select with two tables
+3	18	convert c# linq to vb.net linq
+3	18	filter linq list on property value
+3	18	how to count duplicates in list and sort by amount of duplicates with linq
+3	18	how to sum the duration in gridview list by using linq to sql?
+3	18	duplicate rows when data binding with linq to entities
+3	18	linq to sql entity column name attribute ignored with guid primary key
+3	18	linq query with group and condition
+3	18	does this linq query runs on every iteration of the for-each loop?
+3	14	delete list item
+3	18	linq + nhibernate: is it production ready?
+3	18	linqdatasource and datetime format
+3	5	how do i find the excel column name that corresponds to a given integer?
+3	5	pivot table values are now screwy
+3	18	linq conflict detection: setting updatecheck attribute
+3	2	identifiers in a one to many relationship
+3	18	linq for nhibernate and fetch mode of eager loading
+3	13	default value for generic data structure
+3	18	linq + invalid expression term '>'
+3	14	getting all the webpages of a spweb and subwebs that have a field with a value in sharepoint?
+3	18	linq submitchanges not updating decimal fields ... why?
+3	18	int list returned by linq query
+3	18	.net 3.5 linq datasource and joins
+3	18	linq- combine multiple list<t>  and order by a value (.net 3.5)
+3	12	hibernate: parse/translate hql from part to get pairs class alias, class name
+3	18	linq error
+3	18	searching if value exists in a list of objects using linq
+3	18	sorting multivalue data numerically or alphabetically - linq to sql and c#3.
+3	5	validation drop down on a condition
+3	18	adding related data with multiple linq to sql datacontexts
+3	18	linq retreive values from a table that of which fields(of a cetain column) are not equal of another table
+3	17	how do i add  a "last" class on the last <li> within a views-generated list?
+3	18	cross join (pivot) with n-n table containing values
+3	18	is it possible to pivot data using linq?
+3	14	only allow one entry per user in a list - listreceiver "feature" for a list?
+3	2	how to put more than 1000 values into an oracle in clause
+3	18	linq stored procedure issue
+3	18	multiple where clause in linq
+3	18	linq  to xml question
+3	18	return enumerable value from class in linq?
+3	8	how to programatically add an object to a bound nsmutablearray?
+3	18	getting rows from a sql table matching a dictionary using linq
+3	18	linq to objects question
+3	18	linq to sql insert sequential guid
+3	18	linq practice exercises or puzzles?
+3	14	caml cannot reference custom properties in custom fields.
+3	2	grant select on all tables owned by specific user
+3	2	how do i limit the number of rows returned by an oracle query?
+3	18	how do i get the max id with linq to entity?
+3	2	does an index on a unique field in a table allow a select count(*) to happen instantly?  if not why not?
+3	18	linq to xml: xelement.save to file
+3	18	what are the names given to these 2 linq expressions
+3	18	outer joins and linq
+3	18	linq where in between ienumerable and list<>
+3	18	linq sql query check if a obect field is not null
+3	18	how to query a datagridview using linq
+3	18	linq to sql - return selected specified columns
+3	18	linq: get articles with top vote count
+3	7	how do i refresh the relationships in a dataset?
+3	18	linq: counting items in subsets of queries
+3	18	linq to sql: concurrency resolution
+3	18	how can i perform a nested join, add, and group in linq?
+3	2	dynamically add where clauses to a cursor in oracle
+3	18	linq grouping in c#
+3	5	autofiltered list; cross-row formula
+3	2	how to pass an array parameter in toad
+3	5	select a node in a treeview with vba
+3	2	how to call a function with rowtype parameter from a select statement in oracle
+3	18	linq optimization question
+3	20	multiple websites share the same order increment id sequence?
+3	2	default row ordering for select query in oracle
+3	18	using linq how do i have a grouping by a "calculated field"
+3	18	combining resultset in c# using linq
+3	18	linq validation non nullable properties
+3	18	how to succesfully join two in-memory linq collections?
+3	2	modify column in oracle - how to check if a column is nullable before setting to nullable?
+3	2	oracle: how do i get the sequence number of the row just inserted?
+3	18	linq across multiple databases
+3	11	setting nested object to null when combobox has empty value
+3	18	problems with linq
+3	2	how to get all tables that have fks to another table?
+3	18	selecting columns in dataloadoptions
+3	2	returning multiple columns using case in select satement in oracle
+3	18	transactionscope, linq and strange transaction manager issue (hresult: 0x8004d024)
+3	18	linq - using except() on a generic collection
+3	18	how do i get a user guid from a selected item in a dropdownbox that is databound to a linq datasource?
+3	2	monitoring which statement updates (and when) a certain table row with oracle 10
+3	8	get nsindexset from nsarray
+3	18	modifying the sort order of a linq query
+3	18	existing linq extension method similar to parallel.for?
+3	18	how do i report progress while executing a linq expression on a large-ish data set
+3	5	freezing row 1 and column a at the same time
+3	12	how to get value form 2nd table with out join in hibernate
+3	18	what is the linq to xml equivalent for this xpath
+3	16	how to automatically sort a qtreewidget column?
+3	18	managing linq to sql .dbml model complexity
+3	18	how can i query the range of date which one product has not been ordered? (linq)
+3	18	linq count on multiple columns
+3	18	c# linq: sequence contains no elements error (but i want to check for null!!!)
+3	18	linq: what is the type of a result?
+3	18	timesheets: retrieve data using sql, linq or class?
+3	14	can i create a countif calculated column in sharepoint?
+3	18	confusing linq statement
+3	18	how to work with dataset's datarelation in linq?
+3	18	linq to sql - nullable types in where clause
+3	18	join query with linq
+3	18	linq for java
+3	18	query microsoft access mdb database using linq and c#
+3	2	what is the maximum length of a table name in oracle?
+3	18	how to use linq to set attributes based on counter
+3	18	how do i fill a dataset or a datatable from a linq query resultset ?
+3	18	nested linq queries, how to get distinct values?
+3	18	what are expression trees in linq?
+3	18	grouping by time ranges in linq
+3	18	linq sub-select
+3	8	how to add these object with name to the array by this order?
+3	8	update bound dictionary based on nstextfieldcell's edited value
+3	12	how to fetch hibernate query result as associative array of list or hashmap
+3	18	linq to entities inheritance query problem.
+3	18	order a parent object by a child's property in linq
+3	3	using sharpsvn to retrieve log entries within a date range
+3	18	is there a way in linq to apply different calculations based on different conditions
+3	18	linq inner join betwenn enumerable and db table
+3	18	linq version of sql "in" statement
+3	18	linq to sql error with identitiy increment field
+3	18	get a random row with linqtosql
+3	18	linq to sql: multiple left outer joins
+3	18	how to replace xml content in conditionally selected elements using linq (vb 2008)
+3	14	display fieldname and value of sharepoint list
+3	5	excel pivot table question - how to get subtotals for a row area field?
+3	18	linq - how to aggregate the results of another query
+3	18	querying against linq to sql relationships
+3	18	how can i extract a part of an xaml object graph via linq to xml?
+3	18	linq inner-join vs left-join
+3	18	can i perform an "or" operation in linq to objects?
+3	17	drupal how to get a view to display as columns rather than rows
+3	2	select a random sample of results from an oracle query
+3	16	automatically sorting on insert in qtreewidget
+3	5	return value of nth or last match
+3	18	how do i order a group result, in linq?
+3	12	how to get a distinct result, but return another column in the select?
+3	18	linq tracking new / dirty objects
+3	18	linq to sql: how to extend an entity class with a column alias
+3	14	how to tie a dropdown list to a gridview in sharepoint 2007?
+3	18	linq: using stringcomparer with groupby/distinct in comprehension syntax
+3	2	efficient alternative to outer join
+3	2	inserting an array within an object construction, constructed based on a query
+3	18	nullreferenceexception when using linq to xml
+3	18	group by dates using linq
+3	2	double quotes in oracle column aliases
+3	18	imultipleresults: how do i deal with multiple result sets from a stored proc when they don't map to types?
+3	18	using linq with wcf
+3	18	determine if a sequence contains all elements of another sequence using linq
+3	2	how do i fix an oracle table/index row count mismatch
+3	5	concurrent sum
+3	18	object oriented model on top of linq to sql
+3	14	does not contain in caml ?
+3	18	linq/xml: grouping results properly within xml element - with inner joins!
+3	5	how to make a reference to a cell of another sheet, when the sheet name is the value of a cell?
+3	18	working with anonymous types with linq in vb, c#
+3	8	how to create a series of dates in cocoa for a week
+3	2	when does oracle index null column values?
+3	18	is there a quick way to say if notempty x = y else x = default in a linq where query
+3	14	how do i consolidate entries from multiple employee blogs into a single rss feed
+3	18	linq sub list problem
+3	18	using linq to run a method on a collection of objects?
+3	18	linq orderby against specific values
+3	18	unable to cast object of type 'system.data.linq.dataquery`1[system.int32]' to type 'system.iconvertible'.
+3	14	caml query not ordering properly
+3	18	how to get position inside a select statement
+3	18	when does linq's take, take the results?
+3	18	what is the difference between linq and iqueriable
+3	2	how to obtain the list of oracle's sids
+3	2	identify a table with maximum rows in oracle
+3	2	oracle sql - parsing a name string and converting it to first initial & last name
+3	14	what are the valid values of the searchboxex appqueryterms enum?
+3	18	datetime, datetime? and linq
+3	18	compare lists and get values with linq
+3	18	linq: custom column names
+3	2	any difference between "current row" and "0 preceding/following" in windowing clause of oracle analytic functions?
+3	2	truncating a table in a stored procedure
+3	18	dynamically building linq query using or operator in vb
+3	8	nsmutablearray count always returns zero
+3	18	how do i translate this group by / min sql query into linq?
+3	18	is linqtosql the same as linq?
+3	14	how do i add custom column to existing wss list template
+3	14	string;# in dropdownlist
+3	18	how to add collation to linq expressions?
+3	18	linq extension methods vs linq syntax
+3	14	duplicate a list
+3	18	linq - joins in a dynamic query
+3	18	my linq-query doesn't work when adding the xmlns-attribute to the root-element in my xml-document
+3	18	how do i most elegantly express left join with aggregate sql as linq query
+3	18	count between range of date bind in gridview. linq to sql visual basic
+3	18	linq dynamic expression api, predicate with dbnull.value comparison
+3	18	how to specify .net anonymous object return type in linq using func<t,q>?
+3	18	how do dynamically set group by properties and aggregates in a linq query?
+3	14	custom field type derived from spfieldcalculated
+3	18	how to define the return type in a function with linq?
+3	18	mapping collections with linq
+3	18	linq and deleteallonsubmit pain
+3	18	linq not retrieving correct items in a big table
+3	2	the case statement in pl/sql
+3	18	linq - sum child field value when child records query ganareted by diffrent func
+3	18	linq to xml: selecting elements if they're contained within an ienumerable<xelement>
+3	8	how can i divide a bound array in parts that automatically fill the table?
+3	18	sorting a list using lambda/linq to objects
+3	18	linq to datasets for mysql interop
+3	18	how to write this as a single linq query
+3	18	can you use linq with in memory objects rather than sql server queries to improve performance?
+3	18	how do i find a subset of items in two sets of data that partially differ?
+3	2	select count(*) from multiple tables
+3	2	sql not equals & null
+3	18	linq - update null integer data field
+3	18	linq syntext sequence
+3	18	[linq] entityset vs table
+3	18	using linq to sql and chained replace
+3	18	linq with custom base collection
+3	18	linq to sql performance using contains.
+3	2	accent and case insensitive collate equivalent in oracle
+3	18	how to remap properties in linq?
+3	13	extracting nodes only when they have specific attributes with specific values
+3	18	duplicate rows when using orderby, skip() and take() with linq
+3	19	using foldl to count number of true values
+3	18	linq-to-sql how to prevent the use of delete methods?
+3	18	linq join in string array
+3	18	deleteonnull (association attribute) for linq to sql in custom class?
+3	2	oracle view with multiple join is only recognize when use a quotes around - why ?
+3	18	beginner linq question
+3	18	conditional linq where statement?
+3	18	linq to sql left outer join
+3	5	translate an index into an excel column name
+3	18	need to retrieve list of items containing subitems matched with another list
+3	14	sharepoint: how to get top 5 records by using caml query from a list.
+3	2	what is a simply way to combine groupped values in one field?
+3	2	running total by grouped records in table
+3	18	bulk-deleting via linq
+3	18	how to add another constructor with parameter in linq class(table)
+3	18	updateable data grid using linq to sql in winforms
+3	18	ascending/descending in linq - can one change the order via parameter?
+3	2	how to determine oracle_home from pl/sql?
+3	12	obtaining an object state
+3	18	sum of hierarchical data using linq?
+3	18	updating a column value in resultset returned by a linq query
+3	18	can i make a generic compiledquery that accepts multiple tables and generic types?
+3	14	sharepoint calculated column in list
+3	18	replacing entity in linq
+3	18	how to deal with datatypes returned by linq
+3	18	linq to sql and entity framework diffrences ?
+3	18	linq vs stored procedures?
+3	18	using reflection to address a linqed property
+3	14	get max date using caml query from alist
+3	18	can i use linq to convert a list<myobjecttype> into a dataset?
+3	18	applying linq to objects group by and sort by to generic list<t> (c#)
+3	18	encapsulating linq select statement.
+3	18	how to compare dates in linq?
+3	18	nhibernate vs linq
+3	18	linq to sql
+3	2	duplicate rows in oracle
+3	18	running out of db connections using linq to sql
+3	18	streaming and linq blobs
+3	18	linq: how to get items from an inner list into one list?
+3	18	how to retrieve indentity column vaule after insert using linq
+3	2	reasonable select ... into oracle solution for case of multiple or no rows
+3	2	select from select statement?
+3	18	how can i use linq to return a list of countries but place a particular country aribitrarly at the top?
+3	14	caml query items with the given urls
+3	18	how can i add an extra item in this linq query?
+3	18	linq, iterators, selecting and projection
+3	16	unique random number sequence using qrand() and qsrand()
+3	18	how do i get the max data size of every column in an iquerable using linq
+3	18	performing an update with linq
+3	18	linq to object: tolist can not convert to gerneic list
+3	2	passing a datatable as a field from oracle to .net
+3	18	confused about linq parameters
+3	2	function or procedure for an in clause
+3	18	what is the linq query that would replace my two foreach
+3	18	dynamic linq to sql with combobox and column.contains
+3	18	how to re-order evaluation of this linq scenario
+3	2	casting datetime to oracletimestamptz
+3	18	linq - add property to results
+3	18	make linq subquery
+3	18	linq with left join on subquery containing count
+3	18	using linq to sql, how can i get a particular result from a query?
+3	12	hql query using group by
+3	18	how to query (linq) multiple table association link ?
+3	18	disjoint union in linq
+3	18	how can i set linq selectmany projection via func parameter?
+3	18	accessing value from expression
+3	2	dynamically look up column names for a table while in an sql query
+3	18	read attributes values with linq
+3	18	join and left join equivalent in linq
+3	13	itaerate over a list, returning the current, next and the element before current
+3	18	linq question: querying nested collections
+3	8	persist and rearrange the order of core data records
+3	18	seralization in wcf/c#/vs-2008/linq
+3	18	how to create a dynamic linq join extension method
+3	18	linq isnull
+3	18	linq query question, needs joins
+3	8	removing a binary attribute's data(used in nsimageview) in core data entity
+3	18	how do you guard for null reference exceptions in linq to xml?
+3	18	linq group by question
+3	18	only update 1 column with linq
+3	18	null value cannot be assigned - linq query question
+3	14	getlistitems webservice ignores my query filter
+3	2	how do i insert sysdate into a column using odp and an xml dataset?
+3	18	problem refreshing tables in the linq to sql designer
+3	18	how do you count the words in an array of strings with linq?
+3	18	need help converting a nested sql statement to linq
+3	18	accessing grouped sets of objects for a listview
+3	18	sql query to linq
+3	18	linq and the count extension method
+3	2	how to extract leaf nodes from oracle xmltype
+3	18	linq query for controlling some item.
+3	14	spworkflowtaskproperties.extendedproperties aren’t populating the fields in my task
+3	18	using xquery in linq to sql?
+3	18	linq except using custom comparer.
+3	18	how to search a varchar field, using linq, to build a list of recommendations
+3	2	how do i compress this oracle resultset into values according to row priority, ignoring nulls?
+3	18	linq to sql nested in from query
+3	18	linq 'range variable' problem
+3	18	linq - which layer should linq typically fall into, dal ?
+3	18	return typed datatable from linq query
+3	18	using linq expression instead of nhibernate.criterion
+3	10	turn globed match from case into an array.
+3	2	pivoting a table in sql
+3	18	linq, vb - anonymous type cannot be converted to anonymous type.
+3	18	using lamda with dictionaries
+3	18	downcasting and linq
+3	18	performing part of a iqueryable query and deferring the rest to linq for objects
+3	14	store data in a list definition sharepoint
+3	18	how to use linq to group every n number of rows
+3	18	linq to sql: datatable.rows[0]["columnname"] equivalent
+3	14	how to create a  dataview in sharepoint with data from a join query?
+3	18	linq to entities generating big queries
+3	14	representing parent-child relationships in sharepoint lists
+3	18	if exists statement in sql to linq
+3	5	assigning text to an array
+3	18	linq returning list of anonymous types
+3	18	linq and comparing two date columns
+3	18	grouping data with sum
+3	2	mixing on and using within one join
+3	2	oracle subselect with dynamic table and column
+3	18	linq compiled queries without passing the context
+3	2	oracle: symbolic names and logical grouping for ora-xxxxx codes?
+3	18	linq grouping/subquery to fill a hierarchy data strcuture
+3	18	if else in linq
+3	18	timespan to string problem in linq query
+3	18	linq orm data objects and inheritance.
+3	18	force full path in the connection string of linq datacontext
+3	13	why were the case classes without a parameter list deprecated?
+3	18	using linq with classes implementing non-generic icollection
+3	12	why size of lucene index increased if i index the same data?
+3	2	how do i let my dba pause and resume a stored procedure that is updating every row in a large table?
+3	2	oracle 11g sql select max integer value of varchar column
+3	2	detecting a column with a default value using the oracle call interface (oci)
+3	2	optimizing select query on oracle 10 dense unique index
+3	2	why would an oracle synonym return a different number of rows to the underlying table?
+3	18	serilializing linq.table to xml
+3	18	linq to xml - way to write binary data into xml
+3	5	excel pivot table calculated field total returns incorrect value
+3	18	linq datacontext lifetime managment for web application
+3	18	linq to xml (base64 encoded)
+3	8	nsmutablearray add object as pointer only?
+3	18	single linq query for complex data structure : dict<int, dict<str, _class>>
+3	18	need help with linq query and asp.net mvc?
+3	18	select rows from a dataset using linq, where the list of rowsid's are in a list<t>
+3	18	to do a substring using linq on a string, do i have to correct syntax?
+3	18	asp.net gridview sorting with linq result
+3	18	is there a way to write a group by query in linqtosql grouping not on a scalar value?
+3	18	how can i write the following more elegantly using linq query syntax?
+3	18	what would be a good way to add "friendly" column names to a linq to sql model?
+3	18	linq select * with multiple tables
+3	2	sql select: combining and grouping data between three tables using subqueries
+3	18	linq dynamic select casting issue
+3	18	linq to dataset, distinct by multiple columns
+3	18	linq: distinct values
+3	18	linq to xml: parsing xml file which one of nodes presents type of another node
+3	2	pl/sql: problem in where clause ( don't know how i can address results from decode() function in where clause).
+3	15	create editable new rows to a table
+3	18	linq to xml newbie question
+3	18	difference between these? linq to sql, linq, typed datasets, ado.net
+3	18	best way for retrieving single record results in linq to sql
+3	18	linq select certain properties into another object?
+3	18	linq to xml newbie question
+3	18	using selecteditem property of combobox w/linq anonymous type.
+3	2	selecting the distinct values from three columns with the max of a fourth where there are duplicates
+3	18	list of unique strings in database table using linq?
+3	2	using %type on a record field in pl/sql
+3	5	vbscript: how do i copy all rows from 3 worksheets and merge rows that are unique in the first column?
+3	18	linq in asp.net -- only returns results when ran on localhost
+3	18	is there a linq-y way to union collection properties of a collection of objects?
+3	18	linq to sql - select where text like string array
+3	18	memory performance of linq to datasets / objects with large data sets
+3	18	linq to xml noob question - distinct and order by on attributes
+3	18	how to convert a list of ints to a string array in linq?
+3	18	linq query, how to build nested objects from single table
+3	18	add property to linq that is combination of multiple tables?
+3	18	linq to xml newbie question: returning more than one result
+3	18	how do i search the collection of a collection in my linq where clause?
+3	8	traversing multiple core data objects using nspredicate
+3	2	filter sql query by a unique set of column values, regardless of their order
+3	18	best primary key data type for linq to sql
+3	18	automatically add some where clauses to a linq expression tree
+3	18	linq (to nhibernate) where clause on dynamic property in sql
+3	2	return a value from a insert statement.
+3	18	exclusionary set syntax with linq, vb
+3	18	linq-to-entities - include() method not loading
+3	18	linq -  is it possible with dynamic linq to dynamically speficy the from clause.
+3	5	using range values with find
+3	18	how to update a single column in linq without loading the entire row?
+3	2	pl-sql: getting column data types out of query results
+3	18	convert sql query back to linq expression programmatically
+3	8	multiple views and source list in a core data app
+3	14	automatically set list item permission, after new item is created
+3	18	how do i tell linq to ignore attributes that don't exist?
+3	2	left outer join on two columns performance issue
+3	18	adding nodes to tree via linq creates query operator not supported during runtim
+3	18	best object structure for linq to object?
+3	18	linq statement where result count is used in expression's condition
+3	2	what column type in oracle can take full range of java double values
+3	18	linq anonymous types + mvc views help
+3	18	another linq pivot problem - convert sql script to linq
+3	2	pl/sql trigger - dynamically reference :new or :old
+3	18	how to make a return type for a result set in linq
+3	18	remove single quotes from all cells in a datatable - creating new table - using linq in vb.net
+3	18	how can i give alternative names to new objects created by linq?
+3	18	issue with submitchanges() inserting unwanted records in linq
+3	5	how to build a consolidated pivot table when the source data contains column headings that are dates?
+3	12	how do i join tables on non-primary key columns in secondary tables?
+3	2	is there a way of selecting the contents of a ref cursor as part of a sql select statement?
+3	18	getting 'data source is an invalid type' when binding linq query to gridview
+3	8	how would you add a group feature like ichat's to your core data app?
+3	18	linq selecting distinct from four ienumerable lists
+3	18	adding to the where clause of an update in linq-to-entities
+3	18	checking if no elements in ienumerable(of t) - linq element and quantifier operators
+3	2	how can i insert multiple rows into oracle with a sequence value?
+3	18	how to 'select new' inside linq lamda expression?
+3	18	how to get an array of distinct property values from in memory lists?
+3	18	selectively remove from where clause in linq expression tree
+3	18	linq - return value from field with a max value if no rows found
+3	18	how can i get the distinct items of the following data structure in c# / linq?
+3	18	expression trees linq get value of a parameter ?
+3	18	asp.net mvc add column to the database - how do i update the dbml file
+3	18	add incremented property to ienumerable by group using linq
+3	18	linq sql error : the text data type cannot be selected as distinct because it is not comparable.
+3	2	find duplicate/repeated rows in hierarchical sql
+3	18	checking if var from linq query is null and returning values older than x
+3	18	linq to sql - set connection string dynamically based on environment variable
+3	18	selecting, grouping on child list -> single statement requested.
+3	18	find first element of certain type in a list uisng linq
+3	18	how to write string for include for linq query?
+3	8	duplicate records in core data on fetch
+3	5	spreadsheet: count repeated values in a column
+3	12	hql with a collection in the where clause
+3	18	is there a way to capture the index value in a linq where method in c#?
+3	18	c# linq group by issue, probably really easy!
+3	18	which is the best book out there to learn linq, including linq to entities?
+3	18	linq to xml performance - standalone test vs very large web application
+3	18	select multiple fields from list in linq
+3	18	can i execute a linq to sql query from within a linq object?
+3	18	sql to linq conversion.
+3	18	linq to nhibernate vs. icriteria
+3	18	linq: what is the difference between select and where
+3	18	nested xml with linq in repeater
+3	18	what is after linq?
+3	18	automatically compile linq queries
+3	18	linq to dataset: multiple group by on a data table
+3	18	how to filter child collections in linq.
+3	18	sequenctial autogenerated id with help of linq
+3	13	sorting objects based on double values?
+3	18	linq - select all children from an object hierarchy
+3	18	linq: find all checked checkboxes in a gridview
+3	18	linq - writing a query with distinct and orderby
+3	18	mimicking sql insert trigger with linq-to-sql
+3	18	linq | date | subtraction with matching issue
+3	18	dynamic selects in linq
+3	18	linq to xml query
+3	18	linq expresion tree
+3	18	linq to sql c# coalesce
+3	18	how to get linq result as string array?
+3	18	how do you transform a linq query result to xml?
+3	18	linq -single operator
+3	18	join between two tables with linq to datasets
+3	9	group by weekdays with core data
+3	18	retrieving an image from database with linq to sql
+3	18	linq efficiency question - foreach vs aggregates
+3	18	linq distinct join query
+3	18	getting executable sql from a linq query at run-time
+3	18	databind a sharepoint list to a dropdown using linq
+3	18	linq query to retrieve multiple levels of relational data
+3	18	linq, asp.net mvc and joins
+3	18	count matching characters between two strings using linq
+3	18	handling null results with the linq avarage() method
+3	18	using linq to query a text file
+3	18	linq with atom feeds
+3	18	adding index field to linq list <t> results using c#
+3	18	linq to filter directories
+3	18	output 2 fields from linq group by
+3	18	how to force linq to update last edit time of a row?
+3	18	aggregate linq results
+3	18	linq to sql add child records
+3	18	inner queries in linq
+3	18	manually select related table data when quering in linq to sql
+3	18	how do you declare a by-reference parameter variable for use in a linq query?
+3	18	building which properties to select with linq to object
+3	18	create delete/edit buttons for muliple records from linq using hidden value?
+3	18	aliasing fields in linq.
+3	18	linq orderby name thenby childrencollection.name
+3	18	left outer join with linq
+3	18	linq many to many left join grouping
+3	18	linq savechanges question
+3	18	linq remove elements from one collection into another collection
+3	18	how to extract a meta tag from xml/html using linq?
+3	18	what is "linq to sql"?
+3	18	read a specific element value based on a specific attribute in linq?
+3	18	linq and a natural sort order...
+3	18	joining tables in linq/sql
+3	18	filtering collection with linq
+3	18	linq/xml: grouping results properly within xml element
+3	18	find next record in a set: linq
+3	18	how to add custom columns to a table that linq to sql can translate to sql
+3	16	how to select a subset of rows of a qtableview that match certain criteria?
+3	13	how to create list from range
+3	8	nspredicate case-insensitive matching on to-many relationship
+3	12	compute child table values in formula field of hiberntate
+3	19	filtering list of tuples
+3	12	multiple @manytomany sets from one join table
+3	10	help with selecting rows using awk
+3	12	getting list in order, mapped by join table
+3	12	hbm2ddl on a column based on genericenumusertype
+3	12	using outer joins in hql queries
+3	17	connecting nodes to specific dates
+3	5	how to use a macro to transpose data from rows into columns
+3	5	searching two columns and returning value from third vba
+3	5	how can i look for the duplicate values in a certain field in a spreadsheet ?
+3	6	performing functions for multiple input values
+3	16	insert images to list
+3	6	inverse lookup table
+3	17	grouping a views table.
+3	13	executing same piece of code for multiple case values?
+3	13	convert a list of options to an option of list using scalaz
+3	20	join tables to get sold products
+3	19	using items in a list as arguments
+3	6	tidying up a list
+3	1	wordpress sql select multiple meta values / meta keys / custom fields
+3	18	how to use generic collections together with linq-to-entities
+3	18	how do i stop the linq designer overwriting my manual changes?
+3	18	if using linq to sql is there any good reason to learn sql queries/syntax anymore?
+3	18	explain this linq code?
+3	18	how mainstream is linq?
+3	18	resources for learning linq?
+3	18	what's wrong with this linq query??
+3	18	linq newbie question
+3	18	linq performance - deferred v/s immediate execution
+3	18	how can this be achieved in linq ?
+3	18	how do you do a join in linqtosql?
+3	18	idictionary is linq friendly? c# 3.0
+3	18	what is the equivilent c# 3.5 linq to sql for this?
+3	18	in what scenarios is linq best applicable?
+3	18	linq to objects - does not contain?
+3	18	are update/delete/insert on the linq roadmap?
+3	18	temporary tables in linq -- anyone see a problem with this?
+3	18	should i consider linq to entities?
+3	18	why does vb have more linq keywoards than c#?
+3	18	does linq has "difference" ?
+3	18	how to make a c# 'grep' more functional using linq?
+3	18	how do i make my own linq clauses?
+3	18	where to find a small example/demo on how to create a linq provider?
+3	18	linq newbie. can i write this linq query more concise?
+3	18	what do they mean when they say linq is composable?
+3	18	do linq queries have a lot of overhead?
+3	18	need help with a linq query please!
+3	18	how to use linq to sql to count the idle working duration in a day?
+3	18	why would a database developer use linq
+3	18	is linq (or linq) a niche tool, or is it on the path to becoming foundational?
+3	18	what is linq to events a.k.a rx framework?
+3	18	advanced linq book?
+3	18	how to put linq to sql in a separate project?
+3	18	how do i build up linq dynamically
+3	18	how to maintain linq deferred execution?
+3	18	does "linq to dql" exist?
+3	20	column not found: 1054 unknown column 'category_ids' in 'field list'

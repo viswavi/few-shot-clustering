@@ -1,0 +1,1524 @@
+4	13	preferred way to create a scala list
+4	13	how to write "asinstanceofoption" in scala
+4	13	is there a way in scala to convert from any map to java.util.map ?
+4	9	powerbook compiler queries
+4	19	how do i write, "if typeclass a, then a is also an instance of b by this definition."
+4	13	using type aliases to java enums
+4	13	which is the best scala ide?
+4	19	haskell: creating type classes for zippers
+4	13	a list of things from java that we will now happily bid good-bye after scala
+4	19	haskell: a data structure for storing ascending integers with a very fast lookup
+4	19	in haskell, is there a built-in function that creates a list of one element?
+4	13	more issues with intellij 9.0.1 "hello world" in scala - predef version 5.0 vs 4.1
+4	19	efficient string implementation in haskell
+4	13	merge sort from "programming scala" causes stack overflow
+4	13	scala 2.8 - potential problem with named arguments
+4	19	install haskell cabal w/o manual dependency resolution
+4	19	haskell parsec compile error
+4	19	concatenating lists in ternary trees
+4	13	how do you define a local var/val in the primary constructor in scala?
+4	13	scala: how do i cast a variable?
+4	6	a dynamic array of class "landmark", inside another single class "landmarks"
+4	19	some questions about monads in haskell
+4	19	how can i use parmap with a monadic function?
+4	13	why does scala immutable hashmap methods return a map?
+4	13	scala: how to merge a collection of maps
+4	13	what's the new way to iterate over a java map in scala 2.8.0?
+4	16	qabstracttablemodel inheritance vtable problem
+4	10	linux: gnu sort does not sort seq
+4	13	scala: keyword as package name
+4	12	how do sychronized static methods work in java?
+4	19	implementing a factorisation method in haskell
+4	19	turn these haskell int lists into a different one
+4	19	exemplary haskell game code
+4	13	can't understand type errors in scala
+4	19	dynamically build list comprehension in haskell
+4	19	why won't the following haskell code compile?
+4	13	scala in java code : $colon
+4	13	why does one of these statements compile in scala but not the other?
+4	13	scala constructor overload?
+4	19	haskell graph drawing on windows
+4	13	filtermap scala
+4	19	ghc type inference for higher rank types - assigning to monotypes
+4	13	scala case classes questions
+4	13	what is a proper way to manage a flexible, typed, immutable data structures in scala?
+4	19	haskell type cast problem
+4	19	what is the type signature of this haskell function?
+4	19	deriving a type and its dependencies
+4	13	why is the + operator for list deprecated in scala?
+4	13	scala concurrency slowing down
+4	13	common idiom in java to scala, traverse/iterate java list into scala list
+4	19	is there a built-in haskell equivalent for c++'s std::bind2nd?
+4	13	why does scala have very little enthusiasm about it?
+4	13	converting enumeration to iterator
+4	19	range checking in haskell's case?
+4	19	call an haskell function in .net
+4	13	scala: how to get class of mixin composition?
+4	13	scala doesn't have enums - what to use instead of an enum
+4	19	haskell tail function for empty lists
+4	13	singleton scala actor?
+4	19	why are haskell algebraic data types "closed"?
+4	19	type matching in haskell
+4	13	how to use java collections.shuffle() on a scala array?
+4	19	how to catch arbitrary exception in haskell?
+4	19	haskell: generic ioref, mvar?
+4	19	what is the c# equivalent of map function in haskell
+4	13	java sortedmap to scala treemap
+4	13	what is the purpose of scala language?
+4	13	scala abstract method param question, list of t
+4	13	limiting recursion depth in scala
+4	19	haskell record syntax and type classes
+4	19	replacing an element in a n-ary tree
+4	19	haskell -- more type inference problems
+4	19	primitive recursion
+4	19	loop through two variable in haskell
+4	19	haskell scoping in nested function definitions using where
+4	19	making small haskell executables?
+4	19	haskell speculative parallel execution
+4	19	creative uses of monads
+4	13	how to print a map in scala
+4	19	haskell readfile type problem
+4	19	use of haskell state monad a code smell?
+4	13	scala on the clr
+4	13	how to access a field's value via reflection (scala 2.8)
+4	13	can a range be matched in scala?
+4	13	using generic methods with implicit type conversion
+4	19	why does the following simple haskell function give slightly strange answers?
+4	19	problem with nesting in text.xhtml library with haskell
+4	19	simple haskell question
+4	19	summation notation in haskell
+4	13	where can i find documentation for scala's delayed function calls?
+4	13	scala: method\operator overloading
+4	13	set that match both arrays in scala
+4	13	scala compilation problem - with java libs
+4	19	where bindding in haskell
+4	13	implementing yield (yield return) using scala continuations
+4	13	scala hmac-sha1 signing?
+4	13	scala implicit usage choices
+4	19	haskell streams with io effects
+4	19	what uses have you found for higher-rank types in haskell?
+4	19	program to find the result of primitive recursive functions
+4	19	why is ghc evaluating my infinite list?
+4	19	primitive recursion
+4	19	how do i write a constant-space length function in haskell?
+4	19	haskell foreign import stdcall on dll function
+4	19	haskell -- how to split a number into a list for further processing?
+4	13	scala override methods in child object of class
+4	13	scala: defining main method that can be used by 'java'
+4	13	best scala imitation of groovy's safe-dereference operator (?.)?
+4	13	concurrent map/foreach in scala
+4	13	construct xml with dynamic label and attributes in scala?
+4	19	generate vector code from haskell?
+4	13	varargs puzzle?
+4	13	declaring functions two ways. what is the distinction?
+4	19	haskell binary tree function (map)
+4	13	type parameters versus member types in scala
+4	13	logging in scala
+4	16	implement thread for consuming operations in qt
+4	13	implementing a string class that does case insensitive comparisions in scala
+4	13	simple type inference in scala
+4	13	scala equivalent of java java.lang.class<t> object
+4	13	create a database with scala/lift and a simple interface to log in
+4	13	getting object instance by string name in scala
+4	13	scala list recursion performance
+4	19	pass pointer to an array in haskell to a c function
+4	13	scala: match and parse an integer string?
+4	19	haskell and quadratics
+4	13	scala default values behavior
+4	19	ways to get the middle of a list in haskell
+4	13	generating scala code trees from a scala compiler plugin
+4	16	qtabstractadaptor vs. qtabstractinterface
+4	13	should my scala actors' properties be marked @volatile?
+4	13	simple scala actor question
+4	13	unpacking tuple types in scala
+4	19	dealing with large files in haskell
+4	19	accessing named fields in a haskell function
+4	13	is there an implementation of rapid concurrent syntactical sugar in scala? eg. map-reduce
+4	13	avoiding scala memory leaks - scala constructors
+4	13	chained comparisons in scala
+4	19	image drawing library for haskell?
+4	19	installing a haskell package from hackage through cabal gets stuck at dependency resolution
+4	19	skipping exceptions when using map in haskell
+4	19	haskell cons operator (:)
+4	18	static methods vs repository pattern with linq2sql
+4	13	in scala, how does one write a class with a constructor, not all of whose arguments are class members ?
+4	19	how long does it take to create 1 million threads in haskell?
+4	13	is there anything like haskell's 'maybe' function built into scala?
+4	13	how to write eclipse rcp applications with scala?
+4	19	absolute values in haskell
+4	13	automated java to scala source code conversion?
+4	19	efficiency of equality in haskell
+4	19	how do i use haskell's ffi on structs?
+4	13	does scala run on gwt?
+4	19	pattern match data types and their nested name in haskell
+4	13	scala: elegant conversion of a string into a boolean
+4	16	mixing qt and boost
+4	19	what type of scope does haskell use?
+4	13	scala extra parentheses printout
+4	19	issue with haskell's "do"
+4	19	state monad haskell
+4	19	having trouble writing my fmap
+4	13	scala equivalent to haskell's where-clauses?
+4	19	list of ghc extensions
+4	19	type of a local function in haskell
+4	13	how can i add scala actors to an existing program without interfering with the normal termination behavior?
+4	13	any reason for having "val capacity : int" instead of "val int capacity" in scala
+4	16	qt library destructor question
+4	19	haskell build automation
+4	13	why doesn't scalac optimize tail recursion?
+4	19	type error in conditional in haskell
+4	13	use scala to unit test java?
+4	16	naming convention for qt widgets
+4	13	what is the motivation for scala assignment evaluating to unit rather than the value assigned?
+4	13	static nested class visibility issue with scala / java interop
+4	13	how to extend java interface containing generic methods in scala
+4	13	scala: how can i implement a clone method on a superclass, and use it in a subclass?
+4	13	when are threads created for scala actors
+4	6	matlab copy constructor
+4	13	scala 2.8 breakout
+4	13	how can i get the max of an arbitrary property from a list in scala?
+4	19	iterating over arrays in haskell
+4	13	scala non-covariant immutable set
+4	13	scala - replaceallin
+4	6	strange classes passed from matlab to java
+4	19	haskell lexer problems
+4	19	haskell: problems with overloading: interpreter can´t tell which + to use
+4	13	how can i check an object to see its type and return a casted object
+4	16	emitting signals from other threads
+4	13	practical examples of using symbols in scala?
+4	19	simple yes/no haskell list question
+4	13	how can i force the type of an array when initialized in scala?
+4	10	lambda functions in bash
+4	13	overriding equals and hashcode methods for a javabeans implenented in scala
+4	19	creating a haskell empty set
+4	13	case classes vs enumerations in scala
+4	13	how is scala "filling in" missing arguments to a case class?
+4	19	elemindices in haskell
+4	13	monad trait in scala
+4	13	using java lib with scala reserved words
+4	16	why is in qt child objects are allocated in heap?
+4	13	get function value of a instance method in scala
+4	16	spectrogram c++ library
+4	13	alternatives to multimethods in scala or jython
+4	13	list of scala's "magic" functions
+4	13	capturing from java iterators and enumerators
+4	13	what is the difference between a var and val definition in scala?
+4	19	haskell counted list type
+4	19	can you create more than one element of a list at a time with a list comprehension in haskell?
+4	19	looping over a function in haskell
+4	19	haskell sample projects
+4	13	scala: why does underscore (_) initialization work for fields but not method variables?
+4	19	haskell ffi: foreignptr seems not to get freed
+4	19	haskell grouping problem
+4	13	scala: how to inherit a "static slot"?
+4	19	[haskell] problem when mixing type classes and type families
+4	13	does scala's pattern matching violate the open/closed principle?
+4	13	how should i specify the type of json-like unstructured data in scala?
+4	16	qt 4.5 - how do i perform a queued connection with a template type?
+4	15	understanding ajax a bit more
+4	19	haskell - how to write array to file?
+4	13	scala actors with java interop to underlying com libraries
+4	13	how to: debug scala code when outside of an ide
+4	16	why is qt looking for my slot in the base class instead of derived one?
+4	13	lazy loading some config params, trying to come up with a pattern in scala...
+4	19	unwrapping datatypes in haskell without extraneous code
+4	8	how to declare a function in cocoa after the function using it?
+4	13	enterprise scala
+4	19	when should i use record syntax for data declarations in haskell?
+4	13	is it possible to add a method to a built-in type in scala?
+4	13	enums in scala with multiple constructor parameters
+4	13	how to write tetris in scala? (code review)
+4	6	call stack in compiled matlab
+4	13	how to handle xml character reference in scala?
+4	13	how is pattern matching in scala implemented at bytecode level?
+4	13	what good are right-associative methods in scala?
+4	13	how can i get xstream to output scala lists nicely? can i write a custom converter?
+4	19	haskell compiler error: not in scope
+4	19	restricting a monad to a type class
+4	13	aggregate list values in scala
+4	19	haskell -- "the last statement in a 'do' construct must be an expression"
+4	19	complex iterations in haskell
+4	13	jsp or .ascx equivalent for scala?
+4	13	scala: how do i dynamically instantiate an object and invoke a method using reflection?
+4	13	scala equivalent to c#'s expression api
+4	19	in haskell, how do i recursively manipulate a tuple and preappend a character to the first element in the tuple?
+4	13	scala objects not changing their internal state
+4	13	what is/are the scala way(s) to implement this java "byte[] to hex" class
+4	13	generic wildcards in variable declarations in scala
+4	13	using scala actors to create sth like a pipeline
+4	6	replacing matlab with python
+4	19	how to rearrange this function to return the extended list in haskell
+4	8	object communication - passing self to another object / objective-c, cocoa
+4	13	how to set an expected exception using scala and junit 4
+4	13	how to store child objects on gae using jdo from scala
+4	13	what is the difference between scala self-types and trait subclasses?
+4	19	how to get every nth element of an infinite list in haskell?
+4	13	is there a scala version of python's mechanize?
+4	13	is there any scala feature that allows you to call a method whose name is stored in a string?
+4	19	with haskell, how do i process large volumes of xml?
+4	13	java.nio.bufferunderflowexception when processing files in scala
+4	13	scala: how to create immutable map/set from an seq?
+4	13	how do you return an iterator in scala?
+4	13	scala actors: different behavior on jre 1.5 and 1.6
+4	19	is there an encyclopedia/list of common type classes in haskell?
+4	19	how do you make a generic memoize function in haskell?
+4	13	what is the benefit from scala ?
+4	19	pros and cons of haskell
+4	13	issues with maps and their entries in scala
+4	13	scala : reference is ambiguous (imported twice)
+4	13	what is the scala equivalent of java's classname.class?
+4	18	run a method on all objects within a collection
+4	13	+=/*=/etc operators on anyval types (int,double,etc...) in scala
+4	13	object converting string into "a"
+4	19	is this a correct way of writing the haskell foldr function?
+4	13	scala specs don't exit when testing actors
+4	13	what is the rationale behind having companion objects in scala?
+4	19	haskell function taking a long time to process
+4	19	stuarray with polymorphic type
+4	7	re writting methods with in a project
+4	13	applying a function to a tuple in scala
+4	19	how to move an element in a list in haskell?
+4	13	scala import java package appending com
+4	19	keep track of the program variables in haskell like imperative programs
+4	13	functional reactive programming in scala
+4	13	how do i sort an array in scala?
+4	13	in scala, how to use ordering[t] with list.min or list.max and keep code readable
+4	13	an efficient technique to replace an occurence in a sequence with mutable or immutable state
+4	19	how to use 'someof' in quickcheck (haskell)
+4	19	what is a "spark" in haskell
+4	19	problem detecting cyclic numbers in haskell
+4	19	learning haskell: string manipulation question
+4	13	does this scala actor block when creating new actor in a handler?
+4	13	what is the purpose of type ascription in scala?
+4	19	troubleusing map in haskell
+4	13	difference between abstract class and trait
+4	19	multiple actions upon a case statement in haskell
+4	19	how to create unboxed mutable array instance
+4	13	why in spoj we can't code in scala programming language?
+4	19	how do i get the sums of the digits of a large number in haskell?
+4	19	returning a decyphered string as part of tuple in haskell
+4	13	what’s the difference between scalatest and scala specs unit test frameworks?
+4	19	haskell converting float to int
+4	16	can a class inherited from qthread behave as a normal class?
+4	17	a metaphor for drupal module's inner workings
+4	19	concatenating a list of numbers into one integer in haskell
+4	13	scala: splitting a list using a predicate for sublists
+4	13	factory methods for implementations of java interfaces wrapped with scala implicits?
+4	13	what's the scala syntax for a function taking any subtype of ordered[a]?
+4	13	how to write a proper null-safe coalescing operator in scala?
+4	13	infix operators in scala and jython
+4	19	is there a haskell compiler or preprocessor that uses strict evaluation?
+4	19	how to work with assertequal with parameterized types
+4	13	why does a selectionkey registered to a datagramchannel return a selectablechannel in scala but not java?
+4	19	haskell simple compilation bug
+4	6	matlab in c c++ and  c c++ in matlab
+4	19	why don't haskell list comprehensions cause an error when pattern match fails?
+4	19	list comprehension won't give correct result in haskell
+4	6	running matlab function from java
+4	19	fully parenthesizer for haskell
+4	13	scala enumeration and readresolve
+4	8	when does using structs make sense in cocoa?
+4	4	failed to get separate instances of a class under mod_python
+4	19	polyvariadic functions in haskell
+4	13	scala - modifying nested elements in xml
+4	19	how do you use control.applicative to write cleaner haskell?
+4	19	concise haskell book
+4	19	best way to write   a-> ..->[a] recursive functions in haskell
+4	19	how do i convert string to integer/float in haskell
+4	8	nsarray to c array
+4	19	convert list of integers into one int (like concat) in haskell
+4	13	scala compiler error due to constructor parameter (property) having same name in both base and derived class and used in derived method
+4	13	scala reflection: getdeclaringtrait ?
+4	19	haskell script running out of space
+4	13	scala closures on wikipedia
+4	13	library support for scala's notnull trait
+4	13	question on scala abstract type
+4	19	an error with haskell classes i fall all the time and can't understand
+4	19	how do i write the qualified name of a symbol in haskell?
+4	19	how to get ascii value of character in haskell?
+4	16	how can i use the clojure repl together with qt jambi?
+4	13	any conversion from scala's xml to w3c dom?
+4	19	haskell syntax case expression in a do block
+4	18	hiding linq classes inside a namespace?
+4	13	when should i use scala's array instead of one of the other collections?
+4	13	scala xml building: adding children to existing nodes
+4	13	understanding why "pimp my library" was defined that way in scala
+4	13	initializing generic variables in scala
+4	19	ambiguous type variable
+4	13	how to play with specs matchers in scala repl?
+4	13	scala compiler error passing null?
+4	19	string interpolation in haskell
+4	19	write a haskell interpreter in haskell
+4	13	reflection api for scala
+4	19	haskell compilation problem
+4	19	short circuiting sort
+4	19	how does haskell know which typeclass instance you mean?
+4	13	scala implicit convertions: 2 way to invoke
+4	19	jquery like selector in haskell
+4	19	list construction in haskell
+4	14	sharepoint/wss: helping writing xpath conditional expression
+4	13	scala actors as single-threaded queues
+4	19	palindromes in haskell
+4	19	haskell vs. procedural programming in the real world
+4	13	iterating over java collections in scala
+4	19	haskell function application
+4	19	guidelines for applying dry in haskell function definitions
+4	7	c++ class - increment and decrement attribute every n milliseconds
+4	19	xml alternative of text.json.generic for haskell
+4	19	when to exploit type inference in haskell?
+4	13	how do you call scala objects from java?
+4	19	simplifying some haskell code
+4	13	scala profiler?
+4	19	exersise in haskell
+4	19	evaluating parsed expression in haskell
+4	13	scala immutable sortedset are not "stable" on deletion
+4	13	scala - java interop: can scala emit enums in bytecode for java to consume?
+4	13	is there a problem-free way to run scala unit tests in eclipse integrated nicely?
+4	19	printing a result during a recursion in haskell
+4	19	what does the : infix operator do in haskell?
+4	13	getting the string representation of a type at runtime in scala
+4	13	idiom for scala's option when doing equality tests
+4	13	creating a parametric graph type in scala
+4	13	scala dot syntax (or lack thereof)
+4	19	please help me understand the pattern match in haskell. i'm a little confused.
+4	19	haskell fastcgi on lighttpd, need help with configuration
+4	13	function working on functions of array[t] or list[t] or iterable[t]
+4	2	defining collections with variables
+4	19	map applied to multiple arguments in haskell
+4	13	syntactic sugar for compile-time object creation in scala
+4	19	are random numbers in haskell strict?  why does this program get a stack overflow?
+4	13	alternative way of implementing a groupby method in scala?
+4	19	how do i do python-style indent/dedent tokens with alex/haskell?
+4	13	does the @inline annotation in scala really help performance?
+4	19	hidden features of haskell
+4	19	orm tools for haskell
+4	13	why does scala's semicolon inference fail here ?
+4	19	is do-notation specific to "base:ghc.base.monad"?
+4	19	haskell rest/gdata api library
+4	13	scala: parallel assignment of tuples
+4	13	scala: pattern matching when one of two items meets some condition
+4	13	to use or not to use scala for new java projects ?
+4	13	scala do i have to convert to a seq when creating a collection from an iterable?
+4	19	reasoning about performance in haskell
+4	15	comparisons of ajax libraries
+4	13	derived scala case class with same member variables as base
+4	13	how do i alias the scala setter method 'myvar_$eq(myval)' to something more pleasing when in java?
+4	13	question on scala compiler syntax hacking
+4	19	haskell: recursion with array arguments
+4	19	failed to try  function "permutations" in ghci , haskell
+4	13	scala equivalent to haskell monads
+4	13	strange gc behaviour of scala actors application
+4	13	is pretty xstream serialization feasible with scala?
+4	13	understanding the different dispatchers in akka 2
+4	19	why has haskell so big numbers ?
+4	19	type depence in haskell
+4	19	problem using map with a list of lists in haskell
+4	19	making a list of divisors in haskell
+4	6	storing matlab structs in java objects
+4	19	return specific type within haskell
+4	13	difference between iterator and stream in scala?
+4	13	finding elements in a scala list and also know which predicate has been satisfied
+4	13	scala: where do i find an os project written in scala?
+4	13	compile scala 2.8.x code with apache buildr
+4	19	haskell equivalent of python's "construct"
+4	13	alternative to anonymous functions for lazy evaluation in scala?
+4	13	instantiate object with reflection using constructor arguments
+4	19	can haskell's monads be thought of as using and returning a hidden state parameter?
+4	13	scala regex enable multiline option
+4	19	which is more efficient in haskell; pattern matching or nest if/switch statements?
+4	13	scala difference between object and class
+4	19	using monaderror with parsec
+4	13	scala remote actors
+4	13	unimporting in scala
+4	13	handling properties in scala
+4	19	haskell -- problem with pretty-printing a list
+4	13	extend scala class that extends ordered
+4	18	equivalent to linq to events in scala
+4	13	how to do fast prefix string matching in scala
+4	13	scala: comparing fresh objects
+4	19	operate on values within structurally similar types in haskell
+4	19	haskell type error using infered type
+4	13	return type of "|" in scala's parser combinators
+4	13	scala: anything like python/ruby development mode?
+4	13	why does this explicit call of a scala method allow it to be implicitly resolved?
+4	13	parsing recursive structures in scala
+4	13	can you return an unevaluated function in scala?
+4	19	finding if two numbers have the same digit and then remove them from in the original number in haskell
+4	6	making function from symbolic expression
+4	6	call matlab functions in silverlight
+4	13	construct a java.util.list from a java.util.set in scala
+4	19	specialization in type classes using ghc
+4	19	using haskell read and typeclasses - ambiguous type variable error
+4	13	using varargs from scala
+4	13	scala programming for android
+4	8	dealing with objects returned from cocoa convenience methods
+4	19	how to make an unboxed array of floats i can get a ptr to
+4	19	convert haskell int with leading zero to string
+4	13	parse error of nested tuples in scala
+4	13	depp copy of 2d array in scala?
+4	19	haskell typeclass shorthand
+4	19	haskell: -fglasgow-exts should one avoid code that requires this?
+4	13	what are the key differences between scala and groovy?
+4	13	how do i implicitly convert tuples to vector in scala
+4	18	using the all operator
+4	19	haskell: overlapping instances
+4	13	converting java collection into scala collection
+4	19	haskell types frustrating a simple 'average' function
+4	13	scala collection type for filter
+4	19	parallel "insertions" into a binary trie in haskell
+4	6	calling matlab from c
+4	13	scala and interfaces
+4	11	executing a method from another class in java(and more)
+4	13	how to make scala's immutable collections hold immutable objects.
+4	19	pointer equality in haskell?
+4	18	creating a list of anonymous type in vb
+4	13	scala: partialfunction with state
+4	13	scala semantics of equals/hashcode for case classes with traits
+4	13	changing xml namespace with scala
+4	19	debug output of game objects in haskell/yampa and hood
+4	19	haskell: surprising behavior of "groupby"
+4	13	how is compare different from compareto in this scala code?
+4	10	bash completion for make with generic targets in a makefile
+4	19	haskell: type classes question
+4	19	improve my haskell implementation of filter
+4	19	haskell type vs. newtype with respect to type safety
+4	13	this seems awfully repetitious for scala...
+4	13	is there an efficiency penalty when using scala inner functions within non-tail recursive functions?
+4	13	scala: annotating accessor methods
+4	19	haskell question about function
+4	13	how can i serialize (and later deserialize) a generic type in scala?
+4	6	function pointers in matlab
+4	13	scala compiler says unreachable code, why?
+4	19	haskell question regarding data
+4	13	how does scala xml support work?
+4	13	what are the biggest differences between scala 2.8 and scala 2.7?
+4	16	in qt, how do i use q_object slots and signals with multiple inheritance?
+4	8	populate an nstokenfield with tokens from a container of objects
+4	13	how to define a cyclic type definition?
+4	13	scala: whats the best way to do numeric operations in generic classes?
+4	13	scala traits usage
+4	19	haskell interactive
+4	19	comparing 3 output lists in haskell
+4	13	scala regexps: how to return matches as array or list
+4	13	scala as the new java?
+4	10	how can i find out a files "mime-type(content-type?)"?
+4	13	how to create a decent tostring() method in scala using reflection?
+4	19	book / tutorial / reference on haskell for rusty haskell but experienced functional programmer
+4	13	what does single appostrophe mean in scala?
+4	13	implicit conversion from string to int in scala 2.8
+4	19	lifting class instance in haskell
+4	19	is there a quick-starting haskell interpreter suitable for scripting?
+4	13	how do i form the union of scala sortedmaps?
+4	13	does scala support tail recursion optimization?
+4	19	haskell - functional programming help
+4	6	matlab functions in c++
+4	19	haskell: can i use a where clause after a bloc with bind operators (>>=)?
+4	19	haskell image processing library?
+4	13	building a scala app with maven (that has java source mixed in)
+4	19	evaluation of haskell statements/expressions using ghc api
+4	12	hiberate: collections of collections
+4	19	detecting cyclic behaviour in haskell
+4	13	how to convert from from java.util.map to a scala map
+4	19	haskell : ++ difference
+4	8	pboard types will be deprecated
+4	13	how do i handle unicode user input in scala safely (esp xml entities)
+4	13	how to access parent element in scala xml
+4	19	haskell: monadic takewhile?
+4	13	why do scala implicitly convert char to int?
+4	13	scala and lift and sessionvar that loses it contents
+4	13	is scala the next big thing?
+4	19	sparse arrays in haskell?
+4	15	javascript - how do i call a function from a string name and pass an array object?
+4	13	which is the best ide for scala development?
+4	13	scala 2d animation library
+4	13	how does  compare two different type of objects in scala?
+4	13	netbeans scala plugin - no documentation
+4	19	haskell pixel drawing library linux
+4	12	hibernate/jpa/hsqldb enum issues...
+4	13	scala covariance / contravariance question
+4	13	increase jvm heap size for scala?
+4	19	how to match rigid types in a type class instance?
+4	19	haskell sort funtion
+4	8	which method of checking to see if a nsdictionary contains a particular key is faster?
+4	13	call scala code from java?
+4	19	[haskell] case-insensitive regular expressions
+4	19	haskell, chaining filters
+4	13	what is the current state of the scala eclipse plugin?
+4	13	scala unexpectedly not being able to ascertain type for expanded function
+4	13	idiomatic io with scala
+4	13	how to get an java.lang.class of a scala object for an annotation argument
+4	13	learning scala or haskell
+4	13	recursive xml in scala
+4	13	scala ast in scala
+4	13	scala map: mysterious syntactic sugar?
+4	13	scala catalog of functional design pattern
+4	13	in scala, how would to declare static data inside a function?
+4	19	avoiding boilerplace when dealing with many unrelated types
+4	13	drop into interpreter during arbitrary scala code location
+4	19	does haskell have variables
+4	19	equivalence testing in haskell
+4	19	n-queens in haskell without list traversal
+4	13	question on scala closure (from "programming in scala")
+4	19	why does this haskell code work successfully with infinite lists?
+4	13	concurrent processing in scala
+4	13	dangling local blocks in scala
+4	19	multicore programming in haskell - control.parallel
+4	13	serializing a json object using lift-json [scala]
+4	13	unit testing scala
+4	13	real-world examples of scala applications?
+4	19	haskell quiz: find words with a given suffix
+4	19	haskell, lisp, and verbosity
+4	13	how to efficiently processing 300+ files concurrently in scala
+4	13	how can scala receive multiple parameters in a method definition?
+4	19	why does haskell interpret my num type as an enum?
+4	13	many-value map in scala
+4	19	haskell map/zip vs. list comprehension
+4	19	pattern matching of algebraic type data constructors
+4	13	mapping over sublists in scala
+4	19	creating polymorphic recursive types in haskell
+4	13	what is the _root_ package in scala?
+4	13	how can i use map and receive an index as well in scala?
+4	13	how can i construct and parse a json string in scala / lift
+4	13	pattern matching functors in scala: mystified by warning
+4	13	using scala actor framework as fork-join computation?
+4	19	haskell: type inference and function composition
+4	13	partitioning an iterator in scala 2.7.5
+4	13	is there a scala command-line debugger?
+4	13	selection sort in functional scala
+4	13	how to pass a class object from scala to java?
+4	4	generified commons collection
+4	19	haskell global var
+4	13	what are all the instances of syntactic sugar in scala?
+4	11	spring.net expression that references an object definition
+4	19	which haskell package contains given module.
+4	12	problem with basic attributes java.sql.blob
+4	19	haskell ord instance with a set
+4	13	how to write a nice low-pass-filter in scala
+4	19	finding index of element in a list in haskell
+4	13	scala: traits and abstract methods override
+4	19	iterate over list in haskell?
+4	19	using stdout/stderr/stdin streams behind haskell's ffi
+4	13	scala overriding a def with a var
+4	19	how to write numbers in lambda using ghci
+4	18	ebnf to fluent interface
+4	13	why is clojure much faster than scala on a recursive add function?
+4	13	explicit type conversion in scala
+4	19	implementing a per-digit counter using the list monad
+4	19	haskell cabal+hsc2hs
+4	19	haskell caching results of a function
+4	13	executing a simple task on another thread in scala
+4	13	scala xsd library
+4	13	is is possible to capture the type parameter of a trait using manifests in scala 2.7.7?
+4	13	how to curry a function in scala
+4	8	converting enum into a class hierarchy
+4	13	scala equivalent of new hashset(collection)
+4	16	does qt have a c interface?
+4	19	how do i remove every occurance of a value from a list in haskell using prelude?
+4	19	destructuring tuples in haskell?
+4	13	scala map filterkeys: projection cannot be assigned to a map reference
+4	13	scala match decomposition on infix operator
+4	19	in haskell, is there a way to do "elem" on a constructor with an argument?
+4	19	using haskell's parsec to parse binary files?
+4	13	scala: mixins depending on type of arguments
+4	19	generating an infinite sequence in haskell
+4	19	haskell style/efficiency
+4	13	scala way to define functions accepting a list of different numeric types
+4	13	are there any methods included in scala to convert tuples to lists?
+4	6	slow performance using anonymous functions in matlab
+4	19	inheritence to extend a data structure in haskell
+4	13	structural type dispatch in scala
+4	19	optimisations for a series of functions in haskell
+4	13	using scala as a scripting language from eclipse
+4	13	declaring multiple variables in scala
+4	11	how to mock a static variable in java using jmock
+4	13	how to add external library to the classpath in scala's interpreter?
+4	19	another simple haskell question
+4	19	haskell function seems to be limiting integer length - i thought it used bignums?
+4	16	qt 4.6 - c++ - qtreewidgetitem iterator
+4	13	scala bigdecimal division
+4	13	a light weight scala fork join syntax
+4	13	scala: how to define "generic" function parameters?
+4	19	confusion about currying and point free style in haskell
+4	19	haskell network package documentation
+4	19	[haskell] set of an unordered data type with a given ordering
+4	6	solve ode without nested functions
+4	13	is there a "self" type in scala thet represents the current type?
+4	19	haskell 64 bit numerical type
+4	13	java.lang.nosuchmethoderror: main when starting helloworld with eclipse scala plugin
+4	13	how to implement efficient sorting algorithms for multiple processors with scala?
+4	18	assignment in .net 3.5 expression trees
+4	10	which programming language has very short context-free grammar in its formal specification?
+4	13	can i pass an object's instance method to a method expecting a callback in scala?
+4	13	break or shortcircuit a fold in scala
+4	13	scala, repeat a finite list infinitely
+4	13	how in scala to find unique items in list
+4	13	does scala anyref.clone perform a shallow or deep copy?
+4	19	iterating with respect to two variables in haskell
+4	19	generating a list of lists of int with quickcheck
+4	19	filter/map composition problem haskell
+4	13	using alternative comparison in hashset
+4	15	prototype serialize returns function instead of serialized string
+4	18	passing a anonymous type to function.
+4	13	simple scala syntax - trying to define "==" operator - what am i missing?
+4	13	please suggest direction for my small scala project
+4	19	haskell pattern matching - what is it?
+4	13	what is scala equivalent of java's static block ?
+4	13	what is the easiest way to deeply clone (copy) a mutable scala object?
+4	13	performing operations on (specifically how to add a list of) long in scala
+4	13	scala: tracing implicits selection and other code magics
+4	19	haskell: how to write interactive interpreter on top of a state monad?
+4	13	can i construct a bigint with any byte array (scala)?
+4	19	closest equivalent to subprocess.communicate in haskell
+4	16	c++ qt: bitwise operations
+4	13	mixin multiple traits in scala
+4	13	scala 2.8 collections design tutorial
+4	8	using nsoperation for threading creates too many objects
+4	19	writing a time function in haskell
+4	13	scala bug in concurrent program?
+4	11	template method pattern
+4	13	unit testing scala actors
+4	13	scala api design; a service which returns a set<i> where i is some interface (abstract/trait)
+4	13	scala xml pattern matching and attributes
+4	13	how to copy a list in scala
+4	13	when is scala 2.8.0 going to be released?
+4	13	what replaces class variables in scala ?
+4	13	scala: exposing a jdbc resultset through a generator (iterable)
+4	13	when to use the equals sign in a scala method declaration?
+4	19	a haskell function of type: io string-> string
+4	19	should i use ghc haskell extensions or not?
+4	13	avoiding implicit def ambiguity in scala
+4	13	fold list of tuples in scala with destructuring
+4	19	how to do we keep multiple semantic values during parsing with happy/haskell
+4	16	qt model/view programming with complicated data structures
+4	13	is it possible to specify an anonymous function's return type, in scala?
+4	19	iterating a function and analysing the result in haskell
+4	13	is it possible to use implicit conversions for parameters to extractors (unapply) in scala?
+4	19	importing c++ data types to haskell with ffi
+4	13	a list of scala "global" functions?
+4	19	int vs integer in class instance
+4	13	getting the correct scala actor sender reference when sending from an different class
+4	13	how to add a method to a scala enumeration object?
+4	13	gui programming in scala
+4	13	scala's for-comprehensions: vital feature or syntactic sugar?
+4	11	putting array of arrays into a spring context
+4	13	java <-> scala interop: transparent list and map conversion
+4	19	turn this recursive haskell function into a map call
+4	18	can i start with a string and instantiate an object of that string?
+4	13	calling an blocking actor from within an actor
+4	13	getting failure detail on failed scala/maven/specs tests
+4	19	haskell lists of datatypes
+4	19	creating monads in haskell
+4	19	where are the clever uses of strict evaluation?
+4	13	better syntax for scala anonymous function?
+4	13	how are scala traits compiled into java bytecode?
+4	19	haskell xmlrpc server executing dynamically generated functions
+4	13	proper way to access shared resource in scala actors
+4	13	what are scala continuations and why use them?
+4	19	error handling in haskell with either monad
+4	13	strange behavior: scala actors 2.7.7 vs. 2.8-snapshot
+4	13	can someone explain this article about enforcing race safety in scala.
+4	13	what is are differences between int and integer in scala?
+4	6	how to pass string as function argument in matlab ?
+4	6	exporting matlab class object (or struct) into java object of similar class using xml
+4	9	using coredata with an object?
+4	19	how haskell tail recursion works?
+4	13	scala - which characters can i omit
+4	19	unboxing, (sparse) matrices, and haskell vector library
+4	13	scala script to copy files
+4	6	call matlab apis in c c++
+4	19	haskell - how to generate permutations
+4	13	arrays in scala
+4	13	conditional loop conversion in scala
+4	13	scala: set a field value having it´s name in a  string
+4	6	hooking into matlab to evaluate symbolic derivatives from c code
+4	13	idiomatic scala map manipulation
+4	13	how to flatten a list of different types in scala?
+4	19	why does haskell stop short of inferring the datatype's typeclasses in the function signatures?
+4	13	scala:  binary incompatibility between releases
+4	19	[haskell]calculating a product recursive only using addition
+4	13	scala foreach strange behaviour
+4	13	how to use scala.none from java code
+4	13	scala equivalent to python generators?
+4	8	call another program's functions?
+4	19	haskell: composing two error-raising functions
+4	13	scala xml serialization
+4	13	why are my scala types not matching?
+4	19	how composite function with arbitrary arity in haskell?
+4	19	haskell: how to type cast
+4	13	managing flexible, typed, immutable data structures in scala in 2.8.x
+4	19	how can i easily see the output from a template haskell statement?
+4	19	how to simulate the concept of object identity in haskell
+4	13	need some help with scala's instance variables
+4	13	use-cases for streams in scala
+4	16	(c++ qt) qlist only allows appending constant class objects?
+4	13	scala's existential types
+4	13	reflection on a scala case class
+4	13	private and protected constructor in scala
+4	13	string representation of objects as in scala repl
+4	13	how to read immutable data structures from file in scala
+4	13	does scala have an equivelant to c# yield?
+4	19	critique this late night, noob haskell code
+4	13	remove characters from the end of a string scala
+4	13	can first-class functions in scala be a concern for allocating a large permgen space in jvm?
+4	19	haskell quiz: a simple function
+4	13	scala inconsistant type signatures: range.tolist and range.toarray
+4	13	static inner classes in scala
+4	13	include jar file in scala interpreter
+4	19	what is primitive recursion?
+4	19	explanations about the mechanics of a simple factorial function
+4	13	scala can't multiply java doubles?
+4	13	do i have to create a new object to mix in a scala trait?
+4	16	linking qt in a dynamic library
+4	19	pattern-matching seq's in haskell
+4	13	scala - getting a read-only sublist view of a list
+4	13	how can i convert a java iterable to a scala iterable?
+4	19	help explain this chunk of haskell code that outputs a stream of primes
+4	19	translating "why functional programming matters" into haskell
+4	13	scala: mutable vs. immutable object performance - outofmemoryerror
+4	13	the scala way to use one actor per socket connection
+4	11	how to create bean of type class?
+4	13	scala iterable#map vs. iterable#flatmap
+4	13	how does one validate the schema of an xml file using scala?
+4	19	which haskell xml library to use?
+4	6	matlab polymorphism question
+4	13	scala: overflow despite use of long when adding
+4	19	intermediate lists in haskell
+4	13	scala and tail recursion
+4	13	scala: public static final in a class
+4	19	what does `~` means on haskell code
+4	13	scala puts precedence on implicit conversion over "natural" operations... why? is this a bug? or am i doing something wrong?
+4	19	haskell - specyfing kind in data declaration
+4	19	pattern matching string prefixes in haskell
+4	19	haskell execution sequence
+4	13	thread monitoring for scala actors
+4	13	scala 2.8 canbuildfrom
+4	13	how can i match a function signature without getting type erasure compiler warnings in scala.
+4	19	what is a common idiom for converting between integral types?
+4	19	how to install haskell openid package in windows
+4	13	scala syntax - pass string to object
+4	13	is there a scala identity function?
+4	13	error-tolerant xml parsing in scala
+4	13	scala vs. groovy vs. clojure
+4	10	compare integer in bash, unary operator expected
+4	13	scala case classes in collections
+4	19	haskell type error
+4	13	circular type parameters definition in scala
+4	11	scope of a controller and a validator
+4	6	matlab class array
+4	9	obj-c object instance not recognized?
+4	13	scala 2.8 and lift status
+4	13	scala actors: receive vs react
+4	19	distributing a haskell program as c source
+4	13	cannot find class manifest for element type t
+4	19	haskell mutable map/tree
+4	19	dot operator in haskell: need more explanation
+4	13	scala anonymous function syntax
+4	19	defining a seemingly simple foldable instance
+4	16	is there an qpointer specialization for boost::bind
+4	19	good haskell coding standards
+4	13	scala equivalent of ruby's map.each?
+4	13	how to mock a method with functional arguments in scala?
+4	19	a gentler introduction to functional programming
+4	13	case class to map in scala
+4	19	haskell type families and dummy arguments
+4	13	substitute values in a string with placeholders in scala
+4	19	are there tools that would be suitable for maintaining a changelog for a cabal haskell package?
+4	19	how to "unpack" a structure in haskell
+4	19	simple haskell graphics library?
+4	13	use class variables as constants in scala
+4	19	references for learning the theory behind pure functional languages such as haskell?
+4	19	haskell function composition
+4	19	i'm learning haskell and have an exercise, that i get strange resaults, when trying to solve it
+4	13	what makes scala's "operator overloading" good, but c++'s bad?
+4	13	shortcut for subclassing in scala without repeating constructor arguments?
+4	19	haskell: how do i define the types my function can take as parameters? and how do i access unnamed variables in a data structure?
+4	13	garbage collecting scala actors
+4	13	scala abstract type bounds cross referencing
+4	19	equivalent of python eval in haskell
+4	13	can i run junit 4 to test scala code from the command line?
+4	19	haskell: replacing element with a given key in an association list
+4	19	haskell pattern matching on the empty set
+4	13	mapping over multiple seq in scala
+4	13	what are some example use cases for symbol literals in scala?
+4	19	awkward monad transformer stack
+4	19	haskell monad transformer stack and type signatures
+4	19	doing a binary search on some elements in haskell
+4	13	concrete classes with abstract type members
+4	13	is there an equivalent in scala to python's more general map function?
+4	13	generating javadoc for project involving scala modules
+4	13	static testing for scala
+4	19	how to split up a file into modules in haskell?
+4	13	why doesn't scala source close the underlying inputstream?
+4	13	what does scala's "try" mean without either a catch or finally block?
+4	13	scala 2.8 control exception - what is the point?
+4	13	using either to process failures in scala code
+4	13	scala traits vs abstract classes
+4	13	elegant way to reverse a map in scala
+4	19	haskell polymorphism and lists
+4	13	scala: how to create xml nodes from some collection
+4	13	accessing scala parser regular expression match data
+4	13	scala / lift example of form processing
+4	19	type classes in haskell data types
+4	19	haskell recursive problem, tiny parser. negation of expr and let expressions
+4	19	remove elements by index in haskell
+4	19	can i write components in haskell to be used on a django site?
+4	13	implement a method using a function value in scala
+4	19	pattern matching data types in haskell.  short cuts?
+4	2	how can i define a type in oracle11g that references a collection of that type?
+4	19	if you can't change a variable's value in haskell, how do you create data structures?
+4	13	is it possible for scala to have reified generics without changing the jvm?
+4	13	ebnf to scala parser combinator
+4	19	integrating haskell in non-functional projects
+4	13	scala parser token delimter problem
+4	19	trying to install hs-ffmpeg haskell package fails to find libdc1394
+4	13	method call inside actor freezes in scala
+4	13	pattern matching on a series of values in scala
+4	13	scala collection standard practice
+4	19	haskell: hstringtemplate inheritance example?
+4	19	haskell io with numbers
+4	13	scala collection.map cannot be added to
+4	13	scala: given a scala.xml.node, what's the most efficient way of getting the second (or n-th) child element?
+4	19	counting elements in a tree in haskell
+4	13	matching case sub-classes on super type in scala
+4	19	haskell ffi: calling funptrs
+4	13	what is wrong: "value parsers is not a member of package scala.util.parsing.combinator"?
+4	13	implementing a java interface in scala
+4	13	scala wont pattern match with java.lang.string and case class
+4	13	symbols or case classes for sending messages to scala actors?
+4	19	trying to understand haskell's => vs defining the types
+4	13	scala case class matching compile error with aliased inner types?
+4	19	is there a way to implement constraints in haskell's type classes?
+4	19	how to structure haskell code for io?
+4	19	lists in haskell : data type or abstract data type?
+4	13	mixig abstract type parameters and abstract types in scala
+4	13	elements of scala style?
+4	13	where case classes should not be used in scala ?
+4	13	how do i create a map with a type parameter of class
+4	13	does scala have a library method to wrap nullable return values in an option?
+4	13	scala parser issues
+4	19	haskell: printing out the contents of a list of tuples
+4	13	can i use a block when defining a scala anonymous function?
+4	19	control.monad.state found in multiple packages haskell
+4	13	non deprecated way of appending an element to a list in scala 2.7.5?
+4	13	abstract types / type parameters in scala
+4	13	programmatically setting the `type` of an abstract type
+4	19	is there a way for keeping a variable from changing inside recursions, in haskell?
+4	13	scala treemap strangeness; implementing a reverse-order iterator
+4	13	find all nodes that have an attribute that matches a certain value with scala
+4	13	writing applications with scala actors in practice ii
+4	19	in haskell, is there a way to do io in a function guard?
+4	19	haskell parser error in where clause
+4	13	is there syntactic sugar for binding a value inside an anonymous function in scala?
+4	13	using scala, how does one differentiate xml elements having elements as children, or having text?
+4	13	how do you code up a pattern matching block in scala?
+4	19	haskell's text.regex.subregex using tdfa implementation?
+4	13	writing applications with scala actors in practice
+4	13	what is scala way of finding whether all the elements of an array has same length?
+4	19	multiple type parameters in haskell type classes
+4	19	how do i test if a floating point number is an integer in haskell?
+4	13	scala - can yield be used multiple times with a for loop?
+4	19	defining multiple-type container classes in haskell, trouble binding variables.
+4	13	how to instantiate an instance of type represented by type parameter in scala
+4	13	match multiple cases classes in scala
+4	16	proper way to check qoject derived class type in qt
+4	19	what does the "@" symbol mean in reference to lists in haskell?
+4	16	why does qt include empty class definitions of existing classes in the header files?
+4	6	matlab mex interface to a class object with multiple functions
+4	13	can scala's actor framework handle 10.000 actors without stack problems?
+4	13	in scala, how do you define a local parameter in the primary constructor of a derived class?
+4	13	pass variable number of arguments in scala (2.8) case class to parent constructor
+4	13	can scala allow free type parameters in arguments (are scala type parameters first class citizens?)?
+4	13	scala actors: long running io operations
+4	13	what is the proper way to remove elements from a scala mutable map using a predicate
+4	13	can i create a collection in scala that uses different equals/hashcode/compare implementations?
+4	19	dealing with io vs pure code in haskell
+4	13	can scala actors process multiple messages simultaneously?
+4	13	scala's simple-build-tool doesn't appear to run tests
+4	13	how would i do multiple concurrency in scala, without the need for messages?
+4	19	haskell way to do error checking of multiple items with abort
+4	13	step-by-step explanation of scala syntax used in wikipedia quick sort example
+4	13	multiple assignment of non-tuples in scala
+4	13	how can implicits with multiple inputs be used in scala?
+4	13	scala: how to combine parser combinators from different objects
+4	13	calling multiple functions with same instance in scala
+4	19	applying a function with multiple inputs using map? (haskell)
+4	13	is there a nice, safe, quick way to write an inputstream to a file in scala?
+4	13	scala: abstract types vs generics
+4	13	why can't scala infer the type parameter in this example?
+4	19	is it possible to test the return value of haskell i/o functions?
+4	6	how to pass a java object as a parameter to a matlab function
+4	19	pattern matching against a tuple in the io monad in haskell
+4	13	spurious ambiguous reference error in scala 2.7.7 compiler/interpreter?
+4	13	dynamically create class in scala, should i use interpreter?
+4	19	haskell. why array faster then lists ?
+4	13	how is this case class match pattern working?
+4	13	is there any scala built-in class for capturing an external process's output?
+4	13	bad class file error when using scala 2.8.0-rc1 in javafx 1.2
+4	13	use 'map' and stuff on scala tuples?
+4	13	scala: how can i sort an array of tuples by their second element?
+4	13	scala: is it possible to override default case class constructor?
+4	13	ensime scala errors (class scala.array not found, object scala not found)
+4	19	why does this first haskell function fail to handle infinite lists, while this second snippet succeeds with infinite lists?
+4	19	haskell: how to pipe the contents of one handle into another in real time.
+4	19	updating list elements, haskell
+4	13	can a scala program be compiled to run on any jvm, without having scala installed on the given machine?
+4	19	can 2 or more equations defining a function in haskell share the same where / let block?
+4	13	is there a scala unit test tool that integrates well with maven?
+4	13	how do i get around type erasure on scala? or, why can't i get the type parameter of my collections?
+4	13	scala build tool and test framework that play nice together?
+4	19	haskell tool to rewrite import statements to name all imports?
+4	19	how to zip multiple lists in haskell?
+4	13	how do i implement a collection in scala 2.8?
+4	13	scala: can i nudge a combinator parser to be locally greedy?
+4	13	what are the exact versions of stuff you have to install in order to be able to step-debug a scala program?
+4	13	implementing unsafe java interfaces
+4	19	in haskell, how can you sort a list of infinite lists of strings?
+4	13	implicit parameter definition in class
+4	19	can haskell's parsec library be used to implement a recursive descent parser with backup?
+4	13	scala for yield setting a value
+4	13	nosuchmethod exception when using scala regex class... confused...
+4	13	scala xml: create a node not using literals
+4	13	common practice for higher-order-polymorphism in scala
+4	13	using scala structural types with abstract types
+4	19	mapping list of different types implementing same function?
+4	19	unique elements in a haskell list
+4	19	nice small simple real life programming example in haskell?
+4	19	deducing type of multi-parameter type class
+4	19	problems decoding a file strictly with binary in haskell
+4	13	scala  generic function values ( anonymous function ) - missing parameter type ( error )
+4	19	[haskell] adding a show instance to rwh's randomstate example.
+4	19	reliable cube root in haskell
+4	13	handling error on insert playframework 2.0 scala
+4	13	security of scala runtime
+4	13	how to script scala directly in jsp pages?
+4	13	scala actors and persistence context
+4	13	compile scala classes with debug info through maven
+4	19	haskell error: couldn't match expected type `integer' against inferred type `int'
+4	19	definition of filter function with foldr, in haskell. i want to see if i understand how it's working.
+4	19	haskell noob question: what's wrong with my append function?
+4	19	how to mix binding (<-) and assignment (let) in one line? (in haskell)
+4	13	possible to make a  producer/consumer obj in scala using actors 'threadless' (no receive...)?
+4	19	haskell's liftio's litter functions of type errort string io ()
+4	13	scala: list.flatten: no implicit argument matching parameter type (any) = > iterable[any] was found
+4	19	haskell: looking up the second value of a tuple in a list based on the first value
+4	13	approaching text parsing in scala
+4	19	example of how to parse exiftool json output in haskell
+4	13	read entire file in scala?
+4	19	haskell: parsing escape characters in single quotes
+4	19	in haskell, i want to read a file and then write to it.  do i need strictness annotation?
+4	19	is it possible to change the step size of the built-in haskell range function or literal?
+4	19	how thoroughly should one learn languages like c, asm, lisp, haskell?
+4	13	good code dojo question for introductory scala?
+4	13	problems with scala swing library
+4	19	how to get a pointer value in haskell?
+4	19	haskell bytestring / data.binary.get question
+4	13	can i ignore invalid xml character using scala's builtin xml handlers?
+4	13	in scala, can i override a concrete field containing a list and append something to it in the subclass?
+4	13	what are the features of dynamic languages (like ruby or clojure) which you are missing in scala?
+4	19	haskell type classes and type families (cont'd)
+4	13	using sub-types and return types in scala to process a generic object into a specific one
+4	13	how to define a ternary operator in scala which preserves leading tokens?
+4	13	scala: working around the "illegal cyclic reference"
+4	13	is there a pattern in scala that add a method to an array object?
+4	19	optional arguments in haskell
+4	13	scala: what is the right way to build hashmap variant without linked lists ?
+4	13	iterators for mutable collections in scala?
+4	19	adding other files to haskell
+4	19	haskell lazy i/o and closing files
+4	19	is haskell really a purely functional language?
+4	19	haskell write computation result to file
+4	19	getting the local appdata folder in haskell
+4	13	scala factorial on large numbers sometimes crashes and sometimes doesn't
+4	13	why does scala create a ~/tmp directory when i run a script?
+4	19	laziness and tail recursion in haskell, why is this crashing?
+4	13	thread.join not behaving as i expected in scala
+4	19	how does 'get' actually /get/ the initial state in haskell?
+4	19	haskell minimum/maximum double constant
+4	19	haskell tuple size limit
+4	19	compare string contents in haskell
+4	13	scala: xml whitespace removal?
+4	19	comparing wildcards for equality in haskell..?
+4	19	how to recursively compare the digits in a number in haskell
+4	13	case classes with an upper type bound
+4	19	how to remove an item from a list in haskell
+4	13	type inference on method return type
+4	19	inserting a value into an ordered tree in haskell
+4	12	nhibernate multiple component properties of the same type in a class
+4	19	how to convert type in tuples
+4	19	info on type family instances
+4	19	what is the relationship between unboxed types and strictness?
+4	19	haskell and conditional data structures
+4	19	name clashes between field labels of different datatypes in haskell
+4	19	using the github gist api from haskell
+4	19	linking to sdl and other libraries in haskell
+4	13	substantial android development in scala
+4	13	deploying simple scala app(non-webapp) managed with maven
+4	19	haskell target architecture
+4	19	installation hdbc-sqlite3 haskell
+4	19	which versions of packages can my haskell package depend upon?
+4	19	haskell network io hgetline
+4	13	using scala-2.8.0.rc1 with maven and intellij 9.0.1
+4	13	targeting android with scala 2.8 trunk builds
+4	13	scala project does not automatically build in eclipse
+4	13	scala eclipse ide suddenly ignoring breakpoints
+4	19	how to clear the screen in haskell
+4	13	force repaint after button click <- scala
+4	13	are scala's mouse events working? how?
+4	19	subclassing show in haskell?
+4	19	simple text menu in haskell
+4	19	haskell: opengl, how to prevent immediate window closing
+4	19	simple putstrln in haskell/yampa with arrows syntax
+4	19	haskell or standard ml for beginners?
+4	19	is it recommended to always have exhaustive pattern matches in haskell, even for "impossible" cases?
+4	19	how do i create two mutual producer/consumers with internal state in haskell?
+4	19	could someone explain these haskell functions to me?
+4	13	scala swing event framework - where do i add my reactors?
+4	13	if scala scaled well for twitter, would jruby have done the same?
+4	13	what's the best scala build system?
+4	19	how to mock for testing in haskell?
+4	19	how to learn haskell
+4	13	can scala survive without corporate backing?
+4	13	is there any game engine in scala?
+4	13	can someone explain scala's yield?
+4	13	should i study scala?
+4	19	how do i combine monads in haskell?
+4	13	how do i extend scala.swing?
+4	13	what orms work well with scala?
+4	19	is haskell mature enough for developing commerical web applications?
+4	13	how should i organize implicits in my scala application?
+4	13	how do i get started developing for a web using scala?
+4	13	drawbacks to using lift (scala-based framework) for webservices?
+4	13	how should i think about scala's product classes?
+4	13	how to reduce scala (/ java) startup overhead?
+4	13	common programming mistakes for scala developers to avoid
+4	13	does scala's bigdecimal violate the equals/hashcode contract?
+4	13	what are good application containers for mid-tier services for scala?
+4	19	how does type deduction work in haskell?
+4	13	how to create non-blocking methonds in scala?
+4	13	is there any set of excercises for scala?
+4	19	how to organize files in haskell programs?
+4	13	what is scala blogs that you regularly follow?
+4	13	how many scala web-frameworks are there?
+4	13	how do i setup multiple type bounds in scala?
+4	13	how to do something like this in scala?
+4	19	is there a way to optimise this program in haskell?
+4	13	how to control tcp_nodelay setting for scala remote actor ?
+4	13	scala actors - worst practices?
+4	13	easiest way to do idle processing in a scala actor?
+4	19	really dumb question about haskell
+4	13	are there code examples comparing scala and javafx script?
+4	13	scala xml \\ copies xmlns attribute. why and how can i stop it?
+4	19	ok, enlighten me as usual stackoverflow: what is haskell actually useful for?
+4	19	how to use frominteger in haskell?
+4	13	is there a safe way in scala to transpose a list of unequal-length lists?
+4	13	is there a comparison between scala and google 'go' language (feature by feature)?
+4	13	is the scala 2.8 collections library the "longest suicide note in history" ?
+4	13	how to resolve java.nio.charset.unmappablecharacterexception in scala 2.8.0?
+4	19	haskell too many where clauses, any alternate suggestions
+4	13	how can i convert scala.xml.elem to something compatible with the javax.xml apis?
+4	13	what is the best book for learning scala for an experienced programmer?
+4	13	how do you uninstall the scala eclipse plugin?
+4	13	is it possible to curry the other way around in scala?
+4	13	can i get ast from live scala code ?
+4	19	what can be improved on my first haskell program?
+4	13	ant-ivy-scala template: any suggestions on improvements?
+4	19	how to create infinitely repeating list in haskell?
+4	19	is there a haskell function for dates?
+4	13	scala: suggestion for an idea for a hands on session
+4	19	any haskell online contests or problem sets?
+4	19	haskell - some questions about system.process and mutithreading
+4	13	your experience with scala+wicket
+4	19	how to get system time in haskell using data.time.clock?
+4	13	what is a simple way to receive snmp traps in scala?
+4	13	how to use the scala dispatch library to send a post request to the server in the lift ?
+4	13	how to tackle scala source incompatibilities in 2.8.0?
+4	19	haskell ambiguous occurrences -- how to avoid?
+4	19	are these two combinators already available in haskell?
+4	13	can i limit the size of the array in scala?
+4	19	how do vbos/fbos/displaylists work in haskell's opengl bindings?
+4	19	is there a way to do more "dynamic" data constructors in haskell?
+4	13	how do you define an @interface in scala?
+4	19	how to make haskell's tchan defer messages like erlang's message queues can?
+4	19	can a custom guard mechanism be defined in haskell?
+4	13	suggested content for a lunch-time "introduction to scala" talk
+4	19	how to design "blackbox" with state in haskell?
+4	13	how to limit concurrency when using actors in scala?
+4	13	how to become more productive using scala? (tools, ides)
+4	19	haskell libmagic  how to use it???
+4	19	howto use mongodb bindings for haskell.
+4	13	combining javafx and scala - is it possible?
+4	13	how well does java and scala work together?
+4	19	haskell newbie question: what is "lifting"?
+4	19	can you turn a haskell list into a series of do instructions?
+4	13	how to convert a scala.list to a java.util.list?
+4	13	how would i express this in scala?
+4	13	is there an easy way to get the scala repl to reload a class or package?
+4	19	how do you detect if a list has exactly 3 items in haskell?
+4	19	how do i write the function 'twice' in haskell?
+4	13	would it make sense to have a separate scala library in android market?
+4	19	how do you write the function 'pair' in haskell?
+4	13	what are the best features of scala?
+4	13	scala/erlang uses the greenthread model or not ?
+4	13	can one create sized types in scala?
+4	13	how to use objetcs as modules/functors in scala?
+4	13	how do i list all files in a subdirectory in scala?
+4	13	can you do logic programming in scala?
+4	13	is there an easy (idiomatic) way to convert a java.lang.reflect.method to a scala function value?
+4	13	have you actually convinced anybody to scala?
+4	13	how do i enable continuations on scala 2.8?
+4	13	how can i use the scala program schema2src?
+4	19	how do i do automatic data serialization of data objects in haskell
+4	19	how to use gd binding in haskell?
+4	11	how to @autowire objects in validator classes?
+4	19	how do you make this haskell power function tail recursive?
+4	13	how do i break out of a loop in scala?
+4	19	is there any working implementation of reverse mode automatic differentiation for haskell?
+4	19	using haskell for "business applications"
+4	13	anybody konws gui dsl on scala?
+4	19	how do you solve this haskell problem?
+4	19	how do laziness and i/o work together in haskell?
+4	19	how do you solve this haskell problem using higher order functions?
+4	13	what is the standard way to optimise mutual recursion in f#/scala?
+4	19	what's the way to determine if an int a perfect square in haskell?
+4	19	haskell - how can i check if number is double/float?
+4	19	want to add a functional language to my toolchest. haskell or erlang?
+4	19	preferred way to do locales in the haskell platform
+4	19	help! i'm a haskell newbie
+4	19	what's the status of multicore programming in haskell?
+4	19	what does the `forall` keyword in haskell/ghc do?
+4	19	do you know a haskell package for dirent.h on windows?
+4	19	learning haskell, care to help out?
+4	19	how do i use constants in haskell, to avoid magic numbers ?
+4	19	implementing the haskell-maybemonad in f# - how can we get this lazy?
+4	19	can i do something like this in haskell
+4	19	how do i specify types for haskell's set builder notation ?
+4	19	how can i factor this haskell expression to avoid repeated computation?
+4	19	looking for a web host that can handle haskell
+4	19	haskell funtion does not terminate
+4	19	tracking down errors in haskell
+4	19	understanding haskell profiler output - what is ==_a3jo
+4	13	scala actors suspends unexpected when connecting to a database
+4	19	catching control-c exception in ghc (haskell)
+4	13	when is @uncheckedvariance needed in scala, and why is it used in generictraversabletemplate?
+4	19	what causes "error c stack overflow" in haskell usually
+4	19	binding type variables that only occur in assertions
+4	19	haskell: why is it saying my function type is off?
+4	13	scala type failure in 2.7: is there a workaround?
+4	13	what compromises scala made to run on jvm?
+4	13	scala and httpclient: how do i resolve this error?
+4	13	internal scala compilation. working with interactive.global
+4	19	in haskell, what does it mean if a binding "shadows an existing binding"?
+4	19	modifying the pretty printer from haskell-src-exts
+4	19	why is this haskell sdl line cyan when it should be white?
+4	19	haskell bad interface file
+4	19	why is this form of haskell acceptable, but the other form raises a type error?
+4	13	automatic casting in scala
+4	13	java/scala (deep) collections interoperability
+4	13	extending a scala collection
+4	19	erlang's term_to_binary in haskell?
+4	13	how to use scala internals to compile source faster than fsc (fast scala compiler)
+4	13	does scala has gaurds?
+4	13	scala's implementation of haskell last method
+4	19	machine learning in ocaml or haskell?
+4	13	scala: string chomp
+4	19	how to define a custom exception in haskell?
+4	13	scala: constraint on generic class type
+4	13	define self referencing scala class(recrusive class)
+4	13	scala programming question
+4	19	how to convert a integer to a bytestring in haskell
+4	19	lazy io in haskell?
+4	19	how to properly instantiate classes in haskell?
+4	19	how to unpack a haskell existential type?
+4	19	stack overflow in ocaml and f# but not in haskell
+4	13	how can i iterate a list of lists in scala?
+4	13	what is the difference between scala's case class and class
+4	19	haskell equivalent of c's __line__
+4	13	a generic quicksort in scala
+4	13	looking for examples of how to use "@_*" when doing pattern matching in scala
+4	19	haskell shying away from probabilistic data structures?
+4	19	haskell and type definition of functions. couple of questions.
+4	13	scala 2.8 actor
+4	19	haskell: syntax error when adding new line in pattern matching
+4	19	operator precedence and associativity in a parser (haskell)
+4	13	how to create xhtml query strings with scala?
+4	13	transforming scala varargs into java object... varargs
+4	19	haskell n-ary tree traversal
+4	19	how to make an instance of a generic type in haskell?
+4	13	how scala generic constraints to nullable types work
+4	19	traversing and filtering a tree in haskell
+4	13	equality relations in scala
+4	13	can i use a scala class which implements a java interface from java?
+4	19	in haskell, how can i use the built in sortby function to sort a list of pairs(tuple)?
+4	13	questions about scala from a rubyist
+4	13	in scala, what is the difference between using the `_` and using a named identifier?
+4	13	scala @ operator
+4	13	scala enumeration values not ordered?
+4	19	haskell function composition question
+4	13	in scala, why can't i partially apply a function without explicitly specifying its argument types?
+4	13	'deadlock' in scala
+4	19	using haskell's type system to enforce modularity
+4	19	haskell - redefining (hiding) arithmetic operators
+4	13	scala: "using" keyword
+4	19	understanding haskell's fibonacci
+4	19	haskell: scary type signature
+4	13	slow scala assert
+4	13	project euler 7 scala problem
+4	13	generic object load function for scala
+4	19	type patterns and generic classes in haskell
+4	13	how to access "overridden" inner class in scala?
+4	19	deriving arbitrary functions in haskell
+4	19	invoke haskell function with heterogeneous arguments?
+4	13	scala 2.8 implict java collections conversions
+4	13	scala: why are actors lightweight?
+4	13	is this the proper way to initialize null references in scala?
+4	13	scala println in a for loop
+4	19	haskell: constrain function on type double to only work with integers
+4	13	graph library for scala
+4	13	scala: how to specify varargs as type?
+4	13	scala: can't write setter without getter?
+4	19	haskell parsec parsing a list
+4	13	scala version of rubys' each_slice?
+4	13	scala and the java memory model
+4	19	point-free in haskell
+4	13	dependency between operations in scala actors
+4	13	scala slider throws casting exception
+4	13	best scala idiom for find & return
+4	19	how to write a foldr hof in haskell
+4	19	haskell compile time function calculation
+4	13	how do i create an xml root node in scala without a literal element name?
+4	13	how well does scala perform comapred to java?
+4	19	what is the difference between an operator and a function in haskell?
+4	13	why is there no string interpolation in scala?
+4	19	haskell applicative instance for errort?
+4	19	haskell optimization of a function looking for a bytestring terminator
+4	13	another java vs. scala perspective - is this typical?
+4	13	a question about scala objects
+4	19	bubble sort algorithm implementations (haskell vs. c)
+4	19	haskell, list of natural number
+4	13	self-modify the classpath within a scala script?
+4	19	why are side-effects modeled as monads in haskell?
+4	13	scala type inference failure on "? extends" in java code
+4	13	repeating a list in scala
+4	13	scala event swing :: chicken or egg
+4	13	scala 2.8 actors
+4	13	create and populate two-dimensional array in scala
+4	19	haskell's type system treats a numerical value as function?
+4	13	accessing type members outside the class in scala
+4	19	haskell: 'no instance for' arising from a trivial usage of regex library
+4	13	overriding scala enumeration value
+4	13	why scala's treeset returns sortedset
+4	13	scala create list[int]
+4	19	in haskell, will calling length on a lazy bytestring force the entire string into memory?
+4	13	difference between method and function in scala
+4	13	groovy / scala / java under the hood
+4	13	how to make a scala applet whose applet class is a singleton?
+4	13	noclassdeffound error using scala plugin for eclipse
+4	13	equivalent of public static final fields in scala
+4	19	what is wrong with my definition of zip in haskell?
+4	19	what is programming paradigm in haskell
+4	13	scala libraries and frameworks
+4	13	how can i define an anonymous generic scala function?
+4	13	scala and java real-time system
+4	19	monads and custom traversal functions in haskell
+4	13	how do i "get" a scala case object from java?
+4	19	understanding haskell's filter
+4	13	what type of webapp is the sweet spot for scala's lift framework?
+4	13	why scala is very complex
+4	19	haskell: what's the type of this function?
+4	19	understanding this matrix transposition function in haskell
+4	13	scala for junior programmers?
+4	19	haskell as rest server
+4	19	good functions and techniques for dealing with haskell tuples?
+4	13	scala passing type parameters to object
+4	13	variadic templates in scala
+4	13	in scala 2.8 collections, why was the traversable type added above iterable?
+4	13	scala type system : basic type mismatch
+4	19	programming in haskell error in sat function
+4	13	scala contiguous match
+4	13	scala array initialization
+4	13	generating scala ast for recursive method.
+4	13	which ide for scala 2.8?
+4	13	scala downwards or decreasing for loop?
+4	13	using lazy evaluation functions in varargs
+4	19	backtracking in haskell
+4	13	scala giving me "illegal start of definition"
+4	19	custom whitespace using haskell parsec
+4	13	can you return an assignable lvalue in scala?
+4	19	using data.heap in haskell, or reading haskell docs for a beginner
+4	19	why is there "data" and "newtype" in haskell?
+4	19	bytestrings in haskell
+4	19	haskell type error
+4	13	scala: can't catch exception thrown inside a closure
+4	13	how can i take any function as input for my scala wrapper method?
+4	13	scala traits and implicit conversion confusion
+4	19	type patterns in haskell
+4	13	any way to access the type of a scala option declaration at runtime using reflection?
+4	13	how to create sorted map in scala?
+4	13	parsing of binary data with scala
+4	13	how are scala closures transformed to java objects?
+4	19	what's the "|" for in a haskell class definition?
+4	19	haskell: dealing with types and exceptions
+4	13	scala 2.8 treemap and custom ordering
+4	13	scala: "parameter type in structural refinement may not refer to an abstract type defined outside that refinement"
+4	19	creating haskell instance declarations
+4	13	how to write two-dimensional array to xml in scala 2.8.0
+4	19	how are lists implemented in haskell (ghc)?
+4	13	lazy quicksort in scala
+4	13	scala: type variance and pattern matching between two equal types
+4	13	zeroc ice "checked casts" in scala
+4	13	what is meant by scala's path-dependent types?
+4	13	scala array constructor?
+4	13	good scala slides and snippets?
+4	19	parsec haskell lists
+4	19	haskell parse paragraph and em element with parsec
+4	13	why is this scala example of implicit paremeter not working?
+4	13	difference between array and list in scala
+4	13	improving mvp in scala
+4	13	best method to peek into a scala actor's mailbox
+4	13	cross product of 2 sets in scala
+4	13	catch all exceptions in scala 2.8 rc1
+4	13	scala's tuple unwrapping nuance
+4	13	scala: when are singleton objects constructed?
+4	19	strange pattern matching with functions instancing show
+4	19	level-order in haskell
+4	19	haskell parsec items numeration
+4	19	haskell and random numbers
+4	13	scala 2.8 return type for tuple-functions
+4	13	scala implicit or explicit conversion from iterator to iterable
+4	19	haskell recursive function
+4	13	is there any scala network library with actor model
+4	19	why do compiled haskell libraries see invalid static ffi storage?
+4	13	interesting scala typing solution, doesn't work in 2.7.7?
+4	13	initialise a var in scala
+4	13	a scala remote actor exception
+4	13	how would i yield an immutable.map in scala?
+4	19	multithreaded haskell
+4	13	scala methods ending in _=
+4	13	scala syntax highlighting in bluefish
+4	13	scala match/compare enumerations
+4	19	graph representation in haskell
+4	13	scala tuple deconstruction
+4	19	haskell : type casting int to string
+4	19	control statements in haskell?
+4	19	how to extract terms of specific data constructor from a list in haskell
+4	13	is scala functional programming slower than traditional coding?
+4	13	named constructors in scala?
+4	13	naming case classes in scala.
+4	13	when should i use package and when object in scala?
+4	13	extending existing data structure in scala.
+4	13	perfect hash in scala.
+4	13	how to get ponter/reference semantics in scala.
+4	13	scala xml retrieving from optional paths
+4	13	how can i get a node adjacent to a unique node using scala?
+4	19	fibonacci numbers in haskell
+4	19	types in haskell
+4	19	performance of looping over an unboxed array in haskell
+4	19	using an element against an entire list in haskell
+4	19	haskell dot operator
+4	19	problems with haskell's number types
+4	19	using perfectly formatted input as list in haskell
+4	19	avoiding explicit recursion in haskell
+4	19	haskell: defaulting constraints to type
+4	19	haskell: gluing a char and a list together?
+4	19	problem understanding treesort in haskell
+4	19	linking/combining type classes in haskell
+4	19	haskell - how to cast types?
+4	19	haskell list to tuple
+4	19	how to make random in haskell in pure function
+4	19	nill value in haskell
+4	19	haskell - interpreting a number
+4	19	type-conditional controls in haskell
+4	19	haskell flatmap
+4	19	haskell input return tuple
+4	19	haskell import problem
+4	19	orphaned instances in haskell
+4	19	regular expression in haskell
+4	19	how to write return haskell
+4	19	list of existentially quantified values in haskell
+4	19	how does one declare an abstract data container type in haskell?
+4	19	help understanding arrows in haskell
+4	19	mapping over io in haskell
+4	19	how to write the identity function in haskell
+4	19	haskell: functions that sometimes return a function
+4	19	haskell sorting of an unorderable list using a proxy order
+4	19	why does this haskell statement not evaluate lazily?
+4	19	memoization in haskell?
+4	19	haskell cps programming style problem
+4	19	using haskell's types to replace assert statements or if checks in other languages
+4	19	predicate logic in haskell
+4	19	understanding haskell accessor functions
+4	19	implicit type parameters in haskell class definition?
+4	19	what's the next step to learning haskell after monads?
+4	19	functional proofs (haskell)
+4	19	haskell pair and unpair functions
+4	19	is haskell's mapm not lazy?
+4	19	merging/union two classes into one in haskell
+4	19	performance of "all" in haskell
+4	19	what is context in haskell multiparameter type class
+4	19	are all haskell functors endofunctors?
+4	19	which haskell package contains a function most similar to matlab's "fsolve"?
+4	19	haskell library like sympy?
+4	19	haskell: custom types with conditions
+4	19	tutorial to disassemble the haskell cont monad?
+4	19	scenegraph traversal in haskell
+4	19	automatic conversion of types for ffi calls in haskell
+4	19	haskell: read and type signatures
+4	19	haskell: nonobvious examples of functional dependencies
+4	19	[haskell] common recursion pattern
+4	19	haskell monoid join function
+4	19	prefix form of unary operator in haskell
+4	19	how practical is it to embed the core of a language with an effectful function space (like ml) into haskell?
+4	19	haskell numeric type heirarch in sicp exercises
+4	19	implementing ctcp commands in an irc bot (haskell)
+4	13	launch scala repl programatically?
+4	19	string formatting in haskell
+4	19	haskell input & passing values to functions
+4	19	haskell: convert unicode integer to actual unicode character
+4	13	lexing newlines in scala stdlexical?
+4	19	improve a haskell script
+4	19	haskell convert byte string to utc time
+4	19	haskell io russian symbols
+4	19	better data stream reading in haskell
+4	19	how to write haskell function to verify parentheses matching
+4	19	haskell check for user input errors
+4	19	create a temporary directory in haskell
+4	19	how to execute haskell program in cygwin
+4	19	how to match newlines with alex/haskell
+4	19	stripping newlines in haskell
+4	19	lists searches in syb or uniplate haskell
+4	19	capturing audio input from microphone, with haskell?
+4	13	don't understand the typing of scala's delimited continuations (a @cps[b,c])
+4	19	pointers in haskell???
+4	19	haskell: how to get through 'no instance for' ?
+4	19	what does a fullstop (.) mean in haskell?
+4	19	how to apply two functions onto the same string without using ">>"
+4	13	<:< operator in scala.
+4	13	i'm having an issue with a scala script using 2.7.7 - main$$anon$1$$anonfun$1$$anonfun$apply$2
+4	13	is classof[] in scala 2.8 different from 2.7?
+4	13	how to unimport string "+" operator in scala?
+4	19	literate haskell (.lhs) and haddock
+4	13	why scala not allowing '$' identifier in case statement?
+4	19	haskell - parsec parsing <p> element
+4	19	why is the recursion idiom in haskell "'n+1' and 'n'" and not "'n' and 'n-1'"?
+4	19	(type theoretical) how is ([] ==) []  typed in haskell?
+4	19	infinite loop in haskell? (newbie)
+4	19	[haskell]curious about the hash table problem
+4	19	is haskell, truly pure (is any language that deals with input and output outside the system)?
+4	19	[haskell] error "no instance for (num [t])" in collatz function
+4	19	[haskell] space leak
+4	19	[haskell] odd values when enumerating a list
+4	19	haskell: how is <*> pronounced?
+4	19	what manner of haskell syntax is used in [$parseroutes|/ home get|] ?
+4	19	haskell function composition (forward pipe) - why does this work?
+4	19	[haskell] equivalent expressions produce different results in a function?
+4	19	'mod' and -1 in haskell
+4	19	haskell: print textencoding
+4	20	how to call functions/methods within cms block or page?
+4	19	why is [string] the inferred type when there are no lists visible in the code?
+4	12	adding a enum as a class property in hbm.
+4	19	haskell: read input character from console immediately, not after newline.
+4	19	haskell audio output on os x?
+4	15	functions too fast? so they get skipped?
+4	19	could someone point be to a good summary of haskell code convention
+4	13	scala -> use .net (linq) and java (various frameworks) in the same program?
+4	13	scala: is there a way to use priorityqueue like i would in java?

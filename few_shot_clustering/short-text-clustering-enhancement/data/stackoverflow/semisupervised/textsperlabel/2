@@ -1,0 +1,849 @@
+2	15	comet, tomcat and read events
+2	11	spring mvc + oracle lobs + streaming
+2	11	can spring webflow 2.0's entity manager commit from subflow states?
+2	12	how to get hibernate-entitymanager to work with jta out of jboss?
+2	11	spring introductions with dynamic implementation
+2	11	pointcut not working with spring aop
+2	11	what is the best way to get a reference to a spring bean in the backend layers?
+2	11	how do you make a multi-module spring configuration ?
+2	11	spring security account lockout
+2	11	use spring options tag to display enum's tostring value
+2	11	using beans from another project
+2	11	spring @notation documentation
+2	11	spring security and struts 2
+2	11	validation framework for business app built on spring 2.5
+2	11	spring, hibernate, blob lazy loading
+2	11	conversion of bytes into a type without changing the application (ie storing the conversion method in db) with spring 3.0
+2	11	creating lazily initialized spring beans using annotation based configuration
+2	11	modelattributes  not accessible on jsp (spring mvc)
+2	11	getting the caller to a spring aop proxy
+2	11	spring and jsf and jpa
+2	11	how i use spring and netbeans
+2	11	how exactly jdbctemplate with transactionmanager works together?
+2	11	are there any examples/tutorials of using spring 3.0 with cassandra as a backend?
+2	12	hibernate: lazyinitializationexception: could not initialize proxy
+2	11	spring web flow
+2	11	problem migrating spring web app from tomcat 5.5 to tomcat 6.0
+2	11	spring 2.2.5 and xfire 1.2.6 - nosuchmethoderror: <init>
+2	11	setting a property in a spring bean outside the spring bean definintion.
+2	11	do i need to worry about concurancy with tomcat spring beans
+2	12	how to configure hibernate 3.3 in eclipse galileo?
+2	11	what does <tx:annotation-driven/> in spring really do in the code level ?
+2	11	how to xml configure spring bean for constructor injection when bean has varargs constructor
+2	12	hibernate lock wait timeout exceeded;
+2	11	integrating spring webflow 2 and apache tiles
+2	11	safeguard against forgetting to configure transactions in spring
+2	11	spring datasource and database schema
+2	11	problems overriding a property to null in spring bean declaration
+2	11	spring security userdetails best practice
+2	11	method-invoking spring bean
+2	11	how can we share data between the different steps of a job in spring batch?
+2	11	spring freemarker bind - what is controller?
+2	11	spring web flow  error messages
+2	11	how to set sqlmapclient outside of spring xmls
+2	11	spring multiple property file
+2	11	decoupling backing store with spring web mvc
+2	11	how can i inject a property value into an annotation configured spring mvc 3.0 controller
+2	11	spring transaction manager
+2	11	obtaining a hibernate transaction within a spring class
+2	11	is there an equivelant to spring's contextloader for a non-webapp
+2	11	ready configurations for spring + hibernate
+2	11	how to restart transactions  on deadlock/lock-timeout in spring?
+2	11	problem creating an ehcache cache from spring
+2	11	what is the equivalent of struts actionmessages in spring mvc?
+2	11	cannot migrate from spring 2.5 to spring 3.0
+2	16	how can a qt client talk to a spring server application?
+2	11	spring properties file
+2	11	loading properties with spring (via system properties)
+2	11	spring 3 replacement for isdisabledinthisenvironment
+2	11	spring's jms design question : decouple processing of messages
+2	11	how to debug spring nosuchbeandefinitionexception
+2	11	how does spring resolve views?
+2	13	using rest webservices as a datasource for lift ?
+2	11	how to programatically use spring's jdbctemplate?
+2	11	spring transactions in diffrent daos does not work anyway?
+2	11	define datasource bean on code
+2	11	reading a list from a java .properties using spring properties place holder
+2	11	automatic dynamic binding in spring
+2	12	hibernate.properties classpath conflict
+2	11	entitymanager merge/persist problem
+2	11	hibernatetransactionmanager(spring) with multiple session factories
+2	12	understanding hibernate internals
+2	12	hibernate tutorials
+2	11	spring mvc binding parameters to backing object
+2	11	spring web flow
+2	11	osgi logging with spring-dm extender not logging
+2	12	spring 2 hibernate annotation
+2	11	how do i prevent spring/hibernate from automatically committing my modifications to the database?
+2	11	spring roo how to maintain state between commands
+2	12	configuring hibernate logging using log4j xml config file?
+2	11	spring + tiles2 + freemarker - integrate via freemarker servlet or via spring's freemarkerviewresolver?
+2	11	generating simple crud applications in spring based off existing database or hibernate configurations?
+2	11	global properties in spring
+2	11	@resource annotation not injecting a subclass
+2	11	spring security max login session
+2	12	cannot run jboss cache as a second level cache for hibernate in jboss 5
+2	11	exposing multiple objects with rmi in spring
+2	11	spring not enforcing my method security annotations
+2	11	what would be the spring way of using tcp connections?
+2	11	spring annotation-based controllers not working if it is inside jar file
+2	11	hibernate and spring transactions - using private constructors
+2	11	spring 3 simple extentionless url mappings with annotation-based mapping - impossible?
+2	11	intercepting method with spring aop using only annotations
+2	11	how to programmatically add security to a spring bean
+2	11	not showing error messages when validated using @valid(jsr-303) in spring mvc
+2	11	spring servlet mapping - no css or jsp!
+2	12	spring hibernate query help
+2	11	database connection management in spring
+2	11	spring bean configuration
+2	11	how to define spring datasource in controller ?
+2	11	how to autowire factorybean
+2	11	keeping request parameters on spring simpleformcontroller with validator
+2	11	spring + hibernate jpa question
+2	11	spring - handle multiple forms submit with one controller
+2	11	how to collect spring properties from multiple files for use on a single bean
+2	12	spring hibernates session issue with http request
+2	11	how do i configure spring security 2 database authentication with hibernate 3 annotated classes?
+2	11	spring mvc very confused about controller mappings
+2	11	how can i configure spring to save as much memory as possible?
+2	11	can i inject an interface subtype in spring?
+2	11	how does spring maintain singletons,prototypes... under the hood?
+2	11	my spring aop not working
+2	12	hibernate with zk
+2	11	spring and view resolvers
+2	11	spring and interfaces
+2	11	does spring provide 2 mvc platforms, grails and spring mvc?
+2	11	caching spring/hibernate webapp
+2	11	how do i inject a single property value into a string using spring 2.5.x ?
+2	11	spring: setting up a simple propertyplaceholderconfigurer example.
+2	11	dwr + spring + jpa session closed
+2	11	how to wire interdependent beans in spring (deferred property binding)?
+2	12	hibernate, mysql, glassfish v3, and jta datasource
+2	12	spring user transaction with hibernate
+2	11	spring security problem, error creating bean with name 'org.springframework.web.servlet.mvc.annotation.defaultannotationhandlermapping'
+2	11	jruby app throws exception in spring
+2	11	spring - hibernate load *.hbm.xml from classpath resource
+2	11	referencing beans in xml config created via annotations
+2	11	spring open jpa
+2	11	exemplary open-source spring projects
+2	11	spring, hibernate, entitymanager and class inheritance
+2	11	spring servlet-mapping
+2	11	@transactional not working with spring and hibernate
+2	11	integrating springmvc and extjs
+2	11	spring, jdbc & multithreading
+2	11	how to make spring load jpa classes from multiple paths?
+2	11	spring struts and forms
+2	11	spring deployment-level configuration
+2	11	spring + hibernate dynamic mapping
+2	11	how can i apply an aspect using annotations in spring?
+2	18	datacontxet reusing connection
+2	11	have you tried the spring workflow alreay ?
+2	11	spring - constructor injection and overriding parent definition of nested bean
+2	11	can i use an environment variable based location for spring filesystemresource?
+2	11	@contextconfiguration in spring 3.0 give me no default constructor found
+2	11	can i have multiple security contexts with spring security?
+2	11	file based spring security
+2	11	problem in spring session scope bean with aop
+2	11	spring hibernate: save form object in relation
+2	11	upgrading dojo in spring-js from 1.3 to 1.4
+2	11	spring mvc 3 validation - unable to find a default provider
+2	11	in spring, how do i use a classpathxmlapplicationcontext to get an entitymanager?
+2	11	could someone explain spring security basepermission.create?
+2	11	spring aop vs aspectj
+2	12	why do associated collections contain null values? (hibernate, annotation, spring)
+2	11	i need a simple custom authentication in spring
+2	11	how to do background computing in spring 3.0?
+2	11	spring: getting factorybean object instead of factorybean.getobject()
+2	11	when spring bean is loaded and if i have a constructor and setters which one will be called first?
+2	11	spring: programmatically use propertyplaceholderconfigurer on none singelton beans
+2	11	newlines and spring's simpleurlhandlermapping
+2	11	spring webflow validation
+2	11	spring: how to programmatically define factorybean
+2	11	array dependency injection in spring?
+2	11	passing properties to a spring context
+2	11	spring - stackoverflowerror in bean creation
+2	11	spring initbinder and webbindinginitializer example ...
+2	12	how to implement lazy loading in hibernate
+2	11	how to disable spring bean loading log
+2	11	sample_en.jsp and sample_fr.jsp in spring mvc
+2	11	load balancing, spring security, concurrentsessionfilter
+2	11	first steps in spring framework
+2	11	spring binding formmultiselect
+2	11	spring mvc date and customdateeditor problem on simple text field.
+2	11	having spring bean properties refreshed automatically from properties file
+2	11	propertyplaceholderconfigurer vs filters -- spring beans
+2	11	what's the best online tutorial for starting with spring python
+2	12	multiple session factories under spring/hibernate
+2	11	spring's authenticationprocessingfilter override
+2	11	how to know the line of a bug in a spring generated bean ?
+2	11	lazy initialiazation of cache with spring ibatis
+2	11	spring rdbms vs jdbctemplate
+2	11	spring webcontent resources - access outside servletcontext
+2	11	using spring pitchfork to have jee complaint code that runs in non-jee container
+2	12	hibernate logging with log4j
+2	11	how do i create a spring 3 + tiles 2 webapp using rest-ful urls?
+2	11	using spring to inject easymock mocks causes classcastexception
+2	11	how do i use spring's idtoentityconverter to do my entity type conversion during form binding?
+2	11	what is the meaning of using proxy ( dynamic proxy) in spring framework?
+2	11	spring opensessioninviewfilter: cant save object
+2	11	spring custom filter problem?
+2	11	spring map definition
+2	11	spring - annotation based controller - requestmapping based on query string
+2	11	multiple messagesources in spring configuration files
+2	11	spring webflow best practice
+2	11	how to use multiple viewresolvers in spring?
+2	11	simple spring, use of classpathapplicationcontext for standalone apps, how to reuse?
+2	11	spring mvc custom authentication
+2	11	spring json view: applicationobjectsupport does not run in an applicationcontext
+2	11	spring 3 java config: imported @configuration not enhanced?
+2	11	spring web flow form binding
+2	11	spring and the anemic domain model
+2	11	question about spring transaction propagation
+2	11	how do you acess a property of a bean for reading in a spring xml config file?
+2	11	sitemesh and spring mvc decorator pattern problems
+2	11	null inner bean with spring ioc
+2	11	getting started with spring 3 web mvc - setting everything up
+2	2	websphere connections problem
+2	11	filesytemresources in spring framework
+2	11	spring @transactional annotation best practice
+2	11	spring list beans by type
+2	11	quartz jobstore with spring framework
+2	11	spring bean initialized on web app starts up
+2	11	spring annotation configration issue
+2	11	is there a spring handleradapter implementation for struts?
+2	11	how to manage a custom user object in session when spring security autheticates user.
+2	4	why do some setups front-end glassfish with apache?
+2	11	spring's jdbctemplate illegalargumentexception: datasource required
+2	11	spring security redirect if no access on page
+2	12	run code in hibernate filters
+2	11	different using @transactional and spring template ?
+2	11	what are the benefits of proxying by class as opposed to proxying by interface (spring)?
+2	11	newbie spring config question
+2	11	spring 3.0m4 and passing objects as parameters to post
+2	11	usage question: spring aop vs. aspectj weaving
+2	11	runtime value injection using spring?
+2	11	runtime dependency injection with spring
+2	11	is there any difference between spring and spring.net?
+2	11	spring 3 aop anotated advises
+2	11	spring mvc configuration question
+2	12	hibernate and netbeans application
+2	11	get spring security intercept urls from database or properties
+2	11	how do i get spring to inject my entitymanager?
+2	12	spring & hibernate ejb events
+2	11	narrowing problem with spring mvc annotation-based controller and @requestmapping
+2	11	what do the terms formbackingobject and modelattribute mean in spring mvc?
+2	12	lazyinitializationexception with session scoped bean
+2	11	apply transaction management spring
+2	11	how can i register a global custom editor in spring-mvc ?
+2	11	how to use spring to inject an object in a setter that doesnt follow the java bean specification ?
+2	11	caching with spring framework
+2	11	hidden features of spring framework ?
+2	11	spring hello world setup and code in eclipse
+2	11	which java modules get spring security
+2	11	spring simpleurlhandlermapping not allowing routing for any html page
+2	11	spring faces javascript
+2	12	spring + hibernate : a different object with the same identifier value was already associated with the session
+2	11	is the rest support in spring 3's mvc framework production quality yet?
+2	11	convert spring batch from 1.1.3 to 2.0.0
+2	11	can anyone point me to spring mvc, tiles, freemarker integration example?
+2	11	how to perform spring validation  in multiaction controller?
+2	11	example of spring missuse
+2	11	spring web flow
+2	11	should i use spring or guice for a tomcat/wicket/hibernate project?
+2	11	jsp-based templating with spring
+2	12	using spring + hibernate transactional cache in tomcat?
+2	11	spring mvc with an externally rendered pdf as the view
+2	12	using hibernate with dynamic eclipse plug-ins
+2	11	what the consensus on spring p namespace for beans?
+2	11	spring security with ejbs
+2	11	advantages to adding spring to flex
+2	11	ide support for spring framework; are they worth using?
+2	11	spring xml inner bean question
+2	11	how can i read contents from spring messagesource within a enum?
+2	11	how to handle back browser button problem using spring?
+2	11	spring webflow: cannot get flow execution url at action phase of portlet
+2	8	singleton design
+2	12	hibernate with tomcat vs hibernate with jboss
+2	11	spring dependency injection in construcor with annotations
+2	11	how to register multiple servlets in web.xml in one spring application
+2	11	jersey, spring, tomcat and security annotations
+2	11	in spring can you alter property placeholder values using a beandefinitiondecorator?
+2	11	running spring program inside application server
+2	11	auto-detecting components using spring annotations
+2	12	how can i configure hibernate to use context-specific connection information?
+2	11	how to inject spring beans into a jsp 2.0 simpletag ?
+2	11	estimating a spring/hibernate project.
+2	11	spring aop: applying properties through the aspect
+2	11	where do you define spring bean configuration files
+2	11	spring and hibernate, lazy initiation problem
+2	11	am i allowed to declare a lifecycle interceptor on an interceptor?
+2	11	how does a spring framework works?
+2	11	defaultannotationhandlermapping via contextloaderlistener instead of dispatcherservlet on spring 3
+2	11	how do i display non-validation errors in jsp with spring webflow
+2	11	spring registersingleton
+2	11	request handling methods in spring
+2	11	is this spring training usefull?
+2	11	trying to get the information of session webflow spring
+2	11	vaadin and spring mvc integration
+2	11	spring mvc domain object handling best practice
+2	11	what is the single most compelling reason to migrate to spring 3 from 2.x
+2	13	logging in scala
+2	11	what are the available options to retrieve spring-managed beans in a log4j appender inside a spring-managed web application?
+2	12	hibernate multi user environment
+2	11	what are the differences between spring integration and jboss jbpm?
+2	11	configurable vs component with spring and aspectj
+2	11	introducing spring mvc
+2	12	hassle with hibernate and spring and dynamic proxies
+2	4	many instances of apache get spawned with passenger/rails
+2	11	app servers vs. spring
+2	11	spring security in a distributed application.
+2	11	hibernate flush and jtaunexpectedrollback exception
+2	11	how does spring for python compare with spring for java
+2	11	how to map "a-b" query to a command object in spring mvc
+2	11	spring 3: task namespace: how to find out time of next execution?
+2	11	how to inject dependencies into httpsessionlistener, using spring?
+2	11	spring, db and property file configuration.
+2	11	spring injection - interfaces and classes
+2	11	spring - how do you set enum keys in a map with annotations
+2	11	forcing spring's mbeanexporter to use a particular mbeanserver
+2	11	spring defaultmessagelistenercontainer, activemq and message redelivery
+2	11	how to create thread poolling using spring scheduler?
+2	11	sending multi-part email from google app engine using spring's javamailsender fails
+2	11	websphere and propertyplaceholderconfigurer
+2	11	spring explorer not showing beans from bean definition file
+2	11	where can i find at least two great online tutorials for building a web application with the spring framework
+2	11	spring mvc 3.0: avoiding explicit jaxbelement<> wrapper in method arg
+2	11	spring wire a static class
+2	11	spring - how to load a new hierarchical context?
+2	11	how to achieve spring injection in oval validation framework?
+2	11	spring controller destroy method?
+2	11	supply spring managed objects to non spring managed objects?
+2	11	how to handle dataintegrityviolationexception in spring?
+2	11	url-action mapping & routing in spring mvc 3.0
+2	12	hibernate - session monitor tool
+2	11	issues with setting url mappings in spring mvc 2.5
+2	11	is there a maven 2 archetype for spring 3 mvc applications?
+2	11	spring mvc: detect if an exception has been thrown while loading the context
+2	12	hibernate nullpointerexception in loader class
+2	11	aspectj in spring
+2	11	how can i translate text inside controller in spring framework 3 ?
+2	11	spring 3 and a custom object wrapper for freemarker
+2	11	spring batch insert using hibernatetemplate, jdbctemplate
+2	11	spring initialization order
+2	11	spring jpa and persistence.xml
+2	11	store custom properties in aplicationcontext.xml spring file
+2	12	hibernate workflow
+2	11	different i18n in spring according to url
+2	11	spring design by contract: where to start?
+2	13	scala remote actor security
+2	11	i'm using spring, hibernate and mysql. how can i let my app create the table automatically.
+2	11	how to set up multi-threading in spring batch?
+2	12	how to get hibernate configuration properties?
+2	11	spring- how to use springs dependancy injection to write a standalone java applicaiton
+2	11	spring mvc
+2	11	spring application context switch at runtime
+2	11	spring mvc tag interaction with custom tag
+2	11	spring entity to use service, possible design flaw, but still....
+2	11	spring jpa exception translation
+2	11	spring ioc injecting conrete implementation of interface to test
+2	11	how can use spring xml configuration to set a bean property with list of all beans of a certain type?
+2	13	rereading akka application.conf when using restarting container in sbt
+2	11	howcan i get started with spring batch?
+2	11	spring enabled web application
+2	11	how to configure java.xml.transform.transformer in spring
+2	11	spring jdbc rowcallbackhandler nightmare
+2	11	ref vs idref attributes in spring bean declaration
+2	11	spring mvc defaultvalue for double
+2	11	how to nest spring jms messageconverters
+2	11	wiring twitter class of twitter4j in spring
+2	11	autostart spring app
+2	11	what is annotations and how do it actually works for frameworks like spring ?
+2	11	spring custom namespaces with maven
+2	11	why spring framework ?
+2	12	set hibernate root folder
+2	12	why do we use hibernate annotation?
+2	11	spring 3.0 orm with jpa2.0 classcastexception
+2	11	single dispatcherservlet with multiple controllers
+2	11	in spring web flow, how do i add # to the end of the flowexecutionkey to redirect to an anchor in a page?
+2	11	slow to start after upgraded to spring 3
+2	11	spring security : failed to load applicationcontext with pre-post-annotations="enabled"
+2	11	have you found success with a spring  and hibernate web application
+2	11	duplicate spring configruations being loaded?
+2	11	spring application context available inside the constructor
+2	11	something like ejb wiring in spring for non ejb's
+2	11	spring ws calling .net web services
+2	11	spring mvc and jsf navigation rules together
+2	11	parent contexts in spring based web-app
+2	11	jsr-303 dependency injection and hibernate
+2	11	customizing spring concurrent-session-control configuration
+2	11	spring configuration file cannot parse elements defined in my own schema
+2	11	spring mvc vs jsf
+2	11	how to tie the lifecycle for a spring bean to the webapps' lifecycle ?
+2	11	dependency on spring's annotations
+2	11	an rmiproxyfactorybean factory in spring?
+2	11	spring embedded ldap server in unit tests
+2	11	custom 404 using spring dispatcherservlet
+2	11	define daos in spring when the datasource is varying dynamically
+2	11	eclipse spring builder set properties with groovy beans
+2	11	spring security basics
+2	11	database-sessions in spring
+2	11	spring validator default message codes not resolving
+2	11	how can i make properties files mandatory in spring?
+2	11	using @postconstruct annotation in spring 3.0.0.rc1
+2	11	java logging vs log4j in spring framework. which one is the most suitable.
+2	11	spring + thread safe singletons
+2	11	entitymanager injection with jpa
+2	11	is there a spring lazy proxy factory in spring?
+2	11	programatically bridge a queuechannel to a messagechannel in spring
+2	11	spring controller setup question?
+2	12	hibernate and jpa - error mapping embedded class exposed through an interface
+2	11	spring web dependency injection(ioc) and the servletcontextlistener
+2	11	automatic hibernate transaction management with spring?
+2	11	spring - when should i consider loading another context in same jvm?
+2	12	using hibernate validator with jpa and spring
+2	11	importing spring object definitions
+2	11	spring 3.0 and soap - what's best practice?
+2	15	good ajax framework for j2ee
+2	12	hibernate/mysql connection pooling
+2	11	dao, spring, hibernate, jboss
+2	11	spring and hibernate.cfg.xml
+2	13	using @autowired of spring with scala
+2	11	spring+hibernate mapping class without xml
+2	11	spring security access role
+2	11	spring framework 3 and session attributes
+2	11	spring 3 di using generic dao interface
+2	11	spring - best approach to provide specific error messages in a validator from a dao?
+2	11	autowire annotation in spring without using component scanning
+2	11	why does spring use xml for component wiring?
+2	12	implementing audit trail- spring aop vs.hibernate interceptor vs db trigger
+2	11	spring di, domain model & best practices
+2	11	spring programmatic transaction with parameter
+2	11	junit4 + spring 2.5 : asserts throw "noclassdeffounderror"
+2	12	java spring-hibernate mapping question?
+2	11	spring: remove singleton
+2	11	what's the difference between tomcat jndi based and spring/hibernate ds based connection pooling
+2	11	easiest way to add gwt to a spring mvc application?
+2	11	interoperability by using spring and hessian ? is it possible ?
+2	11	spring framework events
+2	11	spring to understand properties in yaml
+2	11	spring application root variable
+2	11	spring component scan for classes
+2	11	spring calls object constructor before setting properties
+2	11	accessing the jdbc resultset concurrently in spring
+2	12	hibernate interceptors : aftertransactioncompletion
+2	11	spring beans, lifecycle in a xmlwebapplicationcontext (web context)
+2	13	scala and swing gui applications
+2	11	how to create hyperlink in spring + jsp
+2	11	exception while deploying spring app on tomcat 6
+2	11	using spring jdbctemplate
+2	11	spring batch: java.io.ioexception: stream closed exception when combining multiresourceitemwriter and flatfileitemwriter
+2	11	is it possible to partially autowire a spring bean?
+2	11	how to create an aspect on class, that is not a bean using spring aop?
+2	11	spring framework ide - where to learn efficently?
+2	11	is there a recommend way to get spring 2.5+ to autowire hibernate domain objects
+2	12	does hibernate auto-rollback programmatic transaction for unhandled exceptions?
+2	11	spring mvc isformsubmission() equivalent for annotations?
+2	11	updating built in spring/hibernate archetype in maven?
+2	11	using spring junit4 and jmock together
+2	11	is there a good reference for how grails was architected with spring?
+2	11	sharing spring security configuration between applications
+2	11	creating temporyary jms jms topic in spring
+2	11	spring vs ejb. can spring replace ejb?
+2	11	representing multiple ordering through spring @requestparam
+2	11	how do i convert jsp facelets to code in a servlet ?
+2	11	spring runtimebeanreference
+2	11	spring not restoring tomcat persistent sessions to session registry after restart?
+2	11	annotation based spring bean validation
+2	11	sharing jms and hibernate transactions in a spring mdb using oracle streams aq?
+2	11	how to parameterize @scheduled(fixeddelay) with spring 3.0 expression language?
+2	11	avoiding in-place pointcut expression in spring aop
+2	11	using spring, mapping to root in web.xml, static resources aren't found
+2	11	is it possible  to declaratively configure the spring.net cache rather using attributes
+2	11	spring 3 on glassfish 2.1 java.lang.nosuchfielderror: application_context_id_prefix
+2	11	how do i suppress the 'returning cached instance of singleton bean' logging message in spring/java?
+2	11	compile classfile issue in spring 3
+2	11	autocommit and @transactional and cascading with spring, jpa and hibernate
+2	11	how configure a restful controller in spring 3 with annotations?
+2	11	spring web application: executing common code before entering requestmapping in controller
+2	11	spring security child thread context
+2	11	downloading spring 3.0 with dependencies?
+2	11	validating multiple forms on one page using spring web flow and jsf
+2	11	how to connect httpservlet with spring application context in web.xml?
+2	11	spring jdbc
+2	11	how do i get the session object in spring ??
+2	11	can't make hibernate stop showing sql using spring jpa vendor adapter
+2	11	using spring to get your service layer - good idea?
+2	11	illegalargumentexception for datasource in spring application
+2	11	workflow engines that integrate easily/work well with spring web?
+2	11	which one of the java spring books to start?
+2	11	problem with spring quartz
+2	11	custom spring sterotype annotation with scope of prototype?
+2	11	inject property value into spring bean
+2	11	how assign bean's property an enum value in spring config file?
+2	12	jpa entitymanager, how does it work??
+2	11	add messages with spring
+2	15	ajax in hibernate project
+2	11	spring - use both simple simpleurlhandlermapping and annotationmapping
+2	12	hibernate tool for weblogic 9.2.1
+2	11	how to configure ssl over database in spring?
+2	12	how do i change hibernate logging level
+2	11	spring - weird error in bean creation
+2	11	defaultmessagelistenercontainer not working with websphere mq
+2	11	spring security logout
+2	11	contextloaderlistener problem while spring is loading up
+2	11	change spring email settings based on dev/test/prod mode
+2	11	any open source spring sample project that's bigger than petclinic?
+2	2	how to avoid storing passwords in the clear for tomcat's server.xml resource definition of a datasource?
+2	11	spring - binding to an object rather than a string or primitive
+2	11	asp.net => spring web flow: how do i get up to speed fast?
+2	11	creating inner classes with spring
+2	11	where is the sample applications in the lastest spring release(spring framework 3.0.2)?
+2	11	resource bundle spring
+2	11	how to connect my spring + hibernate based application backend with pure html and ajax based client?
+2	11	inyect a mockups to a bean that has @autowired annotations
+2	11	in java/spring, how do you setup the hashmap to append the query string?
+2	11	can i dynamically load additional spring configuration files into an existing webapplicationcontext?
+2	11	spring batch validation
+2	11	how do i get the value of the jdbc.batch_size property at runtime for a web application using spring mvc and hibernate?
+2	11	accessing httpservletrequest object in spring webflow
+2	11	spring applicationcontext bean scope
+2	11	extending spring form tag library attributes
+2	11	circular dependency and spring-powered event queue
+2	13	how can i create a typed tuple2 from java / spring?
+2	11	use of getbean as opposed to method injection in spring
+2	11	can a spring form command be a map?
+2	11	com iplanet asexception when trying to instantiate spring bean outside container
+2	11	custom spring scopes ?
+2	11	data does not persist using hibernate with spring's @transactional annotation
+2	11	is there a performance hit with spring if i use component-scan and make the base-package my root package?
+2	11	spring ioc and jsr168 portlets
+2	11	spring jta configuration - how to set transactionmanager?
+2	11	translate spring xml configuration to java config
+2	11	spring - ways to include a jar which itself is using spring in a spring project
+2	11	access properties file programatically with spring?
+2	11	dynamic injection of bean properties based on a locale variant in spring
+2	11	spring 3.0 set and get session attribute
+2	11	how to implement pagination is spring mvc 3
+2	11	qestion about spring manning-in-action
+2	11	using spring aop in an jsf application
+2	11	fill a list from jsp in spring
+2	11	injecting log4j loggers with spring
+2	11	spring context tests can't find config locations
+2	11	how to "white label" spring beans
+2	11	accessing spring bean *not* by dependency injection
+2	11	best practice for spring mvc form-backing object tree initialization
+2	11	spring + hibernate + jpa
+2	12	how to find a jndi resource inside the hibernatetool ant  task
+2	11	client side spring
+2	11	spring-samples don't understand the templates
+2	4	apache felix bundle repository - calling from another bundle
+2	11	spring transactional parameterized test and autowiring
+2	11	different views with spring's simpleformcontroller
+2	11	spring xml config
+2	11	lazyinitializationexception in spring
+2	11	spring transitive dependency injection
+2	11	spring mvc form:options tag not wiring into my objects id?
+2	11	spring classloader isolation problem on jboss
+2	11	spring context xml validator for eclipse?
+2	11	dependency injection mechanism
+2	11	spring map a file to a url / uri
+2	11	naming convention for spring application context xml
+2	11	when using spring security, what is the proper way to obtain current username (i.e. securitycontext) information in a bean?
+2	11	spring 3.0 and jsri68 support
+2	12	was 6.1, hibernate, spring and transaction managmement configuration
+2	11	spring: what is aop, dependency injection and inversion of control in simple english
+2	12	how to integrate hibernate with jboss 4.2.x server?
+2	11	spring connection pooling
+2	11	mock object and spring annotations
+2	11	dependency injection into your singleton
+2	12	how do i externalize named queries in a hibernate annotations app?
+2	11	spring application context : access web.xml context-params ?
+2	11	testng and spring 3
+2	11	hibernate spring transactions
+2	12	how to configure hibernate with eclipse galilio
+2	11	where to store database passwords in a spring application or use jndi?
+2	11	does spring form taglib disabled attribute really have to resolve to a string?
+2	12	spring  hibernatedaosupport : lazy-loading problem ?
+2	11	is spring ever going to combine mvc and webflow?
+2	11	spring transaction with sybase
+2	11	error handling with spring + servlet spec
+2	11	how can i use simpleformcontroller with validator with spring 3?
+2	13	scala and tomcat -> noclassdeffound stringbuilder?
+2	11	about spring beanfactory
+2	11	how can i mix and match custom spring schema types with traditional spring schema types?
+2	12	grails dynamic database connections?
+2	11	invoking concrete methods from an abstract class using spring
+2	11	spring injecting into struts requestprocessor
+2	11	spring sample application
+2	11	spring schemalocation fails when there is no internet connection
+2	11	use spring annotations to automatically apply hibernate interceptor?
+2	11	spring - java - syncronisation
+2	11	can dwr add a session attribute that spring can access via @modelattribute when submitting a form?
+2	11	spring validation errors not displayed
+2	11	test if spring scope is active
+2	11	programmatically set a specific bean object - spring di
+2	11	transactionproxyfactorybean when switching from configuration-based service beans to annotation based service beans
+2	11	do i understand spring @transactional behaviour correctly?
+2	11	what is the different between spring 2.5.6 and spring 2.5.6.sec01
+2	11	how to make spring load a jdbc driver before initializing hibernate's sessionfactory?
+2	11	spring 3.0 vs j2ee 6.0
+2	11	what happened to the spring modules project?
+2	12	hibernate open session in view
+2	11	using single spring application context for web app
+2	11	validate numbers in spring
+2	11	spring 3.0: unable to locate spring namespacehandler for xml schema namespace
+2	4	session variables
+2	11	spring web flow set form input value
+2	11	how do i check for errors in spring - security ?
+2	11	testing spring @mvc annotations
+2	11	how do you model form changes under spring mvc?
+2	11	[spring] using beans from other modules?
+2	11	is spring hard compaired to ruby on rails?
+2	11	spring @autowired usage
+2	11	how to correctly implement opensessioninview with spring 3.0 and hibernate 3 (in liferay portlets)?
+2	12	hibernate in glassfish - ejb3configuration noclassdeffounderror
+2	11	spring, log4j and jboss4
+2	11	making sure a spring bean is properly initialised
+2	13	wanted: good examples for scala database persistence
+2	11	dependency injection problem with entitymanagerfactory + jpadaosupport
+2	11	spring context files organization and best practices
+2	11	in spring, what code is used to inject the value for the @persistencecontext annotated variables?
+2	11	basic spring help
+2	11	how to update a postgresql array column with spring jdbctemplate?
+2	11	request scoped beans in spring testing
+2	11	beforeclass using spring transactional tests
+2	11	spring mvc and parsing html
+2	11	building a http link inside a spring bean which is not a controller
+2	11	how can i cancel a long-running query using spring and jdbctemplate?
+2	11	how to use spring to resolve dependencies of an object created manually?
+2	11	is it possible from spring to inject the result of calling a method on a ref bean?
+2	12	a maven2 mojo that uses hibernate: how to control logging?
+2	11	spring: a bean that receives a list of classes
+2	11	spring beans configuration
+2	11	removing spring.cache
+2	11	getting template text from freemarker in spring app
+2	11	spring transaction - proxy confusion
+2	11	spring 3.0 el how to get property from a properties file?
+2	11	log4j:warn no appenders could be found for logger in web.xml
+2	11	automatic configuration reinitialization in spring
+2	11	how can i package an extensible default spring configuration in my framework?
+2	11	spring - redirect after post (even with validation errors)
+2	11	java spring: annotationsessionfactorybean, hibernate-dialect autodetection
+2	11	using spring security with ejb or spring?
+2	11	recommended to use lingo with spring?
+2	11	spring's propertyplaceholderconfigurer with property in a jar file
+2	11	can spring @cacheable be configured to block on a cache miss?
+2	11	creating spring bean
+2	11	spring properties file
+2	14	transactional design pattern
+2	11	xsd client in spring
+2	11	host/role dependent spring configuration
+2	11	intent of spring form command
+2	11	how to use a spring config file in a maven dependency
+2	11	execute method on startup in spring
+2	11	how to user hibernate @valid constraint with spring 3.x?
+2	11	simple autosave for spring mvc form
+2	11	spring beanisabstractexception
+2	11	using srping managed dao without controller?
+2	11	problem creating bean of sessionfactory in spring-hibernate configuration
+2	11	spring can't see my imported classes
+2	11	how to inject spring  reloadableresourcebundlemessagesource
+2	11	spring: add xml context on-the-fly?
+2	11	is there an example on how to use spring 3.0 content negotiation for restful services?
+2	11	jersey w/ spring 3.0?
+2	11	controlling new features in spring/apache tomcat
+2	11	entitymanager refresh problem
+2	11	how to google for spring 3.0 documentation?
+2	11	spring: same object, different validation
+2	11	invalid property exception in spring.
+2	11	spring applicationcontext loading hooks
+2	11	what do i need to offset the performance setback induced by use of the spring framework?
+2	12	hibernate session error
+2	11	spring roo vs (wicket and spring)
+2	11	spring + hibernate bean declaration error
+2	11	using email template in spring
+2	11	applying additional aspectj around advice to a spring transactional method.
+2	11	how do i set a dependency on spring web services in my pom.xml
+2	11	activemq maven plugin configuration
+2	11	spring jdbc connection pool and inputstream results
+2	11	getting access to a spring bean from a webservice?
+2	12	class not found exception in hibernate
+2	11	spring: no transaction manager has been configured
+2	11	custom bean instantiation logic in spring mvc
+2	11	spring transactional cpool. which one do i use?
+2	11	getting a  spring resource
+2	11	spring application context : webapp folder variable ?
+2	12	spring  hibernatedaosupport keep the same session ?
+2	11	spring autowiring class vs. interface?
+2	11	spring unit/intergration testing setup
+2	11	spring mvc defaultrequesttoviewnametranslator capitalization issue
+2	12	hibernate connection pool
+2	11	ant target for compile-time code instrumentation with spring aspects
+2	11	learning spring mvc for web-projects
+2	11	spring security - securitycontext.authentication null in taglib and jsp but ok in controller
+2	11	problem with spring @configuration class
+2	11	application-context.xml problem for spring actionscript
+2	11	is there is any way to protect the password in .xml using spring
+2	11	can't i use annotation to indicate a bean is a primary bean
+2	11	spring and the scope attribute
+2	12	spring vs hibernate
+2	11	spring security null pointer exception
+2	2	porting jdbcrealm from tomcat to oc4j
+2	11	how to bind ip address to a spring 3 @modelattribute?
+2	11	is two phase commit possible using rmi and spring
+2	12	hibernate validation and spring 3.x
+2	12	inheritance via hibernate annotation
+2	11	spring custom error message
+2	11	sitemesh and tiles 2.1  integration with  spring mvc
+2	11	cannot use spring ldap with spring security
+2	11	where is the debug class path in netbeans / where does the spring config xml file go?
+2	11	injecting property values via spring by environment
+2	11	model generation for manually entered page in spring framework
+2	12	session management using hibernate in a swing application
+2	11	how to configure spring security passwordcomparisonauthenticator
+2	11	static factory method (spring)
+2	11	embed xml configuration directly in spring application context
+2	11	spring aop error
+2	11	spring & hibernate sessionfactory - recovery from a down server
+2	11	what other libraries or tools would you add to a spring/hibernate stack for improved rapid application development?
+2	11	integrating jcaptcha with spring security
+2	11	spring portlet mvc and request params
+2	11	trying to setup externalizing properties in spring
+2	11	how can i get the hibernate configuration object from spring?
+2	11	which maven modules to include for spring 3.0?
+2	11	spring factorybean and scopes working together
+2	11	where to open sessions in a spring/hibernate stack?
+2	11	unable to locate spring namespacehandler for xml schema namespace
+2	11	is it possible to spring autowire the same instance of a protoype scoped class in two places
+2	11	spring/eclipse 'referenced bean not found' warning when using <import>?
+2	11	extending spring's default component factory
+2	11	spring security concurrency on different browsers
+2	11	integrating spring + hibernate + sql server with unicode support
+2	11	spring mvc web petclinic tutorial?
+2	11	configuring spring based servlet with sysadmin defined properties
+2	11	how to externalize a spring messagesources bundle outside the war
+2	11	spring security - custom authentication provider not called
+2	11	spring session scoped bean value empty?
+2	11	is there any advantage to use spring dataaccessexceptions instead of jpa persistenceexceptions ?
+2	11	spring ibatis mysql transactions
+2	11	spring handlerinterceptor or spring security to protect resource
+2	11	spring faces error faces:flow-builder-services
+2	11	location of view.properties in my proyect spring mvc jasperreports
+2	11	getting exception for spring file upload (urgent)
+2	11	beans... what is it actually
+2	11	short way of making many beans depend-on one bean
+2	11	spring parent and child resources
+2	11	spring ws & validator interceptor
+2	11	what is the best view layer for spring 3 ?
+2	11	soap and spring
+2	11	spring configuration error
+2	11	argh - can't get spring to log sql
+2	11	unit testing hibernate's optimistic locking (within spring)
+2	11	google gin? use with spring?
+2	11	cglib proxy error after spring bean definition loading into xmlwebapplicationcontext at runtime
+2	11	idiom for achievieng imperative wiring in a declarative spring xml config?
+2	11	spring jdbc rowmapper with class hiearchies
+2	4	switching from tomcat to glassfish
+2	11	monitor spring java application
+2	11	disable spring url resource loading in context file
+2	11	how can i define multiple sessionfactory instances in spring?
+2	11	how to configure spring handlerexceptionresolver to handle nullpointerexception thrown in jsp ?
+2	12	how to use junit and hibernate usefully?
+2	11	can spring transactions unsynchronize a synchronized method?
+2	11	spring security integrate with facebook connect
+2	11	is it possible to configure a spring session scoped bean with attributes from the session?
+2	11	lazyinitializationexception while unit-testing hibernate entity classes for use in spring, using testng
+2	11	trouble configuring aspectj ltw with tomcat and spring
+2	11	what spring exactly is for?
+2	2	oracle connections in spring
+2	11	spring security 3.0- customise basic http authentication dialog
+2	11	spring security openid - unable to process claimed identity "null"
+2	11	error reading configuration file for jaas authentication provider in spring
+2	11	spring 2.5 form validation - dynamic data lost if validator is called?
+2	11	streaming dynamic files from spring mvc
+2	11	how do i use custom roles/authorities in spring security?
+2	11	spring test / junit problem - unable to load application context
+2	11	spring - how 'multiple' aop behaviors to sevices are resolved?
+2	11	how to conditionally show jsp content to logged in users with spring security
+2	11	how can i get access to spring container?
+2	11	is fine grained control of aspectj-autoproxy possible in spring ?
+2	12	proper way to autowire a hibernate session in a spring transaction junit test
+2	11	does spring mvc form submit data bind children objects automagically?
+2	11	spring timers on jboss don't stop when undeployed
+2	11	spring using jndi with tomcat... why do i need a meta-inf/context.xml in my project
+2	11	using spring by creating multiple applicationcontexts to manage bean life time - is this okay?
+2	11	spring & web service client - fault detail
+2	11	how can i access path variables in a uri template in the view (spring 3/springmvc)?
+2	11	spring scheduler shutdown error
+2	11	what are the design patterns which used in spring framework?
+2	11	system properties can't be resolved in spring xml using maven
+2	11	how to know which urls are mapped in the current servlet context in a spring 2.0 controller method?
+2	11	registering a shutdown hook in spring 2.5
+2	11	spring destroy-method & half injected objects
+2	11	spring - share web application context between different webapps
+2	11	spring aop: how to get the annotations of the adviced method
+2	11	proper way of "shutdown" a spring context in j2se
+2	11	spring transaction management test
+2	11	how to implement abstract factory pattern in spring-aop?
+2	11	spring integration: hooking web services to a fifo queue
+2	11	which view will be resolved, code from spring's docs
+2	11	spring and stripes security design
+2	11	spring roo backup command lost my files
+2	11	what does "bean x is injected into bean y" mean in context of spring framework
+2	11	best way to force spring shutdown from a bean?
+2	11	roles/priviledges in a spring/hibernate application
+2	11	programmatically create a spring context
+2	11	create spring beans, based on a comma-separated list of classes
+2	11	spring 3.0 - unable to locate spring namespacehandler for xml schema namespace [http://www.springframework.org/schema/security]
+2	11	how to modify beans defined in a spring container
+2	11	how to create testcontext for spring test?
+2	11	reloading/refreshing spring configuration file without restarting the servlet container
+2	11	spring jsr303 validation doesn't work like described in spring documentation
+2	11	spring: i wish to create a junit test for a web application - webapplicationcontext needed
+2	11	can i use spring roo in existing project that doesn't use maven?
+2	11	how to create the file browser in view for spring roo?
+2	11	looking for a tutorial and/or example for the following: annotation based spring 3 with jpa and/or hibernate
+2	11	is jfig language syntax efficient and clear (and better than spring-framework's xml dsl)?
+2	12	can use hibernate and tomcat connection pool at same time?
+2	11	spring beans redefinition in unit test environment
+2	11	spring - @contextconfiguration fail to load config file in src/test/resources
+2	11	apply dynamic properties to a bean at runtime
+2	11	is it possible to bind a spring form to an object using the constructor or by mapping multiple fields to a single value via a custom editor?
+2	11	accessing legacy out-of-container instantiated objects from spring beans
+2	11	not able to use spring beans outside container . always picking up websphere context
+2	11	spring: how do you programmatically instantiate classes based on information passed from flex ui
+2	11	how to make a legacy webapp spring aware at the container level for bean autowire into servlets?
+2	13	how to integrate scala language with spring security
+2	11	is there a transaction management for dao in spring framework?
+2	11	spring 3.0 making json response using jackson message converter
+2	11	initialize spring beans packaged inside a jar file
+2	11	getting spring application context from a non bean object without using singleton
+2	11	best flex framework with spring
+2	11	how to configure transaction management for working with 2 different db in spring?
+2	11	do you think the spring webflow flow definition format would be suitable for externalising a web flow for a non spring framework?
+2	11	how can i determine what roles are required to access a url with spring security?
+2	11	which hibernate adapter should i use to handle lazy initialization in blazeds / spring integration projects with flex?
+2	11	how can i check spring security for user authentication and get roles from flex?
+2	11	service activator method mapping using @header annotation in spring integration
+2	11	how to integration test a dao built with spring + ibatis
+2	11	spring best practice for locking domain objects?
+2	11	spring integration: how does rendezvouschannel work?
+2	11	what applications do i need to download to start developing apps using spring framework?
+2	11	what applications do i need to download to start developing apps using spring framework?
+2	11	spring: is there a simple non-web tutorial?
+2	11	flex + spring + blazeds + glassfish + openmq - how do you configure the web-application-config for openmq?
+2	11	any existing way to make sure beans defined in spring xml are stateless?
+2	11	when does spring create instances of objects that are injected
+2	11	spring - have multiple submit buttons in a form and determine which was pressed in a controller
+2	11	what class should i inherit to create a database integration test in case of spring?
+2	11	infinite loop using spring security - login page is protected even though it should allow anonymous access
+2	11	java spring database application won't quit reference to org.enhydra.jdbc.pool.poolkeeper is still active why?
+2	11	best spring/hibernate configuration for never changing tables
+2	11	what's the best practice to config hibernate-spring for multiple database relationship?
+2	11	how to generate a dynamic "in (...)" sql list through spring jdbctemplate?
+2	11	does acegi/spring security support getuserprincipal()?
+2	11	urlfilenameviewcontroller does not return view (spring-mvc)
+2	11	in spring.config, can i define object of type string?
+2	11	spring - best way to deal with binding to a list of beans in a simpleformcontroller
+2	11	looking for a good spring framework cheat cheet
+2	11	how to define / configure priority for multiple aspects using spring aop (or aspectj)

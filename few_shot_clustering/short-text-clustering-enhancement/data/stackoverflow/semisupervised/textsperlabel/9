@@ -1,0 +1,786 @@
+9	12	hibernate transaction boundaries
+9	12	attributes on many-to-many relationships (hibernate)
+9	12	hibernate not fetching public member
+9	12	entity intercepted when a collection element updated
+9	12	hibernate search api with 2 tables
+9	12	problems using eclipse hibernate plugin - could not locate sessionfactory in jndi
+9	12	hibernate and order by using column values
+9	12	having an issue with org.hibernate.sessionexception: session is closed! in hibernate
+9	12	hibernate sql audit logging
+9	12	hibernate: how declare foreign key without having to code association methods in the domain object?
+9	12	hibernate @onetomany - mapping to multiple join tables
+9	12	hibernate detachedcriteria in from clause
+9	12	add a group by to a hibernate criteria-query without projection
+9	12	hibernate annotation + aspectj -> attributes names pbs in hql
+9	12	hibernate auto join conditions
+9	12	hibernate cascade delete not working when removing element of recreated bean
+9	12	hibernate inheritance search
+9	12	hibernate: comparing current & previous record
+9	12	how do i rewrite this hibernate-mapping with annotations?
+9	8	nspredicateeditor and relationships
+9	12	hibernate how to create createalias left join?
+9	12	hibernate clear collection with all-delete-orphan and then add to it causes constraintviolationexception
+9	12	@onetomany without inverse relationship and without a join table?
+9	12	why delete-orphan needs "cascade all" to run in jpa/hibernate ?
+9	12	hibernate annotations, autoincrement related
+9	12	@range based hibernate validation checks
+9	12	issue with serializing hibernate objects using xstream
+9	12	hibernate mapping a second @embeddable field in a subclass
+9	12	hibernate saveorupdate fails when i execute it on empty table.
+9	12	what are the differences between the different saving methods in hibernate?
+9	12	hibernate and ids
+9	12	hibernate delete_orphan cascadetype not deleting orphans when collection set to null
+9	12	hibernate - ehcache - which region to cache associations/sets/collections ??
+9	12	retrieving and loading third level refferenced classes through hql
+9	12	value object or entity object in my hibernate mapping?
+9	12	clone a table's definition with hibernate (hbm2ddl)
+9	12	hibernate lazy solution. is it right??
+9	12	hibernate criteria api equivalent for "elements()"
+9	12	hibernate - apply locks to parent tables in polymorphic queries
+9	12	jpa/hibernate: can i have a parent without annotations and a child with
+9	12	hibernate: clean collection's 2nd level cache while cascade delete items
+9	12	hibernate search annotations not inherited
+9	12	update of of composite entity fails
+9	12	going from php propel to java hibernate
+9	12	importing and normalising xml with hibernate
+9	12	hibernate and spring persistance problem.  possible identity value not incremented?
+9	11	lazyinializationexception with transactional annotation in messageconvert
+9	12	trouble with writing hibernate query
+9	12	setting fetchmode in native hibernate
+9	12	zero downtime with hibernate
+9	12	hibernate mapping error
+9	12	hibernate default joining for nullable many-to-one
+9	12	unreliable hibernate objects
+9	12	@foreignkey in hibernate 3.5-beta1
+9	12	hibernate - @manytomany with additional fields in mapping entity
+9	12	hibernate cascade question
+9	12	optional parameters with named query in hibernate?
+9	12	hibernate updating database sctructure with new indexes
+9	12	hibernate - uniqueresult silently fails
+9	12	hibernate how to retrieve a hierarchy object
+9	12	hibernate: persist an object as a string?
+9	12	hibernate template close transaction
+9	12	hibernate inheritance mapping and attribute override
+9	12	loading javassist-ed hibernate entity
+9	12	hql join fetch question: aliasing association
+9	12	taking advantage of hibernate lazy loading?
+9	12	hibernate: specifying columns in a one-to-many relationship
+9	12	good object structure for results of my hibernate left outer join
+9	12	hibernate criteria contains-in on an association to a table
+9	12	hibernate subclass which has multiple discriminator values
+9	12	why is it recommended to avoid unidirectional one-to-many association on a foreign key?
+9	12	need help with some hibernate relational mappings
+9	12	how to validate hibernate mapping against database
+9	12	hibernate versioning issuing update statment for no reason
+9	12	how do we count rows using hibernate?
+9	11	no hibernate session bound to thread
+9	12	designing objects for hibernate
+9	12	queries in hibernate polymorphism
+9	12	hibernate foreign key
+9	12	hibernate question on sessions
+9	12	merge with hibernate causing error with dirty objects
+9	12	ordering results by computed value in hibernate
+9	12	problems with arraylist items and hibernate
+9	12	how do you programmatically turn off eager fetching with hibernate?
+9	12	hibernate: difference between session.get and session.load
+9	12	hibernate many-to-many mapping and cascade=delete
+9	12	hibernate 2nd level cache objects that are lazy=false, result in a default fetch=join, is it documented anywhere?
+9	12	hibernate criteria: left outer join with restrictions on both tables
+9	12	mapping multi-level inheritance in hibernate with annotations
+9	12	workarounds for hibernate's lack of delete-orphan support for one-to-one and many-to-one relationships?
+9	12	hibernate not respecting mysql auto_increment primary key field
+9	12	hibernate: many-to-one using formula
+9	12	hibernate map collection with constant key
+9	12	elegant way to handle upsert with hibernate and mysql
+9	12	getting unique result in hibernate
+9	12	how to join tables in unidirectional many-to-one condition ?
+9	12	hibernate insert into select
+9	12	hibernate: check if object exists/changed
+9	12	making hibernate not include fields from joined tables in select clause
+9	18	how to do an "in" query in entity framework?
+9	12	which pattern does hibernate follow?
+9	12	how to achieve "not in" by using restrictions and criteria in hibernate?
+9	12	hibernate entitymanager + jotm: transactions are not used
+9	12	how to add greater than/less than to hibernate filters
+9	12	hibernate query for entity based on whether related entity property is null?
+9	12	hibernate session / transaction design
+9	12	hibernate criteria and multiple join
+9	12	store and retrieve image by hibernate
+9	12	how to map these classes with hibernate?
+9	18	entity framework - dynamic sql
+9	12	hibernate, aliases
+9	18	how to keep entity framework and database aligned
+9	12	hibernate one-to-one entity association with shared pk between 3 classes
+9	12	what are the disadvantages of auto generating the clases in hibernate
+9	12	hibernate sequence weirdness with db2
+9	12	is hibernate entity callback methods are only called by using entitymanager
+9	12	hibernate load usertype object from repository
+9	12	how do i implement tostring() in a class that is mapped with hibernate?
+9	12	ignore hibernate @where annotation
+9	12	hibernate set mapped to a 'sql select' table
+9	12	hibernate annotation join table question
+9	2	oracle 11g hibernate problem
+9	12	hibernate: criteria vs. hql
+9	12	hibernate and flyweight
+9	12	hibernate, save the previous state of an object
+9	12	hibernate implicit entity restrictions
+9	12	hibernate not creating correct fields for clobs in mysql
+9	12	hibernate query problem, so close and stumped...
+9	12	using hibernate sequence generators manually
+9	12	self-referencing updates in hql
+9	12	issue using hibernate criteria object with composite key
+9	12	hibernate: is this mapping allowed?
+9	12	is it a missing implementation with jpa implementation of hibernate??
+9	12	hibernate one to one mapping example
+9	12	how to construct a hibernate query that uses a single element of all elements in a collection?
+9	12	hibernate: hibernate.hbm2ddl.auto=update show generated sql
+9	12	tricky hibernate criteria
+9	12	hibernate join tables duplicate entry - could not execute jdbc batch update
+9	12	hibernate best approach for one java class and multiple tables?
+9	12	upgrade hibernate-annotations and hibernate-validator
+9	12	how to avoid hardcoded field names in hql, hibernate?
+9	12	hibernate many-to-one hql query, when inner join fetch property not associated
+9	16	object relational mapping in qt
+9	11	spring: propertyplaceholderconfigurer to set values for complex properties
+9	12	hibernate manytomany with join table problems on update
+9	12	is there a way to combine streaming data retrieval with hibernate?
+9	18	mssql 2005: nullable foreign key constraint
+9	11	are there compound property values in spring
+9	12	equals and hashcode in hibernate
+9	12	one-to-many mapping // how to map an association of legacy tables (hibernate)
+9	12	hibernate update does not update anything
+9	12	indexing data in hibernate search
+9	12	setting up nhprof for hibernate
+9	12	get annoted hibernate tablename from pojo
+9	12	how to create tinyint field in hibernate annotation
+9	12	hibernate translation capabilities
+9	12	how to stop hibernate from eagerly fetching many-to-one associated object
+9	11	another spring + hibernate + jpa question
+9	12	how can this be done with (n)hibernate?
+9	12	hibernate onetomany list ordering persisting but reversing?!
+9	12	hibernate criteria - querying tables in n:m relationship
+9	12	how to insert record in join table of many to many  hibernate annotation
+9	12	hibernate deletion
+9	12	hibernate: persisting objects
+9	12	dynamic mapping in hibernate?
+9	12	illegalargumentexception: argument type mismatch in hibernate
+9	12	hibernate cascade deletion  example
+9	12	can we use union in hibernate
+9	12	fixing warnings from hibernate
+9	12	cascading a hibernate entity listener?
+9	12	criteria to hql
+9	12	how to validate database schema programmatically in hibernate with annotations?
+9	12	hibernate getting id from createcriteria() result
+9	12	is it possible to get the sql alias of a join table for a hibernate sqlrestriction?
+9	12	hibernate: mapping 3 tables
+9	12	hibernate named query parameter
+9	12	cancel hibernate query
+9	12	hibernate resolve foreign key lookup id by name
+9	11	what is detached  persistance and transient object in hibernate ?
+9	12	mysql enum with hibernate
+9	12	how to execute sql-script file using hibernate?
+9	12	terracotta with hibernate and ehcache
+9	12	hibernate, instrumentation and delete cascade order
+9	12	hibernate property formula how 2 get more than 1 row?
+9	12	hibernate - one design problem
+9	13	hibernate and scala
+9	13	remove duplicates in entries, scala way
+9	12	hibernate 'tableless' enum mapping?
+9	12	generate value for a property in hibernate
+9	12	hibernate: load a field from a query , but don't insert it to the table
+9	12	mapping hibernate "custom" subclasses
+9	12	@primarykeyjoincolumn with bidirectional @onetoone relationship
+9	12	hibernate one-to-many cascade efficiency
+9	12	how to use hibernate full text search
+9	12	how to do hibernate mapping for table or view without a primary key
+9	12	audit trail in hibernate with new and old values using an interceptor
+9	12	hibernate collectionofelements eager fetch duplicates elements
+9	12	hibernate constraintviolationexception in join table
+9	12	how to detect transaction conflicts with hibernate?
+9	12	getting the return value of a pl/sql function via hibernate
+9	12	update father on interceptor
+9	12	hibernate, null values and nativesql
+9	12	hibernate doesn't work anymore... why?
+9	12	hibernate multi level of transaction
+9	2	nhibernate schemaupdate failing
+9	12	how configure hibernate for develop test
+9	2	mapping an oracle date to a java object using hibernate
+9	12	hibernate/nhibernate : how to persist subclass as instance of superclass
+9	2	oracle optional relationship
+9	12	mapping to varchar and nvarchar in hibernate
+9	12	can i make an embedded hibernate entity non-nullable?
+9	12	hibernate query: find equal objects
+9	12	persist collection fields with hibernate
+9	12	how do i restore a transient field in hibernate like readresolve() for hibernate serialization?
+9	12	hibernate mapping package
+9	12	hibernate fetching strategy - when to use "join" and when to use "select"?
+9	12	recover hibernate session state after a failed insert
+9	12	sqlite dialect error with hibernate
+9	12	need an example of a primary-key @onetoone mapping in hibernate
+9	12	does fluent-hibernate exist?
+9	2	how can i optmize a max date query relating to a other table entity
+9	12	hibernate object identity question
+9	12	how to force hibernate 3.3 or 3.5 to use cglib instead of javassist?
+9	12	expressions in hibernate criteria
+9	12	many-to-many jpa mapping inserting but not fething the child collections
+9	12	hibernate manytomany
+9	12	obtaining a new session from hibernate for a background thread.
+9	12	mapping a natural key with hibernate annotations
+9	12	insert low_priority or insert delayed in hibernate
+9	12	going transactionless with hibernate
+9	12	how do i retrieve the class name from hibernate?
+9	12	@manytomany hibernate question (can add extra field?)
+9	12	many-to-many mapping not working, one side is set to inverse.
+9	12	is there a way to define reusable properties to n-hibernate mappings?
+9	12	how do i left join tables in unidirectional many-to-one in hibernate?
+9	12	a stackoverflow mapping (hibernate)
+9	12	with hibernate, an interceptor receives the same collection object as current and previous, how do i get real current and previous values?
+9	12	hibernate transaction problem
+9	12	many-to-many on the same table with additional columns
+9	12	hibernate auto increment id
+9	18	linq cache and disposing datacontext
+9	12	hibernate orm for a view
+9	12	determining manytomany vs onetomany using classmetadata
+9	12	hibernate: how to remove an entity to which noone refers to in manytoone?
+9	2	oracle/plsql performance
+9	11	sessionfactory in hibernate
+9	12	many-to-many the same pk
+9	12	prevent the same object from being associated to two different sessions in hibernate
+9	12	hibernate problems with auto increment id mysql 5
+9	12	hibernate query vs criteria performance
+9	12	hibernate - selecting across multiple joins with collections
+9	12	getting hibernate exception : org.hibernate.queryexception: could not resolve property
+9	12	hibernate encoding
+9	12	add (external) relationship (tagging) to existing hibernate entities
+9	12	hibernate vs cfquery
+9	12	how to add a hibernate property that's really a query
+9	12	detached objects in jdo/hibernate - what are they for anyway?
+9	12	hibernate: enabling lazy fetching in criteria api
+9	12	how can i set the schema name used by hibernate entities at query time?
+9	12	are hibernate and rdlc alternatives to each other?
+9	12	table name troubles with hibernate named query
+9	12	hibernate dao
+9	12	hibernate configuration xml
+9	11	access and modify attributes/objects which are not part of the form backing bean
+9	12	how to do custom-query based collection mappings in hibernate?
+9	12	does anyone know if hibernate and java will work effectively with access?
+9	12	hibernate query by example (from spring 3)
+9	12	equinox (osgi) and jpa/hibernate - finding entities
+9	12	hibernate  : how to configure the flush after every rw-d operation ?
+9	12	how to add fields dynamically  when using hibernate
+9	12	hibernate hql query by using like operator
+9	12	can hibernate's @version consider changes in related entities?
+9	12	hibernate delayed validation until commit
+9	12	hibernate id generator
+9	18	linq - querying child collections
+9	12	hibernate mapping collection by column
+9	8	fetching core data entities, but not sub-entities
+9	11	spring/hibernate: invocationtargetexception when deleting entity
+9	18	linq vs. database views
+9	12	search result was due to field in hibernate search
+9	12	hibernate l2 caching and many-to-many relationships
+9	12	value of 0 in hibernate indexcolumn mapped with base=1
+9	12	hibernate example onetomany with compositekey
+9	12	how to map inner object using hibernate/jpa without xml/annotation?
+9	12	hibernate hql elements error
+9	12	hibernate deletion problem please help urgent
+9	12	jpa hibernate one-to-one relationship
+9	12	how to reuse existing connection in open session in view pattern implementation of hibernate?
+9	12	mapping a list in hibernate by ordering instead of an index-field
+9	12	hibernate - staleobjectstateexception in query possible?
+9	12	hibernate hql query - complicated
+9	12	cascade on many-to-one association in hibernate
+9	12	how to assign date parameters to hibernate query for current timezone?
+9	12	hibernate one-to-one mapping problem.
+9	12	hibernate order by association
+9	12	hibernate mapping inheritance
+9	12	table not created by hibernate
+9	12	enumerations in hibernate
+9	12	hibernate - avoiding unnecessary join when using foreign key in where close
+9	12	some help with hibernate criteria query
+9	12	hibernate lazy initilization problem
+9	12	can't create foreign key
+9	12	query on hibernate entity with user-type field
+9	12	hibernate query hints for jpa
+9	12	hibernate and ehcache replication
+9	12	hibernate lazy loading
+9	12	hibernate: update to sum from other table
+9	12	hibernate queryexception couldn't resolve property
+9	12	hibernate query with conditions in a complex db structure
+9	12	(n)hibernate: core/master mappings with relationships
+9	12	how do you enable hibernate query cache on a session level only?
+9	11	problem with autowiring & no unique bean
+9	12	understanding hibernate first level cache
+9	12	how i can disable the second-level cache of some certain entities in hibernate with changing annotations
+9	12	why does hibernate not find properties when i have hibernate.cfg.xml in my default package classpath?
+9	12	hibernate createsqlquery bulk insert
+9	12	what's the default value of the hibernate property hibernate.jdbc.factory_class?
+9	8	should "to-many" relationships be modelled as properties?
+9	12	cascading updates with business key equality: hibernate best practices?
+9	12	turn off hibernate logs for certain query
+9	12	hibernate not reflecting changes
+9	12	hibernate hql: get count of results without actually returning them
+9	12	is there a way in hibernate to set not-null to true on save but not delete in a mapping config?
+9	12	hibernate - why use many-to-one to represent a one-to-one?
+9	11	spring + hibernate - multiple databases
+9	12	how to determine collection changes in a hibernate postupdateeventlistener?
+9	12	hibernate 2nd level cache invalidation when another process modifies the database
+9	12	hibernate displaytag big lists
+9	12	cast function for hibernate
+9	12	how to perform date operations in hibernate hql
+9	12	first level hibernate cache , modify record directly at db
+9	11	spring mvc table selected row
+9	12	querying manytomany relationship with hibernate criteria
+9	12	hibernate entity with user defined attributes
+9	12	hibernate 2nd level cache + ehcache issue when trying to get data (list of object) from cache memory
+9	12	hibernate criteria: eagerly load manytomany collection
+9	12	hibernate: is there a way to programatically create new tables that resemble an existing one?
+9	12	hibernate bi-directional many-to-many cascade confusion
+9	12	changing the inheritance strategy in branches of the class hierarchy via jpa annotations
+9	12	hibernate annotation for postgresql serial type
+9	12	manual initialization of required hibernate database tables
+9	12	hibernate constraint violation/error rolling back
+9	12	using hibernate to do a query involving two tables
+9	12	hibernate collection handling  basics
+9	12	storage of auditable fields per entity
+9	12	what is the best way to pull data out of the hibernate layer and into another tier?
+9	12	table per concrete class hierarchy in hibernate
+9	12	hibernate save strange behaviour
+9	12	hibernate with relations
+9	12	print query string in hibernate with parameter values
+9	12	concurrency in hibernate
+9	12	hibernate casts bigdecimal instead of integer
+9	12	hibernate composite key
+9	12	hibernate - delete hql in eclipse hibernate tool
+9	12	hibernate: transaction not successfully started (threaded webapp) problem!!
+9	12	specifying constraint name in hibernate mapping file
+9	11	problem with hibernate find method
+9	11	spring+jpa+hibernate: persist is updating the entity surprisingly.  please go through the details.
+9	12	stack overflow whilst cascade saving nhibernate entity with custom generator
+9	12	best way to override hibernate's lazy loading in this instance.
+9	12	how to change hibernate's default fetching strategy?
+9	12	hibernate self join
+9	12	auto generating hibernate entities
+9	2	relations in oracle objects?
+9	12	hsql subqueries
+9	12	add new entity to persisted collection
+9	12	modelling a temporal-style relational table in hibernate
+9	12	hibernate query with fetch question
+9	12	hibernate update with 1:many mapping
+9	12	hibernate sorting
+9	11	how to specify a bean as non lazy with annotations
+9	12	hibernate session problem for transactions.
+9	12	getting hibernate to do simple updates, instead of enormous select then updates...
+9	12	cast(val as char) in hibernate config named query
+9	12	why this simple hibernate sample doesn't work?
+9	12	hibernate + postgresql with case insensitive searching
+9	12	audit schema mapping with hibernate
+9	12	how to implement this query in hibernate?
+9	12	hibernate query not returning full object
+9	12	hibernate database connection configuration
+9	12	hibernate polymorphism
+9	12	hibernate doesn't notice database updates made from other source
+9	12	why does hibernate-entitymanager-3.3.2.ga depend on hibernate-3.2.6.ga?
+9	12	hibernate session is closed
+9	12	hibernate detached queries as a part of the criteria query
+9	15	dynimically created dom can't hold up in cache
+9	12	hibernate with oracle jdbc issue
+9	12	table called group, hibernate, db2 and hsql
+9	12	hibernate - how to cascade delete on detached objects
+9	12	hibernate-like framework for c++
+9	2	referential integrity constraint is automatically disabling in oracle.
+9	12	what's the difference between different mapping types in hibernate?
+9	11	abstracttransactionaljunit4springcontexttests: can't get the dao to find inserted data
+9	12	how to determine optimum prepared statement cache size when using hibernate
+9	12	is hibernate good for batch processing?  what about memory usage?
+9	12	hibernate jpa sequence (non-id)
+9	12	hibernate: identifier
+9	12	hibernate ordering
+9	12	hibernate (with annotations) - how to get started
+9	12	hibernate criteria query with restricted associations
+9	12	hibernate cannot remove child from database
+9	12	transactional l2 cache in hibernate
+9	12	how do i map a nested collection, map<key,list<values>>, with hibernate jpa annotations?
+9	12	hibernate inheritance strategy and why
+9	12	how do i embed a string array into an entity (jpa)
+9	12	hibernate result ordering
+9	12	no mapping for longvarchar in hibernate 3.2
+9	12	hibernate jpa template fetch
+9	12	hibernate session keeping track of objects
+9	12	manipulating hibernate 2nd level cache
+9	12	changing target table for hibernate mapping
+9	12	jpox jdo and castor jdo compared to hibernate persistence
+9	12	jpa hibernate: how to prevent join on retrieving?
+9	12	hibernate running random queries.
+9	12	hibernate @onetomany without a separate join table
+9	12	hql query equivalence: why are them different
+9	8	garbage collection of core foundation objects
+9	12	usertype join in hibernate
+9	12	can hibernate return a collection of result objects other than a list?
+9	12	hibernate hql: two levels of joins
+9	12	hibernate + ehcache, keep missing the cache
+9	12	orm criteria question
+9	12	how to use the hibernate optimistic locking version property on the front end?
+9	12	hibernate mapping conditional many-to-one
+9	12	get the entity previous  version in hibernate envers
+9	2	sqlldr corrupts my primary key after the first commit
+9	12	hibernate:  projection of a many-to-one in a criteria
+9	12	about hibernate namednativequery
+9	11	bulk inserts with spring / hibernate
+9	12	design pattern for translatable hibernate models
+9	12	using annotations to implement a static join in hibernate
+9	12	hibernate query that orders an attribute based on a nested path.
+9	12	hibernate dynamic instantiations with collections, is it possible?
+9	12	hibernate search querying ?
+9	12	is there any way to declare final fields for hibernate-managed objects?
+9	12	hibernate group by time interval
+9	12	effective entity update in hibernate ?
+9	12	hibernate case-insensitive utf-8/unicode collation that works on multiple dbms
+9	12	does hibernate's mappedby automatically makes applications buggy?
+9	12	does hibernate 2nd-level cache invalidate when running a jpql update statement
+9	12	hibernate embeddable inheritance
+9	12	hibernate: find duplicates
+9	2	automatically enforcing a max database table size by dropping old rows
+9	12	how to verify correct operation of hibernate second level caching in a cluster?
+9	12	ehcache / hibernate and rmi replication with large number of entities
+9	12	hibernate status
+9	12	how to use hibernate interceptors to populate extra fields in a join table?
+9	12	hibernate annotation placement question
+9	12	retrieve auto-detected hibernate dialect
+9	12	hibernate hql: how to use a complex left join fetch
+9	12	controlling hibernate's generated subselect
+9	12	is possible to set validation order with hibernate validator?
+9	12	hibernate question
+9	12	how to create and read a sequence in hibernate?
+9	12	help with hibernate collection foreign key mapping
+9	12	manytomany in hibernate without composite keys
+9	12	hibernate, mysql views and hibernate.hbm2ddl.auto = validate
+9	12	tips for resolving hibernate/jpa entitynotfoundexception
+9	12	hibernate -using table per subclass - how to link an existing superclass object to a sibclass object
+9	12	hibernate mapping class
+9	12	hibernate uses initial where clause in subsequent queries
+9	12	retrieve all foo from hibernate second level cache without a query cache?
+9	12	hibernate parent-child modeling
+9	12	hibernate mapping
+9	12	implementing result paging in hibernate
+9	12	inserting a generated value into a hibernate record
+9	12	how to get distinct results in hibernate with joins and row-based limiting?
+9	12	in memory filtering of not persistent collection with hibernate
+9	12	hibernate sessionfactory
+9	12	what are annotations in hibernate?
+9	12	hibernate object vs database physical model
+9	12	select ... for update not working for hibernate and mysql
+9	12	remove dinamically an ordering to the result set in org.hibernate.criteria
+9	12	hibernate: how to map a *.hbm.xml file in a different folder?
+9	12	hibernate annotations generating query that produces sqlgrammarexception
+9	12	hibernate: more than one relationship using the same join column
+9	12	joining two tables over a compound index in hibernate
+9	12	hibernate: sorting by a field from a linked table if foreign key is null
+9	12	on string creation for queries in hibernate and whether those queries would reduce object creation if they were final static
+9	12	is it possible to have foreign key enforced without object-to-object mapping
+9	12	hibernate     @generatedvalue  correct?
+9	12	hibernate: retrieve rows that are not joined
+9	12	hibernate/jpa - annotating bean methods vs fields
+9	12	hibernate::map maping
+9	12	hibernate + annotations + validator: length constraint inside embeddedid ignored by hbm2ddl
+9	12	using a hibernate mapkey that's not unique within a table
+9	12	hibernate - declariing a transient object in a pojo
+9	12	define name query in orm.xml with jpa and hibernate
+9	12	creating object from hibernate mapping
+9	12	hibernate - query caching/second level cache does not work by value object containing subitems
+9	8	setprimitivevalue:forkey: and to-many relationships
+9	12	hibernate mapping file with dependancies to existing tables/pojos
+9	12	hibernate: how to set null query-parameter value with hql?
+9	12	transactional strategy for hibernate l2 cache
+9	12	delete hibernate entity without (attempting to) delete association table (view) entry
+9	12	how to setup hibernate @manytomany association with cascades on both foreign keys?
+9	12	hibernate fetchmode joine
+9	12	hibernate one to zero or one mapping
+9	12	hibernate hql and date
+9	12	how much overhead do frameworks like hibernate bring?
+9	12	hibernate not using where clause with inner join
+9	12	what should be in a two days hibernate training
+9	12	hibernate does not maintain reference. do you know why ?
+9	11	spring: set property of one bean by reading the property of another bean?
+9	12	hibernate jpa to ddl command line tools
+9	12	commandline equivalent to reverse engineering in hibernate tools?
+9	12	jpa and hibernate fetch ignoring associations?
+9	12	generating a swing/gui from hibernate
+9	12	hibernate post initialization
+9	12	lazily loading a clob in hibernate
+9	12	how to query distinct values from map with given key in hibernate?
+9	12	how to lazy load a one-to-one composition via hql
+9	12	hibernate error: cannot resolve table
+9	12	weaknesses of hibernate
+9	12	hibernate mappings with a descriminator
+9	12	org.hibernate.hibernateexception: no session currently bound to execution context
+9	12	hibernate specific ddl generation
+9	12	hibernate criteria query - class cast exception
+9	12	can i specify a hibernate relationship with a filter?
+9	12	hibernate crud à la ruby on rails' scaffolding
+9	12	help with foreign key mapping in hibernate (spring)?
+9	12	hibernate optimistic locking with lazy onetoone associations
+9	12	spring-hibernate dao naming convention?
+9	12	hibernate returns invalida results with composite key.
+9	18	many-to-many implementation in linq-to-sql
+9	11	getting lazyinitializationexception when trying to integrate hibernate and springmvc for a web app
+9	8	core data, nsarraycontainer arraycontent of many arrays
+9	12	what are good video tutorials for hibernate ?
+9	12	hibernate  -gett the size of a list in a property
+9	12	hibernate performance tweaks
+9	18	intellisenss for xelements object with xml schema
+9	12	hibernate criteria api and scalar subqueries
+9	12	how can i optimally update a single property in an object using hibernate?
+9	12	composite id in hibernate+postgres breaks due to returned column order
+9	8	locating bundles by identifier
+9	12	hibernate: avoiding reading all the records to memory at once
+9	12	how to define an inverse cascade delete on a many-to-one mapping in hibernate
+9	12	hibernate filters break the second level cache
+9	12	hibernate on hypersonic in prodaction?
+9	12	do you have a common base class for hibernate entities?
+9	12	invalidmappingexception  hibernate mapping file...anybody can you give resolution
+9	12	hibernate mysql transaction configuration issue
+9	12	composite key with hibernate
+9	12	hibernate hql problem using case keyword
+9	11	spring bean with no id or name
+9	12	how do i map a map from an entity to a value with hibernate annotations?
+9	12	hibernate custom type definitions
+9	12	what is first and second level caching in hibernate?
+9	12	using maven in hibernate tutorial
+9	12	why use hibernate/nhibernate?
+9	11	caching a resultset
+9	12	hibernate - projection a component
+9	12	hibernate queries slow down drastically after an entity is loaded in the session
+9	12	handling hibernate unsupportedoperationexception: can't write to a readonly object
+9	12	hibernate - manytoone - save - org.hibernate.transientobjectexception:
+9	12	hibernate polymorphic query
+9	12	hibernate map mapping problem
+9	12	hibernate hql query : how to set a collection as a named parameter of a query?
+9	12	create hibernate collection on two columns
+9	12	hibernate. big results and pagination
+9	2	displaying foreign key relationships in oracle 9i
+9	12	how can i represent many to many relationship to the same table/entity in hibernate?
+9	12	hibernate mapping through another entity
+9	12	hibernate 2nd level cache not caching committed entities
+9	12	how to simple add an object to a collection in hibernate from client
+9	12	null pointer exception at org.hibernate.tuple.abstractentitytuplizer.createproxy
+9	12	in hibernate statistics whats the difference between load and fetch
+9	12	manytomany assoicate delete join table entry
+9	12	hibernate sort by properties inner bean ?
+9	12	how can i create a hibernate collection that will be re-read every time i request it?
+9	18	linq, repository pattern and database abstraction problem
+9	12	getting hibernate to log clob parameters
+9	12	problem connecting to a remote database using hibernate
+9	12	when does retrieving a hibernate proxy's id initialize the proxy?
+9	12	get hibernate transaction status
+9	12	how do you turn on a hibernate filter for a particular entity by default?
+9	12	hibernate - changing connection string during runtime
+9	12	combo boxes with hibernate
+9	12	using hibernate criteria, is there a way to escape special characters?
+9	12	hibernate usertype nullsafeset - how to know if called for insert/update or select
+9	8	releasing core framework object references
+9	12	hibernate l2 cache on cluster
+9	12	hibernate causing too many time_wait connections
+9	12	hibernate computed criteria order
+9	12	double-logging in hibernate
+9	12	delete entity that map with another entity
+9	12	problem with utf-8 in create schema by hibernate
+9	12	error in hibernate constraint
+9	12	typesafe primary key in hibernate/jpa
+9	12	hibernate transaction duplicate problem
+9	12	custom joins entitys on hibernate
+9	12	elegant ways to handle database views on hibernate entities?
+9	12	hibernate transaction question
+9	12	will hibernate update the database when a persistence instance has been set but not changed?
+9	12	hibernate is calling public methods on the entities after a query, why?
+9	12	what does ga means in hibernate versions?
+9	12	persisting large files with hibernate annotations
+9	12	mapping multi-level inheritance in hibernate
+9	12	how to point to other table's id with hibernate?
+9	12	hibernate exception
+9	12	entitymanager.merge inserts duplicate entities
+9	12	hibernate table per hierarchy how to
+9	12	hibernate subclass one to one mapping
+9	18	linq and heavy blobs
+9	12	hibernate for ontologies?
+9	12	hibernate: unmapped class association exception
+9	12	bypassing delete_orphans in a transaction when moving objects from one parent to another, hibernate.
+9	12	hibernate increment starting number
+9	12	two mappings for one database table
+9	12	issue persisting long strings with hibernate
+9	12	using entity id as a reference in hibernate
+9	12	hibernate n+1 from select across multiple tables
+9	12	hibernate next/previous sibling mapping
+9	12	hibernate: mapping one-way redundant columns
+9	12	hibernate: batch_size? second level cache ?
+9	12	hibernate findbyid isn't finding records that it previously found
+9	11	hibernate/spring: persisting collections
+9	12	hibernate persist order
+9	12	persistence.xml ignores hibernate and chooses datanucleus
+9	12	hibernate entity sort column configuration
+9	12	hibernate one-to-one or component?
+9	12	constraint error in hibernate
+9	12	problem with "not (a, b) in (select ...)" in jpa query using hibernate entitymanager
+9	12	case-insensitive search using hibernate
+9	12	strategies to avoid hibernate  lazyinitializationexceptions
+9	12	hibernate @orderby with referenced class
+9	12	queries with hibernate
+9	12	hibernate annotations - which is better, field or property access?
+9	12	how to sort through an association table in hibernate?
+9	12	hibernate mappingexception unknown entity: $proxy2
+9	12	override of an hibernate validator annotation ?
+9	12	hibernate - how to use an enumeration as map's key
+9	12	hibernate mapping for situation, where the the key is also used as many-to-one parameter
+9	15	deleting mysql records with ajax
+9	12	hibernate - problem in parsing mapping file (.hbm.xml)
+9	12	hibernate flush doesn't update database
+9	12	changing a hibernate many-many mapping based on software license flags
+9	12	hibernate many-to-many association with the same entity
+9	12	grouping in hibernate - stupid question
+9	12	hibernate many to one delets all parents when a child is deleted
+9	12	@immutable vs @entity(mutable=false) in hibernate
+9	12	hibernate 2nd lvl cache
+9	12	hibernate lazy initlaization exception
+9	12	hibernate lazy loading + jersey rest = eager loading?
+9	12	group by month with criteria in hibernate
+9	12	breaking up a large hibernate class
+9	12	cached item was locked + hibernate
+9	12	hibernate: foreign key has the wrong number of columns
+9	12	hibernate hql with interfaces
+9	12	hibernate one-to-many unidirectional on an existing db
+9	11	how can i chop down a transaction in spring with jpa?
+9	12	hibernate criteria query on different properties of different objects
+9	12	hibernate - how to map an enumset
+9	12	hibernate dao desugin
+9	12	rolling back foreign key relationships with hibernate
+9	12	hibernate cascade deletion
+9	12	select in hql (hibernate)
+9	12	hibernate immutable value object
+9	12	can't stop hibernate from writing log to console (log4j.properties is ok)
+9	12	hibernate: constraintname is null in mysql
+9	12	hibernate or jdbc
+9	12	embed hibernate hbm.xml mappings in jar
+9	12	how to specify connection release modes in hibernate?
+9	12	mapping a bidirectional list with hibernate
+9	12	passing jdbc url from maven to hibernate.cfg.xml
+9	18	i'm working with the entity framework and i'm having a problem:
+9	12	recipe for upgrading jboss 5.x hibernate to 3.5.x?
+9	12	hibernate save object question
+9	12	map a list of strings with jpa/hibernate annotations
+9	12	hibernate validator error - 4.0.2.ga
+9	12	hibernate mappings: splitting up the file
+9	12	using hibernate 2nd level cache or query cache for lazy fetch queries
+9	11	dealing with sqlexception with spring,hibernate  & postgres
+9	12	hibernate hbm2hbmxml
+9	12	hibernate lazy initialization help
+9	12	hibernate delete cascade
+9	12	hibernate list operation question
+9	12	hibernate annotation many to many delete problem
+9	12	mapping two tables 0..n in hibernate
+9	12	hibernate, gwt and gilead: sessions, transactions and caches
+9	12	how can hibernate access a private field ?
+9	12	hibernate ehcache only finding 1 element of a collection
+9	12	hibernate property based on sum
+9	12	hibernate basic: how to query when there is a composite id
+9	12	hibernate criteria query on association
+9	12	getting my webapp to be database agnostic with hibernate...
+9	12	how can i remove an item from a hashmap in hibernate ?
+9	12	confusions in hibernate mappings
+9	12	hibernate: lazy-loading doesn't work on one-to-many mapping on set
+9	11	how to relate between two classes with mongodb and spring?
+9	12	not able to save composite foreign key
+9	12	how to map a set of enum type in hibernate?
+9	12	hibernate:  foreign key is primate key
+9	12	hibernate convert proxy to real object
+9	12	hibernate ignores fetch="join" on a collection when navigating the object tree with iterator
+9	12	is this possible in hibernate 3.2
+9	12	preventing nan from being persisted by hibernate
+9	12	onetoone mapping with hibernate/jboss/seam
+9	12	hibernate and unexpected end of subtree exception
+9	12	hibernate + spring + persist one-to-one relation + empty foreign key
+9	12	hibernate criteria api - having clause work arounds
+9	12	hql problem
+9	12	duplicate entry error in mysql/hibernate
+9	12	hibernate calls flush on find- causes not-null error
+9	12	hibernate doesn't save and doesn't throw exceptions !?!
+9	12	why does hibernate try to delete when i try to update/insert? wtf?
+9	12	hibernate polymorphism: instantiating the right class
+9	12	hibernate unidirectional one to many association - why is a join table better?
+9	12	hibernate one to many using something other than a primary key
+9	12	using different hibernate user types in different situations
+9	12	best place for index call when using hibernate
+9	12	custom onetoone hibernate/jpa association
+9	12	how to know a entity is going to insert or update
+9	12	workarounds for unresolved hibernate bug when embedded collections contain collections?
+9	12	how to insert an "optimizer hint" to hibernate criteria api query
+9	12	hibernate auto-discovery and generation of of database mappings to pojos
+9	12	hibernate: how to exclude a class which is part of a join using the criteria api
+9	12	[hibernate]relation many-to-many with attributes : how ?
+9	12	hibernate error : caused by: org.hibernate.nonuniqueobjectexception: a different object with the same identifier value was already associated with the session:
+9	12	retrieve emebedded or component using hibernate criteria api
+9	12	best practice to return a result flag after saveorupdate in hibernate ?
+9	12	hibernate unidirectional parent/child relationship - delete() performs update on child table instead of delete
+9	12	hibernate getting on my nerve. delete question on one to one relationship.
+9	12	problem with mapping tag in hibernate configuration file
+9	12	hibernate: query entities which contain a specified element in a collectionofelements?
+9	12	hibernate criteria - exclude records with same id but different attribute values
+9	12	(lazy) left outer join using the hibernate criteria api
+9	12	how do i persist a java property of type object using hibernate?
+9	12	hibernate query cache - for objects not in the 2nd level cache - risky? usefull? bad practice?
+9	12	hibernate: how to setup on-delete="cascade" in one-to-one relation
+9	12	hibernate - how to cascade deletes using annotations where only unidirectional child relationship is specified
+9	12	mocking a hibernate custom value type
+9	12	comparing entities while unit testing with hibernate
+9	12	is there a helper to know whether a property has been loaded by hibernate ?
+9	12	problem when retrieve data from hibernate many to many relationship
+9	12	hibernate - component mapping vs custom value type
+9	12	hibernate session not getting created.
+9	12	handling multiple databases with hibernate in a single application
+9	12	using hibernate criteria api to query many-to-one relationships with projections
+9	12	problem saveorupdate object hibernate (a different object with the same identifier session)
+9	12	how do i query for objects with a value in a string collection using hibernate criteria?
+9	12	changing the type of an entity preserving its id
+9	12	is there any way to observe change in database table throught hibernate?
+9	12	using @table with schema name in hibernate 3.3.1ga and hsqldb
+9	2	optional entity attributes
+9	12	hibernate: parent/child relationship in a single-table
+9	12	hibernate manytoone relation to a joined subclass type
+9	12	hibernate bidirectional parent/child problem
+9	12	outofmemory when reading big amounts of data using hibernate.
+9	18	linqtoentities not retrieving child objects of an entity
+9	12	hibernate creates two primary keys when i only want one...
+9	12	why is hibernate open session in view considered a bad practice?
+9	12	querying collections of value type in the criteria api in hibernate
+9	12	hibernate: bad performance when removing element from many-to-many relation.
+9	12	hql : getting the primary key of an object.
+9	12	hibernate criteria api - how to order by collection size?
+9	12	hibernate (jpa) cascade - retrieve id from child
+9	12	how to retrieve data which caused unique constraint violation (via hibernate)?
+9	12	is it possible to create indices on join table using hibernate annotations and hbm2ddl?
+9	12	hibernate: event listener or interceptor, what are the pros/cons in practice?
+9	12	limit associated entities loaded through a hibernate criteria
+9	12	in hibernate, is there any difference between session.get() and session.load() besides how bad ids are handled?
+9	12	why doesn't the jpa spec (including 2.0) or hibernate extension allow u to specify a generator e.g. oracle sequence for the @version annotation
+9	12	how to map a set of objects in hibernate without primary keys being equally named?
+9	12	hibernate on oracle: mapping string property to clob column
+9	12	best way to update some fields of a detached object on hibernate?
+9	12	hibernate @onetomany with mappedby (parent-child) relationship and cache problem
+9	12	how do i create a hibernate criteria to order by some properties of collection
+9	12	problem with sorting on child object in hibernate when order-by is present in .hbm files ?
+9	12	hibernate: order by using criteria api
+9	12	how to use second level cache for lazy loaded collections in hibernate?
+9	12	using hibernate/jpa without relationships and avoiding multiple db calls
+9	12	hibernate: how to make hibernate delete records from child table when deleting parent if child is linked to parent with many-to-one?
+9	12	hibernate composite primary key contains a composite foreign key, how to map this..
+9	12	how to make query on a property from a joined table in hibernate using criteria
+9	12	if hibernate can generate the db schema, how to tell it to create a column of nvarchar(max)?
+9	2	oracle converts empty string to null but jpa doesn't update entity cache correspondingly
+9	12	hibernate creates problem for table with composite primary key while generating hibernate classes with eclipse
+9	12	hibernate - hbm.xml automatic generation from db schema
+9	12	how to connect to mutiple databases in hibernate
+9	12	use two databases concurrently in hibernate
+9	12	myeclipse hibernate does not order property sets by id?
+9	12	generate hibernate mapping files (*.hbm.xml) from pojos?
+9	12	how do i map a char(1) to a boolean using hibernate for java?
+9	12	using hibernate hbm2ddl.auto=update : how can i alter column not to require value anymore?
+9	12	left outer join fetch doesn't fill map collection properly (hql)
