@@ -1,4 +1,4 @@
-    # Few Shot Clustering
+# Few Shot Clustering
 
 ## Setup
 ### Pull submodules
@@ -129,4 +129,18 @@ cluster_assignments = LLMKeyphraseClustering(features, documents, 150, prompt, t
 from few_shot_clustering.eval_utils import cluster_acc
 import numpy as np
 print(f"Accuracy: {cluster_acc(np.array(cluster_assignments), np.array(labels))}")
+```
+
+## Citation
+Found this useful? Please cite
+```
+@misc{prompt2model,
+    title={Prompt2Model: Generating Deployable Models from Natural Language Instructions},
+    author={Vijay Viswanathan and Chenyang Zhao and Amanda Bertsch and Tongshuang Wu and Graham Neubig},
+    booktitle = {Conference on Empirical Methods in Natural Language Processing (EMNLP) Demo Track},
+    address = {Singapore},
+    month = {November},
+    url = {https://arxiv.org/abs/2308.12261},
+    year = {2023}
+}
 ```
