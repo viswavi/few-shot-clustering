@@ -114,14 +114,15 @@ Now we can call the OpenAI API (after setting `OPENAI_API_KEY`) to generate keyp
 from few_shot_clustering.wrappers import LLMKeyphraseClustering
 from InstructorEmbedding import INSTRUCTOR
 
+from few_shot_clustering.dataloaders import load_clinc
 
 # You can provide an optional file to cache the extracted features, 
 # since these are a bit expensive to compute. Example:
 # cache_path = "/tmp/clinc_feature_cache.pkl"
 #
 # This is not necessary, as shown below.
-from few_shot_clustering.dataloaders import load_clinc
 
+cache_path = None
 features, labels, documents = load_clinc(cache_path)
 
 prompt_suffix = "express the same general intent?"
