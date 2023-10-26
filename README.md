@@ -13,7 +13,7 @@ pip install -e .
 ## Other dependencies
 This repository also requires `torch` if you use the Keyphrase Clustering method. This is not currently included in the pip installation for users to install custom Torch packages on their own machine/GPU, but this code was tested with:
 ```
-conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 cudatoolkit=11.4 -c pytorch -c conda-forge
+pip install torch==1.10.1+cu111 torchvision==0.11.2+cu111 torchaudio==0.10.1 -f https://download.pytorch.org/whl/cu111/torch_stable.html
 ```
 
 ## Dependencies
