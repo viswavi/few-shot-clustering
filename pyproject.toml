@@ -7,7 +7,7 @@ name = "few_shot_clustering"
 authors = [
     {name = "Vijay Viswanathan", email = "vijayv@andrew.cmu.edu"},
 ]
-version = "0.0.1"
+version = "0.0.3"
 description = "A library for efficient semi-supervised clustering with large language models."
 readme = "README.md"
 repository = "https://github.com/viswavi/few-shot-clustering"
@@ -48,4 +48,4 @@ where = ["few_shot_clustering/active_semi_supervised_clustering", "few_shot_clus
 allow-direct-references = true
 
 [tool.hatch.version]
-version = "0.0.1"
+version = "0.0.3"
