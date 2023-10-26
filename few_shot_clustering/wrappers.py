@@ -3,30 +3,14 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.preprocessing import normalize
 
 
-import argparse
-from collections import defaultdict
-import json
-import matplotlib.pyplot as plt
-import numpy as np
 import os
-import pickle
-import random
 from sentence_transformers import SentenceTransformer
-import sys
-import time
-import torch
 
-from dataloaders import load_dataset, generate_synthetic_data
-from experiment_utils import set_seed, summarize_results
+from few_shot_clustering.dataloaders import load_dataset, generate_synthetic_data
+from few_shot_clustering.experiment_utils import set_seed, summarize_results
 
-sys.path.extend(["..", "."])
-
-if os.getenv("REPO_DIR") is not None:
-    sys.path.append(os.path.join(os.getenv("REPO_DIR"), "clustering", "active-semi-supervised-clustering"))
-else:
-    sys.path.append("active-semi-supervised-clustering")
-from active_semi_clustering.semi_supervised.pairwise_constraints import PCKMeans, GPTExpansionClustering
-from active_semi_clustering.active.pairwise_constraints import GPT3Oracle, DistanceBasedSelector, SimilarityFinder
+from few_shot_clustering.active_semi_supervised_clustering.active_semi_clustering.semi_supervised.pairwise_constraints import PCKMeans, GPTExpansionClustering
+from few_shot_clustering.active_semi_supervised_clustering.active_semi_clustering.active.pairwise_constraints import GPT3Oracle, DistanceBasedSelector, SimilarityFinder
 
 
 

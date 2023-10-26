@@ -12,11 +12,9 @@ from InstructorEmbedding import INSTRUCTOR
 from sentence_transformers import SentenceTransformer
 from sklearn import datasets, metrics
 
-import sys
-sys.path.append("cmvc")
-from CMVC_main_opiec import CMVC_Main as CMVC_Main_opiec
-from CMVC_main_reverb45k import CMVC_Main as CMVC_Main_reverb
-from helper import invertDic
+from few_shot_clustering.cmvc.CMVC_main_opiec import CMVC_Main as CMVC_Main_opiec
+from few_shot_clustering.cmvc.CMVC_main_reverb45k import CMVC_Main as CMVC_Main_reverb
+from few_shot_clustering.cmvc.helper import invertDic
 
 def preprocess_20_newsgroups(per_topic_samples = 100, shuffle=True, topics=None):
     newsgroups = datasets.fetch_20newsgroups(subset='all')
@@ -89,30 +87,18 @@ def generate_synthetic_data(n_samples_per_cluster, global_seed=2022):
     points, labels = zip(*combined_data)
     return np.array(points), labels
 
-def load_tweet(data_path, cache_path = "/projects/ogma1/vijayv/few-shot-clustering/clustering/file/tweet_dataset_cache.pkl"):
+def load_tweet(data_path, cache_path = None):
     data = pd.read_csv(data_path, sep="\t")
-    if os.path.exists(cache_path):
+    if cache_path is not None and os.path.exists(cache_path):
         embeddings = pickle.load(open(cache_path, 'rb'))
     else:
         model = SentenceTransformer('sentence-transformers/distilbert-base-nli-stsb-mean-tokens')
         embeddings = model.encode(data['text'])
-        pickle.dump(embeddings, open(cache_path, 'wb'))
+        if cache_path is not None:
+            pickle.dump(embeddings, open(cache_path, 'wb'))
     return embeddings, list(data['label']), list(data['text'])
 
-_ = '''
-def load_tweet(data_path, cache_path = "/projects/ogma1/vijayv/few-shot-clustering/clustering/file/tweet_dataset_cache_instructor.pkl"):
-    data = pd.read_csv(data_path, sep="\t")
-    if os.path.exists(cache_path):
-        embeddings = pickle.load(open(cache_path, 'rb'))
-    else:
-        model = INSTRUCTOR('hkunlp/instructor-large')
-        prompt = "Represent tweets for topic classification: "
-        embeddings = model.encode([[prompt, text] for text in data['text']])
-        pickle.dump(embeddings, open(cache_path, 'wb'))
-    return embeddings, list(data['label']), list(data['text'])
-'''
-
-def load_clinc(cache_path = "/projects/ogma1/vijayv/few-shot-clustering/clustering/file/clinc_dataset_cache.pkl"):
+def load_clinc(cache_path = None):
     dataset = load_dataset_hf("clinc_oos", "small")
     test_split = dataset["test"]
     texts = test_split["text"]
@@ -125,30 +111,32 @@ def load_clinc(cache_path = "/projects/ogma1/vijayv/few-shot-clustering/clusteri
             intent_mapping[intent] = len(intent_mapping)
     remapped_intents = [intent_mapping[i] for i in filtered_intents]
 
-    if os.path.exists(cache_path):
+    if cache_path is not None and os.path.exists(cache_path):
         embeddings = pickle.load(open(cache_path, 'rb'))
     else:
         model = INSTRUCTOR('hkunlp/instructor-large')
         prompt = "Represent utterances for intent classification: "
         embeddings = model.encode([[prompt, text] for text in filtered_texts])
-        pickle.dump(embeddings, open(cache_path, 'wb'))
+        if cache_path is not None:
+            pickle.dump(embeddings, open(cache_path, 'wb'))
 
     return embeddings, remapped_intents, list(filtered_texts)
 
 
-def load_bank77(cache_path = "/projects/ogma1/vijayv/few-shot-clustering/clustering/file/bank77_dataset_cache.pkl"):
+def load_bank77(cache_path = None):
     dataset = load_dataset_hf("banking77")
     test_split = dataset["test"]
     texts = test_split["text"]
     labels = test_split["label"]
 
-    if os.path.exists(cache_path):
+    if cache_path is not None and os.path.exists(cache_path):
         embeddings = pickle.load(open(cache_path, 'rb'))
     else:
         model = INSTRUCTOR('hkunlp/instructor-large')
         prompt = "Represent the bank purpose for classification: "
         embeddings = model.encode([[prompt, text] for text in texts])
-        pickle.dump(embeddings, open(cache_path, 'wb'))
+        if cache_path is not None:
+            pickle.dump(embeddings, open(cache_path, 'wb'))
 
     return embeddings, labels, texts
 
@@ -275,7 +263,7 @@ def load_dataset(dataset_name, data_path, dataset_split=None):
         side_information = cmvc
 
         side_info = side_information.side_info
-        cache_dir = "/projects/ogma1/vijayv/few-shot-clustering/clustering/file/gpt3_cache"
+        cache_dir = "/projects/ogma1/vijayv/few-shot-clustering/few_shot_clustering/file/gpt3_cache"
         sentence_unprocessing_mapping_file = os.path.join(cache_dir, f"{dataset_name}_test_sentence_unprocessing_map.json")
         sentence_unprocessing_mapping = json.load(open(sentence_unprocessing_mapping_file))
         selected_sentences = []

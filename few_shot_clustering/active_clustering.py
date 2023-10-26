@@ -44,30 +44,23 @@ import torch
 from dataloaders import load_dataset, generate_synthetic_data
 from experiment_utils import set_seed, summarize_results
 
-sys.path.extend(["..", "."])
 
-if os.getenv("REPO_DIR") is not None:
-    sys.path.append(os.path.join(os.getenv("REPO_DIR"), "clustering", "active-semi-supervised-clustering"))
-else:
-    sys.path.append("active-semi-supervised-clustering")
-from active_semi_clustering.semi_supervised.pairwise_constraints import PCKMeans, CardinalityConstrainedPCKMeans, GPTExpansionClustering, SCCL, DeepSCCL, KMeansCorrection
-from active_semi_clustering.semi_supervised.labeled_data.kmeans import KMeans
-from active_semi_clustering.semi_supervised.labeled_data.dec import DEC
+from few_shot_clustering.active_semi_supervised_clustering.active_semi_clustering.semi_supervised.pairwise_constraints import PCKMeans, CardinalityConstrainedPCKMeans, GPTExpansionClustering, KMeansCorrection
+from few_shot_clustering.active_semi_supervised_clustering.active_semi_clustering.semi_supervised.labeled_data.kmeans import KMeans
+from few_shot_clustering.active_semi_supervised_clustering.active_semi_clustering.semi_supervised.labeled_data.dec import DEC
 # from sklearn.cluster import KMeans
-from active_semi_clustering.semi_supervised.labeled_data.seededkmeans import SeededKMeans
-from active_semi_clustering.semi_supervised.labeled_data.constrainedkmeans import ConstrainedKMeans
-from active_semi_clustering.active.pairwise_constraints import ExampleOracle, GPT3Oracle, construct_pairwise_oracle_single_example, GPT3ComparativeOracle, DistanceBasedSelector, LabelBasedSelector, ExploreConsolidate, MinMax, SimilarityFinder, MinMaxFinetune
-from active_semi_clustering.active.pairwise_constraints import Random
+from few_shot_clustering.active_semi_supervised_clustering.active_semi_clustering.semi_supervised.labeled_data.seededkmeans import SeededKMeans
+from few_shot_clustering.active_semi_supervised_clustering.active_semi_clustering.semi_supervised.labeled_data.constrainedkmeans import ConstrainedKMeans
+from few_shot_clustering.active_semi_supervised_clustering.active_semi_clustering.active.pairwise_constraints import ExampleOracle, GPT3Oracle, construct_pairwise_oracle_single_example, GPT3ComparativeOracle, DistanceBasedSelector, LabelBasedSelector, ExploreConsolidate, MinMax, SimilarityFinder, MinMaxFinetune
+from few_shot_clustering.active_semi_supervised_clustering.active_semi_clustering.active.pairwise_constraints import Random
 
-sys.path.append("cmvc")
-from cmvc.helper import invertDic
-from cmvc.metrics import pairwiseMetric, calcF1
-from cmvc.test_performance import cluster_test
-from cmvc.model_max_margin import KGEModel
-from cmvc.Context_view import BertClassificationModel
+from few_shot_clustering.cmvc.helper import invertDic
+from few_shot_clustering.cmvc.metrics import pairwiseMetric, calcF1
+from few_shot_clustering.cmvc.test_performance import cluster_test
+from few_shot_clustering.cmvc.model_max_margin import KGEModel
+from few_shot_clustering.cmvc.Context_view import BertClassificationModel
 
-sys.path.append("sccl")
-from utils.metric import cluster_acc
+from few_shot_clustering.eval_utils import cluster_acc
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--dataset', type=str, choices=["iris", "tweet", "clinc", "bank77", "20_newsgroups_all", "20_newsgroups_full", "20_newsgroups_sim3", "20_newsgroups_diff3", "reverb45k", "OPIEC59k", "reverb45k-raw", "OPIEC59k-raw", "OPIEC59k-kg", "OPIEC59k-text", "synthetic_data"], default="iris", help="Clustering dataset to experiment with")
@@ -255,10 +248,10 @@ Your task will be considered successful if the queries are clustered into groups
     return "\n\n".join([instruction, prefix])
 
 
-def cluster(semisupervised_algo, features, documents, labels, num_clusters, dataset_name, text_type=None, prompt_suffix=None, num_corrections=None, split=None, init="random", max_feedback_given=None, normalize_vectors=False, split_normalization=False, num_reinit=1, include_linear_transformation=False, include_contrastive_loss=False, verbose=False, side_information=None, tensorboard_parent_dir="/projects/ogma2/users/vijayv/extra_storage/okb-canonicalization/clustering/sccl/", tensorboard_dir="tmp", process_raw_data=False, pckmeans_w=None, seed=None):
+def cluster(semisupervised_algo, features, documents, labels, num_clusters, dataset_name, text_type=None, prompt_suffix=None, num_corrections=None, split=None, init="random", max_feedback_given=None, normalize_vectors=False, split_normalization=False, num_reinit=1, include_linear_transformation=False, include_contrastive_loss=False, verbose=False, side_information=None, process_raw_data=False, pckmeans_w=None, seed=None):
     pairwise_constraint_cache_name = f"/projects/ogma2/users/vijayv/extra_storage/okb-canonicalization/clustering/file/gpt3_cache/{dataset_name}_pairwise_constraint_cache.jsonl"
     sentence_unprocessing_mapping_file = f"/projects/ogma2/users/vijayv/extra_storage/okb-canonicalization/clustering/file/gpt3_cache/{dataset_name}_{split}_sentence_unprocessing_map.json"
-    assert semisupervised_algo in ["KMeans", "KMeansCorrection", "GPTExpansionClustering", "GPTPairwiseClustering", "GPTPairwiseClusteringMinMax", "GPTPairwiseClusteringExploreSimilar", "GPTPairwiseClusteringOracleFree", "GPT_SCCL_OracleFree", "DEC", "GPT_CC_PCKMeans", "CardinalityConstrainedPCKMeans", "PCKMeans", "OraclePCKMeans", "ActivePCKMeans", "ActiveFinetunedPCKMeans", "ConstrainedKMeans", "SeededKMeans"]
+    assert semisupervised_algo in ["KMeans", "KMeansCorrection", "GPTExpansionClustering", "GPTPairwiseClustering", "GPTPairwiseClusteringMinMax", "GPTPairwiseClusteringExploreSimilar", "GPTPairwiseClusteringOracleFree", "GPT_CC_PCKMeans", "CardinalityConstrainedPCKMeans", "PCKMeans", "OraclePCKMeans", "ActivePCKMeans", "ActiveFinetunedPCKMeans", "ConstrainedKMeans", "SeededKMeans"]
     if semisupervised_algo == "DEC":
         clusterer = DEC(n_clusters=num_clusters, normalize_vectors=normalize_vectors, split_normalization=split_normalization, verbose=verbose, cluster_init=init, labels=labels, canonicalization_side_information=side_information, include_contrastive_loss=include_contrastive_loss, linear_transformation=include_linear_transformation, tensorboard_parent_dir=tensorboard_parent_dir, tensorboard_dir=tensorboard_dir)
         clusterer.fit(features)
@@ -384,36 +377,6 @@ def cluster(semisupervised_algo, features, documents, labels, num_clusters, data
         clusterer = CardinalityConstrainedPCKMeans(n_clusters=num_clusters, init=init, w=pckmeans_w)
         clusterer.fit(features, ml=pairwise_constraints[0], cl=pairwise_constraints[1])
         clusterer.constraints_ = pairwise_constraints
-
-    elif process_raw_data and semisupervised_algo == "GPT_SCCL_OracleFree":
-        prompt = construct_pairwise_oracle_prompt(dataset_name, documents, side_information)
-        oracle = GPT3Oracle(features, prompt, documents, dataset_name=dataset_name, prompt_suffix=prompt_suffix, text_type=text_type, max_queries_cnt=max_feedback_given, cache_file = f"/projects/ogma2/users/vijayv/extra_storage/okb-canonicalization/clustering/file/gpt3_cache/{dataset_name}_pairwise_constraint_cache.jsonl")
-
-        active_learner = DistanceBasedSelector(n_clusters=num_clusters)
-        active_learner.fit(features, oracle=oracle)
-        pairwise_constraints = active_learner.pairwise_constraints_
-
-        bert_model = pickle.load(open("/projects/ogma2/users/vijayv/extra_storage/CMVC_models/bert_classifier_model.pkl", 'rb'))
-        kge_model = pickle.load(open("/projects/ogma2/users/vijayv/extra_storage/CMVC_models/kge_model.pkl", 'rb'))
-
-        clusterer = DeepSCCL(bert_model, kge_model, n_clusters=num_clusters, normalize_vectors=normalize_vectors, split_normalization=split_normalization, verbose=verbose, cluster_init=init, labels=labels, canonicalization_side_information=side_information, include_contrastive_loss=include_contrastive_loss, linear_transformation=include_linear_transformation, tensorboard_parent_dir=tensorboard_parent_dir, tensorboard_dir=tensorboard_dir)
-        clusterer.fit(features, pairwise_constraints)
-        clusterer.constraints_ = pairwise_constraints
-        if isinstance(oracle, GPT3Oracle) and os.path.exists(oracle.cache_file):
-            oracle.cache_writer.close()
-
-    elif not process_raw_data and semisupervised_algo == "GPT_SCCL_OracleFree":
-        prompt = construct_pairwise_oracle_prompt(dataset_name, documents, side_information)
-        oracle = GPT3Oracle(features, prompt, documents, dataset_name=dataset_name, prompt_suffix=prompt_suffix, text_type=text_type, max_queries_cnt=max_feedback_given, cache_file = f"/projects/ogma2/users/vijayv/extra_storage/okb-canonicalization/clustering/file/gpt3_cache/{dataset_name}_pairwise_constraint_cache.jsonl")
-        active_learner = DistanceBasedSelector(n_clusters=num_clusters)
-        active_learner.fit(features, oracle=oracle)
-        pairwise_constraints = active_learner.pairwise_constraints_
-
-        clusterer = SCCL(n_clusters=num_clusters, normalize_vectors=normalize_vectors, split_normalization=split_normalization, verbose=verbose, cluster_init=init, labels=labels, canonicalization_side_information=side_information, include_contrastive_loss=include_contrastive_loss, linear_transformation=include_linear_transformation, tensorboard_parent_dir=tensorboard_parent_dir, tensorboard_dir=tensorboard_dir)
-        clusterer.fit(features, pairwise_constraints)
-        clusterer.constraints_ = pairwise_constraints
-        if isinstance(oracle, GPT3Oracle) and os.path.exists(oracle.cache_file):
-            oracle.cache_writer.close()
 
     elif semisupervised_algo == "ActivePCKMeans":
         oracle = ExampleOracle(labels, max_queries_cnt=max_feedback_given)
