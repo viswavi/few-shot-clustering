@@ -1,4 +1,4 @@
-# Few Shot Clustering
+    # Few Shot Clustering
 
 ## Setup
 ### Pull submodules
@@ -72,6 +72,10 @@ prompt_suffix = "express the same general intent?"
 text_type = "Utterance"
 
 cluster_assignments, constraints = LLMPairwiseClustering(features, documents, 150, prompt, text_type, prompt_suffix, max_feedback_given=100, pckmeans_w=0.4, cache_file="/tmp/clinc_cache_file.json", constraint_selection_algorithm="SimilarityFinder", kmeans_init="k-means++")
+
+from few_shot_clustering.eval_utils import cluster_acc
+import numpy as np
+print(f"Accuracy: {cluster_acc(np.array(cluster_assignments), np.array(labels))}")
 ```
 
 ## LLM Keyphrase Expansion Clustering
@@ -109,7 +113,7 @@ encoder_model = INSTRUCTOR('hkunlp/instructor-large')
 
 cluster_assignments = LLMKeyphraseClustering(features, documents, 150, prompt, text_type, encoder_model=encoder_model, prompt_for_encoder="Represent keyphrases for topic classification:", cache_file="/tmp/clinc_expansion_cache_file.json")
 
-from utils.metric import cluster_acc
+from few_shot_clustering.eval_utils import cluster_acc
 import numpy as np
 print(f"Accuracy: {cluster_acc(np.array(cluster_assignments), np.array(labels))}")
 ```
