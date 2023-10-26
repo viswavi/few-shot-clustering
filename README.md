@@ -1,5 +1,15 @@
 # Few Shot Clustering
 
+## Setup
+### Pull submodules
+
+`git submodule update --init`
+
+## Install from Source:
+```
+pip install -e .
+```
+
 ## Dependencies
 ```
     "scikit-learn",
@@ -13,14 +23,7 @@
     "tqdm"
 ```
 
-## Setup
-### Pull submodules
-
-`git submodule update --init`
-
 # Run LLM-based clustering algorithms
-`cd clustering` before running the code below.
-
 ## LLM Pairwise Constraint Clustering
 Here's an example of how to run pairwise constraint clustering using an LLM to generate the constraints, from scratch, on the CLINC dataset.
 First, write a prompt for generating pairwise constraints:
@@ -53,9 +56,9 @@ Given this context, do utterance #1 and utterance #2 likely express the same gen
 
 Now, use this prompt to call the OpenAI API and create clusters (note that you'll need to set your `OPENAI_API_KEY` before doing this step).
 ```
-from wrappers import LLMPairwiseClustering
+from few_shot_clustering.wrappers import LLMPairwiseClustering
 
-from dataloaders import load_clinc
+from few_shot_clustering.dataloaders import load_clinc
 
 features, labels, documents = load_clinc()
 
@@ -87,10 +90,10 @@ Keyphrases: ["location", "find", "locate", "tracking", "track"]"""
 
 Now we can call the OpenAI API (after setting `OPENAI_API_KEY`) to generate keyphrases and create clusters:
 ```
-from wrappers import LLMKeyphraseClustering
+from few_shot_clustering.wrappers import LLMKeyphraseClustering
 from InstructorEmbedding import INSTRUCTOR
 
-from dataloaders import load_clinc
+from few_shot_clustering.dataloaders import load_clinc
 
 features, labels, documents = load_clinc()
 
