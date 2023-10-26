@@ -1,12 +1,16 @@
 # Few Shot Clustering
 
 ## Setup
-### Pull submodules
+You can either install a wheel via Pip or install from source.
 
-`git submodule update --init`
-
-## Install from Source:
+### Install via pip
 ```
+pip install few-shot-clustering
+```
+
+### Install from Source:
+```
+git submodule update --init
 pip install -e .
 ```
 
