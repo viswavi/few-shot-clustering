@@ -4,9 +4,9 @@
 [submodule "few_shot_clustering/sccl"]
 	path = few_shot_clustering/sccl
 	url = https://github.com/viswavi/sccl.git
-[submodule "few_shot_clustering/short-text-clustering-enhancement"]
-	path = few_shot_clustering/short-text-clustering-enhancement
-	url = https://github.com/rashadulrakib/short-text-clustering-enhancement.git
 [submodule "few_shot_clustering/cmvc"]
 	path = few_shot_clustering/cmvc
 	url = https://github.com/viswavi/cmvc.git
+[submodule "few_shot_clustering/active_semi_supervised_clustering"]
+	path = few_shot_clustering/active_semi_supervised_clustering
+	url = https://github.com/viswavi/active_semi_supervised_clustering.git
