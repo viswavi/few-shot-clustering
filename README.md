@@ -82,12 +82,15 @@ features, labels, documents = load_clinc(cache_path)
 prompt_suffix = "express the same general intent?"
 text_type = "Utterance"
 
-cluster_assignments, constraints = LLMPairwiseClustering(features, documents, 150, prompt, text_type, prompt_suffix, max_feedback_given=100, pckmeans_w=0.4, cache_file="/tmp/clinc_cache_file.json", constraint_selection_algorithm="SimilarityFinder", kmeans_init="k-means++")
+cluster_assignments, constraints = LLMPairwiseClustering(features, documents, 150, prompt, text_type, prompt_suffix, max_feedback_given=10000, pckmeans_w=0.4, cache_file="/tmp/clinc_cache_file.json", constraint_selection_algorithm="SimilarityFinder", kmeans_init="k-means++")
 
 from few_shot_clustering.eval_utils import cluster_acc
 import numpy as np
 print(f"Accuracy: {cluster_acc(np.array(cluster_assignments), np.array(labels))}")
 ```
+
+In this example run, I specified 10000 examples of pairwise constraint feedback, which may take an hour to run (due to latency from the OpenAI API). Feel free to choose a smaller number, with the understanding that this may lead to reduced performance.
+
 
 ## LLM Keyphrase Expansion Clustering
 We'll again show a from-scratch example on CLINC.
