@@ -82,7 +82,7 @@ features, labels, documents = load_clinc(cache_path)
 prompt_suffix = "express the same general intent?"
 text_type = "Utterance"
 
-cluster_assignments, constraints = LLMPairwiseClustering(features, documents, 150, prompt, text_type, prompt_suffix, max_feedback_given=10000, pckmeans_w=0.4, cache_file="/tmp/clinc_cache_file.json", constraint_selection_algorithm="SimilarityFinder", kmeans_init="k-means++")
+cluster_assignments, constraints = LLMPairwiseClustering(features, documents, 150, prompt, text_type, prompt_suffix, max_feedback_given=10000, pckmeans_w=0.01, cache_file="/tmp/clinc_cache_file.json", constraint_selection_algorithm="SimilarityFinder", kmeans_init="k-means++")
 
 from few_shot_clustering.eval_utils import cluster_acc
 import numpy as np
