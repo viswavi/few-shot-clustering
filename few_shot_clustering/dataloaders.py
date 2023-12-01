@@ -7,6 +7,8 @@ import numpy as np
 import pandas as pd
 import pickle
 import random
+import torch
+from transformers import AutoModel, AutoTokenizer
 
 from InstructorEmbedding import INSTRUCTOR
 from sentence_transformers import SentenceTransformer
@@ -15,6 +17,8 @@ from sklearn import datasets, metrics
 from few_shot_clustering.cmvc.CMVC_main_opiec import CMVC_Main as CMVC_Main_opiec
 from few_shot_clustering.cmvc.CMVC_main_reverb45k import CMVC_Main as CMVC_Main_reverb
 from few_shot_clustering.cmvc.helper import invertDic
+
+from few_shot_clustering.cmvc import preprocessing
 
 def preprocess_20_newsgroups(per_topic_samples = 100, shuffle=True, topics=None):
     newsgroups = datasets.fetch_20newsgroups(subset='all')
@@ -87,18 +91,36 @@ def generate_synthetic_data(n_samples_per_cluster, global_seed=2022):
     points, labels = zip(*combined_data)
     return np.array(points), labels
 
-def load_tweet(data_path, cache_path = None):
+def get_average_dse_embedding(texts):
+    model = AutoModel.from_pretrained("aws-ai/dse-bert-base")
+    tokenizer = AutoTokenizer.from_pretrained("aws-ai/dse-bert-base")
+    inputs = tokenizer(texts, padding=True, truncation=True, return_tensors="pt")
+
+    # Calculate the sentence embeddings by averaging the embeddings of non-padding words
+    with torch.no_grad():
+        embeddings = model(input_ids=inputs["input_ids"], attention_mask=inputs["attention_mask"])
+        attention_mask = inputs["attention_mask"].unsqueeze(-1)
+        embeddings = torch.sum(embeddings[0]*attention_mask, dim=1) / torch.sum(attention_mask, dim=1)
+        return embeddings.numpy()
+
+def load_tweet(data_path, cache_path = None, encoder="distilbert"):
     data = pd.read_csv(data_path, sep="\t")
-    if cache_path is not None and os.path.exists(cache_path):
-        embeddings = pickle.load(open(cache_path, 'rb'))
+    if encoder == "distilbert":
+        if cache_path is not None and os.path.exists(cache_path):
+            embeddings = pickle.load(open(cache_path, 'rb'))
+        else:
+            model = SentenceTransformer('sentence-transformers/distilbert-base-nli-stsb-mean-tokens')
+            embeddings = model.encode(data['text'])
+            if cache_path is not None:
+                pickle.dump(embeddings, open(cache_path, 'wb'))
+    elif encoder == "DSE":
+        embeddings = get_average_dse_embedding(list(data['text']))
     else:
-        model = SentenceTransformer('sentence-transformers/distilbert-base-nli-stsb-mean-tokens')
-        embeddings = model.encode(data['text'])
-        if cache_path is not None:
-            pickle.dump(embeddings, open(cache_path, 'wb'))
+        raise NotImplementedError(f"Unexpected encoder {encoder} given")
+
     return embeddings, list(data['label']), list(data['text'])
 
-def load_clinc(cache_path = None):
+def load_clinc(cache_path = None, encoder="instructor"):
     dataset = load_dataset_hf("clinc_oos", "small")
     test_split = dataset["test"]
     texts = test_split["text"]
@@ -111,32 +133,42 @@ def load_clinc(cache_path = None):
             intent_mapping[intent] = len(intent_mapping)
     remapped_intents = [intent_mapping[i] for i in filtered_intents]
 
-    if cache_path is not None and os.path.exists(cache_path):
-        embeddings = pickle.load(open(cache_path, 'rb'))
+    if encoder == "instructor":
+        if cache_path is not None and os.path.exists(cache_path):
+            embeddings = pickle.load(open(cache_path, 'rb'))
+        else:
+            model = INSTRUCTOR('hkunlp/instructor-large')
+            prompt = "Represent utterances for intent classification: "
+            embeddings = model.encode([[prompt, text] for text in filtered_texts])
+            if cache_path is not None:
+                pickle.dump(embeddings, open(cache_path, 'wb'))
+    elif encoder == "DSE":
+        embeddings = get_average_dse_embedding(filtered_texts)
     else:
-        model = INSTRUCTOR('hkunlp/instructor-large')
-        prompt = "Represent utterances for intent classification: "
-        embeddings = model.encode([[prompt, text] for text in filtered_texts])
-        if cache_path is not None:
-            pickle.dump(embeddings, open(cache_path, 'wb'))
+        raise NotImplementedError(f"Unexpected encoder {encoder} given")
 
     return embeddings, remapped_intents, list(filtered_texts)
 
 
-def load_bank77(cache_path = None):
+def load_bank77(cache_path = None, encoder="instructor"):
     dataset = load_dataset_hf("banking77")
     test_split = dataset["test"]
     texts = test_split["text"]
     labels = test_split["label"]
 
-    if cache_path is not None and os.path.exists(cache_path):
-        embeddings = pickle.load(open(cache_path, 'rb'))
+    if encoder == "instructor":
+        if cache_path is not None and os.path.exists(cache_path):
+            embeddings = pickle.load(open(cache_path, 'rb'))
+        else:
+            model = INSTRUCTOR('hkunlp/instructor-large')
+            prompt = "Represent the bank purpose for classification: "
+            embeddings = model.encode([[prompt, text] for text in texts])
+            if cache_path is not None:
+                pickle.dump(embeddings, open(cache_path, 'wb'))
+    elif encoder == "DSE":
+        embeddings = get_average_dse_embedding(texts)
     else:
-        model = INSTRUCTOR('hkunlp/instructor-large')
-        prompt = "Represent the bank purpose for classification: "
-        embeddings = model.encode([[prompt, text] for text in texts])
-        if cache_path is not None:
-            pickle.dump(embeddings, open(cache_path, 'wb'))
+        raise NotImplementedError(f"Unexpected encoder {encoder} given")
 
     return embeddings, labels, texts
 
@@ -146,20 +178,29 @@ def process_sentence_punctuation(sentences):
         processed_sentence_set.append(s.replace("-LRB-", "(").replace("-RRB-", ")"))
     return processed_sentence_set
 
-def load_dataset(dataset_name, data_path, dataset_split=None):
+def load_dataset(dataset_name, data_path, dataset_split=None, use_dse_encoder=False):
     assert dataset_name in ["iris", "tweet", "clinc", "bank77", "20_newsgroups_all", "20_newsgroups_full", "20_newsgroups_sim3", "20_newsgroups_diff3", "reverb45k", "OPIEC59k", "reverb45k-raw", "OPIEC59k-raw", "OPIEC59k-kg", "OPIEC59k-text", "synthetic_data"]
     if dataset_name == "iris":
         samples, gold_cluster_ids = datasets.load_iris(return_X_y=True)
         documents = ["" for _ in samples]
         side_information = None
     if dataset_name == "tweet":
-        samples, gold_cluster_ids, side_information = load_tweet(data_path)
+        if use_dse_encoder:
+            samples, gold_cluster_ids, side_information = load_tweet(data_path, encoder="DSE")
+        else:
+            samples, gold_cluster_ids, side_information = load_tweet(data_path)
         documents = side_information
     if dataset_name == "clinc":
-        samples, gold_cluster_ids, side_information = load_clinc()
+        if use_dse_encoder:
+            samples, gold_cluster_ids, side_information = load_clinc(encoder="DSE")
+        else:
+            samples, gold_cluster_ids, side_information = load_clinc()
         documents = side_information
     if dataset_name == "bank77":
-        samples, gold_cluster_ids, side_information = load_bank77()
+        if use_dse_encoder:
+            samples, gold_cluster_ids, side_information = load_bank77(encoder="DSE")
+        else:
+            samples, gold_cluster_ids, side_information = load_bank77()
         documents = side_information
     elif dataset_name == "20_newsgroups_all":
         samples, gold_cluster_ids = preprocess_20_newsgroups(per_topic_samples=100)

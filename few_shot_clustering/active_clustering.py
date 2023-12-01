@@ -26,6 +26,7 @@ python active_clustering.py --dataset OPIEC59k \
 '''
 
 from sklearn import metrics
+from sklearn.cluster import AgglomerativeClustering
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.preprocessing import normalize
 
@@ -41,13 +42,16 @@ import sys
 import time
 import torch
 
+
+import sys
+sys.path.append("cmvc")
+
 from dataloaders import load_dataset, generate_synthetic_data
 from experiment_utils import set_seed, summarize_results
 
 
 from few_shot_clustering.active_semi_supervised_clustering.active_semi_clustering.semi_supervised.pairwise_constraints import PCKMeans, CardinalityConstrainedPCKMeans, GPTExpansionClustering, KMeansCorrection
 from few_shot_clustering.active_semi_supervised_clustering.active_semi_clustering.semi_supervised.labeled_data.kmeans import KMeans
-from few_shot_clustering.active_semi_supervised_clustering.active_semi_clustering.semi_supervised.labeled_data.dec import DEC
 # from sklearn.cluster import KMeans
 from few_shot_clustering.active_semi_supervised_clustering.active_semi_clustering.semi_supervised.labeled_data.seededkmeans import SeededKMeans
 from few_shot_clustering.active_semi_supervised_clustering.active_semi_clustering.semi_supervised.labeled_data.constrainedkmeans import ConstrainedKMeans
@@ -79,9 +83,6 @@ parser.add_argument('--split-normalization', action="store_true", help="Normaliz
 parser.add_argument('--init', type=str, choices=["random", "k-means++", "k-means"], default="random", help="Initialization algorithm to use for k-means.")
 parser.add_argument('--plot-clusters', action="store_true", help="Whether to plot clusters")
 parser.add_argument('--plot-dir', type=str, default=None, help="Directory to store cluster plots")
-parser.add_argument('--include-linear-transformation', action="store_true", help="Whether to learn a linear transformation (for the DEC model)")
-parser.add_argument('--include-contrastive-loss', action="store_true", help="Whether to include a contrastive loss (for the DEC model)")
-parser.add_argument('--tensorboard-dir', type=str, default="tmp", help="Directory name to use for tensorboard")
 parser.add_argument('--verbose', action="store_true")
 
 
@@ -248,15 +249,15 @@ Your task will be considered successful if the queries are clustered into groups
     return "\n\n".join([instruction, prefix])
 
 
-def cluster(semisupervised_algo, features, documents, labels, num_clusters, dataset_name, text_type=None, prompt_suffix=None, num_corrections=None, split=None, init="random", max_feedback_given=None, normalize_vectors=False, split_normalization=False, num_reinit=1, include_linear_transformation=False, include_contrastive_loss=False, verbose=False, side_information=None, process_raw_data=False, pckmeans_w=None, seed=None):
+def cluster(semisupervised_algo, features, documents, labels, num_clusters, dataset_name, text_type=None, prompt_suffix=None, num_corrections=None, split=None, init="random", max_feedback_given=None, normalize_vectors=False, split_normalization=False, num_reinit=1, verbose=False, side_information=None, process_raw_data=False, pckmeans_w=None, seed=None):
     pairwise_constraint_cache_name = f"/projects/ogma2/users/vijayv/extra_storage/okb-canonicalization/clustering/file/gpt3_cache/{dataset_name}_pairwise_constraint_cache.jsonl"
     sentence_unprocessing_mapping_file = f"/projects/ogma2/users/vijayv/extra_storage/okb-canonicalization/clustering/file/gpt3_cache/{dataset_name}_{split}_sentence_unprocessing_map.json"
-    assert semisupervised_algo in ["KMeans", "KMeansCorrection", "GPTExpansionClustering", "GPTPairwiseClustering", "GPTPairwiseClusteringMinMax", "GPTPairwiseClusteringExploreSimilar", "GPTPairwiseClusteringOracleFree", "GPT_CC_PCKMeans", "CardinalityConstrainedPCKMeans", "PCKMeans", "OraclePCKMeans", "ActivePCKMeans", "ActiveFinetunedPCKMeans", "ConstrainedKMeans", "SeededKMeans"]
-    if semisupervised_algo == "DEC":
-        clusterer = DEC(n_clusters=num_clusters, normalize_vectors=normalize_vectors, split_normalization=split_normalization, verbose=verbose, cluster_init=init, labels=labels, canonicalization_side_information=side_information, include_contrastive_loss=include_contrastive_loss, linear_transformation=include_linear_transformation, tensorboard_parent_dir=tensorboard_parent_dir, tensorboard_dir=tensorboard_dir)
-        clusterer.fit(features)
-    elif semisupervised_algo == "KMeans":
+    assert semisupervised_algo in ["KMeans", "AgglomerativeClustering", "KMeansCorrection", "GPTExpansionClustering", "GPTExpansionAgglomerativeClustering", "GPTPairwiseClustering", "GPTPairwiseClusteringMinMax", "GPTPairwiseClusteringExploreSimilar", "GPTPairwiseClusteringOracleFree", "GPT_SCCL_OracleFree", "DEC", "GPT_CC_PCKMeans", "CardinalityConstrainedPCKMeans", "PCKMeans", "OraclePCKMeans", "ActivePCKMeans", "ActiveFinetunedPCKMeans", "ConstrainedKMeans", "SeededKMeans"]
+    if semisupervised_algo == "KMeans":
         clusterer = KMeans(n_clusters=num_clusters, normalize_vectors=normalize_vectors, split_normalization=split_normalization, init=init, num_reinit=num_reinit, verbose=verbose)
+        clusterer.fit(features)
+    elif semisupervised_algo == "AgglomerativeClustering":
+        clusterer = AgglomerativeClustering(n_clusters=num_clusters, linkage="complete")
         clusterer.fit(features)
     elif semisupervised_algo == "KMeansCorrection":
         labels_cache_file = f"/projects/ogma2/users/vijayv/extra_storage/okb-canonicalization/clustering/output/{dataset_name}_kmeans_labels.json"
@@ -279,8 +280,13 @@ def cluster(semisupervised_algo, features, documents, labels, num_clusters, data
 
     elif semisupervised_algo == "GPTExpansionClustering":
         cache_file_name = f"/projects/ogma2/users/vijayv/extra_storage/okb-canonicalization/clustering/file/gpt3_cache/{dataset_name}_gpt_paraphrase_cache.jsonl"
-        clusterer = GPTExpansionClustering(features, labels, documents, dataset_name=dataset_name, split=split, n_clusters=num_clusters, side_information=side_information, cache_file_name=cache_file_name)
+        clusterer = GPTExpansionClustering(features, documents, algorithm="KMeans", dataset_name=dataset_name, split=split, n_clusters=num_clusters, side_information=side_information, cache_file_name=cache_file_name)
         clusterer.fit(features, labels)
+
+    elif semisupervised_algo == "GPTExpansionAgglomerativeClustering":
+        cache_file_name = f"/projects/ogma2/users/vijayv/extra_storage/okb-canonicalization/clustering/file/gpt3_cache/{dataset_name}_gpt_paraphrase_cache.jsonl"
+        clusterer = GPTExpansionClustering(features, documents, algorithm="AgglomerativeClustering", dataset_name=dataset_name, split=split, n_clusters=num_clusters, side_information=side_information, cache_file_name=cache_file_name)
+        clusterer.fit(features)
 
     elif semisupervised_algo == "GPTPairwiseClustering":
         prompt = construct_pairwise_oracle_prompt(dataset_name, documents, side_information)
@@ -511,9 +517,6 @@ def compare_algorithms(features,
                        plot_clusters=False,
                        cluster_plot_dir_prefix=None,
                        dataset=None,
-                       include_linear_transformation=False,
-                       include_contrastive_loss=False,
-                       tensorboard_dir="tmp",
                        process_raw_data=False,
                        pckmeans_w=None):
     algo_results = defaultdict(list)
@@ -551,7 +554,7 @@ def compare_algorithms(features,
             if verbose:
                 print(f"Running {semisupervised_algo} for seed {seed}")
             start_time = time.perf_counter()
-            clusterer = cluster(semisupervised_algo, features, documents, labels, num_clusters, dataset_name, num_corrections=num_corrections, split=split, max_feedback_given=max_feedback_given, normalize_vectors=normalize_vectors, split_normalization=split_normalization, init=init, num_reinit=num_reinit, verbose=verbose, side_information=side_information, include_linear_transformation=include_linear_transformation, include_contrastive_loss=include_contrastive_loss, tensorboard_dir=tensorboard_dir, process_raw_data=process_raw_data, pckmeans_w=pckmeans_w, seed=seed)
+            clusterer = cluster(semisupervised_algo, features, documents, labels, num_clusters, dataset_name, num_corrections=num_corrections, split=split, max_feedback_given=max_feedback_given, normalize_vectors=normalize_vectors, split_normalization=split_normalization, init=init, num_reinit=num_reinit, verbose=verbose, side_information=side_information, process_raw_data=process_raw_data, pckmeans_w=pckmeans_w, seed=seed)
             elapsed_time = time.perf_counter() - start_time
             if verbose:
                 print(f"Took {round(elapsed_time, 3)} seconds to cluster points.")
@@ -615,7 +618,7 @@ def extract_features(dataset, feature_extractor, verbose=False):
 if __name__ == "__main__":
     args = parser.parse_args()
     algorithms=args.algorithms
-    X, y, documents, side_information = load_dataset(args.dataset, args.data_path, args.dataset_split)
+    X, y, documents, side_information = load_dataset(args.dataset, args.data_path, args.dataset_split, use_dse_encoder=False)
     # assert set(y) == set(range(len(set(y)))), breakpoint()
     features = extract_features(X, args.feature_extractor, args.verbose)
     #algorithms=["KMeans", "ActivePCKMeans", "PCKMeans", "ConstrainedKMeans", "SeededKMeans"]
@@ -639,9 +642,6 @@ if __name__ == "__main__":
                                  plot_clusters=args.plot_clusters,
                                  cluster_plot_dir_prefix=args.plot_dir,
                                  dataset = args.dataset,
-                                 include_contrastive_loss=args.include_contrastive_loss,
-                                 include_linear_transformation=args.include_linear_transformation,
-                                 tensorboard_dir=args.tensorboard_dir,
                                  process_raw_data=process_raw_data,
                                  pckmeans_w = args.pckmeans_w)
     summarized_results = summarize_results(results)
