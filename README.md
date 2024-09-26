@@ -50,12 +50,12 @@ Given this context, do utterance #1 and utterance #2 likely express the same gen
 Utterance #1: roll those dice once
 Utterance #2: can you roll an eight sided die and tell me what it comes up as
 
-Given this context, do utterance #1 and utterance #2 likely express the same general intent? No
+Given this context, do utterance #1 and utterance #2 likely express the same general intent? Yes
 
 Utterance #1: how soon milk expires
 Utterance #2: can you roll an eight sided die and tell me what it comes up as
 
-Given this context, do utterance #1 and utterance #2 likely express the same general intent? Yes
+Given this context, do utterance #1 and utterance #2 likely express the same general intent? No
 
 Utterance #1: nice seeing you bye
 Utterance #2: what was the date of my last car appointment
